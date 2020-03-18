@@ -34,6 +34,8 @@
 	"web_accessible_resources": [
 		"pages/panel.html",
 		"pages/devtools.html",
-		"data/references/3-2016.json"
+		"data/references/3-2016.json",
+		"data/references/3-2017.json",
+		"data/references/4-2019.json"
 	]
 }

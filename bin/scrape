@@ -5,7 +5,9 @@ const scrapeWith = require('./scrapeWith');
 const scrapeReference3 = require('./scrapeReference3');
 const scrapeReference32016 = require('./scrapeReference32016');
 const scrapeReference32017 = require('./scrapeReference32017');
+const scrapeReference42019 = require('./scrapeReference42019');
 const scrapeInstructions3 = require('./scrapeInstructions3');
+const scrapeInstructions42019 = require('./scrapeInstructions42019');
 
 
 
@@ -82,6 +84,29 @@ program
  *
  */
 program
+	.command('reference-4-2019')
+	.alias('r-4-2019')
+	.description('Scrapes version 4-2019 of the reference.')
+	.option(
+		'-s, --source <source>',
+		'Source URL.',
+		'https://numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres'
+	)
+	.option(
+		'-d, --dest <dest>',
+		'Destination file.',
+		path.resolve(__dirname, '../data/references/4-2019.json')
+	)
+	.option(
+		'-m, --merge',
+		'Merges the generated file with the existing one, if any.'
+	)
+	.action(scrapeWith(scrapeReference42019));
+
+/**
+ *
+ */
+program
 	.command('instructions-3')
 	.alias('i-3')
 	.description('Scrapes version 3 of the instructions. Does *not* get assistant\'s instructions.')
@@ -100,6 +125,29 @@ program
 		'Merges the generated file with the existing one, if any.'
 	)
 	.action(scrapeWith(scrapeInstructions3));
+
+/**
+ *
+ */
+program
+	.command('instructions-4-2019')
+	.alias('i-4-2019')
+	.description('Scrapes version 4-2019 of the instructions. Does *not* get assistant\'s instructions.')
+	.option(
+		'-s, --source <source>',
+		'Source URL.',
+		'https://numerique.gouv.fr/publications/rgaa-accessibilite/methodologie-test'
+	)
+	.option(
+		'-d, --dest <dest>',
+		'Destination file.',
+		path.resolve(__dirname, '../data/instructions/4-2019.json')
+	)
+	.option(
+		'-m, --merge',
+		'Merges the generated file with the existing one, if any.'
+	)
+	.action(scrapeWith(scrapeInstructions42019));
 
 /**
  *
