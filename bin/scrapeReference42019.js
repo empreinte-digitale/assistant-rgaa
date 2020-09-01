@@ -2,6 +2,7 @@
 const _ = require('lodash');
 const cheerio = require('cheerio');
 const installResolveLinksPlugin = require('./resolveLinksPlugin');
+const installRemoveChildrenPlugin = require('./removeChildrenPlugin');
 
 
 
@@ -21,6 +22,7 @@ module.exports = (options) => (html) => {
 	});
 
 	installResolveLinksPlugin($);
+	installRemoveChildrenPlugin($);
 
 	const scrapeTest = (i, el) => {
 		const element = $(el);
@@ -63,6 +65,7 @@ module.exports = (options) => (html) => {
 		const element = $(el);
 		const title = element
 			.find('h4')
+			.removeChildren('button')
 			.resolveLinks(options.source)
 			.html()
 			.trim();
