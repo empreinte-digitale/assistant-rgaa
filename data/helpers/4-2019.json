@@ -2578,9 +2578,9 @@
 		},
 		{
 			"helper": "showElement",
-			"selector": "[aria-atomic], [aria-busy], [aria-controls], [aria-describedat], [aria-describedby], [aria-disabled], [aria-dropeffect], [aria-flowto], [aria-grabbed], [aria-haspopup], [aria-invalid], [aria-live], [aria-owns], [aria-relevant], [aria-autocomplete], [aria-checked], [aria-expanded], [aria-haspopup], [aria-hidden], [aria-label], [aria-level], [aria-multiline], [aria-multiselectable], [aria-orientation], [aria-pressed], [aria-readonly], [aria-required], [aria-selected], [aria-sort], [aria-valuemax], [aria-valuemin], [aria-valuenow], [aria-valuetext], [aria-atomic], [aria-busy], [aria-live], [aria-relevant]",
+			"selector": "[role], a[href^='javascript:void(0);'], [aria-atomic], [aria-busy], [aria-controls], [aria-describedat], [aria-describedby], [aria-disabled], [aria-dropeffect], [aria-flowto], [aria-grabbed], [aria-haspopup], [aria-invalid], [aria-live], [aria-owns], [aria-autocomplete], [aria-checked], [aria-expanded], [aria-hidden='true'], [aria-label], [aria-level], [aria-multiline], [aria-multiselectable], [aria-orientation], [aria-pressed], [aria-readonly], [aria-required], [aria-selected], [aria-sort], [aria-valuemax], [aria-valuemin], [aria-valuenow], [aria-valuetext], [aria-relevant]",
 			"attributes": [
-				"role, title, aria-atomic", "aria-busy", "aria-controls", "aria-describedat", "aria-describedby", "aria-disabled", "aria-dropeffect", "aria-flowto", "aria-grabbed", "aria-haspopup", "aria-invalid", "aria-live", "aria-owns", "aria-relevant", "aria-autocomplete", "aria-checked", "aria-expanded", "aria-haspopup", "aria-hidden", "aria-label", "aria-level", "aria-multiline", "aria-multiselectable", "aria-orientation", "aria-pressed", "aria-readonly", "aria-required", "aria-selected", "aria-sort", "aria-valuemax", "aria-valuemin", "aria-valuenow", "aria-valuetext", "aria-atomic", "aria-busy", "aria-live", "aria-relevant"
+				"role", "title", "aria-atomic", "aria-busy", "aria-controls", "aria-describedat", "aria-describedby", "aria-disabled", "aria-dropeffect", "aria-flowto", "aria-grabbed", "aria-haspopup", "aria-invalid", "aria-live", "aria-owns", "aria-autocomplete", "aria-checked", "aria-expanded", "aria-hidden", "aria-label", "aria-level", "aria-multiline", "aria-multiselectable", "aria-orientation", "aria-pressed", "aria-readonly", "aria-required", "aria-selected", "aria-sort", "aria-valuemax", "aria-valuemin", "aria-valuenow", "aria-valuetext", "aria-relevant"
 			]
 		}
 	],
@@ -2993,11 +2993,11 @@
 		},
 		{
 			"helper": "outline",
-			"selector": "[hidden], [aria-hidden]"
+			"selector": "[hidden], [aria-hidden='true']"
 		},
 		{
 			"helper": "showAttributes",
-			"selector": "[hidden], [aria-hidden]",
+			"selector": "[hidden], [aria-hidden='true']",
 			"attributes": [
 				"hidden",
 				"aria-hidden"
