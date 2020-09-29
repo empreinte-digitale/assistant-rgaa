@@ -2580,17 +2580,7 @@
 			"helper": "showElement",
 			"selector": "[aria-atomic], [aria-busy], [aria-controls], [aria-describedat], [aria-describedby], [aria-disabled], [aria-dropeffect], [aria-flowto], [aria-grabbed], [aria-haspopup], [aria-hidden], [aria-invalid], [aria-live], [aria-owns], [aria-relevant], [aria-autocomplete], [aria-checked], [aria-disabled], [aria-expanded], [aria-haspopup], [aria-hidden], [aria-invalid], [aria-label], [aria-level], [aria-multiline], [aria-multiselectable], [aria-orientation], [aria-pressed], [aria-readonly], [aria-required], [aria-selected], [aria-sort], [aria-valuemax], [aria-valuemin], [aria-valuenow], [aria-valuetext], [aria-atomic], [aria-busy], [aria-live], [aria-relevant]",
 			"attributes": [
-				"aria-atomic", "aria-busy", "aria-controls", "aria-describedat", "aria-describedby", "aria-disabled", "aria-dropeffect", "aria-flowto", "aria-grabbed", "aria-haspopup", "aria-hidden", "aria-invalid", "aria-live", "aria-owns", "aria-relevant", "aria-autocomplete", "aria-checked", "aria-disabled", "aria-expanded", "aria-haspopup", "aria-hidden", "aria-invalid", "aria-label", "aria-level", "aria-multiline", "aria-multiselectable", "aria-orientation", "aria-pressed", "aria-readonly", "aria-required", "aria-selected", "aria-sort", "aria-valuemax", "aria-valuemin", "aria-valuenow", "aria-valuetext", "aria-atomic", "aria-busy", "aria-live", "aria-relevant"
-			]
-		},
-		{
-			"helper": "showElement",
-			"selector": "[role]",
-			"attributes": [
-				"role",
-				"title",
-				"aria-label",
-				"aria-labelledby"
+				"role, title, aria-atomic", "aria-busy", "aria-controls", "aria-describedat", "aria-describedby", "aria-disabled", "aria-dropeffect", "aria-flowto", "aria-grabbed", "aria-haspopup", "aria-hidden", "aria-invalid", "aria-live", "aria-owns", "aria-relevant", "aria-autocomplete", "aria-checked", "aria-disabled", "aria-expanded", "aria-haspopup", "aria-hidden", "aria-invalid", "aria-label", "aria-level", "aria-multiline", "aria-multiselectable", "aria-orientation", "aria-pressed", "aria-readonly", "aria-required", "aria-selected", "aria-sort", "aria-valuemax", "aria-valuemin", "aria-valuenow", "aria-valuetext", "aria-atomic", "aria-busy", "aria-live", "aria-relevant"
 			]
 		}
 	],
