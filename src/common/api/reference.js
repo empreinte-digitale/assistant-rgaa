@@ -3,7 +3,7 @@ import {getOption} from './options';
 
 
 
-export const DEFAULT_VERSION = '4-2019';
+export const DEFAULT_VERSION = '4-2021';
 
 /*
  * get an array of {name, filename, version}
@@ -11,7 +11,8 @@ export const DEFAULT_VERSION = '4-2019';
 export const getReferencesList = () => ([
 	{name: 'RGAA 3-2016', version: '3-2016'},
 	{name: 'RGAA 3-2017', version: '3-2017'},
-	{name: 'RGAA 4-2019', version: '4-2019'}
+	{name: 'RGAA 4-2019', version: '4-2019'},
+	{name: 'RGAA 4-2021', version: '4-2021'}
 ]);
 
 /**

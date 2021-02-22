@@ -115,8 +115,8 @@ module.exports = (options) => (html) => {
 		$('main #criteres h3').map(scrapeTheme).get();
 
 	return {
-		name: 'RGAA 4-2019',
-		version: '4-2019',
+		name: 'RGAA 4-2021',
+		version: '4-2021',
 		themes: scrapeThemes()
 	};
 };
