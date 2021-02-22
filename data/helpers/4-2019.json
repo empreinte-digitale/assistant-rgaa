@@ -1552,7 +1552,7 @@
 	"3.3.1": [
 		{
 			"helper": "colorContrast",
-			"minimumRatio":4.5,
+			"minimumRatio":3,
 			"left":{
 				"label": "Couleur de texte",
 				"pixelPicker":true,
@@ -1573,7 +1573,7 @@
 	"3.3.2": [
 		{
 			"helper": "colorContrast",
-			"minimumRatio":4.5,
+			"minimumRatio":3,
 			"left":{
 				"label": "Couleur de texte",
 				"pixelPicker":true,
