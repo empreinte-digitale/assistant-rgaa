@@ -11,7 +11,7 @@ Pour chacun de ces tests, l'extension permet d'appliquer des modifications à la
 
 ![Vue à l'ouverture de la page](page://menu.png)
 
-* *version du référentiel utilisée* : à l'heure actuelle, seule la version 3-2016 est supportée, mais l'extension est conçue pour en supporter plusieurs.
+* *version du référentiel utilisée* : à l'heure actuelle, seule les versions 3-2016, 3-2017, 4.0 (2019) et 4.1 (2021) sont supportées, mais l'extension est conçue pour supporter d'autres référentiels.
 * *référentiel* : la page principale de l'extension, qui liste tous les tests du référentiel.
 * *aide* : vous y êtes !
 * icône *position* : grâce à ce menu, l'extension peut-être positionnée à différents endroits de la page, ou ouverte dans une fenêtre séparée.
@@ -83,6 +83,8 @@ Le bouton "Validateur de liens" sert à vérifier que les liens de la page coura
 ![Hiérarchie de titres : erreur](page://titles-error.png)
 
 Cet outil, utilisé dans le test 9.1.2 du référentiel 3-2016, affiche la hiérarchie de titres de la page. Chaque titre (balises `h1` à `h6`, ou élément avec attribut `aria-level`) est listé ici dans l'ordre d'apparition des éléments dans le DOM. Si une erreur dans la hiérarchie est détectée, les titres manquants et leur niveau sont affichés dans la liste.
+
+Attention cependant, dans les version 4.0 et 4.1 du référentiel, la gestion des titres à été assouplie, de fait l'indication d'un titre manquant en rouge ou d'un "trou" dans le plan du document n'est pas nécessairement des contenus à considérer comme non-conforme (NC).
 
 ## Voir les sources
 
