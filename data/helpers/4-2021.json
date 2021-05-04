@@ -77,7 +77,8 @@
 		},
 		{
 			"helper": "outline",
-			"selector": "img[ismap]"
+			"selector": "img[ismap]",
+			"showTag":true
 		},
 		{
 			"helper": "showAttributes",
@@ -95,7 +96,8 @@
 		},
 		{
 			"helper": "outline",
-			"selector": "svg"
+			"selector": "svg",
+			"showTag":true
 		},
 		{
 			"helper": "showElement",
@@ -122,7 +124,8 @@
 		},
 		{
 			"helper": "outline",
-			"selector": "object[type^=\"image\"]"
+			"selector": "object[type^=\"image\"]",
+			"showTag":true
 		},
 		{
 			"helper": "showAttributes",
@@ -130,16 +133,18 @@
 				"attributes": [
 					"aria-labelledby",
 					"aria-label",
-					"title"
-				]
+					"title",
+					"aria-hidden",
+					"type"
+			]
 		},
 		{
 			"helper": "showAttributes",
 			"selector": "object[type^=\"image\"]",
-			"attributes": [
-				"aria-hidden",
-				"role"
-			]
+				"attributes": [
+					"role"
+			],
+			"showMissing":true
 		}
 	],
 	"1.1.7": [
@@ -148,7 +153,8 @@
 		},
 		{
 			"helper": "outline",
-			"selector": "embed[type^=\"image\"]"
+			"selector": "embed[type^=\"image\"]",
+			"showTag":true
 		},
 		{
 			"helper": "showAttributes",
@@ -156,16 +162,18 @@
 				"attributes": [
 					"aria-labelledby",
 					"aria-label",
-					"title"
-				]
+					"title",
+					"aria-hidden",
+					"type"
+			]
 		},
 		{
 			"helper": "showAttributes",
 			"selector": "embed[type^=\"image\"]",
-			"attributes": [
-				"aria-hidden",
-				"role"
-			]
+				"attributes": [
+					"role"
+			],
+			"showMissing":true
 		}
 	],
 	"1.1.8": [
@@ -174,7 +182,8 @@
 		},
 		{
 			"helper": "outline",
-			"selector": "canvas"
+			"selector": "canvas",
+			"showTag":true
 		},
 		{
 			"helper": "showAttributes",
@@ -182,16 +191,17 @@
 			"attributes": [
 				"aria-labelledby",
 				"aria-label",
-				"title"
+				"title",
+				"aria-hidden"
 			]
 		},
 		{
 			"helper": "showAttributes",
 			"selector": "canvas",
-			"attributes": [
-				"aria-hidden",
-				"role"
-			]
+				"attributes": [
+					"role"
+			],
+			"showMissing":true
 		}
 	],
 	"1.2.1": [
@@ -501,11 +511,19 @@
 			"helper": "showElement",
 			"selector": "svg",
 			"attributes": [
-				"title",
 				"aria-label",
 				"aria-labelledby"
 			],
 			"showMissingAttributes":true
+		},
+		{
+			"helper": "showChildElements",
+			"selector": "svg",
+			"childrenSelector": "title",
+			"attributes": [
+
+			],
+			"showContent":true
 		}
 	],
 	"1.3.7": [
@@ -1210,6 +1228,22 @@
 			"helper": "outline",
 			"selector": "canvas",
 			"showTag":true
+		}
+	],
+	"1.8.6": [
+		{
+			"helper": "disableAllStyles"
+		},
+		{
+			"helper": "outline",
+			"selector": "svg",
+			"showTag":true
+		},
+		{
+			"helper": "showChildElements",
+			"selector": "svg",
+			"childrenSelector": "text",
+			"showContent": true
 		}
 	],
 
@@ -1956,7 +1990,8 @@
 			"helper": "showAttributes",
 			"selector": "table",
 			"attributes": [
-				"summary"
+				"summary",
+				"aria-describedby"
 			],
 			"showMissing":true
 		},
@@ -1974,6 +2009,11 @@
 			"attributes": [
 				"role"
 			]
+		},
+		{
+			"helper": "outline",
+			"selector": "figure:has(table, [role='table']) figcaption",
+				"showTag":true
 		}
 	],
 	"5.2.1": [
@@ -2182,6 +2222,34 @@
 			]
 		}
 	],
+	"5.6.3": [
+		{
+			"helper": "disableAllStyles"
+		},
+		{
+			"helper": "outline",
+			"selector": "table"
+		},
+		{
+			"helper": "outline",
+			"selector": "table th",
+			"showTag":true
+		}
+	],
+	"5.6.4": [
+		{
+			"helper": "disableAllStyles"
+		},
+		{
+			"helper": "outline",
+			"selector": "table"
+		},
+		{
+			"helper": "outline",
+			"selector": "table th, table td",
+			"showTag":true
+		}
+	],
 	"5.7.1": [
 		{
 			"helper": "disableAllStyles"
@@ -2384,6 +2452,14 @@
 			"attributes": [
 				"role"
 			]
+		},
+		{
+			"helper": "showAttributes",
+			"selector": "table",
+			"attributes": [
+				"summary"
+			],
+			"showMissing":true
 		}
 	],
 	"6.1.1": [
@@ -2955,7 +3031,6 @@
 	],
 	"10.4.1": [],
 	"10.4.2": [],
-	"10.4.3": [],
 	"10.5.1": [],
 	"10.5.2": [],
 	"10.5.3": [
@@ -3908,7 +3983,7 @@
 		},
 		{
 			"helper": "outline",
-			"selector": "img, svg, canvas, embed, object",
+			"selector": "video, img, svg, canvas, embed, object",
 			"showTag":true
 		}
 	]
