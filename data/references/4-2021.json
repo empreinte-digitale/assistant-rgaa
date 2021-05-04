@@ -1,5 +1,5 @@
 {
-	"name": "RGAA 4-2021",
+	"name": "RGAA 4.1 (2021)",
 	"version": "4-2021",
 	"themes": [
 		{
@@ -13,19 +13,19 @@
 					"tests": [
 						{
 							"id": "1.1.1",
-							"title": "<ul><li><p>Chaque image (balise <code class=\"highlighter-rouge\">&lt;img&gt;</code> ou balise possédant l’attribut WAI-ARIA <code class=\"highlighter-rouge\">role=\"img\"</code>) <a href=\"https://numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/glossaire/#image-porteuse-d-information\" target=\"_blank\" title=\"porteuse d’information (nouvelle fenêtre) (nouvelle fenêtre)\">porteuse d’information</a> a-t-elle une <a href=\"https://numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/glossaire/#alternative-textuelle-image\" target=\"_blank\" title=\"alternative textuelle (nouvelle fenêtre) (nouvelle fenêtre)\">alternative textuelle</a> ?</p> </li></ul>"
+							"title": "<p>Chaque image (balise <code class=\"highlighter-rouge\">&lt;img&gt;</code> ou balise possédant l’attribut WAI-ARIA <code class=\"highlighter-rouge\">role=\"img\"</code>) <a href=\"https://numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/glossaire/#image-porteuse-d-information\" target=\"_blank\" title=\"porteuse d’information (nouvelle fenêtre) (nouvelle fenêtre)\">porteuse d’information</a> a-t-elle une <a href=\"https://numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/glossaire/#alternative-textuelle-image\" target=\"_blank\" title=\"alternative textuelle (nouvelle fenêtre) (nouvelle fenêtre)\">alternative textuelle</a> ?</p>"
 						},
 						{
 							"id": "1.1.2",
-							"title": "<ul><li><p>Chaque <a href=\"https://numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/glossaire/#zone-d-une-image-reactive\" target=\"_blank\" title=\"zone (nouvelle fenêtre) (nouvelle fenêtre)\">zone</a> d’une <a href=\"https://numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/glossaire/#image-reactive\" target=\"_blank\" title=\"image réactive (nouvelle fenêtre) (nouvelle fenêtre)\">image réactive</a> (balise <code class=\"highlighter-rouge\">&lt;area&gt;</code>) <a href=\"https://numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/glossaire/#image-porteuse-d-information\" target=\"_blank\" title=\"porteuse d’information (nouvelle fenêtre) (nouvelle fenêtre)\">porteuse d’information</a> a-t-elle une <a href=\"https://numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/glossaire/#alternative-textuelle-image\" target=\"_blank\" title=\"alternative textuelle (nouvelle fenêtre) (nouvelle fenêtre)\">alternative textuelle</a> ?</p> </li></ul>"
+							"title": "<p>Chaque <a href=\"https://numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/glossaire/#zone-d-une-image-reactive\" target=\"_blank\" title=\"zone (nouvelle fenêtre) (nouvelle fenêtre)\">zone</a> d’une <a href=\"https://numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/glossaire/#image-reactive\" target=\"_blank\" title=\"image réactive (nouvelle fenêtre) (nouvelle fenêtre)\">image réactive</a> (balise <code class=\"highlighter-rouge\">&lt;area&gt;</code>) <a href=\"https://numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/glossaire/#image-porteuse-d-information\" target=\"_blank\" title=\"porteuse d’information (nouvelle fenêtre) (nouvelle fenêtre)\">porteuse d’information</a> a-t-elle une <a href=\"https://numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/glossaire/#alternative-textuelle-image\" target=\"_blank\" title=\"alternative textuelle (nouvelle fenêtre) (nouvelle fenêtre)\">alternative textuelle</a> ?</p>"
 						},
 						{
 							"id": "1.1.3",
-							"title": "<ul><li><p>Chaque bouton de type <code class=\"highlighter-rouge\">image</code> (balise <code class=\"highlighter-rouge\">&lt;input&gt;</code> avec l’attribut <code class=\"highlighter-rouge\">type=\"image\"</code>) a-t-il une <a href=\"https://numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/glossaire/#alternative-textuelle-image\" target=\"_blank\" title=\"alternative textuelle (nouvelle fenêtre) (nouvelle fenêtre)\">alternative textuelle</a> ?</p> </li></ul>"
+							"title": "<p>Chaque bouton de type <code class=\"highlighter-rouge\">image</code> (balise <code class=\"highlighter-rouge\">&lt;input&gt;</code> avec l’attribut <code class=\"highlighter-rouge\">type=\"image\"</code>) a-t-il une <a href=\"https://numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/glossaire/#alternative-textuelle-image\" target=\"_blank\" title=\"alternative textuelle (nouvelle fenêtre) (nouvelle fenêtre)\">alternative textuelle</a> ?</p>"
 						},
 						{
 							"id": "1.1.4",
-							"title": "<ul><li><p>Chaque <a href=\"https://numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/glossaire/#zone-cliquable\" target=\"_blank\" title=\"zone cliquable (nouvelle fenêtre) (nouvelle fenêtre)\">zone cliquable</a> d’une image réactive côté serveur est-elle doublée d’un mécanisme utilisable quel que soit le dispositif de pointage utilisé et permettant d’accéder à la même destination ?</p> </li></ul>"
+							"title": "<p>Chaque <a href=\"https://numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/glossaire/#zone-cliquable\" target=\"_blank\" title=\"zone cliquable (nouvelle fenêtre) (nouvelle fenêtre)\">zone cliquable</a> d’une image réactive côté serveur est-elle doublée d’un mécanisme utilisable quel que soit le dispositif de pointage utilisé et permettant d’accéder à la même destination ?</p>"
 						},
 						{
 							"id": "1.1.5",
