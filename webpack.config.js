@@ -1,44 +1,78 @@
 'use strict';
 
 const path = require('path');
-const webpack = require('webpack');
 const autoprefixer = require('autoprefixer');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const ESLintPlugin = require('eslint-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const StyleLintPlugin = require('stylelint-webpack-plugin');
+
 const fullPath = path.resolve.bind(null, __dirname);
+const devMode = process.env.NODE_ENV !== 'production';
+const plugins = [
+	new MiniCssExtractPlugin({
+		filename: '[name].css'
+	})
+];
 
+if (devMode) {
+	plugins.push(
+		new ESLintPlugin(),
+		new StyleLintPlugin({
+			failOnError: false,
+			context: 'css',
+			syntax: 'scss'
+		})
+	);
+}
 
+// @see https://webpack.js.org/plugins/mini-css-extract-plugin/#extracting-css-based-on-entry
+const recursiveIssuer = (m, c) => {
+	const issuer = c.moduleGraph.getIssuer(m);
 
-/**
- *
- */
+	if (issuer) {
+		return recursiveIssuer(issuer, c);
+	}
+
+	const chunks = c.chunkGraph.getModuleChunks(m);
+	return chunks.length
+		? chunks[0].name
+		: false;
+};
+
+const styleCacheGroup = (name) => ({
+	name: name,
+	chunks: 'all',
+	enforce: true,
+	test: (m, c, entry = name) =>
+		m.constructor.name === 'CssModule'
+		&& recursiveIssuer(m, c) === entry
+});
+
 module.exports = {
+	mode: devMode
+		? 'development'
+		: 'production',
 	entry: {
 		panel: [
-			//'babel-polyfill',
 			'./src/panel/index',
 			'./css/panel/index.scss'
 		],
 		container: [
-			//'babel-polyfill',
 			'./src/container/index',
 			'./css/container/index.scss'
 		],
 		helpers: [
-			//'babel-polyfill',
 			'./src/helpers/index',
 			'./css/helpers/index.scss'
 		],
 		options: [
-			//'babel-polyfill',
 			'./src/options/index',
 			'./css/options/index.scss'
 		],
 		background: [
-			//'babel-polyfill',
 			'./src/background/index'
 		],
 		devtools: [
-			//'babel-polyfill',
 			'./src/devtools/index'
 		]
 	},
@@ -49,59 +83,70 @@ module.exports = {
 	},
 	devtool: 'source-map',
 	devServer: {
-		historyApiFallback: true
+		historyApiFallback: true,
+		writeToDisk: true
+	},
+	resolve: {
+		fallback: {
+			buffer: require.resolve('buffer')
+		}
+	},
+	optimization: {
+		splitChunks: {
+			cacheGroups: {
+				common: {
+					name: 'common',
+					chunks: 'initial',
+					minChunks: 2
+				},
+				containerStyles: styleCacheGroup('container'),
+				helpersStyles: styleCacheGroup('helpers'),
+				optionsStyles: styleCacheGroup('options'),
+				panelStyles: styleCacheGroup('panel')
+			}
+		}
 	},
 	module: {
-		loaders: [
+		rules: [
 			{
 				test: /\.js$/,
-				loader: 'babel',
-				include: [
-					fullPath('src')
-				]
+				include: fullPath('src'),
+				use: {
+					loader: 'babel-loader',
+					options: {
+						cacheDirectory: true
+					}
+				}
 			},
 			{
 				test: /\.scss$/,
-				loader: ExtractTextPlugin.extract('style', [
-					'css?-url&sourceMap',
-					'postcss',
-					'sass?sourceMap'
-				]),
-				include: [
-					fullPath('css')
+				include: fullPath('css'),
+				use: [
+					MiniCssExtractPlugin.loader,
+					{
+						loader: 'css-loader',
+						options: {
+							url: false
+						}
+					},
+					{
+						loader: 'postcss-loader',
+						options: {
+							postcssOptions: {
+								plugins: [
+									autoprefixer()
+								]
+							}
+						}
+					},
+					'sass-loader',
 				]
 			},
 			{
 				test: /\.json$/,
-				loader: 'json'
+				use: 'json'
 			}
 		]
 	},
-	postcss: function() {
-		return [
-			autoprefixer({
-				browsers: [
-					'ie >= 8',
-					'ie_mob >= 10',
-					'ff >= 20',
-					'chrome >= 34',
-					'safari >= 7',
-					'opera >= 23',
-					'ios >= 7',
-					'android >= 4.4',
-					'bb >= 10'
-				]
-			})
-		];
-	},
-	plugins: [
-		new ExtractTextPlugin('[name].css', {
-			allChunks: true
-		}),
-		new webpack.optimize.CommonsChunkPlugin({
-			name: 'common',
-			filename: 'common.js',
-			minChunks: 2
-		})
-	]
+	plugins
 };

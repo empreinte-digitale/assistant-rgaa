@@ -1,28 +1,12 @@
 {
 	"plugins": [
-		"lodash",
-		"transform-object-rest-spread",
-		"transform-function-bind",
-		"transform-export-extensions"
+		"@babel/plugin-transform-runtime"
 	],
 	"presets": [
-		"react",
-		["env", {
-			"targets": {
-				"chrome": 56,
-				"firefox": 51
-			},
-			"exclude": [
-				"transform-regenerator"
-			]
+		"@babel/preset-react",
+		["@babel/preset-env", {
+			"useBuiltIns": "entry",
+			"corejs": 3
 		}]
-	],
-	"env": {
-		"production": {
-			"plugins": [
-				"transform-react-constant-elements",
-				"transform-react-inline-elements"
-			]
-		}
-	}
+	]
 }
