@@ -2895,6 +2895,14 @@
 			"helper": "outline",
 			"selector": "header, nav, main, footer",
 			"showTag":true
+		},
+		{
+			"helper": "showAttributes",
+			"selector": "nav",
+			"attributes": [
+				"aria-label", "aria-labelledby"
+			],
+			"showMissingAttributes":true
 		}
 	],
 	"9.3.1": [
