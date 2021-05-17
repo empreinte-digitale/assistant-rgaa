@@ -209,7 +209,7 @@
 		},
 		{
 			"helper": "outline",
-			"selector": "img:not(a img, button img)"
+			"selector": "img:not(a img, button img, figure img)"
 		},
 		{
 			"helper": "showAttributes",
