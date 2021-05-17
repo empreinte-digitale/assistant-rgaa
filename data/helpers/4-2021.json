@@ -191,7 +191,6 @@
 			"attributes": [
 				"aria-labelledby",
 				"aria-label",
-				"title",
 				"aria-hidden"
 			]
 		},
