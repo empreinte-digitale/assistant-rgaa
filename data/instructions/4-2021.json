@@ -326,6 +326,9 @@
 	"5.6.3": {
 		"rgaa": "<ol><li>Retrouver dans le document les tableaux de données ;</li> <li>Pour chaque en-tête ne s’appliquant pas à la totalité de la ligne ou de la colonne, vérifier que l’en-tête de ligne est structuré au moyen d’un élément <code class=\"highlighter-rouge\">&lt;th&gt;</code> ;</li> <li>Si c’est le cas pour chaque en-tête ne s’appliquant pas à la totalité de la ligne ou de la colonne, le test est validé.</li></ol>"
 	},
+	"5.6.4": {
+		"rgaa": "<ol><li>Retrouver dans le document les tableaux de données ;</li><li>Pour chaque cellule associée à plusieurs en-têtes est-elle structurée au moyen d’une balise <code class=\"highlighter-rouge\">&lt;th&gt;</code> ou <code class=\"highlighter-rouge\">&lt;td&gt;</code> ;</li><li>Si c’est le cas pour chaque en-tête ne s’appliquant pas à la totalité de la ligne ou de la colonne, le test est validé.</li></ol>"
+	},
 	"5.7.1": {
 		"rgaa": "<ol><li>Retrouver dans le document les tableaux de données ;</li> <li>Pour chaque en-tête (élément <code class=\"highlighter-rouge\">&lt;th&gt;</code>) s’appliquant à la totalité de la ligne ou de la colonne, vérifier que l’élément <code class=\"highlighter-rouge\">&lt;th&gt;</code> possède&#160;: <ul> <li>Soit un attribut <code class=\"highlighter-rouge\">id</code> unique ;</li> <li>Soit un attribut <code class=\"highlighter-rouge\">scope</code> ;</li> <li>Soit un attribut WAI-ARIA <code class=\"highlighter-rouge\">role=\"rowheader\"</code> ou <code class=\"highlighter-rouge\">\"columnheader\"</code>.</li> </ul> </li> <li>Si c’est le cas pour chaque en-tête s’appliquant à la totalité de la ligne ou de la colonne, le test est validé.</li></ol>"
 	},
