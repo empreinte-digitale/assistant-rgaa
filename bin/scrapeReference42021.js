@@ -2,11 +2,12 @@
 const _ = require('lodash');
 const cheerio = require('cheerio');
 const installResolveLinksPlugin = require('./resolveLinksPlugin');
+const installRemoveChildrenPlugin = require('./removeChildrenPlugin');
 
 
 
 /**
- *	Scrapes version 3-2016 of the RGAA reference into JSON.
+ *	Scrapes version 4 of the RGAA reference into JSON.
  *
  *	@param {object} options - Options:
  *		- {string} source - Source URL.
@@ -21,6 +22,7 @@ module.exports = (options) => (html) => {
 	});
 
 	installResolveLinksPlugin($);
+	installRemoveChildrenPlugin($);
 
 	const scrapeTest = (i, el) => {
 		const element = $(el);
@@ -28,7 +30,7 @@ module.exports = (options) => (html) => {
 			.resolveLinks(options.source)
 			.html()
 			.trim();
-		const idMatches = /^Test (\d+\.\d+\.\d+)/i.exec(title);
+		const idMatches = /^<span class="test">Test (\d+\.\d+\.\d+)/i.exec(title);
 
 		if (idMatches === null) {
 			return null;
@@ -37,7 +39,7 @@ module.exports = (options) => (html) => {
 		const id = idMatches[1];
 
 		let formattedTitle = title.replace(
-			/^Test \d+\.\d+\.\d+&nbsp;:\s/i,
+			/^<span class="test">Test \d+\.\d+\.\d+<\/span>&#160;:\s/i,
 			''
 		);
 
@@ -51,9 +53,9 @@ module.exports = (options) => (html) => {
 				/<ul>(.*)<\/ul>/,
 				''
 			);
-			formattedTitle = `<p>${formattedTitle}</p>${conditions}`;
+			formattedTitle = `${formattedTitle}${conditions}`;
 		} else {
-			formattedTitle = `<p>${formattedTitle}</p>`;
+			formattedTitle = `${formattedTitle}`;
 		}
 
 		return {id, title: formattedTitle};
@@ -62,31 +64,28 @@ module.exports = (options) => (html) => {
 	const scrapeCriterion = (i, el) => {
 		const element = $(el);
 		const title = element
-			.find('h3')
+			.find('h4')
+			.removeChildren('button')
 			.resolveLinks(options.source)
 			.html()
 			.trim();
 
-		const idMatches = /^Critère (\d+\.\d+)/i.exec(title);
+		const idMatches = /^Critère (\d+)\.(\d+)/i.exec(title);
 
 		if (idMatches === null) {
 			return null;
 		}
 
-		const id = idMatches[1];
+		const id = `${idMatches[1]}.${idMatches[2]}`;
 
-		const levelMatches =
-			/<span aria-label="(?:.+)"><span aria-hidden="true">(\w+)<\/span><\/span>/.exec(title);
-		const level = levelMatches !== null
-			? levelMatches[1]
-			: null;
+		const level = element.attr('data-level');
 
 		const formattedTitle = title.replace(
-			/^Critère \d+\.\d+ \[<span(.*)<\/span>\] /i,
+			/^Critère \d+\.\d+\. /i,
 			''
 		);
 
-		const testElements = element.find('li[id^="test"]');
+		const testElements = $(`li[id^="test-${idMatches[1]}-${idMatches[2]}"]`);
 		const tests = testElements.map(scrapeTest).get();
 
 		return {id, title: formattedTitle, level, tests};
@@ -95,7 +94,6 @@ module.exports = (options) => (html) => {
 	const scrapeTheme = (i, el) => {
 		const element = $(el);
 		const title = element
-			.find('h2')
 			.resolveLinks(options.source)
 			.html()
 			.trim();
@@ -107,18 +105,18 @@ module.exports = (options) => (html) => {
 		}
 
 		const id = idMatches[1];
-		const criterionElements = element.children('article');
+		const criterionElements = $(`article[id^="crit-${id}"]`);
 		const criteria = criterionElements.map(scrapeCriterion).get();
 
 		return {id, title, criteria};
 	};
 
 	const scrapeThemes = () =>
-		$('main > section').map(scrapeTheme).get();
+		$('main #criteres h3').map(scrapeTheme).get();
 
 	return {
-		name: 'RGAA 3-2016',
-		version: '3-2016',
+		name: 'RGAA 4.1 (2021)',
+		version: '4-2021',
 		themes: scrapeThemes()
 	};
 };

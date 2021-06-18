@@ -6,7 +6,7 @@ const installResolveLinksPlugin = require('./resolveLinksPlugin');
 
 
 /**
- *	Scrapes version 3 of the RGAA instructions into JSON.
+ *	Scrapes version 4 of the RGAA instructions into JSON.
  *
  *	@param {object} options - Options:
  *		- {string} source - Source URL.
@@ -25,6 +25,7 @@ module.exports = (options) => (html) => {
 	const extractIds = (title) => {
 		const idsRx = /(\d+\.\d+\.\d+)/gi;
 		const ids = [];
+		let matches;
 
 		while ((matches = idsRx.exec(title)) !== null) {
 			ids.push(matches[1]);
@@ -33,10 +34,8 @@ module.exports = (options) => (html) => {
 		return ids;
 	};
 
-	const findInstructions = (element, className) => {
-		const ol = element
-			.filter(`.${className}`)
-			.children('ol');
+	const findInstructions = (element) => {
+		const ol = element;
 
 		if (!ol.length) {
 			return null;
@@ -54,12 +53,9 @@ module.exports = (options) => (html) => {
 		const element = $(el);
 		const text = _.trim(element.text());
 		const ids = extractIds(text);
-		const instructionElements = element.nextUntil('h4');
+		const instructionElements = element.nextUntil('h5');
 		const instructions = {
-			wat: findInstructions(instructionElements, 'wat'),
-			webdev: findInstructions(instructionElements, 'webdev'),
-			validator: findInstructions(instructionElements, 'validate'),
-			all: findInstructions(instructionElements, 'all')
+			rgaa: findInstructions(instructionElements)
 		};
 
 		const filledInstructions = _.omitBy(instructions, _.isNull);
@@ -70,7 +66,7 @@ module.exports = (options) => (html) => {
 			.value();
 	};
 
-	const titles = $('main h4');
+	const titles = $('main h5');
 	const tests = _.transform(
 		titles,
 		(tests, title) =>
