@@ -1,47 +1,43 @@
 import $ from 'jquery';
-import {find} from 'lodash';
 
 
 
 /**
- * each element we add helpers to have a uniq id
- * so that we can target the helpers container easily
+ * Stores helper containers indexed by their "parent" element.
  */
-const uniqIdsMap = [];
-let currentId = 0;
-const getOrCreateUniqId = (element) => {
-	const found = find(uniqIdsMap, ['element', element]);
-	if (found) {
-		return found.id;
-	}
-	currentId += 1;
-	uniqIdsMap.push({element, id: currentId});
-	return currentId;
-};
-
-/**
- *
- */
-const getContainer = (element) => {
-	const id = getOrCreateUniqId(element);
-	const existing = $(`[data-rgaa-ext-uniq-id="${id}"]`);
-	return existing.length ? existing : false;
-};
+const containers = new WeakMap();
 
 /**
  *
  */
 const createContainer = (element) => {
-	const id = getOrCreateUniqId(element);
-	const container = `
-		<div class="rgaaExt-HelperContainer" data-rgaa-ext-uniq-id="${id}"></div>
-	`;
-	if (document.body.contains(element.get(0))) {
-		element.after(container);
+	const container = document.createElement('div');
+	container.className = 'rgaaExt-HelperContainer';
+
+	if (document.body.contains(element)) {
+		$(element).after(container);
 	} else {
 		$(document.body).prepend(container);
 	}
-	return getContainer(element);
+
+	return container;
+};
+
+/**
+ * Returns a container associated with the given element,
+ * to be filled with helper contents.
+ */
+const getContainer = (element) => {
+	const currentContainer = containers.get(element);
+
+	if (currentContainer && currentContainer.parentNode) {
+		return currentContainer;
+	}
+
+	const container = createContainer(element);
+	containers.set(element, container);
+
+	return container;
 };
 
 /**
@@ -52,6 +48,5 @@ const createContainer = (element) => {
  *	@param {$} code - Code.
  */
 export default function showCodeNearElement(element, code) {
-	const container = getContainer(element) || createContainer(element);
-	container.append(code);
+	$(getContainer(element.get(0))).append(code);
 }
