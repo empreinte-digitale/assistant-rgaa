@@ -8,13 +8,21 @@ import {TestShape} from '../../common/types/test';
 import TestContainer from './TestContainer';
 import Icon from './Icon';
 
-
-
 /**
  *
  */
 function Criterion({
-	id, level, title, tests, activeTest, isDone, isOpen, importResults, onToggle, onDone, intl
+	id,
+	level,
+	title,
+	tests,
+	activeTest,
+	isDone,
+	isOpen,
+	importResults,
+	onToggle,
+	onDone,
+	intl
 }) {
 	const className = classNames('Criterion Theme-criterion', {
 		'is-open': isOpen,
@@ -23,8 +31,7 @@ function Criterion({
 	const headerClassName = classNames('Criterion-header', {
 		'Title Title--sub': isOpen
 	});
-	const handleDoneChange = (event) =>
-		onDone(event.target.checked);
+	const handleDoneChange = (event) => onDone(event.target.checked);
 	return (
 		<li id={`Criterion-${id}`} className={className} data-id={id}>
 			<header className={headerClassName}>
@@ -52,14 +59,20 @@ function Criterion({
 
 							{renderIf(!isOpen && activeTest)(() => (
 								<span className="Criterion-activeTest">
-									{intl.formatMessage({id: 'Criterion.activeTest'}, {id: activeTest.id})}
+									{intl.formatMessage(
+										{id: 'Criterion.activeTest'},
+										{id: activeTest.id}
+									)}
 								</span>
 							))}
 						</h3>
 
 						{renderIf(level)(() => (
 							<span className="Criterion-level">
-								{intl.formatMessage({id: 'Criterion.level'}, {lvl: level})}
+								{intl.formatMessage(
+									{id: 'Criterion.level'},
+									{lvl: level}
+								)}
 							</span>
 						))}
 
@@ -77,11 +90,14 @@ function Criterion({
 									key={status}
 									className="Label ImportResult"
 									data-import-result={status}
-									title={intl.formatMessage({
-										id: `ImportResults.${status}.title`
-									}, {
-										count
-									})}
+									title={intl.formatMessage(
+										{
+											id: `ImportResults.${status}.title`
+										},
+										{
+											count
+										}
+									)}
 								>
 									{count} × {status}
 								</span>
@@ -92,9 +108,12 @@ function Criterion({
 
 				<div className="Criterion-actions">
 					<div
-						className={classNames('Criterion-action Criterion-action--done', {
-							'Criterion-action--checked': isDone
-						})}
+						className={classNames(
+							'Criterion-action Criterion-action--done',
+							{
+								'Criterion-action--checked': isDone
+							}
+						)}
 					>
 						<label
 							htmlFor={`criterion-${id}-done-input`}
@@ -118,14 +137,14 @@ function Criterion({
 				</div>
 			</header>
 
-			<div
-				className="Criterion-content"
-				id={`Criterion-${id}-content`}
-			>
+			<div className="Criterion-content" id={`Criterion-${id}-content`}>
 				{renderIf(isOpen)(() => (
 					<ul className="Criterion-tests">
 						{tests.map(({id: testId, title: testTitle}) => (
-							<li className="Criterion-test" key={`criterion-${id}-test-${testId}`}>
+							<li
+								className="Criterion-test"
+								key={`criterion-${id}-test-${testId}`}
+							>
 								<TestContainer id={testId} title={testTitle} />
 							</li>
 						))}

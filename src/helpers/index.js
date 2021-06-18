@@ -5,16 +5,13 @@ import createStore from '../common/createStore';
 import reducer from '../common/reducers';
 import sagas from './sagas';
 
-
-
 /**
  *
  */
-getInitialState()
-	.then((state) => {
-		const store = createStore('helpers', reducer, sagas, state);
-		if (isOpen(state)) {
-			store.dispatch(applyAllHelpers());
-		}
-		return store;
-	});
+getInitialState().then((state) => {
+	const store = createStore('helpers', reducer, sagas, state);
+	if (isOpen(state)) {
+		store.dispatch(applyAllHelpers());
+	}
+	return store;
+});

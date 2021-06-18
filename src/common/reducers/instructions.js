@@ -1,7 +1,5 @@
 import {SET} from '../actions/instructions';
 
-
-
 /**
  *
  */

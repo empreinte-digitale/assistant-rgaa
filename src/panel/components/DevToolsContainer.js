@@ -3,8 +3,6 @@ import {setReferenceVersion} from '../../common/actions/reference';
 import {getVersion} from '../../common/selectors/reference';
 import DevTools from './DevTools';
 
-
-
 /**
  *
  */
@@ -29,7 +27,5 @@ const mergeProps = ({version, ...stateProps}, {dispatch}, ownProps) => ({
 		}
 	}
 });
-
-
 
 export default connect(mapStateToProps, null, mergeProps)(DevTools);

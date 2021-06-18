@@ -1,11 +1,16 @@
 import {takeEvery} from 'redux-saga';
 import {call, put, select} from 'redux-saga/effects';
-import {APPLY, APPLY_ALL, REVERT, REVERT_ALL, applyHelpers, revertHelpers} from '../actions/helpers';
+import {
+	APPLY,
+	APPLY_ALL,
+	REVERT,
+	REVERT_ALL,
+	applyHelpers,
+	revertHelpers
+} from '../actions/helpers';
 import * as helpersApi from '../../helpers/api/helpers';
 import {getEnabled} from '../selectors/tests';
 import {getHelpersByTest} from '../selectors/helpers';
-
-
 
 /**
  *
@@ -46,8 +51,6 @@ function* revertAllSaga() {
 		yield put(revertHelpers(test.id, helpers));
 	}
 }
-
-
 
 /**
  *

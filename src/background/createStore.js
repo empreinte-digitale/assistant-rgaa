@@ -1,11 +1,17 @@
-import {createStore as createReduxStore, combineReducers, compose, applyMiddleware} from 'redux';
+import {
+	createStore as createReduxStore,
+	combineReducers,
+	compose,
+	applyMiddleware
+} from 'redux';
 import createSagaMiddleware from 'redux-saga';
 import shareState from '../common/enhancers/shareState';
-import {createGatherMiddleware, createBroadcastMiddleware} from '../common/middlewares/sync';
+import {
+	createGatherMiddleware,
+	createBroadcastMiddleware
+} from '../common/middlewares/sync';
 import {appReducers} from '../common/reducers';
 import sagas from './sagas';
-
-
 
 /**
  *

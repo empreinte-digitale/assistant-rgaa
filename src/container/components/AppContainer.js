@@ -5,8 +5,6 @@ import {getPosition, isFolded} from '../../common/selectors/panel';
 import {Position} from '../../common/api/panel';
 import App from './App';
 
-
-
 /**
  *
  */
@@ -15,10 +13,7 @@ const mapStateToProps = (state) => ({
 	folded: isFolded(state)
 });
 
-
 export default compose(
 	connect(mapStateToProps),
-	renderNothingUntil(({position}) => (
-		position !== Position.popup
-	))
+	renderNothingUntil(({position}) => position !== Position.popup)
 )(App);

@@ -2,12 +2,17 @@ import React, {PropTypes} from 'react';
 import {FormattedMessage, injectIntl} from 'react-intl';
 import renderIf from 'render-if';
 
-
-
 /**
  *
  */
-function ReferenceForm({value, setValue, options, showSuccessMessage, onChange, onSubmit}) {
+function ReferenceForm({
+	value,
+	setValue,
+	options,
+	showSuccessMessage,
+	onChange,
+	onSubmit
+}) {
 	const onSelectChange = (event) => {
 		setValue(event.target.value);
 		onChange(event.target.value);
@@ -31,10 +36,7 @@ function ReferenceForm({value, setValue, options, showSuccessMessage, onChange, 
 					onChange={onSelectChange}
 				>
 					{options.map((ref) => (
-						<option
-							key={`ref-${ref.value}`}
-							value={ref.value}
-						>
+						<option key={`ref-${ref.value}`} value={ref.value}>
 							{ref.name}
 						</option>
 					))}

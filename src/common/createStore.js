@@ -1,8 +1,9 @@
 import {createStore as createReduxStore, applyMiddleware} from 'redux';
 import createSagaMiddleware from 'redux-saga';
-import {createGatherMiddleware, createBroadcastMiddleware} from '../common/middlewares/sync';
-
-
+import {
+	createGatherMiddleware,
+	createBroadcastMiddleware
+} from '../common/middlewares/sync';
 
 /**
  *

@@ -1,7 +1,11 @@
 import {Position} from '../api/panel';
-import {SET_POSITION, SET_PAGE_INFO, TOGGLE_FOLD, OPEN, CLOSE} from '../actions/panel';
-
-
+import {
+	SET_POSITION,
+	SET_PAGE_INFO,
+	TOGGLE_FOLD,
+	OPEN,
+	CLOSE
+} from '../actions/panel';
 
 /**
  *

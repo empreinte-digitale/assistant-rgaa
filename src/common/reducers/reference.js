@@ -1,7 +1,5 @@
 import {SET_DATA} from '../actions/reference';
 
-
-
 /**
  *
  */

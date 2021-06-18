@@ -2,8 +2,6 @@ import React from 'react';
 import {injectIntl, intlShape} from 'react-intl';
 import {IFRAME_FILE, CONTAINER_ID} from '../api/container';
 
-
-
 /**
  *
  */

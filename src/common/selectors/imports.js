@@ -1,9 +1,15 @@
 import {
-	property, isEmpty, get, fromPairs, upperFirst, mapValues, groupBy, countBy, map
+	property,
+	isEmpty,
+	get,
+	fromPairs,
+	upperFirst,
+	mapValues,
+	groupBy,
+	countBy,
+	map
 } from 'lodash';
 import {getTestIds} from './reference';
-
-
 
 /**
  *
@@ -19,7 +25,7 @@ export const getConfig = property('imports.config');
  *
  */
 export const getVersion = (state) =>
-	get(getContent(state), '[0][\'Version référentiel\']', null);
+	get(getContent(state), "[0]['Version référentiel']", null);
 
 /**
  *
@@ -30,11 +36,9 @@ export const getErrors = property('imports.errors');
  *
  */
 export const getHumanReadableErrors = (state) =>
-	getErrors(state).map(({message, row}) => (
-		row
-			? `Ligne ${row} : ${message}.`
-			: `${upperFirst(message)}.`
-	));
+	getErrors(state).map(({message, row}) =>
+		row ? `Ligne ${row} : ${message}.` : `${upperFirst(message)}.`
+	);
 
 /**
  *
@@ -67,17 +71,16 @@ export const isValid = (state) =>
 /**
  *
  */
-export const isImportActive = (state) =>
-	!isEmpty(getTestResults(state));
+export const isImportActive = (state) => !isEmpty(getTestResults(state));
 
 /*
  *
  */
 export const findCriteriaResults = (state) => {
 	const allTests = getContent(state);
-	const resultsByCriterion = mapValues(groupBy(allTests, 'Critère'), (tests) => (
+	const resultsByCriterion = mapValues(groupBy(allTests, 'Critère'), (tests) =>
 		countBy(map(tests, (test) => test.Statut.toLowerCase()))
-	));
+	);
 	return resultsByCriterion;
 };
 
@@ -86,10 +89,12 @@ export const findCriteriaResults = (state) => {
  */
 export const findTestResults = (state) => {
 	const allTests = getContent(state);
-	const importResults = fromPairs(allTests.map(({Test, Statut}) => [Test, Statut]));
+	const importResults = fromPairs(
+		allTests.map(({Test, Statut}) => [Test, Statut])
+	);
 	const testIds = getTestIds(state);
 	const referenceTestResults = {};
-	testIds.forEach(id => {
+	testIds.forEach((id) => {
 		if (importResults[id]) {
 			referenceTestResults[id] = importResults[id].toLowerCase();
 		}

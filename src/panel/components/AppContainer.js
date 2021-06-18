@@ -3,8 +3,6 @@ import {isFolded} from '../../common/selectors/panel';
 import {toggleFold} from '../../common/actions/panel';
 import App from './App';
 
-
-
 /**
  *
  */
@@ -21,12 +19,7 @@ const mapDispatchToProps = (dispatch) => ({
 	}
 });
 
-
-
 /**
  *
  */
-export default connect(
-	mapStateToProps,
-	mapDispatchToProps
-)(App);
+export default connect(mapStateToProps, mapDispatchToProps)(App);

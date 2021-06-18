@@ -2,8 +2,6 @@ import $ from 'jquery';
 import {lowerCase} from 'lodash';
 import showCodeNearElement from './showCodeNearElement';
 
-
-
 /**
  *	Shows a box containing a tag's name on the given element.
  *

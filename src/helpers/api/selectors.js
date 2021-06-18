@@ -1,2 +1,1 @@
-export const sanitize = (selector) =>
-	selector.replace('\\', '');
+export const sanitize = (selector) => selector.replace('\\', '');

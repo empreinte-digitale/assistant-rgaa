@@ -4,8 +4,6 @@ import marked from 'marked';
 import {replaceLocalUrls} from '../../common/api/markdown';
 import MarkdownPage from './MarkdownPage';
 
-
-
 /**
  *
  */
@@ -15,9 +13,7 @@ const enhance = lifecycle({
 		const url = chrome.extension.getURL(`${basePath}/index.md`);
 
 		fetch(url)
-			.then((response) =>
-				response.text()
-			)
+			.then((response) => response.text())
 			.then(frontmatter)
 			.then(({data, content}) => {
 				this.setState({

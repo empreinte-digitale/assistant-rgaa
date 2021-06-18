@@ -3,8 +3,6 @@ import {isImportActive} from '../../common/selectors/imports';
 import {reset} from '../../common/actions/imports';
 import ImportPage from './ImportPage';
 
-
-
 /**
  *
  */
@@ -21,12 +19,7 @@ const mapDispatchToProps = (dispatch) => ({
 	}
 });
 
-
-
 /**
  *
  */
-export default connect(
-	mapStateToProps,
-	mapDispatchToProps
-)(ImportPage);
+export default connect(mapStateToProps, mapDispatchToProps)(ImportPage);

@@ -1,7 +1,5 @@
 import {RESET, SET_TEST_DONE} from '../actions/checklist';
 
-
-
 /**
  *
  */

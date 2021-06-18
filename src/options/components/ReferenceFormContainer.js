@@ -6,8 +6,6 @@ import {getReferencesList, DEFAULT_VERSION} from '../../common/api/reference';
 import {getVersion} from '../../common/selectors/reference';
 import ReferenceForm from './ReferenceForm';
 
-
-
 /**
  *
  */
@@ -40,11 +38,9 @@ const mapDispatchToProps = (dispatch, {toggleSuccessMessage}) => ({
 	}
 });
 
-
-
 export default compose(
 	withState('showSuccessMessage', 'toggleSuccessMessage', false),
 	connect(mapStateToProps, mapDispatchToProps),
 	withProps(props),
-	withState('value', 'setValue', ({version}) => version || DEFAULT_VERSION),
+	withState('value', 'setValue', ({version}) => version || DEFAULT_VERSION)
 )(ReferenceForm);

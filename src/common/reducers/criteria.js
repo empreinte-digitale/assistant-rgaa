@@ -1,8 +1,6 @@
 import {without} from 'lodash';
 import {OPEN_CRITERION, CLOSE_CRITERION} from '../actions/criteria';
 
-
-
 /**
  *
  */

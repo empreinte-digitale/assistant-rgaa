@@ -1,7 +1,5 @@
 import {PropTypes} from 'react';
 
-
-
 export const CriterionProps = {
 	id: PropTypes.string.isRequired,
 	title: PropTypes.string.isRequired,

@@ -9,8 +9,6 @@ import {sendMessage} from '../../common/api/runtime';
 import {getVersion} from '../../common/selectors/reference';
 import Header from './Header';
 
-
-
 /**
  *
  */
@@ -43,9 +41,4 @@ const mapDispatchToProps = (dispatch) => ({
 	}
 });
 
-
-
-export default connect(
-	mapStateToProps,
-	mapDispatchToProps
-)(Header);
+export default connect(mapStateToProps, mapDispatchToProps)(Header);

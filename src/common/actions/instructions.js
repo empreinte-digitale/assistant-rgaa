@@ -3,8 +3,6 @@
  */
 export const SET = 'common/instructions/SET';
 
-
-
 /**
  *
  */

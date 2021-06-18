@@ -4,8 +4,6 @@ import {GET_CURRENT_TAB, VALIDATE_PAGE} from '../../common/actions/runtime';
 import {isFirefox} from '../../common/api/uasniffer';
 import HelperButton from './HelperButton';
 
-
-
 /**
  *
  */
@@ -72,5 +70,4 @@ export default class LocalPageValidatorContainer extends Component {
 /**
  *
  */
-LocalPageValidatorContainer.propTypes = {
-};
+LocalPageValidatorContainer.propTypes = {};

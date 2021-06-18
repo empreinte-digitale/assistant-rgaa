@@ -5,8 +5,6 @@ import {getAllThemes} from '../../common/selectors/reference';
 import {isMenuOpen} from '../../common/selectors/themes';
 import ThemesList from './ThemesList';
 
-
-
 /**
  *
  */

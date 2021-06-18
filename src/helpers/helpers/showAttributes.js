@@ -5,8 +5,6 @@ import showCodeNearElement from '../api/showCodeNearElement';
 import hideHelperElement from '../api/hideHelperElement';
 import {sanitize} from '../api/selectors';
 
-
-
 /**
  *	@var {string} selector - Selector.
  *	@var {array} attributes - Attribute list.
@@ -25,15 +23,21 @@ export const defaults = {
  *	@param {object} intl - Intl API.
  *	@param {object} options - Options.
  */
-export const describe = (intl, {selector, attributes, showMissing} = defaults) =>
-	intl.formatHTMLMessage({
-		id: 'Helper.showAttributes'
-	}, {
-		selector: sanitize(selector),
-		attributes: join(attributes),
-		attributeCount: attributes.length,
-		showMissing
-	});
+export const describe = (
+	intl,
+	{selector, attributes, showMissing} = defaults
+) =>
+	intl.formatHTMLMessage(
+		{
+			id: 'Helper.showAttributes'
+		},
+		{
+			selector: sanitize(selector),
+			attributes: join(attributes),
+			attributeCount: attributes.length,
+			showMissing
+		}
+	);
 
 /**
  *	Shows a box containing attributes' name and value on
@@ -64,5 +68,4 @@ export const apply = (id, {selector, attributes, showMissing} = defaults) =>
  *	@param {string} id - UUID.
  *	@param {object} options - Options.
  */
-export const revert = (id) =>
-	hideHelperElement(`.${id}`);
+export const revert = (id) => hideHelperElement(`.${id}`);

@@ -1,7 +1,5 @@
 import $ from 'jquery';
 
-
-
 /**
  * remove element matching given selector and its container if possible
  */

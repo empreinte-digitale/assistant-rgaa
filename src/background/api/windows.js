@@ -1,8 +1,6 @@
 import {get, find} from 'lodash';
 import {api} from '../../common/api/extension';
 
-
-
 /**
  *
  */
@@ -42,7 +40,5 @@ export const getWindowTabId = async (windowObject) => {
  */
 export const getWindowObject = (url, options) => {
 	const views = chrome.extension.getViews(options);
-	return find(views, (windowObject) =>
-		windowObject.location.href === url
-	);
+	return find(views, (windowObject) => windowObject.location.href === url);
 };

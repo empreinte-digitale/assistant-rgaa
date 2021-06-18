@@ -1,7 +1,5 @@
 import $ from 'jquery';
 
-
-
 /**
  * Stores helper containers indexed by their "parent" element.
  */

@@ -1,17 +1,15 @@
 import serializeAttributes from './serializeAttributes';
-import {anyMutedAttributeSelector, restoreAllAttributes} from './muteAttributes';
-
-
+import {
+	anyMutedAttributeSelector,
+	restoreAllAttributes
+} from './muteAttributes';
 
 /**
  *	@see http://stackoverflow.com/a/30930653
  */
 const escape = (html) =>
-	document
-		.createElement('div')
-		.appendChild(document.createTextNode(html))
-		.parentNode
-		.innerHTML;
+	document.createElement('div').appendChild(document.createTextNode(html))
+		.parentNode.innerHTML;
 
 /**
  *	Returns inner HTML of the given element, without reserved
@@ -24,9 +22,7 @@ const innerHtml = (element) => {
 	copy.find('[class*=rgaaExt]').remove();
 
 	// restores muted attributees
-	restoreAllAttributes(
-		copy.find(anyMutedAttributeSelector())
-	);
+	restoreAllAttributes(copy.find(anyMutedAttributeSelector()));
 
 	return escape(copy.html());
 };
@@ -34,15 +30,20 @@ const innerHtml = (element) => {
 /**
  *
  */
-export default function serializeElement(element, {
-	attributes = [],
-	showEmpty = false,
-	showName = true,
-	showMissingAttributes = false,
-	showContent = false
-} = {}) {
+export default function serializeElement(
+	element,
+	{
+		attributes = [],
+		showEmpty = false,
+		showName = true,
+		showMissingAttributes = false,
+		showContent = false
+	} = {}
+) {
 	const name = showName
-		? `<span class="rgaaExt-Element-name">${element.get(0).nodeName.toLowerCase()}</span>`
+		? `<span class="rgaaExt-Element-name">${element
+				.get(0)
+				.nodeName.toLowerCase()}</span>`
 		: '';
 
 	const serializedAttributes = serializeAttributes(

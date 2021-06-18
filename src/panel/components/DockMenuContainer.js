@@ -3,8 +3,6 @@ import {getPosition} from '../../common/selectors/panel';
 import {setPosition} from '../../common/actions/panel';
 import DockMenu from './DockMenu';
 
-
-
 /**
  *
  */
@@ -21,9 +19,4 @@ const mapDispatchToProps = (dispatch) => ({
 	}
 });
 
-
-
-export default connect(
-	mapStateToProps,
-	mapDispatchToProps
-)(DockMenu);
+export default connect(mapStateToProps, mapDispatchToProps)(DockMenu);

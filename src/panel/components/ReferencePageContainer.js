@@ -8,8 +8,6 @@ import {isLoaded, getAllThemes} from '../../common/selectors/reference';
 import ReferencePage from './ReferencePage';
 import deferRendering from './deferRendering';
 
-
-
 /**
  *
  */
@@ -28,13 +26,11 @@ const mapDispatchToProps = (dispatch) => ({
 	}
 });
 
-
-
 /**
  *
  */
 export default compose(
 	connect(mapStateToProps, mapDispatchToProps),
 	renderNothingUntil(property('isReferenceLoaded'))
-// I couln't figure out how to use deferRendering ala recompose HoCs
+	// I couln't figure out how to use deferRendering ala recompose HoCs
 )(deferRendering(ReferencePage));

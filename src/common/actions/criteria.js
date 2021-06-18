@@ -5,8 +5,6 @@ export const TOGGLE_CRITERION = 'common/criteria/TOGGLE_CRITERION';
 export const CLOSE_CRITERION = 'common/criteria/CLOSE_CRITERION';
 export const OPEN_CRITERION = 'common/criteria/OPEN_CRITERION';
 
-
-
 /**
  *
  */

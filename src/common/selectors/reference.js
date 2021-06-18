@@ -1,7 +1,5 @@
 import {map, filter, property} from 'lodash';
 
-
-
 /**
  *
  */
@@ -10,8 +8,7 @@ export const getVersion = property('reference.reference.version');
 /**
  *
  */
-export const isLoaded = (state) =>
-	!!getVersion(state);
+export const isLoaded = (state) => !!getVersion(state);
 
 /**
  *
@@ -26,8 +23,7 @@ export const getAllCriteria = property('reference.criteria');
 /**
  *
  */
-export const getCriteriaIds = (state) =>
-	map(getAllCriteria(state), 'id');
+export const getCriteriaIds = (state) => map(getAllCriteria(state), 'id');
 
 /**
  *
@@ -43,8 +39,7 @@ export const getAllTests = property('reference.tests');
 /**
  *
  */
-export const getTestIds = (state) =>
-	map(getAllTests(state), 'id');
+export const getTestIds = (state) => map(getAllTests(state), 'id');
 
 /**
  *

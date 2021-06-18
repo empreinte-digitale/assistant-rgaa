@@ -3,8 +3,6 @@ import showTagApi from '../api/showTag';
 import hideHelperElement from '../api/hideHelperElement';
 import {sanitize} from '../api/selectors';
 
-
-
 /**
  *	@var {string} selector - Selector.
  *	@var {bool} showTag
@@ -21,12 +19,15 @@ export const defaults = {
  *	@param {object} options - Options.
  */
 export const describe = (intl, {selector, showTag} = defaults) =>
-	intl.formatHTMLMessage({
-		id: 'Helper.outline'
-	}, {
-		showTag,
-		selector: sanitize(selector)
-	});
+	intl.formatHTMLMessage(
+		{
+			id: 'Helper.outline'
+		},
+		{
+			showTag,
+			selector: sanitize(selector)
+		}
+	);
 
 /**
  *	Adds an outline to each element matched by the given selector.

@@ -7,8 +7,6 @@ import messages from '../common/messages/fr';
 import getStore from './getStore';
 import App from './components/App';
 
-
-
 addLocaleData(fr);
 
 getStore()
@@ -19,7 +17,5 @@ getStore()
 			</IntlProvider>
 		</Provider>
 	))
-	.then((app) =>
-		render(app, document.getElementById('options'))
-	)
+	.then((app) => render(app, document.getElementById('options')))
 	.catch(() => {});

@@ -8,8 +8,6 @@ import {getEnabledForCriterion} from '../../common/selectors/tests';
 import {areAllTestsDone} from '../../common/selectors/checklist';
 import {setTestDone} from '../../common/actions/checklist';
 
-
-
 /**
  *
  */
@@ -17,12 +15,9 @@ const mapStateToProps = (state, {id}) => {
 	const tests = getAllTestsByCriterion(state, id);
 	const open = isOpen(state, id);
 	// get enabled test only when the criterion is closed
-	const enabledTests = !open
-		? getEnabledForCriterion(state, id)
-		: null;
-	const enabledTest = enabledTests && enabledTests.length
-		? enabledTests[0]
-		: null;
+	const enabledTests = !open ? getEnabledForCriterion(state, id) : null;
+	const enabledTest =
+		enabledTests && enabledTests.length ? enabledTests[0] : null;
 	return {
 		tests,
 		activeTest: enabledTest,
@@ -43,12 +38,8 @@ const mergeProps = (stateProps, {dispatch}, ownProps) => ({
 		dispatch(toggleCriterion(ownProps.id));
 	},
 	onDone(done) {
-		stateProps.tests.forEach(({id}) =>
-			dispatch(setTestDone(id, done))
-		);
+		stateProps.tests.forEach(({id}) => dispatch(setTestDone(id, done)));
 	}
 });
-
-
 
 export default connect(mapStateToProps, null, mergeProps)(Criterion);

@@ -3,8 +3,6 @@ import {intlShape, injectIntl} from 'react-intl';
 import classNames from 'classnames';
 import createColor from 'color';
 
-
-
 /**
  *
  */
@@ -21,8 +19,7 @@ const isValidColor = (color) => {
  *
  */
 const ColorInput = ({id, color, onChange, children, intl}) => {
-	const handleChange = (event) =>
-		onChange(event.target.value);
+	const handleChange = (event) => onChange(event.target.value);
 
 	const isInvalid = !isValidColor(color);
 	const className = classNames({

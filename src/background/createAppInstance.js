@@ -2,8 +2,6 @@ import {sendMessageToTab} from './api/tabs';
 import createStore from './createStore';
 import {isOpen as isPanelOpen} from '../common/selectors/panel';
 
-
-
 /**
  *	Creates an app instance, i.e. a container for data associated
  *	with a particular tab.
@@ -27,9 +25,7 @@ export default function createAppInstance(tabId, sharedStore) {
 
 	// Sends a message to the instance's tabs.
 	const sendMessage = (message) => {
-		const responses = [
-			sendMessageToTab(tabId, message)
-		];
+		const responses = [sendMessageToTab(tabId, message)];
 
 		if (popupId) {
 			responses.push(sendMessageToTab(popupId, message));
@@ -38,14 +34,9 @@ export default function createAppInstance(tabId, sharedStore) {
 		return Promise.all(responses);
 	};
 
-	const store = createStore(
-		`background-${tabId}`,
-		sharedStore,
-		sendMessage
-	);
+	const store = createStore(`background-${tabId}`, sharedStore, sendMessage);
 
-	const isOpen = () =>
-		isPanelOpen(store.getState());
+	const isOpen = () => isPanelOpen(store.getState());
 
 	return {
 		isPopup,

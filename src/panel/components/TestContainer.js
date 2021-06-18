@@ -9,8 +9,6 @@ import {enable, disable} from '../../common/actions/tests';
 import {setTestDone} from '../../common/actions/checklist';
 import Test from './Test';
 
-
-
 /**
  *
  */
@@ -34,16 +32,11 @@ const mapDispatchToProps = (dispatch, {id}) => ({
 	}
 });
 
-
-
 export default compose(
-	connect(
-		mapStateToProps,
-		mapDispatchToProps
-	),
+	connect(mapStateToProps, mapDispatchToProps),
 	withState(
 		'areInstructionsOpen',
 		'toggleInstructions',
-		(props) => (props.applied)
+		(props) => props.applied
 	)
 )(Test);

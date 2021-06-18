@@ -4,8 +4,6 @@ import {sharedReducers} from '../common/reducers';
 import createAppInstance from './createAppInstance';
 import createOptionsInstance from './createOptionsInstance';
 
-
-
 /**
  *
  */
@@ -47,8 +45,7 @@ export default function createInstancePool() {
 	};
 
 	//
-	const dispatch = (action) =>
-		forEach(instances, method('dispatch', action));
+	const dispatch = (action) => forEach(instances, method('dispatch', action));
 
 	return {
 		create,

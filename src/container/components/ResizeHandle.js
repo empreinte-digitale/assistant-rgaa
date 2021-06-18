@@ -1,10 +1,16 @@
 import React, {PropTypes, Component} from 'react';
 import {DraggableCore} from 'react-draggable';
-import {isNumber, includes, assign, upperFirst, isEqual, omit, bindAll} from 'lodash';
+import {
+	isNumber,
+	includes,
+	assign,
+	upperFirst,
+	isEqual,
+	omit,
+	bindAll
+} from 'lodash';
 import classNames from 'classnames';
 import renderIf from 'render-if';
-
-
 
 const defaultStyles = {
 	container: {
@@ -65,8 +71,6 @@ const defaultStyles = {
 	}
 };
 
-
-
 /**
  *
  */
@@ -85,7 +89,7 @@ class ResizeHandle extends Component {
 
 	componentDidMount() {
 		if (this.props.enabled) {
-			this.setState({ // eslint-disable-line react/no-did-mount-set-state
+			this.setState({
 				length: this.getContainerLength()
 			});
 		}
@@ -157,9 +161,7 @@ class ResizeHandle extends Component {
 
 	// eslint-disable-next-line class-methods-use-this
 	lengthProperty(position) {
-		return includes(['left', 'right'], position)
-			? 'width'
-			: 'height';
+		return includes(['left', 'right'], position) ? 'width' : 'height';
 	}
 
 	toggleFolding() {
@@ -180,10 +182,14 @@ class ResizeHandle extends Component {
 	}
 
 	render() {
-		const {classes, styles, position, useOverlay, enabled, children} = this.props;
+		const {classes, styles, position, useOverlay, enabled, children} =
+			this.props;
 		const defaultClasses = ResizeHandle.defaultProps.classes;
 
-		const containerStyles = isEqual(classes.container, defaultClasses.container)
+		const containerStyles = isEqual(
+			classes.container,
+			defaultClasses.container
+		)
 			? assign({}, defaultStyles.container, styles.container)
 			: {};
 		const containerClasses = classNames(classes.container, {
@@ -194,31 +200,32 @@ class ResizeHandle extends Component {
 		});
 		const handleStyles = isEqual(classes.handle, defaultClasses.handle)
 			? assign(
-				{},
-				defaultStyles.handle,
-				defaultStyles[`handle${upperFirst(position)}`],
-				styles.handle
-			)
+					{},
+					defaultStyles.handle,
+					defaultStyles[`handle${upperFirst(position)}`],
+					styles.handle
+			  )
 			: {};
-		const overlayStyles = useOverlay && isEqual(classes.overlay, defaultClasses.overlay)
-			? assign({}, defaultStyles.overlay, styles.overlay)
-			: {};
+		const overlayStyles =
+			useOverlay && isEqual(classes.overlay, defaultClasses.overlay)
+				? assign({}, defaultStyles.overlay, styles.overlay)
+				: {};
 
 		if (isNumber(this.state.length)) {
 			containerStyles[this.state.lengthProperty] = `${this.state.length}px`;
 		}
 
 		if (!enabled) {
-			return (
-				<div className={classes.disabledContainer}>
-					{children}
-				</div>
-			);
+			return <div className={classes.disabledContainer}>{children}</div>;
 		}
 
 		return (
 			// eslint-disable-next-line react/no-string-refs
-			<div ref="container" style={containerStyles} className={containerClasses}>
+			<div
+				ref="container"
+				style={containerStyles}
+				className={containerClasses}
+			>
 				{children}
 				<DraggableCore
 					offsetParent={document.body}
@@ -233,10 +240,7 @@ class ResizeHandle extends Component {
 					/>
 				</DraggableCore>
 				{renderIf(useOverlay && this.state.dragging)(() => (
-					<div
-						className={classes.overlay}
-						style={overlayStyles}
-					/>
+					<div className={classes.overlay} style={overlayStyles} />
 				))}
 			</div>
 		);

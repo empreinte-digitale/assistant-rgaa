@@ -3,8 +3,6 @@ import {FormattedMessage} from 'react-intl';
 import classNames from 'classnames';
 import renderIf from 'render-if';
 
-
-
 /**
  *
  */
@@ -40,11 +38,13 @@ const HeadingsHierarchy = ({items}) => (
 );
 
 HeadingsHierarchy.propTypes = {
-	items: PropTypes.arrayOf(PropTypes.shape({
-		level: PropTypes.number,
-		text: PropTypes.string,
-		fake: PropTypes.bool
-	})).isRequired
+	items: PropTypes.arrayOf(
+		PropTypes.shape({
+			level: PropTypes.number,
+			text: PropTypes.string,
+			fake: PropTypes.bool
+		})
+	).isRequired
 };
 
 export default HeadingsHierarchy;

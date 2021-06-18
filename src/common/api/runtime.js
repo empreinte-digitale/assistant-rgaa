@@ -2,8 +2,6 @@ import {isEmpty} from 'lodash';
 import {api} from '../../common/api/extension';
 import {INVALID_RESPONSE} from '../actions/runtime';
 
-
-
 /**
  *
  */
@@ -25,7 +23,8 @@ export const sendMessage = async (message, options = {}) => {
 /**
  *
  */
-export const createMessageHandler = (handler) =>
+export const createMessageHandler =
+	(handler) =>
 	// eslint-disable-next-line consistent-return
 	(message, sender, sendResponse) => {
 		const response = handler(message, sender);

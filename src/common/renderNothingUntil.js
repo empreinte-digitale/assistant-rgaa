@@ -1,8 +1,6 @@
 import {branch, renderNothing} from 'recompose';
 import {identity} from 'lodash';
 
-
-
 /**
  *	HoC that render its child component only if the given
  *	condition is met.

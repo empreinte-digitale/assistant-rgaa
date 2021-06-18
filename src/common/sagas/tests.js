@@ -6,8 +6,6 @@ import {applyHelpers, revertHelpers} from '../actions/helpers';
 import {getEnabled} from '../selectors/tests';
 import {getHelpersByTest} from '../selectors/helpers';
 
-
-
 /**
  *
  */
@@ -16,9 +14,7 @@ function* enableSaga({payload: id}) {
 	const enabled = yield select(getEnabled);
 	const otherEnabled = reject(enabled, ['id', id]);
 
-	yield map(otherEnabled, (test) =>
-		put(disable(test.id))
-	);
+	yield map(otherEnabled, (test) => put(disable(test.id)));
 
 	const helpers = yield select(getHelpersByTest, id);
 	yield put(applyHelpers(id, helpers));

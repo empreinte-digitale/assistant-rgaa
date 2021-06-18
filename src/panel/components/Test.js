@@ -7,15 +7,22 @@ import Icon from './Icon';
 import TestInstructions from './TestInstructions';
 import TestHelpersContainer from './TestHelpersContainer';
 
-
-
 /**
  *
  */
 function Test({
-	id, title, instructions, importResult, applicable, applied,
-	areInstructionsOpen, toggleInstructions,
-	done, onApply, onDone, intl
+	id,
+	title,
+	instructions,
+	importResult,
+	applicable,
+	applied,
+	areInstructionsOpen,
+	toggleInstructions,
+	done,
+	onApply,
+	onDone,
+	intl
 }) {
 	const handleApplyChange = (event) => {
 		onApply(event.target.checked);
@@ -24,8 +31,7 @@ function Test({
 		}
 	};
 
-	const handleDoneChange = (event) =>
-		onDone(event.target.checked);
+	const handleDoneChange = (event) => onDone(event.target.checked);
 
 	const applyTranslateKey = applied ? 'uncheck' : 'check';
 	const className = classNames({
@@ -67,9 +73,12 @@ function Test({
 					{renderIf(applicable)(() => (
 						<div className="Test-action Test-action---apply">
 							<input
-								title={intl.formatMessage({
-									id: `Test.apply.${applyTranslateKey}.title`
-								}, {id})}
+								title={intl.formatMessage(
+									{
+										id: `Test.apply.${applyTranslateKey}.title`
+									},
+									{id}
+								)}
 								className="Test-actionInput"
 								type="checkbox"
 								id={`test-${id}-apply-input`}

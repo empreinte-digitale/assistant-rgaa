@@ -1,8 +1,6 @@
 import {includes, property, filter} from 'lodash';
 import {getAllTests, getAllTestsByCriterion} from './reference';
 
-
-
 /**
  *
  */
@@ -10,9 +8,7 @@ export const getEnabledIds = property('tests.enabled');
 
 const filterEnabledTests = (state, tests) => {
 	const enabledIds = getEnabledIds(state);
-	return filter(tests, ({id}) =>
-		includes(enabledIds, id)
-	);
+	return filter(tests, ({id}) => includes(enabledIds, id));
 };
 
 /**
@@ -30,5 +26,4 @@ export const getEnabledForCriterion = (state, criterionId) =>
 /**
  *
  */
-export const isEnabled = (state, id) =>
-	includes(getEnabledIds(state), id);
+export const isEnabled = (state, id) => includes(getEnabledIds(state), id);

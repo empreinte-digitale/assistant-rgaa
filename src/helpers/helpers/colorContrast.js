@@ -2,13 +2,21 @@ import $ from 'jquery';
 import {forEach} from 'lodash';
 import {createMessageHandler, sendMessage} from '../../common/api/runtime';
 import {GET_PIXEL} from '../../common/actions/runtime';
-import {mutedAttributeSelector, muteAttribute, restoreAttribute} from '../api/muteAttributes';
+import {
+	mutedAttributeSelector,
+	muteAttribute,
+	restoreAttribute
+} from '../api/muteAttributes';
 import waitForEvent from '../api/waitForEvent';
 import getSelectionStyle from '../api/getSelectionStyle';
-import {REQUEST_PIXEL_COLOR, REQUEST_TEXT_COLOR, REQUEST_STYLE, UPDATE_COLOR, UPDATE_STYLE} from '../actions/colorContrast';
+import {
+	REQUEST_PIXEL_COLOR,
+	REQUEST_TEXT_COLOR,
+	REQUEST_STYLE,
+	UPDATE_COLOR,
+	UPDATE_STYLE
+} from '../actions/colorContrast';
 import ColorContrastContainer from '../components/ColorContrastContainer';
-
-
 
 /**
  *
@@ -24,7 +32,7 @@ const PickingStates = {
  */
 const setPickingState = (className) =>
 	forEach(PickingStates, (c) => {
-		document.body.classList.toggle(c, (c === className));
+		document.body.classList.toggle(c, c === className);
 	});
 
 /**
@@ -115,8 +123,7 @@ const handleMessage = createMessageHandler(({type}) => {
 /**
  *
  */
-export const component = () =>
-	ColorContrastContainer;
+export const component = () => ColorContrastContainer;
 
 /**
  *	Describes the helper.

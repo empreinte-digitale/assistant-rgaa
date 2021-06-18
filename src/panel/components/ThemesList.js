@@ -9,8 +9,6 @@ import DevToolsContainer from './DevToolsContainer';
 import ThemesListItem from './ThemesListItem';
 import Icon from './Icon';
 
-
-
 const icons = {
 	1: 'image',
 	2: 'window-maximize',
@@ -41,16 +39,15 @@ function ThemesList({themes, isOpen, setOpen}) {
 			id="ThemesList-wrapper"
 		>
 			<h2 className="ThemesList-title Title Title--accent">
-				<Button
-					className="ThemesList-toggle"
-					id="themesMenu"
-				>
-					{renderIf(isOpen)(() =>
-						<span aria-hidden className="ThemesList-toggleIcon">▼</span>
-					)}
-					{renderIf(!isOpen)(() =>
+				<Button className="ThemesList-toggle" id="themesMenu">
+					{renderIf(isOpen)(() => (
+						<span aria-hidden className="ThemesList-toggleIcon">
+							▼
+						</span>
+					))}
+					{renderIf(!isOpen)(() => (
 						<Icon name="list-ul" className="ThemesList-toggleIcon" />
-					)}
+					))}
 					<FormattedMessage id="ThemesList.title" />
 				</Button>
 			</h2>

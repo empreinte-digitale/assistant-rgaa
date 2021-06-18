@@ -2,8 +2,6 @@ import React, {PropTypes} from 'react';
 import {FormattedMessage, injectIntl} from 'react-intl';
 import classNames from 'classnames';
 
-
-
 /**
  *
  */
@@ -15,8 +13,7 @@ function TestInstructions({id, isOpen, onToggleRequest, instructions}) {
 		'u-hidden': !isOpen
 	});
 
-	const toggle = () =>
-		onToggleRequest(!isOpen);
+	const toggle = () => onToggleRequest(!isOpen);
 
 	return (
 		<div className={containerClass}>
@@ -50,7 +47,5 @@ TestInstructions.propTypes = {
 	isOpen: PropTypes.bool.isRequired,
 	onToggleRequest: PropTypes.func.isRequired
 };
-
-
 
 export default injectIntl(TestInstructions);

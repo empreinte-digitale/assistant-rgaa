@@ -1,9 +1,11 @@
 import {takeEvery} from 'redux-saga';
 import {put, select} from 'redux-saga/effects';
-import {TOGGLE_CRITERION, openCriterion, closeCriterion} from '../actions/criteria';
+import {
+	TOGGLE_CRITERION,
+	openCriterion,
+	closeCriterion
+} from '../actions/criteria';
 import {isOpen as isCriterionOpen} from '../selectors/criteria';
-
-
 
 /**
  *
@@ -16,8 +18,6 @@ function* toggleCriterionWorker({payload}) {
 		yield put(openCriterion(payload));
 	}
 }
-
-
 
 /**
  *

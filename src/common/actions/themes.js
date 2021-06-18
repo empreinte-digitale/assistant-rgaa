@@ -4,8 +4,6 @@
 export const TOGGLE_MENU = 'common/themes/TOGGLE_MENU';
 export const SAVE_SCROLL_POSITION = 'common/themes/SAVE_SCROLL_POSITION';
 
-
-
 /**
  *
  */

@@ -2,8 +2,6 @@ import React, {PropTypes} from 'react';
 import {MenuItem} from 'react-aria-menubutton';
 import Icon from './Icon';
 
-
-
 function ThemesListItem({id, title, icon}) {
 	const props = {};
 	const listItem = (tab) => (

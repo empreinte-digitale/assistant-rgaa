@@ -1,7 +1,5 @@
 import {api} from '../../common/api/extension';
 
-
-
 /**
  *
  */
@@ -14,10 +12,7 @@ export const CONTENT_SCRIPTS = [
 /**
  *
  */
-export const CONTENT_STYLES = [
-	'dist/container.css',
-	'dist/helpers.css'
-];
+export const CONTENT_STYLES = ['dist/container.css', 'dist/helpers.css'];
 
 /**
  *
@@ -54,9 +49,11 @@ export const fetchCurrentTab = async () => {
 /**
  *
  */
-export const captureVisibleTab = async (options = {
-	format: 'png'
-}) => {
+export const captureVisibleTab = async (
+	options = {
+		format: 'png'
+	}
+) => {
 	const source = await captureVisibleTabApi(null, options);
 	const image = new Image();
 	image.src = source;
@@ -67,8 +64,7 @@ export const captureVisibleTab = async (options = {
 /**
  *
  */
-export const closeTab = (id) =>
-	chrome.tabs.remove(id);
+export const closeTab = (id) => chrome.tabs.remove(id);
 
 /**
  *

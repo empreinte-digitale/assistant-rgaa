@@ -2,8 +2,6 @@ import {each, isArray, includes, join, uniq, map} from 'lodash';
 import Papa from 'papaparse';
 import {getReference} from '../../common/api/reference';
 
-
-
 /**
  * schema of one row we expect from an import file
  */
@@ -37,13 +35,17 @@ const rowErrors = (row, schema) => {
 		}
 		if (
 			((!required && value) || required) &&
-			isArray(oneOf) && !includes(oneOf, value)
+			isArray(oneOf) &&
+			!includes(oneOf, value)
 		) {
 			errors.push({
 				code: 'UnallowedValue',
 				message:
 					`le champ "${key}" a pour valeur "${value}" mais les valeurs acceptées sont ` +
-					`${join(oneOf.map(val => `"${val}"`), ', ')}`
+					`${join(
+						oneOf.map((val) => `"${val}"`),
+						', '
+					)}`
 			});
 		}
 	});
@@ -95,7 +97,7 @@ const parsedCsv = (csvString, config) => {
 		let currentRowErrors = rowErrors(row, csvRowSchema);
 		if (currentRowErrors.length) {
 			// put row index info in each error object
-			currentRowErrors = currentRowErrors.map(error => ({
+			currentRowErrors = currentRowErrors.map((error) => ({
 				...error,
 				row: n
 			}));
@@ -106,9 +108,7 @@ const parsedCsv = (csvString, config) => {
 
 	return {
 		data: csv.data,
-		errors: errors.length
-			? errors.map(formattedError)
-			: []
+		errors: errors.length ? errors.map(formattedError) : []
 	};
 };
 
@@ -122,29 +122,45 @@ const checkCsvReferenceVersion = (rows) => {
 	return new Promise((resolve, reject) => {
 		if (versions.length > 1) {
 			reject(
-				'plusieurs versions de référentiels trouvées dans le fichier au lieu d\'une : ' +
-				`${join(versions.map(val => `"${val}"`), ', ')}`
+				"plusieurs versions de référentiels trouvées dans le fichier au lieu d'une : " +
+					`${join(
+						versions.map((val) => `"${val}"`),
+						', '
+					)}`
 			);
 		}
 
 		getReference(version)
 			.then(() => resolve(version))
 			.catch(() =>
-				reject(`version de référentiel "${version}" non supportée par l'extension`)
+				reject(
+					`version de référentiel "${version}" non supportée par l'extension`
+				)
 			);
 	});
 };
 
 const withHeader = (rawCsvString) => {
-	const hasHeader = rawCsvString.startsWith('Version référentiel')
-		|| rawCsvString.startsWith('"Version référentiel"');
+	const hasHeader =
+		rawCsvString.startsWith('Version référentiel') ||
+		rawCsvString.startsWith('"Version référentiel"');
 	if (hasHeader) {
 		return rawCsvString;
 	}
 
 	const csvString = `${[
-		'Version référentiel', 'Ref-audit', 'Auditeur', 'Url', 'Thématique',
-		'Critère', 'Niveau', 'Test', 'Statut', 'Dérogé', 'Remarque', 'Note dérogation'
+		'Version référentiel',
+		'Ref-audit',
+		'Auditeur',
+		'Url',
+		'Thématique',
+		'Critère',
+		'Niveau',
+		'Test',
+		'Statut',
+		'Dérogé',
+		'Remarque',
+		'Note dérogation'
 	].join(',')}\n${rawCsvString}`;
 	return csvString;
 };
@@ -158,7 +174,7 @@ export const getCsv = (rawCsvString, config = {}) => {
 
 	return checkCsvReferenceVersion(csv.data)
 		.then(() => csv)
-		.catch(reason => ({
+		.catch((reason) => ({
 			data: csv.data,
 			errors: [
 				{

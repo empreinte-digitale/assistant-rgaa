@@ -10,8 +10,6 @@ export const APPLY = 'common/imports/APPLY';
 export const SET_TESTS_RESULTS = 'common/imports/SET_TESTS_RESULTS';
 export const SET_CRITERIA_RESULTS = 'common/imports/SET_CRITERIA_RESULTS';
 
-
-
 /**
  *
  */

@@ -9,8 +9,6 @@ import {setHelpers} from '../actions/helpers';
 import {set as setInstructions} from '../actions/instructions';
 import {reset as resetChecklist} from '../actions/checklist';
 
-
-
 /**
  *
  */
@@ -31,12 +29,9 @@ function* setReferenceVersionWorker({payload: {version}}) {
 	yield call(setOption, 'reference', version);
 }
 
-
-
 /**
  *
  */
 export function* watchSetReferenceVersion() {
 	yield* takeEvery(SET_REFERENCE_VERSION, setReferenceVersionWorker);
 }
-

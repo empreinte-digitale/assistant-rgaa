@@ -1,9 +1,11 @@
 import $ from 'jquery';
 import toggleStyleSheets from '../api/toggleStyleSheets';
-import {mutedAttributeSelector, muteAttribute, restoreAttribute} from '../api/muteAttributes';
+import {
+	mutedAttributeSelector,
+	muteAttribute,
+	restoreAttribute
+} from '../api/muteAttributes';
 import {apply as applyStyle, revert as revertStyle} from './style';
-
-
 
 /**
  *	Describes the helper.

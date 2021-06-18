@@ -1,12 +1,9 @@
 import * as modules from '../helpers';
 
-
-
 /**
  *
  */
-const getModule = (name) =>
-	modules[name];
+const getModule = (name) => modules[name];
 
 /**
  *	Extracts info out of the given helper descriptor.
@@ -36,9 +33,7 @@ export const describe = (intl, helper) => {
  */
 export const component = (helper) => {
 	const {module, args} = info(helper);
-	return ('component' in module)
-		? module.component(args)
-		: null;
+	return 'component' in module ? module.component(args) : null;
 };
 
 /**
@@ -95,5 +90,4 @@ export const applyHelpers = (id, helpers) => {
 /**
  *
  */
-export const revertHelpers = (id, helpers) =>
-	toggleHelpers(id, helpers, false);
+export const revertHelpers = (id, helpers) => toggleHelpers(id, helpers, false);

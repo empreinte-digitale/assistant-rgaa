@@ -10,8 +10,6 @@ import getStore from './getStore';
 import {CONTAINER_ID} from './api/container';
 import AppContainer from './components/AppContainer';
 
-
-
 /**
  *
  */
@@ -36,13 +34,14 @@ const start = () => {
 		container.className = CONTAINER_ID;
 		document.body.appendChild(container);
 
-		render((
+		render(
 			<Provider store={store}>
 				<IntlProvider locale="fr" messages={messages}>
 					<AppContainer />
 				</IntlProvider>
-			</Provider>
-		), container);
+			</Provider>,
+			container
+		);
 	}, noop);
 };
 
@@ -71,9 +70,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 					return hide();
 			}
 		})
-		.then(() =>
-			sendResponse({message: 'ok'})
-		);
+		.then(() => sendResponse({message: 'ok'}));
 
 	// Returning true states that sendResponse is asynchronous
 	return true;

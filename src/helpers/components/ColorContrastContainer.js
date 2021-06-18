@@ -4,13 +4,17 @@ import renderIf from 'render-if';
 import {get} from 'lodash';
 import createColor from 'color';
 import {createMessageHandler, sendMessage} from '../../common/api/runtime';
-import {REQUEST_PIXEL_COLOR, REQUEST_TEXT_COLOR, REQUEST_STYLE, UPDATE_COLOR, UPDATE_STYLE} from '../actions/colorContrast';
+import {
+	REQUEST_PIXEL_COLOR,
+	REQUEST_TEXT_COLOR,
+	REQUEST_STYLE,
+	UPDATE_COLOR,
+	UPDATE_STYLE
+} from '../actions/colorContrast';
 import Icon from '../../panel/components/Icon';
 import ColorContrastResult from './ColorContrastResult';
 import ColorInput from './ColorInput';
 import ToggleButton from './ToggleButton';
-
-
 
 /**
  *	Shape of a color input configuration.
@@ -36,7 +40,6 @@ const extractorConfigShape = PropTypes.shape({
  *	needs a proper refactoring to be more simple and robust.
  */
 class ColorContrastContainer extends Component {
-
 	constructor(props) {
 		super(props);
 
@@ -125,16 +128,15 @@ class ColorContrastContainer extends Component {
 				<ColorInput
 					id={id}
 					color={this.state[name]}
-					onChange={(value) =>
-						this.handleChangeColor(name, value)
-					}
+					onChange={(value) => this.handleChangeColor(name, value)}
 				>
 					{renderIf(pixelPicker)(() => (
 						<ToggleButton
-							pressed={pickedColor === name && pickRequest === REQUEST_PIXEL_COLOR}
-							onPress={() =>
-								this.handlePick(name, REQUEST_PIXEL_COLOR)
+							pressed={
+								pickedColor === name &&
+								pickRequest === REQUEST_PIXEL_COLOR
 							}
+							onPress={() => this.handlePick(name, REQUEST_PIXEL_COLOR)}
 							title={intl.formatMessage({
 								id: 'ColorInput.pickPixelButton.title'
 							})}
@@ -145,10 +147,11 @@ class ColorContrastContainer extends Component {
 
 					{renderIf(textPicker)(() => (
 						<ToggleButton
-							pressed={pickedColor === name && pickRequest === REQUEST_TEXT_COLOR}
-							onClick={() =>
-								this.handlePick(name, REQUEST_TEXT_COLOR)
+							pressed={
+								pickedColor === name &&
+								pickRequest === REQUEST_TEXT_COLOR
 							}
+							onClick={() => this.handlePick(name, REQUEST_TEXT_COLOR)}
 							title={intl.formatMessage({
 								id: 'ColorInput.pickTextButton.title'
 							})}

@@ -1,7 +1,5 @@
 import $ from 'jquery';
 
-
-
 /**
  *	@var {string} description - Description.
  *	@var {string} style - CSS code.
@@ -18,12 +16,15 @@ export const defaults = {
  *	@param {object} options - Options.
  */
 export const describe = (intl, {description} = defaults) =>
-	intl.formatHTMLMessage({
-		id: 'Helper.style'
-	}, {
-		description,
-		hasDescription: !!description
-	});
+	intl.formatHTMLMessage(
+		{
+			id: 'Helper.style'
+		},
+		{
+			description,
+			hasDescription: !!description
+		}
+	);
 
 /**
  *	Injects a custom style block in the <head />.
@@ -45,5 +46,4 @@ export const apply = (id, {style} = defaults) =>
  *
  *	@param {string} id - UUID.
  */
-export const revert = (id) =>
-	$(`#${id}`).remove();
+export const revert = (id) => $(`#${id}`).remove();

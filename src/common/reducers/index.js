@@ -9,8 +9,6 @@ import instructions from './instructions';
 import checklist from './checklist';
 import imports from './imports';
 
-
-
 /**
  *	Reducers shared by each instance in the background.
  */

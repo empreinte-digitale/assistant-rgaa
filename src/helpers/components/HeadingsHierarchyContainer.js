@@ -3,8 +3,6 @@ import {createMessageHandler} from '../../common/api/runtime';
 import {GET} from '../actions/headingsHierarchy';
 import HeadingsHierarchy from './HeadingsHierarchy';
 
-
-
 /**
  *
  */
@@ -39,8 +37,6 @@ export default class HeadingsHierarchyContainer extends Component {
 	}
 
 	render() {
-		return (
-			<HeadingsHierarchy items={this.state.items} />
-		);
+		return <HeadingsHierarchy items={this.state.items} />;
 	}
 }

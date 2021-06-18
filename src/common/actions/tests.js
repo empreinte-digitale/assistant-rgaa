@@ -4,8 +4,6 @@
 export const ENABLE = 'common/tests/ENABLE';
 export const DISABLE = 'common/tests/DISABLE';
 
-
-
 /**
  *
  */

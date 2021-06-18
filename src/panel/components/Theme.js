@@ -5,8 +5,6 @@ import {ThemeShape} from '../../common/types/theme';
 import {CriterionShape} from '../../common/types/criterion';
 import CriterionContainer from './CriterionContainer';
 
-
-
 /**
  *
  */
@@ -15,20 +13,14 @@ function Theme({theme, criteria}) {
 		<div id={`theme-${theme.id}`} className="Theme">
 			<div className="Theme-header">
 				<h2 className="Theme-title Title">{theme.title}</h2>
-				<a
-					href="#themesMenu"
-					className="ScreenReaderOnly Theme-menuLink"
-				>
+				<a href="#themesMenu" className="ScreenReaderOnly Theme-menuLink">
 					<FormattedMessage id="Theme.themesMenu" />
 				</a>
 			</div>
 
 			<ul className="Theme-criteria">
-				{map(criteria, criterion => (
-					<CriterionContainer
-						key={criterion.id}
-						{...criterion}
-					/>
+				{map(criteria, (criterion) => (
+					<CriterionContainer key={criterion.id} {...criterion} />
 				))}
 			</ul>
 		</div>

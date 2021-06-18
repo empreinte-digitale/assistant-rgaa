@@ -1,14 +1,12 @@
 import chromeStorage from './storage';
 
-
-
 /**
  *
  */
 export const getOption = (key) =>
-	chromeStorage.getItem('options').then((options) =>
-		(key ? options[key] : options)
-	);
+	chromeStorage
+		.getItem('options')
+		.then((options) => (key ? options[key] : options));
 
 /**
  *

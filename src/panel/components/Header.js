@@ -5,14 +5,18 @@ import renderIf from 'render-if';
 import DockMenuContainer from './DockMenuContainer';
 import Icon from './Icon';
 
-
-
 /**
  *
  */
 const Header = ({
-	referenceVersion, inPopup, title, intl,
-	onOptionsClick, onCloseClick, onClosePopupClick, onMinimizeClick
+	referenceVersion,
+	inPopup,
+	title,
+	intl,
+	onOptionsClick,
+	onCloseClick,
+	onClosePopupClick,
+	onMinimizeClick
 }) => (
 	<header className="Header">
 		<h1 className="Header-title">

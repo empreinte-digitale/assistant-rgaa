@@ -3,8 +3,6 @@ import classNames from 'classnames';
 import {FormattedMessage, intlShape, injectIntl} from 'react-intl';
 import {describe, info, component} from '../../helpers/api/helpers';
 
-
-
 /**
  *
  */
@@ -16,8 +14,7 @@ function TestHelpers({id, helpers, isOpen, onToggleRequest, intl}) {
 		'u-hidden': !isOpen
 	});
 
-	const toggle = () =>
-		onToggleRequest(!isOpen);
+	const toggle = () => onToggleRequest(!isOpen);
 
 	return (
 		<div className={containerClass}>
@@ -55,15 +52,12 @@ function TestHelpers({id, helpers, isOpen, onToggleRequest, intl}) {
 						const {args} = info(config);
 						const Helper = component(config);
 
-						return Helper
+						return Helper ? (
 							// eslint-disable-next-line react/no-array-index-key
-							? <Helper key={i} {...args} />
-							: null;
+							<Helper key={i} {...args} />
+						) : null;
 					})
-					.filter((helper) =>
-						!!helper
-					)
-				}
+					.filter((helper) => !!helper)}
 			</div>
 		</div>
 	);
@@ -76,7 +70,5 @@ TestHelpers.propTypes = {
 	onToggleRequest: PropTypes.func.isRequired,
 	intl: intlShape.isRequired
 };
-
-
 
 export default injectIntl(TestHelpers);

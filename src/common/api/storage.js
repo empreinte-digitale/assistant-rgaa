@@ -1,8 +1,6 @@
 const storage = chrome.storage.local;
 const runtime = chrome.runtime;
 
-
-
 const setItem = (key, data) =>
 	new Promise((resolve, reject) => {
 		storage.set({[key]: data}, () => {

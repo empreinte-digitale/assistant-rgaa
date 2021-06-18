@@ -1,7 +1,5 @@
 import {get} from 'lodash';
 
-
-
 /**
  *
  */
@@ -12,5 +10,5 @@ const RGAA = 'rgaa';
  *
  */
 export const getInstructionsByTest = (state, id) =>
-	get(state, ['instructions', id, RGAA])
-	|| get(state, ['instructions', id, ALL]);
+	get(state, ['instructions', id, RGAA]) ||
+	get(state, ['instructions', id, ALL]);

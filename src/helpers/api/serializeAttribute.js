@@ -1,16 +1,10 @@
 import {isString} from 'lodash';
 import {flow, split, flatMap, join} from 'lodash/fp';
 
-
-
 /**
  *	Attributes that contain a list of ids.
  */
-const linkAttributes = [
-	'for',
-	'aria-labelledby',
-	'aria-describedby'
-];
+const linkAttributes = ['for', 'aria-labelledby', 'aria-describedby'];
 
 /**
  *	Transforms the given id into a link if possible, otherwise just return the id
@@ -31,9 +25,7 @@ const linkId = (id) => {
 	}
 
 	const count = elements.length;
-	const countString = (count !== 1)
-		? ` (${count} occurrences)`
-		: '';
+	const countString = count !== 1 ? ` (${count} occurrences)` : '';
 
 	return `<a class="rgaaExt-Attribute-link" href="#${id}">${id}${countString}</a>`;
 };
@@ -44,11 +36,7 @@ const linkId = (id) => {
  *	@param {string} value - Attribute value.
  *	@return {string} - Attribute value containing anchors if needed.
  */
-const linkIds = flow(
-	split(/\s+/),
-	flatMap(linkId),
-	join(' ')
-);
+const linkIds = flow(split(/\s+/), flatMap(linkId), join(' '));
 
 /**
  *
@@ -57,22 +45,24 @@ export default function serializeAttribute(element, name, showMissing) {
 	const value = element.attr(name);
 
 	if (isString(value)) {
-		const linkedIds = linkAttributes.includes(name)
-			? linkIds(value)
-			: value;
+		const linkedIds = linkAttributes.includes(name) ? linkIds(value) : value;
 
-		return '<span class="rgaaExt-Attribute">'
-				+ `<span class="rgaaExt-Attribute-name">${name}</span>`
-				+ `="<span class="rgaaExt-Attribute-value">${linkedIds}</span>"`
-			+ '</span>';
+		return (
+			'<span class="rgaaExt-Attribute">' +
+			`<span class="rgaaExt-Attribute-name">${name}</span>` +
+			`="<span class="rgaaExt-Attribute-value">${linkedIds}</span>"` +
+			'</span>'
+		);
 	}
 
 	if (showMissing) {
-		return '<span class="rgaaExt-Attribute">'
-				+ '<span class="rgaaExt-Attribute-missing">'
-					+ `${name} <span class="rgaaExt-ScreenReaderOnly">absent</span>`
-				+ '</span>'
-			+ '</span>';
+		return (
+			'<span class="rgaaExt-Attribute">' +
+			'<span class="rgaaExt-Attribute-missing">' +
+			`${name} <span class="rgaaExt-ScreenReaderOnly">absent</span>` +
+			'</span>' +
+			'</span>'
+		);
 	}
 
 	return null;

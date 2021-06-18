@@ -1,8 +1,6 @@
 import React from 'react';
 import ReferenceFormContainer from './ReferenceFormContainer';
 
-
-
 /**
  *
  */

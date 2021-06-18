@@ -3,14 +3,20 @@ import {FormattedMessage, FormattedHTMLMessage} from 'react-intl';
 import {partial} from 'lodash';
 import renderIf from 'render-if';
 
-
-
 /**
  *
  */
 export default function ImportForm({
-	pending, valid, errors, importVersion, globalVersion, config,
-	onConfigChange, onReset, onFileSelection, onSubmit
+	pending,
+	valid,
+	errors,
+	importVersion,
+	globalVersion,
+	config,
+	onConfigChange,
+	onReset,
+	onFileSelection,
+	onSubmit
 }) {
 	const onFormSubmit = (event) => {
 		event.preventDefault();
@@ -114,7 +120,11 @@ export default function ImportForm({
 					<FormattedMessage id="Import.submit" />
 				</button>
 
-				<button type="button" onClick={onReset} className="ImportForm-button">
+				<button
+					type="button"
+					onClick={onReset}
+					className="ImportForm-button"
+				>
 					<FormattedMessage id="Import.reset" />
 				</button>
 			</div>
@@ -138,5 +148,4 @@ ImportForm.propTypes = {
 	pending: PropTypes.bool.isRequired
 };
 
-ImportForm.defaultProps = {
-};
+ImportForm.defaultProps = {};

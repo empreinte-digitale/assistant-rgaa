@@ -3,8 +3,6 @@ import classNames from 'classnames';
 import HeaderContainer from './HeaderContainer';
 import AppToggle from './AppToggle';
 
-
-
 /**
  *
  */

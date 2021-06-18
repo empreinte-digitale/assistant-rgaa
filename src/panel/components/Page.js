@@ -1,8 +1,6 @@
 import React, {PropTypes} from 'react';
 import classNames from 'classnames';
 
-
-
 /**
  *
  */
@@ -13,13 +11,9 @@ const Page = ({id, title, children}) => (
 			[`Page--${id}`]: !!id
 		})}
 	>
-		<h1 className="Page-title Title">
-			{title}
-		</h1>
+		<h1 className="Page-title Title">{title}</h1>
 
-		<div className="Page-body">
-			{children}
-		</div>
+		<div className="Page-body">{children}</div>
 	</div>
 );
 

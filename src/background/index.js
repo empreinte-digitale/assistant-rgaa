@@ -1,15 +1,29 @@
 import {endsWith} from 'lodash';
 import {
-	OPEN_PANEL, CLOSE_PANEL, OPEN_POPUP, CLOSE_POPUP, VALIDATE_PAGE, VIEW_PAGE_SOURCE,
-	REQUEST_INITIAL_STATE, GET_PIXEL, GET_CURRENT_TAB, CREATE_TAB,
+	OPEN_PANEL,
+	CLOSE_PANEL,
+	OPEN_POPUP,
+	CLOSE_POPUP,
+	VALIDATE_PAGE,
+	VIEW_PAGE_SOURCE,
+	REQUEST_INITIAL_STATE,
+	GET_PIXEL,
+	GET_CURRENT_TAB,
+	CREATE_TAB,
 	INVALID_RESPONSE
 } from '../common/actions/runtime';
 import {IFRAME_FILE} from '../container/api/container';
 import {openWindow, getWindowTabId} from './api/windows';
 import {OPTIONS_FILE} from './api/options';
 import {
-	CONTENT_STYLES, CONTENT_SCRIPTS, executeScript, insertCSS,
-	fetchCurrentTab, captureVisibleTab, closeTab, createTab
+	CONTENT_STYLES,
+	CONTENT_SCRIPTS,
+	executeScript,
+	insertCSS,
+	fetchCurrentTab,
+	captureVisibleTab,
+	closeTab,
+	createTab
 } from './api/tabs';
 import {createMessageHandler} from '../common/api/runtime';
 import {getPixelAt} from '../common/api/image';
@@ -19,11 +33,12 @@ import {DEFAULT_VERSION, getReferenceOption} from '../common/api/reference';
 import {Position} from '../common/api/panel';
 import {setReferenceVersion} from '../common/actions/reference';
 import {
-	setPosition, setPageInfo, open as openPanelAction, close as closePanelAction
+	setPosition,
+	setPageInfo,
+	open as openPanelAction,
+	close as closePanelAction
 } from '../common/actions/panel';
 import createInstancePool from './createInstancePool';
-
-
 
 /**
  *	A map of open instances, indexed by tab id.
@@ -79,9 +94,7 @@ const closePanel = ({id}) => {
  */
 const togglePanel = (tab) => {
 	const instance = instances.getInstance(tab.id);
-	return instance.isOpen()
-		? closePanel(tab)
-		: openPanel(tab);
+	return instance.isOpen() ? closePanel(tab) : openPanel(tab);
 };
 
 /**
@@ -90,15 +103,15 @@ const togglePanel = (tab) => {
 const createPanel = ({id, url, title}) => {
 	const instance = instances.getInstance(id);
 	openPanel({id})
-		.then(() =>
-			getReferenceOption()
-		)
+		.then(() => getReferenceOption())
 		.then((version = DEFAULT_VERSION) => {
 			instance.dispatch(setReferenceVersion(version));
-			instance.dispatch(setPageInfo({
-				url,
-				title
-			}));
+			instance.dispatch(
+				setPageInfo({
+					url,
+					title
+				})
+			);
 		});
 };
 
@@ -129,11 +142,11 @@ const handleKnownInstanceMessage = (message, tabId, instance) => {
 				openWindow({
 					url: chrome.runtime.getURL(IFRAME_FILE),
 					type: 'popup'
-				}).then((popup) => (
-					getWindowTabId(popup)
-				)).then((popupTabId) => {
-					instances.switchToPopup(tabId, popupTabId);
-				});
+				})
+					.then((popup) => getWindowTabId(popup))
+					.then((popupTabId) => {
+						instances.switchToPopup(tabId, popupTabId);
+					});
 			}
 			break;
 
@@ -148,10 +161,9 @@ const handleKnownInstanceMessage = (message, tabId, instance) => {
 
 		// sends the store's state to the instance.
 		case GET_PIXEL:
-			return captureVisibleTab()
-				.then((image) =>
-					getPixelAt(image, message.x, message.y)
-				);
+			return captureVisibleTab().then((image) =>
+				getPixelAt(image, message.x, message.y)
+			);
 
 		// sends current tab's info to the instance.
 		case GET_CURRENT_TAB:
@@ -165,12 +177,12 @@ const handleKnownInstanceMessage = (message, tabId, instance) => {
 
 		// create a tab with the given url, next to the current tab
 		case CREATE_TAB:
-			return fetchCurrentTab().then(currentTab => (
+			return fetchCurrentTab().then((currentTab) =>
 				createTab({
 					url: message.url,
 					index: currentTab.index + 1
 				})
-			));
+			);
 
 		case CLOSE_PANEL:
 			return closePanel({id: tabId});
@@ -200,9 +212,7 @@ chrome.browserAction.onClicked.addListener(() =>
 			// content script and we need to load them
 			instance
 				.sendMessage('')
-				.then(() =>
-					createPanel(tab)
-				)
+				.then(() => createPanel(tab))
 				.catch(() => {
 					injectContentScripts(tab.id).then(() => {
 						createPanel(tab);
@@ -246,17 +256,13 @@ chrome.tabs.onRemoved.addListener((id) => {
 	return instances.removeInstance(id);
 });
 
-
-
 /**
  * reinject content scripts on page reload
  */
 const onPageReload = (tabId, instance) =>
-	injectContentScripts(tabId).then(() => (
-		instance.isOpen()
-			? openPanel({id: tabId})
-			: closePanel({id: tabId})
-	));
+	injectContentScripts(tabId).then(() =>
+		instance.isOpen() ? openPanel({id: tabId}) : closePanel({id: tabId})
+	);
 
 chrome.tabs.onUpdated.addListener((tabId, changeInfo) => {
 	if (changeInfo.status === 'complete' && instances.hasInstance(tabId)) {
@@ -271,15 +277,17 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo) => {
 		const instance = instances.getInstance(tabId);
 		instance
 			.sendMessage('')
-			.then(response => {
+			.then((response) => {
 				// firefox sometimes has a ['undefined'] response? this is weird
 				// a response when scripst are actually loaded here is [{'message': 'ok'}]
-				if (response && response.length === 1 && response[0] === undefined) {
+				if (
+					response &&
+					response.length === 1 &&
+					response[0] === undefined
+				) {
 					onPageReload(tabId, instance);
 				}
 			})
-			.catch(() =>
-				onPageReload(tabId, instance)
-			);
+			.catch(() => onPageReload(tabId, instance));
 	}
 });

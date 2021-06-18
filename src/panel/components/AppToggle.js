@@ -1,8 +1,6 @@
 import React, {PropTypes} from 'react';
 import {injectIntl, intlShape} from 'react-intl';
 
-
-
 /**
  *
  */

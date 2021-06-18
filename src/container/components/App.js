@@ -4,8 +4,6 @@ import {CONTAINER_ID} from '../api/container';
 import ResizeHandle from './ResizeHandle';
 import PanelIframe from './PanelIframe';
 
-
-
 /**
  *
  */

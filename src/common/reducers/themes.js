@@ -1,7 +1,5 @@
 import {TOGGLE_MENU, SAVE_SCROLL_POSITION} from '../actions/themes';
 
-
-
 /**
  *
  */

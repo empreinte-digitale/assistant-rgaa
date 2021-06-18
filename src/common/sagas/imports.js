@@ -1,11 +1,13 @@
 import {takeEvery} from 'redux-saga';
 import {put, select, call} from 'redux-saga/effects';
 import memoryHistory from '../history';
-import {getVersion, findTestResults, findCriteriaResults} from '../selectors/imports';
+import {
+	getVersion,
+	findTestResults,
+	findCriteriaResults
+} from '../selectors/imports';
 import {setReferenceVersion} from '../actions/reference';
 import {APPLY, setTestsResults, setCriteriaResults} from '../actions/imports';
-
-
 
 /**
  *

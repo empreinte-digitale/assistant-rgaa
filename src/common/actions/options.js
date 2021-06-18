@@ -3,8 +3,6 @@
  */
 export const OPEN = 'common/options/OPEN';
 
-
-
 /**
  *
  */

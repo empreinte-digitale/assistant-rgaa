@@ -2,8 +2,6 @@ import {getSource} from './source';
 import {createTab, onUpdate, fetchCurrentTab} from '../../background/api/tabs';
 import {getWindowObject} from '../../background/api/windows';
 
-
-
 /**
  *
  */
@@ -13,16 +11,14 @@ export const validateLocalPage = (url) => {
 		.then((sourceString) => {
 			source = sourceString;
 		})
-		.then(() =>
-			fetchCurrentTab()
-		)
-		.then(currentTab => (
+		.then(() => fetchCurrentTab())
+		.then((currentTab) =>
 			createTab({
 				url: chrome.runtime.getURL('pages/validateLocalPage.html'),
 				index: currentTab.index + 1
 			})
-		))
-		.then(tab => {
+		)
+		.then((tab) => {
 			// @see http://stackoverflow.com/q/18045348
 			// I'm sure there is some better way to do this but well…
 			// couldn't figure it out with the time I have right now
@@ -30,7 +26,10 @@ export const validateLocalPage = (url) => {
 				if (status !== 'complete' || tabId !== tab.id) {
 					return;
 				}
-				const tabWindow = getWindowObject(tab.url, {type: 'tab', windowId: tab.windowId});
+				const tabWindow = getWindowObject(tab.url, {
+					type: 'tab',
+					windowId: tab.windowId
+				});
 				if (!tabWindow || !tabWindow.validateSource) {
 					return;
 				}

@@ -1,7 +1,5 @@
 import {SET_HELPERS} from '../actions/helpers';
 
-
-
 /**
  *
  */

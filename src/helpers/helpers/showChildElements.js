@@ -5,8 +5,6 @@ import showCodeNearElement from '../api/showCodeNearElement';
 import hideHelperElement from '../api/hideHelperElement';
 import {sanitize} from '../api/selectors';
 
-
-
 /**
  *	@var {string} description - Tool description.
  *	@var {string} url - Tool URL.
@@ -36,27 +34,33 @@ export const defaults = {
  *	@param {object} intl - Intl API.
  *	@param {object} options - Options.
  */
-export const describe = (intl, {
-	selector,
-	childrenSelector,
-	attributes,
-	showEmpty,
-	showName,
-	showMissingAttributes,
-	showContent
-} = defaults) =>
-	intl.formatHTMLMessage({
-		id: 'Helper.showChildElements'
-	}, {
-		selector: sanitize(selector),
-		childrenSelector: sanitize(childrenSelector),
-		attributes: join(attributes),
-		attributeCount: attributes.length,
+export const describe = (
+	intl,
+	{
+		selector,
+		childrenSelector,
+		attributes,
 		showEmpty,
 		showName,
 		showMissingAttributes,
 		showContent
-	});
+	} = defaults
+) =>
+	intl.formatHTMLMessage(
+		{
+			id: 'Helper.showChildElements'
+		},
+		{
+			selector: sanitize(selector),
+			childrenSelector: sanitize(childrenSelector),
+			attributes: join(attributes),
+			attributeCount: attributes.length,
+			showEmpty,
+			showName,
+			showMissingAttributes,
+			showContent
+		}
+	);
 
 /**
  *	Shows a DOM element.
@@ -64,25 +68,26 @@ export const describe = (intl, {
  *	@param {string} id - UUID.
  *	@param {object} options - Options.
  */
-export const apply = (id, {selector, childrenSelector, ...options} = defaults) =>
+export const apply = (
+	id,
+	{selector, childrenSelector, ...options} = defaults
+) =>
 	$(selector).each((i, element) => {
 		const $element = $(element);
 
-		$element
-			.find(childrenSelector)
-			.each((j, child) => {
-				const html = serializeElement($(child), options);
+		$element.find(childrenSelector).each((j, child) => {
+			const html = serializeElement($(child), options);
 
-				if (html) {
-					showCodeNearElement(
-						$element,
-						$('<code />', {
-							class: `${id} rgaaExt-Helper rgaaExt-ShowChildElementsHelper`,
-							html
-						})
-					);
-				}
-			});
+			if (html) {
+				showCodeNearElement(
+					$element,
+					$('<code />', {
+						class: `${id} rgaaExt-Helper rgaaExt-ShowChildElementsHelper`,
+						html
+					})
+				);
+			}
+		});
 	});
 
 /**
@@ -90,5 +95,4 @@ export const apply = (id, {selector, childrenSelector, ...options} = defaults) =
  *
  *	@param {string} id - UUID.
  */
-export const revert = (id) =>
-	hideHelperElement(`.${id}`);
+export const revert = (id) => hideHelperElement(`.${id}`);

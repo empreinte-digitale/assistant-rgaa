@@ -4,15 +4,22 @@ import {property} from 'lodash';
 import renderNothingUntil from '../../common/renderNothingUntil';
 import {getCsv} from '../../common/api/imports';
 import {
-	setErrors, setConfig, setContent, setPending, apply, reset
+	setErrors,
+	setConfig,
+	setContent,
+	setPending,
+	apply,
+	reset
 } from '../../common/actions/imports';
 import {
-	isPending, getHumanReadableErrors, isValid, getVersion as getImportVersion, getConfig
+	isPending,
+	getHumanReadableErrors,
+	isValid,
+	getVersion as getImportVersion,
+	getConfig
 } from '../../common/selectors/imports';
 import {getVersion as getReferenceVersion} from '../../common/selectors/reference';
 import ImportForm from './ImportForm';
-
-
 
 /**
  *
@@ -60,13 +67,7 @@ const mergeProps = (stateProps, {dispatch}, ownProps) => ({
 	}
 });
 
-
-
 export default compose(
-	connect(
-		mapStateToProps,
-		null,
-		mergeProps
-	),
+	connect(mapStateToProps, null, mergeProps),
 	renderNothingUntil(property('globalVersion'))
 )(ImportForm);

@@ -3,8 +3,6 @@ import {sendMessage} from '../../common/api/runtime';
 import {GET_CURRENT_TAB, CREATE_TAB} from '../../common/actions/runtime';
 import HelperButton from './HelperButton';
 
-
-
 /**
  *
  */
@@ -50,12 +48,7 @@ export default class ExternalToolContainer extends Component {
 	 *
 	 */
 	render() {
-		return (
-			<HelperButton
-				name={this.props.name}
-				onClick={this.onClick}
-			/>
-		);
+		return <HelperButton name={this.props.name} onClick={this.onClick} />;
 	}
 }
 

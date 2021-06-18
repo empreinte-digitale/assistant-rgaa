@@ -7,8 +7,6 @@ export const REVERT = 'common/helpers/REVERT';
 export const REVERT_ALL = 'common/helpers/REVERT_ALL';
 export const SET_HELPERS = 'common/helpers/SET_HELPERS';
 
-
-
 /**
  *
  */

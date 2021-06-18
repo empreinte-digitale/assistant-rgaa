@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
 import {sendMessage} from '../../common/api/runtime';
-import {GET_CURRENT_TAB, CREATE_TAB, VIEW_PAGE_SOURCE} from '../../common/actions/runtime';
+import {
+	GET_CURRENT_TAB,
+	CREATE_TAB,
+	VIEW_PAGE_SOURCE
+} from '../../common/actions/runtime';
 import {isFirefox} from '../../common/api/uasniffer';
 import HelperButton from './HelperButton';
-
-
 
 /**
  *
@@ -64,17 +66,11 @@ export default class ViewSourceContainer extends Component {
 		const onClick = isFirefox(window.navigator.userAgent)
 			? this.onFirefoxClick
 			: this.onChromeClick;
-		return (
-			<HelperButton
-				name="Voir les sources"
-				onClick={onClick}
-			/>
-		);
+		return <HelperButton name="Voir les sources" onClick={onClick} />;
 	}
 }
 
 /**
  *
  */
-ViewSourceContainer.propTypes = {
-};
+ViewSourceContainer.propTypes = {};

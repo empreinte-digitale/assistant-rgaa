@@ -4,8 +4,6 @@ import getHeadingsHierarchy from '../api/getHeadingsHierarchy';
 import {GET} from '../actions/headingsHierarchy';
 import HeadingsHierarchyContainer from '../components/HeadingsHierarchyContainer';
 
-
-
 /**
  *
  */
@@ -18,15 +16,12 @@ const sendHierarchy = () =>
 /**
  *
  */
-const observer = new MutationObserver(
-	debounce(sendHierarchy, 300)
-);
+const observer = new MutationObserver(debounce(sendHierarchy, 300));
 
 /**
  *
  */
-export const component = () =>
-	HeadingsHierarchyContainer;
+export const component = () => HeadingsHierarchyContainer;
 
 /**
  *	Describes the helper.

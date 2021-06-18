@@ -1,8 +1,6 @@
 import $ from 'jquery';
 import {concat, without} from 'lodash/fp';
 
-
-
 /**
  *	Attributes muting works by aliasing original attributes.
  *	The API also maintains a custom attribute which holds the
@@ -25,8 +23,7 @@ const MutedAttribute = 'data-rgaa-ext-muted';
 /**
  *
  */
-const attributeAlias = (attribute) =>
-	`${MutedAttribute}-${attribute}`;
+const attributeAlias = (attribute) => `${MutedAttribute}-${attribute}`;
 
 /**
  *
@@ -55,9 +52,7 @@ const renameAttribute = (element, from, to) => {
  */
 const getMutedAttributes = (element) => {
 	const list = element.attr(MutedAttribute);
-	return list
-		? list.split(',')
-		: [];
+	return list ? list.split(',') : [];
 };
 
 /**
@@ -101,11 +96,9 @@ const restoreAttributeOnElement = (element, attribute) => {
 export const muteAttribute = (elements, attribute) => {
 	const selector = `[${attribute}]:not([class^="rgaaExt"])`;
 
-	elements
-		.filter(selector)
-		.each((i, element) => {
-			muteAttributeOnElement($(element), attribute);
-		});
+	elements.filter(selector).each((i, element) => {
+		muteAttributeOnElement($(element), attribute);
+	});
 };
 
 /**
@@ -115,11 +108,9 @@ export const restoreAttribute = (elements, attribute) => {
 	const alias = attributeAlias(attribute);
 	const selector = `[${alias}]`;
 
-	elements
-		.filter(selector)
-		.each((i, element) => {
-			restoreAttributeOnElement($(element), attribute);
-		});
+	elements.filter(selector).each((i, element) => {
+		restoreAttributeOnElement($(element), attribute);
+	});
 };
 
 /**

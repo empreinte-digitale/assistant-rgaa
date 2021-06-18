@@ -1,45 +1,39 @@
 import {includes, map} from 'lodash';
 import {getOption} from './options';
 
-
-
 export const DEFAULT_VERSION = '4-2021';
 
 /*
  * get an array of {name, filename, version}
  */
-export const getReferencesList = () => ([
+export const getReferencesList = () => [
 	{name: 'RGAA 3-2016', version: '3-2016'},
 	{name: 'RGAA 3-2017', version: '3-2017'},
 	{name: 'RGAA 4.0 (2019)', version: '4-2019'},
 	{name: 'RGAA 4.1 (2021)', version: '4-2021'}
-]);
+];
 
 /**
  *
  */
 export const isVersionValid = (version) =>
-	includes(
-		map(getReferencesList(), 'version'),
-		version
-	);
+	includes(map(getReferencesList(), 'version'), version);
 
 /**
  *
  */
 export const getReferenceOption = () =>
-	getOption('reference').then((version) => (
-		isVersionValid(version)
-			? version
-			: DEFAULT_VERSION
-	));
+	getOption('reference').then((version) =>
+		isVersionValid(version) ? version : DEFAULT_VERSION
+	);
 
 /*
  * retrieve the reference full json object from a given reference version property
  */
 export const getReference = (version) =>
-	fetch(chrome.extension.getURL(`data/references/${version}.json`))
-		.then((response) => response.json());
+	fetch(chrome.extension.getURL(`data/references/${version}.json`)).then(
+		(response) => response.json()
+	);
 
 /**
  *	Flattens a hierarchical reference object into a series of

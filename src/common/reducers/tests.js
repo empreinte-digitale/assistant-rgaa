@@ -1,8 +1,6 @@
 import {without} from 'lodash';
 import {ENABLE, DISABLE} from '../actions/tests';
 
-
-
 /**
  *
  */

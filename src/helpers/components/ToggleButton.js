@@ -1,8 +1,6 @@
 import React, {PropTypes} from 'react';
 import {noop} from 'lodash';
 
-
-
 /**
  *
  */
@@ -11,7 +9,7 @@ const ToggleButton = ({pressed, onPress, onRelease, children, ...props}) => (
 		className="Button"
 		type="button"
 		aria-pressed={pressed}
-		onClick={() => pressed ? onRelease() : onPress()}
+		onClick={() => (pressed ? onRelease() : onPress())}
 		{...props}
 	>
 		{children}

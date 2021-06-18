@@ -1,7 +1,5 @@
 import createColor from 'color';
 
-
-
 /**
  *
  */

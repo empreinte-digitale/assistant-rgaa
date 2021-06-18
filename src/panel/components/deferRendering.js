@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import hoistStatics from 'hoist-non-react-statics';
 
-
-
 /**
  * Allows two animation frames to complete to allow other components to update
  * and re-render before mounting and rendering an expensive `WrappedComponent`.
@@ -29,9 +27,9 @@ export default function deferRendering(WrappedComponent) {
 		}
 
 		render() {
-			return this.state.shouldRender
-				? <WrappedComponent {...this.props} />
-				: null;
+			return this.state.shouldRender ? (
+				<WrappedComponent {...this.props} />
+			) : null;
 		}
 	}
 

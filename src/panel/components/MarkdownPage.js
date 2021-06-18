@@ -2,8 +2,6 @@ import React, {PropTypes} from 'react';
 import Page from './Page';
 import RichText from './RichText';
 
-
-
 /**
  *
  */

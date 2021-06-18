@@ -1,8 +1,6 @@
 import * as helpers from '../common/sagas/helpers';
 import * as panel from '../common/sagas/panel';
 
-
-
 /**
  *
  */

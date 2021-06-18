@@ -1,8 +1,8 @@
 import {REDUX_ACTION} from '../actions/runtime';
 
-
-
-const DefaultRegister = chrome.runtime.onMessage.addListener.bind(chrome.runtime.onMessage);
+const DefaultRegister = chrome.runtime.onMessage.addListener.bind(
+	chrome.runtime.onMessage
+);
 const DefaultSend = chrome.runtime.sendMessage.bind(chrome.runtime);
 
 /**
@@ -10,8 +10,10 @@ const DefaultSend = chrome.runtime.sendMessage.bind(chrome.runtime);
  *	the next middlewares.
  *	This should be the first middleware in the chain.
  */
-export const createGatherMiddleware = (name, register = DefaultRegister) =>
-	() => (next) => {
+export const createGatherMiddleware =
+	(name, register = DefaultRegister) =>
+	() =>
+	(next) => {
 		register(({type, sender, action}) => {
 			if (action && type === REDUX_ACTION && sender !== name) {
 				next({
@@ -21,16 +23,18 @@ export const createGatherMiddleware = (name, register = DefaultRegister) =>
 			}
 		});
 
-		return (action) =>
-			next(action);
+		return (action) => next(action);
 	};
 
 /**
  *	Broadcasts actions to the other stores.
  *	This should be the last middleware in the chain.
  */
-export const createBroadcastMiddleware = (name, send = DefaultSend) =>
-	() => (next) => (action) => {
+export const createBroadcastMiddleware =
+	(name, send = DefaultSend) =>
+	() =>
+	(next) =>
+	(action) => {
 		if (!action.gathered) {
 			send({
 				type: REDUX_ACTION,

@@ -3,8 +3,6 @@ import {FormattedMessage} from 'react-intl';
 import renderIf from 'render-if';
 import classNames from 'classnames';
 
-
-
 /**
  *
  */
@@ -23,7 +21,8 @@ const ColorContrastResult = ({ratio, minimumRatio}) => (
 				<span
 					className={classNames({
 						'ColorContrastResult-actualRatio': true,
-						'ColorContrastResult-actualRatio--invalid': (ratio < minimumRatio)
+						'ColorContrastResult-actualRatio--invalid':
+							ratio < minimumRatio
 					})}
 				>
 					{ratio}

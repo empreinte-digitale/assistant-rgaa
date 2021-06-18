@@ -2,8 +2,6 @@ import React, {PropTypes} from 'react';
 import renderIf from 'render-if';
 import classNames from 'classnames';
 
-
-
 /**
  *
  */
@@ -20,9 +18,9 @@ export default function Icon({name, title, className, spritePath, ...props}) {
 			className={classNames('Icon', `Icon--${name}`, className)}
 			{...svgProps}
 		>
-			{renderIf(title)(() =>
+			{renderIf(title)(() => (
 				<desc>{title}</desc>
-			)}
+			))}
 			<use xlinkHref={`${spritePath}#${name}`} />
 		</svg>
 	);

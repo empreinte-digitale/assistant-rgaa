@@ -5,8 +5,6 @@ import showCodeNearElement from '../api/showCodeNearElement';
 import hideHelperElement from '../api/hideHelperElement';
 import {sanitize} from '../api/selectors';
 
-
-
 /**
  *	@var {string} description - Tool description.
  *	@var {string} url - Tool URL.
@@ -34,25 +32,31 @@ export const defaults = {
  *	@param {object} intl - Intl API.
  *	@param {object} options - Options.
  */
-export const describe = (intl, {
-	selector,
-	attributes,
-	showEmpty,
-	showName,
-	showMissingAttributes,
-	showContent
-} = defaults) =>
-	intl.formatHTMLMessage({
-		id: 'Helper.showElement'
-	}, {
-		selector: sanitize(selector),
-		attributes: join(attributes),
-		attributeCount: attributes.length,
+export const describe = (
+	intl,
+	{
+		selector,
+		attributes,
 		showEmpty,
 		showName,
 		showMissingAttributes,
 		showContent
-	});
+	} = defaults
+) =>
+	intl.formatHTMLMessage(
+		{
+			id: 'Helper.showElement'
+		},
+		{
+			selector: sanitize(selector),
+			attributes: join(attributes),
+			attributeCount: attributes.length,
+			showEmpty,
+			showName,
+			showMissingAttributes,
+			showContent
+		}
+	);
 
 /**
  *	Shows a DOM element.
@@ -81,5 +85,4 @@ export const apply = (id, {selector, ...options} = defaults) =>
  *
  *	@param {string} id - UUID.
  */
-export const revert = (id) =>
-	hideHelperElement(`.${id}`);
+export const revert = (id) => hideHelperElement(`.${id}`);

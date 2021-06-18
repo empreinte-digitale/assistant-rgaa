@@ -7,8 +7,6 @@ import routes from './routes';
 import getStore from './getStore';
 import messages from '../common/messages/fr';
 
-
-
 /**
  *	Registers the default locale for react-intl.
  */
@@ -22,7 +20,4 @@ getStore()
 			</IntlProvider>
 		</Provider>
 	))
-	.then((app) =>
-		render(app, document.getElementById('panel'))
-	);
-
+	.then((app) => render(app, document.getElementById('panel')));

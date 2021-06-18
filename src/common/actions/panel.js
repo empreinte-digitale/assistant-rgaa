@@ -7,8 +7,6 @@ export const SET_PAGE_INFO = 'common/panel/SET_PAGE_INFO';
 export const OPEN = 'common/panel/OPEN';
 export const CLOSE = 'common/panel/CLOSE';
 
-
-
 /**
  *
  */

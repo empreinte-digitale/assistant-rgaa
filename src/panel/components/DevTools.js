@@ -1,7 +1,5 @@
 import React, {PropTypes} from 'react';
 
-
-
 /**
  *
  */
@@ -15,9 +13,7 @@ const DevTools = ({onSearchCriterion, onReloadReference}) => (
 		<input
 			placeholder="critère"
 			type="search"
-			onChange={(event) =>
-				onSearchCriterion(event.target.value)
-			}
+			onChange={(event) => onSearchCriterion(event.target.value)}
 			style={{
 				flex: '1'
 			}}

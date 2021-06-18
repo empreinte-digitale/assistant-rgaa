@@ -3,8 +3,6 @@ import {call} from 'redux-saga/effects';
 import {open} from '../../background/api/options';
 import {OPEN} from '../actions/options';
 
-
-
 /**
  *
  */

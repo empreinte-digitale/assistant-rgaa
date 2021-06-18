@@ -10,7 +10,7 @@ const messages = {
 	'Header.import': 'Import',
 	'Header.help': 'Aide',
 	'Header.minimize': 'Minimiser le panneau',
-	'Header.close': 'Fermer l\'extension',
+	'Header.close': "Fermer l'extension",
 	'Header.closePopup': 'Quitter le mode popup',
 	'ThemesList.title': 'Voir les thématiques',
 	'Theme.themesMenu': 'Retourner au menu des thématiques',
@@ -19,8 +19,10 @@ const messages = {
 	'Criterion.title': 'Critère {id}',
 	'Criterion.activeTest': 'Test {id} activé',
 	'Criterion.level': 'niveau {lvl}',
-	'Criterion.done.label': 'Tous les tests du critère sont faits - Cliquer pour marquer les tests comme "à faire"',
-	'Criterion.todo.label': 'Des tests restent à faire sur ce critère - Cliquer pour marquer les tests comme "fait"',
+	'Criterion.done.label':
+		'Tous les tests du critère sont faits - Cliquer pour marquer les tests comme "à faire"',
+	'Criterion.todo.label':
+		'Des tests restent à faire sur ce critère - Cliquer pour marquer les tests comme "fait"',
 	'Criterion.toggle.show': 'Afficher les tests du critère {id}',
 	'Criterion.toggle.hide': 'Cacher les tests du critère {id}',
 	'Test.title': 'Test {id}',
@@ -37,15 +39,17 @@ const messages = {
 	'DockMenu.left': 'À gauche',
 	'DockMenu.right': 'À droite',
 	'DockMenu.popup': 'Popup',
-	'Import.title': 'Import d\'un fichier d\'audit',
+	'Import.title': "Import d'un fichier d'audit",
 	'Import.delimiter.label': 'Caractère délimitant les colonnes',
 	'Import.quoteChar.label': 'Caractère délimitant les chaînes de caractères',
-	'Import.file.label': 'Sélectionnez un fichier d\'import : ',
-	'Import.success': 'Vérification du fichier… OK. Vous pouvez lancer l\'import.',
-	'Import.failure': 'Votre fichier ne suit pas le format attendu. Veuillez corriger les erreurs :',
+	'Import.file.label': "Sélectionnez un fichier d'import : ",
+	'Import.success':
+		"Vérification du fichier… OK. Vous pouvez lancer l'import.",
+	'Import.failure':
+		'Votre fichier ne suit pas le format attendu. Veuillez corriger les erreurs :',
 	'Import.submit': 'Importer',
 	'Import.reset': 'Réinitialiser',
-	'Import.singleReset': 'Réinitialiser les données d\'import actuelles',
+	'Import.singleReset': "Réinitialiser les données d'import actuelles",
 	'Import.versionDifference': `&#9888; La version du référentiel RGAA utilisée par
 		l'extension (configurable dans les options) va être définie à la version {version}
 		pour faire fonctionner l'import.`,
@@ -73,27 +77,32 @@ const messages = {
 			other {# tests non testés d'après le fichier importé}
 		}
 	`,
-	'ImportResult.c.title': 'Résultat conforme d\'après le fichier importé',
-	'ImportResult.nc.title': 'Résultat non conforme d\'après le fichier importé',
-	'ImportResult.na.title': 'Résultat non applicable d\'après le fichier importé',
-	'ImportResult.nt.title': 'Résultat non testé d\'après le fichier importé',
+	'ImportResult.c.title': "Résultat conforme d'après le fichier importé",
+	'ImportResult.nc.title': "Résultat non conforme d'après le fichier importé",
+	'ImportResult.na.title':
+		"Résultat non applicable d'après le fichier importé",
+	'ImportResult.nt.title': "Résultat non testé d'après le fichier importé",
 	'Options.references.label': 'Version du référentiel RGAA à utiliser :',
 	'Options.references.submit': 'Valider',
 	'Options.references.successMessage': 'Version mise à jour',
-	'ColorInput.pickPixelButton.title': 'Prélever la couleur d\'un pixel dans la page',
-	'ColorInput.pickTextButton.title': 'Prélever la couleur du texte à partir d\'une sélection dans la page',
-	'ColorInput.invalidFormatError': 'Cette couleur est invalide. Veuillez utiliser un code hexadécimal (#f00, #a2a2a2, ...) ou un nom de couleur HTML (red, yellow, ...)',
+	'ColorInput.pickPixelButton.title':
+		"Prélever la couleur d'un pixel dans la page",
+	'ColorInput.pickTextButton.title':
+		"Prélever la couleur du texte à partir d'une sélection dans la page",
+	'ColorInput.invalidFormatError':
+		'Cette couleur est invalide. Veuillez utiliser un code hexadécimal (#f00, #a2a2a2, ...) ou un nom de couleur HTML (red, yellow, ...)',
 	'ColorInput.sample': 'Aperçu de la couleur',
 	'ColorContrastResult.ratio': 'Ratio de contraste',
 	'ColorContrastResult.invalidResult': 'invalide',
-	'ExternalTool.linkTitle': 'Ouvrir l\'outil (s\'ouvre dans une nouvelle fenêtre)',
+	'ExternalTool.linkTitle':
+		"Ouvrir l'outil (s'ouvre dans une nouvelle fenêtre)",
 	'HeadingsHierarchy.title': 'Hiérarchie de titres',
 	'HeadingsHierarchy.noItems': 'Aucun titre trouvé dans la page.',
 	'Helper.addClassName': `
 		Ajoute une classe <code>{className}</code>
 		aux éléments <code>{selector}</code>
 	`,
-	'Helper.colorContrast': 'Affiche un outil d\'analyse des contrastes',
+	'Helper.colorContrast': "Affiche un outil d'analyse des contrastes",
 	'Helper.disableAllStyles': 'Désactive tous les styles de la page',
 	'Helper.externalTool': `
 		{hasName, select,
@@ -200,10 +209,9 @@ const messages = {
 			other {Ajoute des styles dans la page}
 		}
 	`,
-	'Helper.validateLocalPage': 'Ouvre l\'outil externe "Validateur W3C pour HTML local"',
+	'Helper.validateLocalPage':
+		'Ouvre l\'outil externe "Validateur W3C pour HTML local"',
 	'Helper.viewSource': 'Ouvre l\'outil "Voir les sources".'
 };
-
-
 
 export default messages;

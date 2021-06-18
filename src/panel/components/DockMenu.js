@@ -4,13 +4,11 @@ import {Wrapper, Button, Menu, MenuItem} from 'react-aria-menubutton';
 import {Position} from '../../common/api/panel';
 import Icon from './Icon';
 
-
-
 /**
  *
  */
 const DockMenuItem = ({position, currentPosition, onSelect}) => {
-	const disabled = (position === currentPosition);
+	const disabled = position === currentPosition;
 	const handleClick = () => {
 		if (!disabled) {
 			onSelect(position);
@@ -36,17 +34,17 @@ DockMenuItem.propTypes = {
 	onSelect: PropTypes.func.isRequired
 };
 
-
-
 /**
  *
  */
 function DockMenu({position, onPositionChange, intl}) {
-	const onDropdownSelection = (callback) =>
-		callback();
+	const onDropdownSelection = (callback) => callback();
 
 	return (
-		<Wrapper onSelection={onDropdownSelection} className="DockMenu Dropdown-container">
+		<Wrapper
+			onSelection={onDropdownSelection}
+			className="DockMenu Dropdown-container"
+		>
 			<Button
 				className="Link Dropdown-toggle"
 				title={intl.formatMessage({id: 'DockMenu.button'})}

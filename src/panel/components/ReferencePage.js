@@ -4,8 +4,6 @@ import {ThemeShape} from '../../common/types/theme';
 import ThemesListContainer from './ThemesListContainer';
 import ThemeContainer from './ThemeContainer';
 
-
-
 /**
  *
  */
@@ -44,20 +42,15 @@ export default class ReferencePage extends Component {
 		return (
 			<div className="ReferencePage">
 				<ThemesListContainer />
-				<div
-					ref={this.bindThemes}
-					className="ReferencePage-themes"
-				>
-					{map(this.props.themes, (theme, n) =>
+				<div ref={this.bindThemes} className="ReferencePage-themes">
+					{map(this.props.themes, (theme, n) => (
 						<ThemeContainer key={n} theme={theme} />
-					)}
+					))}
 				</div>
 			</div>
 		);
 	}
 }
-
-
 
 ReferencePage.propTypes = {
 	themes: PropTypes.arrayOf(ThemeShape).isRequired,
