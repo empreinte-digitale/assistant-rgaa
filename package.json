@@ -57,6 +57,8 @@
     "node-sass": "^6.0.0",
     "postcss": "^8.2.15",
     "postcss-loader": "^5.2.0",
+    "prettier": "^2.3.1",
+    "prettier-loader": "^3.3.0",
     "react-addons-test-utils": "^15.0.2",
     "redux-devtools": "^3.3.1",
     "redux-devtools-dock-monitor": "^1.1.1",

@@ -111,12 +111,20 @@ module.exports = {
 			{
 				test: /\.js$/,
 				include: fullPath('src'),
-				use: {
-					loader: 'babel-loader',
-					options: {
-						cacheDirectory: true
+				use: [
+					{
+						loader: 'babel-loader',
+						options: {
+							cacheDirectory: true
+						}
+					},
+					{
+						loader: 'prettier-loader',
+						options: {
+							ignoreInitial: true
+						}
 					}
-				}
+				]
 			},
 			{
 				test: /\.scss$/,
