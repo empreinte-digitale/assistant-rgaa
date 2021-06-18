@@ -9,15 +9,13 @@ import HelpPage from './components/HelpPage';
 /**
  * Application routes.
  */
-export default function () {
-	return (
-		<Router history={memoryHistory}>
-			<Route path="/" component={AppContainer}>
-				<IndexRoute component={ReferencePageContainer} />
+export default () => (
+	<Router history={memoryHistory}>
+		<Route path="/" component={AppContainer}>
+			<IndexRoute component={ReferencePageContainer} />
 
-				<Route path="import" component={ImportPageContainer} />
-				<Route path="help" component={HelpPage} />
-			</Route>
-		</Router>
-	);
-}
+			<Route path="import" component={ImportPageContainer} />
+			<Route path="help" component={HelpPage} />
+		</Route>
+	</Router>
+);

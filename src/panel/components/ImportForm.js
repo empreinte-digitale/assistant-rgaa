@@ -116,7 +116,11 @@ export default function ImportForm({
 			))}
 
 			<div className="ImportForm-buttons">
-				<button disabled={!valid} className="ImportForm-button">
+				<button
+					type="submit"
+					disabled={!valid}
+					className="ImportForm-button"
+				>
 					<FormattedMessage id="Import.submit" />
 				</button>
 

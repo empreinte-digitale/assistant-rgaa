@@ -43,7 +43,7 @@ function ReferenceForm({
 				</select>
 			</div>
 			<div className="Options-submit">
-				<button>
+				<button type="submit">
 					<FormattedMessage id="Options.references.submit" />
 				</button>
 			</div>
@@ -61,7 +61,7 @@ ReferenceForm.propTypes = {
 	options: PropTypes.arrayOf(
 		PropTypes.shape({
 			name: PropTypes.string,
-			value: PropTypes.any
+			value: PropTypes.string
 		})
 	).isRequired,
 	onChange: PropTypes.func.isRequired,

@@ -27,7 +27,7 @@ export default function Icon({name, title, className, spritePath, ...props}) {
 }
 
 Icon.propTypes = {
-	spritePath: PropTypes.string.isRequired,
+	spritePath: PropTypes.string,
 	name: PropTypes.string.isRequired,
 	className: PropTypes.string,
 	title: PropTypes.string

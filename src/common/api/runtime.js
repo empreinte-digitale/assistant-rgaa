@@ -1,5 +1,5 @@
 import {isEmpty} from 'lodash';
-import {api} from '../../common/api/extension';
+import {api} from './extension';
 import {INVALID_RESPONSE} from '../actions/runtime';
 
 /**
@@ -32,7 +32,9 @@ export const createMessageHandler =
 		if (response instanceof Promise) {
 			response.then(sendResponse);
 			return true;
-		} else if (!isEmpty(response)) {
+		}
+
+		if (!isEmpty(response)) {
 			sendResponse(response);
 		}
 	};

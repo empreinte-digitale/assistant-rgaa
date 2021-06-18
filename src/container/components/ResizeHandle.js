@@ -132,9 +132,9 @@ class ResizeHandle extends Component {
 		if (includes(['left', 'top'], this.props.position)) {
 			value *= -1;
 		}
-		this.setState({
-			length: this.state.length + value
-		});
+		this.setState(({length}) => ({
+			length: length + value
+		}));
 	}
 
 	onDragStop() {
@@ -167,18 +167,18 @@ class ResizeHandle extends Component {
 	toggleFolding() {
 		const wantToFold = !this.state.folded;
 		if (wantToFold) {
-			return this.setState({
-				beforeFold: omit(this.state, 'beforeFold', 'folded'),
+			return this.setState((state) => ({
+				beforeFold: omit(state, 'beforeFold', 'folded'),
 				length: 0,
 				folded: true
-			});
+			}));
 		}
 
-		return this.setState({
-			...this.state.beforeFold,
+		return this.setState(({beforeFold}) => ({
+			...beforeFold,
 			beforeFold: {},
 			folded: false
-		});
+		}));
 	}
 
 	render() {
@@ -257,16 +257,22 @@ ResizeHandle.propTypes = {
 	enabled: PropTypes.bool.isRequired,
 	onToggleFoldRequest: PropTypes.func,
 	styles: PropTypes.shape({
-		container: PropTypes.object,
-		handle: PropTypes.object,
-		overlay: PropTypes.object
-	}).isRequired,
+		container: PropTypes.objectOf(
+			PropTypes.oneOf(PropTypes.string, PropTypes.number)
+		),
+		handle: PropTypes.objectOf(
+			PropTypes.oneOf(PropTypes.string, PropTypes.number)
+		),
+		overlay: PropTypes.objectOf(
+			PropTypes.oneOf(PropTypes.string, PropTypes.number)
+		)
+	}),
 	classes: PropTypes.shape({
 		container: PropTypes.string,
 		disabledContainer: PropTypes.string,
 		handle: PropTypes.string,
 		overlay: PropTypes.string
-	}).isRequired,
+	}),
 	children: PropTypes.element.isRequired,
 	// eslint-disable-next-line react/forbid-prop-types
 	draggableProps: PropTypes.object,
@@ -275,7 +281,6 @@ ResizeHandle.propTypes = {
 };
 
 ResizeHandle.defaultProps = {
-	position: 'right',
 	useOverlay: false,
 	foldOnClick: false,
 	folded: false,

@@ -63,27 +63,15 @@ class ColorContrastContainer extends Component {
 		chrome.runtime.onMessage.removeListener(this.handleMessage);
 	}
 
-	get ratio() {
-		try {
-			const left = createColor(this.state.left);
-			const right = createColor(this.state.right);
-			const ratio = left.contrast(right);
-
-			return Number(ratio.toFixed(3));
-		} catch (e) {
-			return 0;
-		}
-	}
-
 	handleMessage({type, payload}) {
 		// eslint-disable-next-line default-case
 		switch (type) {
 			case UPDATE_COLOR:
-				this.setState({
-					[this.state.pickedColor]: payload,
+				this.setState(({pickedColor}) => ({
+					[pickedColor]: payload,
 					pickRequest: null,
 					pickedColor: null
-				});
+				}));
 				break;
 
 			case UPDATE_STYLE:
@@ -112,6 +100,18 @@ class ColorContrastContainer extends Component {
 		sendMessage({
 			type: pickRequest
 		});
+	}
+
+	get ratio() {
+		try {
+			const left = createColor(this.state.left);
+			const right = createColor(this.state.right);
+			const ratio = left.contrast(right);
+
+			return Number(ratio.toFixed(3));
+		} catch (e) {
+			return 0;
+		}
 	}
 
 	renderField(name, {label, pixelPicker, textPicker}) {

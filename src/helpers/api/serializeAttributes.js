@@ -1,4 +1,4 @@
-import serializeAttribute from '../api/serializeAttribute';
+import serializeAttribute from './serializeAttribute';
 
 /**
  *

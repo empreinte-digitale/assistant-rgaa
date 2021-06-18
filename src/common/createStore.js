@@ -3,7 +3,7 @@ import createSagaMiddleware from 'redux-saga';
 import {
 	createGatherMiddleware,
 	createBroadcastMiddleware
-} from '../common/middlewares/sync';
+} from './middlewares/sync';
 
 /**
  *

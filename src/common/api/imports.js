@@ -1,6 +1,6 @@
 import {each, isArray, includes, join, uniq, map} from 'lodash';
 import Papa from 'papaparse';
-import {getReference} from '../../common/api/reference';
+import {getReference} from './reference';
 
 /**
  * schema of one row we expect from an import file

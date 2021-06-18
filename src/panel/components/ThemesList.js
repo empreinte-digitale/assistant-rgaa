@@ -75,8 +75,4 @@ ThemesList.propTypes = {
 	setOpen: PropTypes.func.isRequired
 };
 
-ThemesList.defaultProps = {
-	inactiveThemes: []
-};
-
 export default ThemesList;
