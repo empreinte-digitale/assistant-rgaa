@@ -26,10 +26,10 @@
 	margin-left: vr(1);
 }
 
-.Header-dock .Dropdown-toggle,
 .Header-options,
 .Header-closePopup,
-.Header-help {
+.Header-help,
+.Header-dock .Dropdown-toggle {
 	padding: 0 vr(1/8);
 
 	.Icon {
