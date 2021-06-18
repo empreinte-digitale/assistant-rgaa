@@ -9,7 +9,7 @@ import renderIf from 'render-if';
  *
  */
 const HeadingsHierarchy = ({items}) => (
-	<div className="HeadingsHierarchy Widget">
+	<div className="HeadingsHierarchy Widget" aria-live="polite">
 		<h4 className="HeadingsHierarchy-title">
 			<FormattedMessage id="HeadingsHierarchy.title" />
 		</h4>

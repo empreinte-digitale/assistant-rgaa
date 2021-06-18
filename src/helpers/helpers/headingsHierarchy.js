@@ -1,9 +1,26 @@
+import {debounce} from 'lodash';
 import {sendMessage} from '../../common/api/runtime';
 import getHeadingsHierarchy from '../api/getHeadingsHierarchy';
 import {GET} from '../actions/headingsHierarchy';
 import HeadingsHierarchyContainer from '../components/HeadingsHierarchyContainer';
 
 
+
+/**
+ *
+ */
+const sendHierarchy = () =>
+	sendMessage({
+		type: GET,
+		payload: getHeadingsHierarchy()
+	});
+
+/**
+ *
+ */
+const observer = new MutationObserver(
+	debounce(sendHierarchy, 300)
+);
 
 /**
  *
@@ -23,13 +40,15 @@ export const describe = (intl) =>
  *
  */
 export const apply = () => {
-	sendMessage({
-		type: GET,
-		payload: getHeadingsHierarchy()
+	sendHierarchy();
+	observer.observe(document.body, {
+		childList: true
 	});
 };
 
 /**
  *
  */
-export const revert = () => {};
+export const revert = () => {
+	observer.disconnect();
+};
