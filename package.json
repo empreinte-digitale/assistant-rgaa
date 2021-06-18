@@ -3,6 +3,9 @@
   "version": "1.2.1",
   "description": "Assistant RGAA",
   "main": "js/index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "scripts": {
     "start": "npm run icons && webpack --watch",
     "serve": "webpack-dev-server",
