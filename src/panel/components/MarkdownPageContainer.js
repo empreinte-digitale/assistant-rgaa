@@ -1,5 +1,5 @@
 import {lifecycle} from 'recompose';
-import fastmatter from 'fastmatter';
+import frontmatter from 'frontmatter';
 import marked from 'marked';
 import {replaceLocalUrls} from '../../common/api/markdown';
 import MarkdownPage from './MarkdownPage';
@@ -18,11 +18,11 @@ const enhance = lifecycle({
 			.then((response) =>
 				response.text()
 			)
-			.then(fastmatter)
-			.then(({attributes, body}) => {
+			.then(frontmatter)
+			.then(({data, content}) => {
 				this.setState({
-					title: attributes.title,
-					html: marked(replaceLocalUrls(body, basePath))
+					title: data.title,
+					html: marked(replaceLocalUrls(content, basePath))
 				});
 			});
 	}
