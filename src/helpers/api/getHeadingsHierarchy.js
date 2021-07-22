@@ -1,11 +1,30 @@
+const HxPattern = /^h([1-6])$/i;
+
 /**
  *
  */
-const getHeadingLevel = (element) =>
-	element.getAttribute('role') === 'heading' &&
-	element.hasAttribute('aria-level')
-		? element.getAttribute('aria-level') * 1
-		: element.tagName.toLowerCase().substring(1) * 1;
+const getHeadingLevel = (element) => {
+	// If an aria-level attribute is set, it takes precedence
+	// over hx levels.
+	if (element.hasAttribute('aria-level')) {
+		return parseInt(element.getAttribute('aria-level'), 10);
+	}
+
+	const matches = element.tagName.match(HxPattern);
+
+	if (matches) {
+		return parseInt(matches[1], 10);
+	}
+
+	// In case the semantics are provided by a role attribute
+	// but no aria-level is specified, the default level is 2.
+	// @see https://www.w3.org/TR/wai-aria-1.1/#heading
+	if (element.getAttribute('role') === 'heading') {
+		return 2;
+	}
+
+	return NaN;
+};
 
 /**
  *
@@ -56,9 +75,7 @@ const addMissingHeadings = (hierarchy) => {
  */
 export default function getHeadingsHierarchy() {
 	const headings = [].slice.call(
-		document.querySelectorAll(
-			'h1, h2, h3, h4, h5, h6, [role="heading"][aria-level]'
-		)
+		document.querySelectorAll('h1, h2, h3, h4, h5, h6, [role="heading"]')
 	);
 
 	if (!headings.length) {
