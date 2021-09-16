@@ -770,6 +770,6 @@
 	"13.12.3": {
 		"rgaa": "<ol><li>Retrouver dans le document les fonctionnalités disponibles en mettant en mouvement l’appareil ;</li> <li>Vérifier si l’utilisateur à la possibilité de désactiver la détection du mouvement ;</li> <li>Si c’est le cas, pour chaque fonctionnalité, vérifier qu’elle ne peut pas être déclenchée ;</li> <li>Si c’est le cas pour chaque fonctionnalité disponible en mettant en mouvement l’appareil, le test est validé.</li></ol>"
 	},
-	"7.2.2": {},
+	"7.2.2": {"<ol><li>Repérer tous les éléments non textuels mis à jour par une fonctionnalité JavaScript.</li><li>Si l'élément non textuel a une alternative, vérifier&nbsp;:<ul><li>que l'alternative est mise à jour lorsque le contenu non textuel est mis à jour&nbsp;;</li><li>que l'alternative mise à jour est pertinente.</li></ul></li><li>Si c'est le cas, le test est validé.</li></ol>"},
 	"1.4.12": {}
 }
