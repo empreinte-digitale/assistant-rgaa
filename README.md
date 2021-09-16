@@ -19,7 +19,8 @@ L'extension peut être positionnée à différents endroits du navigateur (à dr
 
 ## À propos
 
-Assistant RGAA est édité par la [DInSIC (Direction interministrérielle du numérique et du système d'information et de communication de l'État français)](http://www.modernisation.gouv.fr/). Cette extension est placée sous la [licence ouverte 1.0 ou ultérieure](https://www.etalab.gouv.fr/licence-ouverte-open-licence), équivalente à une licence <span lang="en">Creative Commons BY</span>.
+L'assistant RGAA, initialement développé pour le compte de la <abbr title="Direction interministérielle du numérique">DINUM</abbr> (anciennement <abbr title="Direction interministérielle du numérique et du système d'information et de communication de l'État français">DINSIC</abbr>), est maintenu et mis à jour par [Empreinte Digitale](https://empreintedigitale.fr/).
+Cette extension est placée sous [licence MIT](./LICENSE).
 
 ## Documentation
 
