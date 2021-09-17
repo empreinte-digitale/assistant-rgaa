@@ -371,6 +371,9 @@
 	"7.2.1": {
 		"rgaa": "<ol><li>Retrouver les alternatives aux fonctionnalités JavaScript&#160;: <ol> <li>Chercher dans la page, les alternatives à un composant ou une fonctionnalité JavaScript mises à disposition.</li> <li>Désactiver JavaScript dans le document et retrouver les alternatives proposées.</li> </ol> </li> <li>Pour chacune des alternatives proposées, vérifier qu’elle permet d’accéder aux mêmes contenus et à des fonctionnalités similaires.</li> <li>Si c’est le cas, le test est validé.</li></ol>"
 	},
+	"7.2.2": {
+		"rgaa": "<ol><li>Repérer tous les éléments non textuels mis à jour par une fonctionnalité JavaScript.</li><li>Si l'élément non textuel a une alternative, vérifier&nbsp;:<ul><li>que l'alternative est mise à jour lorsque le contenu non textuel est mis à jour&nbsp;;</li><li>que l'alternative mise à jour est pertinente.</li></ul></li><li>Si c'est le cas, le test est validé.</li></ol>"
+	},
 	"7.3.1": {
 		"rgaa": "<ol><li>Retrouver dans le document, tous les éléments sur lesquels est implémenté un gestionnaire d’événements JavaScript (par exemple <code class=\"highlighter-rouge\">click</code>, <code class=\"highlighter-rouge\">focus</code>, <code class=\"highlighter-rouge\">mouseover</code>, <code class=\"highlighter-rouge\">blur</code>, <code class=\"highlighter-rouge\">keydown</code>, <code class=\"highlighter-rouge\">touch</code>, …).</li> <li>Vérifier que l’élément est accessible au moyen du clavier&#160;: <ol> <li>Il est atteignable avec la touche de tabulation (tab)<span style=\"white-space:nowrap\">&thinsp;</span>;</li> <li>Si l’élément gère une action simple, il est activable au clavier avec la touche entrée (Entrée)<span style=\"white-space:nowrap\">&thinsp;</span>;</li> <li>Si l’élément gère une action complexe, il est utilisable avec le clavier (généralement avec les touches de direction).</li> </ol> </li> <li>Sinon, vérifier qu’un élément accessible par le clavier permettant de réaliser la même action est présent dans la page.</li> <li>Vérifier que l’élément est accessible par tout dispositif de pointage (souris, toucher, stylet, …).</li> <li>Sinon, vérifier qu’un élément accessible au moyen d’un dispositif de pointage et permettant de réaliser la même action est présent dans la page.</li> <li>Si c’est le cas, le test est validé.</li></ol>"
 	},
@@ -766,7 +769,5 @@
 	},
 	"13.12.3": {
 		"rgaa": "<ol><li>Retrouver dans le document les fonctionnalités disponibles en mettant en mouvement l’appareil<span style=\"white-space:nowrap\">&thinsp;</span>;</li> <li>Vérifier si l’utilisateur à la possibilité de désactiver la détection du mouvement<span style=\"white-space:nowrap\">&thinsp;</span>;</li> <li>Si c’est le cas, pour chaque fonctionnalité, vérifier qu’elle ne peut pas être déclenchée<span style=\"white-space:nowrap\">&thinsp;</span>;</li> <li>Si c’est le cas pour chaque fonctionnalité disponible en mettant en mouvement l’appareil, le test est validé.</li></ol>"
-	},
-	"7.2.2": {"<ol><li>Repérer tous les éléments non textuels mis à jour par une fonctionnalité JavaScript.</li><li>Si l'élément non textuel a une alternative, vérifier&nbsp;:<ul><li>que l'alternative est mise à jour lorsque le contenu non textuel est mis à jour&nbsp;;</li><li>que l'alternative mise à jour est pertinente.</li></ul></li><li>Si c'est le cas, le test est validé.</li></ol>"},
-	"1.4.12": {}
+	}
 }
