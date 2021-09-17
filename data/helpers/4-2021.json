@@ -2850,7 +2850,8 @@
 			]
 		},
 		{
-			"helper": "headingsHierarchy"
+			"helper": "headingsHierarchy",
+			"showMissing": false
 		}
 	],
 	"9.1.2": [

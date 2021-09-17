@@ -3163,7 +3163,8 @@
 			]
 		},
 		{
-			"helper": "headingsHierarchy"
+			"helper": "headingsHierarchy",
+			"showMissing": true
 		}
 	],
 	"9.1.3": [

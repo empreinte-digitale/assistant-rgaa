@@ -48,9 +48,10 @@ const getHeadingText = (element) => {
 /**
  *
  */
-const addMissingHeadings = (hierarchy) => {
+export const withMissingHeadings = (hierarchy, text) => {
 	const newHierarchy = [];
 	let previousLevel = 0;
+
 	hierarchy.forEach((heading) => {
 		for (
 			let missingLevel = previousLevel + 1;
@@ -58,11 +59,12 @@ const addMissingHeadings = (hierarchy) => {
 			missingLevel++
 		) {
 			newHierarchy.push({
+				text,
 				level: missingLevel,
-				text: 'Titre manquant',
 				fake: true
 			});
 		}
+
 		newHierarchy.push(heading);
 		previousLevel = heading.level;
 	});
@@ -82,11 +84,9 @@ export default function getHeadingsHierarchy() {
 		return [];
 	}
 
-	const hierarchy = headings.map((element) => ({
+	return headings.map((element) => ({
 		level: getHeadingLevel(element),
 		text: getHeadingText(element),
 		fake: false
 	}));
-
-	return addMissingHeadings(hierarchy);
 }
