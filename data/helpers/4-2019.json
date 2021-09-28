@@ -2763,18 +2763,20 @@
 		},
 		{
 			"helper": "outline",
-			"selector": "h1,h2,h3,h4,h5,h6, [role='heading'][aria-level]",
+			"selector": "h1,h2,h3,h4,h5,h6, [role='heading']",
 			"showTag":true
 		},
 		{
 			"helper": "showAttributes",
-			"selector": "[role='heading'][aria-level]",
+			"selector": "[role='heading']",
 			"attributes": [
+				"role",
 				"aria-level"
 			]
 		},
 		{
-			"helper": "headingsHierarchy"
+			"helper": "headingsHierarchy",
+			"showMissing": false
 		}
 	],
 	"9.1.2": [
@@ -2783,13 +2785,14 @@
 		},
 		{
 			"helper": "outline",
-			"selector": "h1,h2,h3,h4,h5,h6, [role='heading'][aria-level]",
+			"selector": "h1,h2,h3,h4,h5,h6, [role='heading']",
 			"showTag":true
 		},
 		{
 			"helper": "showAttributes",
-			"selector": "[role='heading'][aria-level]",
+			"selector": "[role='heading']",
 			"attributes": [
+				"role",
 				"aria-level"
 			]
 		}
@@ -2800,13 +2803,14 @@
 		},
 		{
 			"helper": "outline",
-			"selector": "h1,h2,h3,h4,h5,h6, [role='heading'][aria-level]",
+			"selector": "h1,h2,h3,h4,h5,h6, [role='heading']",
 			"showTag":true
 		},
 		{
 			"helper": "showAttributes",
-			"selector": "[role='heading'][aria-level]",
+			"selector": "[role='heading']",
 			"attributes": [
+				"role",
 				"aria-level"
 			]
 		}

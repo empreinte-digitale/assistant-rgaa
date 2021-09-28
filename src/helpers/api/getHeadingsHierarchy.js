@@ -1,11 +1,30 @@
+const HxPattern = /^h([1-6])$/i;
+
 /**
  *
  */
-const getHeadingLevel = (element) =>
-	element.getAttribute('role') === 'heading' &&
-	element.hasAttribute('aria-level')
-		? element.getAttribute('aria-level') * 1
-		: element.tagName.toLowerCase().substring(1) * 1;
+const getHeadingLevel = (element) => {
+	// If an aria-level attribute is set, it takes precedence
+	// over hx levels.
+	if (element.hasAttribute('aria-level')) {
+		return parseInt(element.getAttribute('aria-level'), 10);
+	}
+
+	const matches = element.tagName.match(HxPattern);
+
+	if (matches) {
+		return parseInt(matches[1], 10);
+	}
+
+	// In case the semantics are provided by a role attribute
+	// but no aria-level is specified, the default level is 2.
+	// @see https://www.w3.org/TR/wai-aria-1.1/#heading
+	if (element.getAttribute('role') === 'heading') {
+		return 2;
+	}
+
+	return NaN;
+};
 
 /**
  *
@@ -29,9 +48,10 @@ const getHeadingText = (element) => {
 /**
  *
  */
-const addMissingHeadings = (hierarchy) => {
+export const withMissingHeadings = (hierarchy, text) => {
 	const newHierarchy = [];
 	let previousLevel = 0;
+
 	hierarchy.forEach((heading) => {
 		for (
 			let missingLevel = previousLevel + 1;
@@ -39,11 +59,12 @@ const addMissingHeadings = (hierarchy) => {
 			missingLevel++
 		) {
 			newHierarchy.push({
+				text,
 				level: missingLevel,
-				text: 'Titre manquant',
 				fake: true
 			});
 		}
+
 		newHierarchy.push(heading);
 		previousLevel = heading.level;
 	});
@@ -56,20 +77,16 @@ const addMissingHeadings = (hierarchy) => {
  */
 export default function getHeadingsHierarchy() {
 	const headings = [].slice.call(
-		document.querySelectorAll(
-			'h1, h2, h3, h4, h5, h6, [role="heading"][aria-level]'
-		)
+		document.querySelectorAll('h1, h2, h3, h4, h5, h6, [role="heading"]')
 	);
 
 	if (!headings.length) {
 		return [];
 	}
 
-	const hierarchy = headings.map((element) => ({
+	return headings.map((element) => ({
 		level: getHeadingLevel(element),
 		text: getHeadingText(element),
 		fake: false
 	}));
-
-	return addMissingHeadings(hierarchy);
 }
