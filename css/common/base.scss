@@ -21,6 +21,11 @@ body {
 	@include typi-base();
 	font-family: $font-body;
 	background: $color-white;
+	color: $color-black;
+}
+
+a {
+	color: $color-black;
 }
 
 ul,
