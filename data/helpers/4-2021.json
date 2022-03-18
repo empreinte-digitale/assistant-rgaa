@@ -2467,12 +2467,12 @@
 		},
 		{
 			"helper": "outline",
-			"selector": "a:not([role]), [role='link']",
+			"selector": "a[href]:not([role]), [role='link']",
 			"showTag": true
 		},
 		{
 			"helper": "showElement",
-			"selector": "a:not([role]), [role='link']",
+			"selector": "a[href]:not([role]), [role='link']",
 			"attributes": [
 				"title",
 				"aria-label",
@@ -2486,11 +2486,11 @@
 		},
 		{
 			"helper": "outline",
-			"selector": "a:not([role]), [role='link'], img[usemap], a:not([role]) canvas, [role='link'] canvas, a:not([role]) object, [role='link'] object, a:not([role]) embed, [role='link'] embed, a:not([role]) svg, [role='link'] svg"
+			"selector": "a[href]:not([role]), [role='link'], img[usemap], a[href]:not([role]) canvas, [role='link'] canvas, a[href]:not([role]) object, [role='link'] object, a[href]:not([role]) embed, [role='link'] embed, a[href]:not([role]) svg, [role='link'] svg"
 		},
 		{
 			"helper": "showElement",
-			"selector": "a:not([role]), [role='link']",
+			"selector": "a[href]:not([role]), [role='link']",
 			"attributes": [
 				"title",
 				"aria-label",
@@ -2499,7 +2499,7 @@
 		},
 		{
 			"helper": "showElement",
-			"selector": "a:not([role]) img, [role='link'] img, area[href]",
+			"selector": "a[href]:not([role]) img, [role='link'] img, area[href]",
 			"attributes": [
 				"alt",
 				"title",
@@ -2509,14 +2509,14 @@
 		},
 		{
 			"helper": "showChildElements",
-			"selector": "a:not([role]) svg, [role='link'] svg",
+			"selector": "a[href]:not([role]) svg, [role='link'] svg",
 			"childrenSelector": "desc, text",
 			"attributes": [],
 			"showContent": true
 		},
 		{
 			"helper": "showElement",
-			"selector": "a:not([role]) object, [role='link'] object, a:not([role]) embed, [role='link'] embed",
+			"selector": "a[href]:not([role]) object, [role='link'] object, a[href]:not([role]) embed, [role='link'] embed",
 			"attributes": [
 				"title",
 				"aria-label",
@@ -2526,7 +2526,7 @@
 		},
 		{
 			"helper": "showElement",
-			"selector": "a:not([role]) svg, [role='link'] svg, a:not([role]) canvas, [role='link'] canvas",
+			"selector": "a[href]:not([role]) svg, [role='link'] svg, a[href]:not([role]) canvas, [role='link'] canvas",
 			"attributes": [
 				"aria-label",
 				"aria-labelledby"
@@ -2540,11 +2540,11 @@
 		},
 		{
 			"helper": "outline",
-			"selector": "a:not([role]), [role='link'], img[usemap], a:not([role]) canvas, [role='link'] canvas, a:not([role]) object, [role='link'] object, a:not([role]) embed, [role='link'] embed, a:not([role]) svg, [role='link'] svg"
+			"selector": "a[href]:not([role]), [role='link'], img[usemap], a[href]:not([role]) canvas, [role='link'] canvas, a[href]:not([role]) object, [role='link'] object, a[href]:not([role]) embed, [role='link'] embed, a[href]:not([role]) svg, [role='link'] svg"
 		},
 		{
 			"helper": "showElement",
-			"selector": "a:not([role]), [role='link']",
+			"selector": "a[href]:not([role]), [role='link']",
 			"attributes": [
 				"title",
 				"aria-label",
@@ -2553,7 +2553,7 @@
 		},
 		{
 			"helper": "showElement",
-			"selector": "a:not([role]) img, [role='link'] img, area[href]",
+			"selector": "a[href]:not([role]) img, [role='link'] img, area[href]",
 			"attributes": [
 				"alt",
 				"title",
@@ -2563,7 +2563,7 @@
 		},
 		{
 			"helper": "showChildElements",
-			"selector": "a:not([role]) svg, [role='link'] svg",
+			"selector": "a[href]:not([role]) svg, [role='link'] svg",
 			"childrenSelector": "desc, text",
 			"attributes": [
 				"x-link:title"
@@ -2572,7 +2572,7 @@
 		},
 		{
 			"helper": "showElement",
-			"selector": "a:not([role]) object, [role='link'] object, a:not([role]) embed, [role='link'] embed",
+			"selector": "a[href]:not([role]) object, [role='link'] object, a[href]:not([role]) embed, [role='link'] embed",
 			"attributes": [
 				"title",
 				"aria-label",
@@ -2582,7 +2582,7 @@
 		},
 		{
 			"helper": "showElement",
-			"selector": "a:not([role]) svg, [role='link'] svg, a:not([role]) canvas, [role='link'] canvas",
+			"selector": "a[href]:not([role]) svg, [role='link'] svg, a[href]:not([role]) canvas, [role='link'] canvas",
 			"attributes": [
 				"aria-label",
 				"aria-labelledby",
@@ -2621,11 +2621,11 @@
 		},
 		{
 			"helper": "outline",
-			"selector": "a:not([role]), [role='link']"
+			"selector": "a[href]:not([role]), [role='link']"
 		},
 		{
 			"helper": "showElement",
-			"selector": "a:not([role]), [role='link']",
+			"selector": "a[href]:not([role]), [role='link']",
 			"attributes": [
 				"aria-label",
 				"aria-labelledby"
@@ -2633,14 +2633,14 @@
 		},
 		{
 			"helper": "showElement",
-			"selector": "a:not([role]) img, [role='link'] img, area[href]",
+			"selector": "a[href]:not([role]) img, [role='link'] img, area[href]",
 			"attributes": [
 				"alt"
 			]
 		},
 		{
 			"helper": "showElement",
-			"selector": "a:not([role]) svg, [role='link'] svg",
+			"selector": "a[href]:not([role]) svg, [role='link'] svg",
 			"attributes": [
 				"aria-label"
 			]
