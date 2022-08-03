@@ -5,12 +5,12 @@
 		},
 		{
 			"helper": "outline",
-			"selector": "img, [role='img']",
+			"selector": "img:not(a img, button img), [role='img']:not(a [role='img'], button [role='img']), [role='link']",
 			"showTag":true
 		},
 		{
 			"helper": "showAttributes",
-			"selector": "img, [role='img']",
+			"selector": "img:not(a img, button img), [role='img']:not(a [role='img'], button [role='img']), [role='link']",
 			"attributes": [
 				"aria-labelledby",
 				"aria-label",
@@ -96,12 +96,12 @@
 		},
 		{
 			"helper": "outline",
-			"selector": "svg",
+			"selector": "svg:not(a svg, button svg)",
 			"showTag":true
 		},
 		{
 			"helper": "showElement",
-			"selector": "svg",
+			"selector": "svg:not(a svg, button svg)",
 			"attributes": [
 				"role",
 				"aria-label",
@@ -111,7 +111,7 @@
 		},
 		{
 			"helper": "showAttributes",
-			"selector": "svg",
+			"selector": "svg:not(a svg, button svg)",
 			"attributes": [
 				"aria-hidden",
 				"role"
