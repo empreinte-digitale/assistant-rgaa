@@ -736,114 +736,15 @@
 		{
 			"helper": "outline",
 			"selector": "embed[type^=\"image\"][title], embed[type^=\"image\"][aria-label], embed[type^=\"image\"][aria-labelledby]"
-			},
-			{
-				"helper": "showAttributes",
-				"selector": "embed[type^=\"image\"][title], embed[type^=\"image\"][aria-label], embed[type^=\"image\"][aria-labelledby]",
-					"attributes": [
-						"title",
-						"aria-label",
-						"aria-labelledby"
-					]
-				}
-			],
-	"1.4.8": [
-		{
-			"helper": "disableAllStyles"
-		},
-		{
-			"helper": "outline",
-			"selector": "svg",
-			"showTag":true
 		},
 		{
 			"helper": "showAttributes",
-			"selector": "svg",
-			"attributes": [
-				"role",
-				"title",
-				"aria-label"
-			]
-		},
-		{
-			"helper": "showChildElements",
-			"selector": "svg",
-			"childrenSelector": "title",
-			"attributes": [
-
-			],
-			"showContent":true
-		}
-	],
-	"1.4.9": [
-		{
-			"helper": "disableAllStyles"
-		},
-		{
-			"helper": "outline",
-			"selector": "svg",
-			"showTag":true
-		},
-		{
-			"helper": "showChildElements",
-			"selector": "svg",
-			"childrenSelector": "title",
-			"attributes": [
-
-			],
-			"showContent":true
-		}
-	],
-	"1.4.10": [
-		{
-			"helper": "disableAllStyles"
-		},
-		{
-			"helper": "outline",
-			"selector": "canvas"
-		},
-		{
-			"helper": "showElement",
-			"selector": "canvas",
-			"attributes": [
-
-			],
-			"showContent":true
-		}
-	],
-	"1.4.11": [
-		{
-			"helper": "disableAllStyles"
-		},
-		{
-			"helper": "outline",
-			"selector": "canvas[title], canvas[aria-label], canvas[aria-labelledby]"
-		},
-		{
-			"helper": "showAttributes",
-			"selector": "canvas[title], canvas[aria-label], canvas[aria-labelledby]",
+			"selector": "embed[type^=\"image\"][title], embed[type^=\"image\"][aria-label], embed[type^=\"image\"][aria-labelledby]",
 			"attributes": [
 				"title",
 				"aria-label",
 				"aria-labelledby"
 			]
-		}
-	],
-	"1.4.12": [
-		{
-			"helper": "disableAllStyles"
-		},
-		{
-			"helper": "outline",
-			"selector": "canvas"
-		},
-		{
-			"helper": "showElement",
-			"selector": "canvas",
-			"attributes": [
-
-			],
-			"showContent":true
 		}
 	],
 	"1.5.1": [
