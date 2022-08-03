@@ -291,12 +291,12 @@
 		},
 		{
 			"helper": "outline",
-			"selector": "svg",
+			"selector": "svg:not(a svg, button svg)",
 			"showTag":true
 		},
 		{
 			"helper": "showElement",
-			"selector": "svg",
+			"selector": "svg:not(a svg, button svg)",
 			"attributes": [
 				"aria-hidden",
 				"role"
@@ -305,7 +305,7 @@
 		},
 		{
 			"helper": "showElement",
-			"selector": "svg",
+			"selector": "svg:not(a svg, button svg)",
 			"attributes": [
 				"aria-label",
 				"aria-labelledby",
@@ -314,7 +314,7 @@
 		},
 		{
 			"helper": "showChildElements",
-			"selector": "svg",
+			"selector": "svg:not(a svg, button svg)",
 			"childrenSelector": "title, desc, text",
 			"attributes": [
 				"aria-label",
@@ -503,12 +503,12 @@
 		},
 		{
 			"helper": "outline",
-			"selector": "svg",
+			"selector": "svg:not(a svg, button svg)",
 			"showTag":true
 		},
 		{
 			"helper": "showElement",
-			"selector": "svg",
+			"selector": "svg:not(a svg, button svg)",
 			"attributes": [
 				"aria-label",
 				"aria-labelledby"
@@ -517,7 +517,7 @@
 		},
 		{
 			"helper": "showChildElements",
-			"selector": "svg",
+			"selector": "svg:not(a svg, button svg)",
 			"childrenSelector": "title",
 			"attributes": [
 
@@ -568,12 +568,12 @@
 		},
 		{
 			"helper": "outline",
-			"selector": "a, img, map, svg, input[type=\"image\"][alt], object[type^=\"image\"], object[type^=\"image\"][aria-label], object[type^=\"image\"][aria-labelledby], embed[type^=\"image\"], embed[type^=\"image\"][title], embed[type^=\"image\"][aria-label], embed[type^=\"image\"][aria-labelledby]",
+			"selector": "img:not(a img, button img), map, svg:not(a svg, button svg), input[type=\"image\"][alt], object[type^=\"image\"], object[type^=\"image\"][aria-label], object[type^=\"image\"][aria-labelledby], embed[type^=\"image\"], embed[type^=\"image\"][title], embed[type^=\"image\"][aria-label], embed[type^=\"image\"][aria-labelledby]",
 				"showTag":true
 			},
 			{
 				"helper": "showAttributes",
-				"selector": "img, input[type=\"image\"][alt]",
+				"selector": "img:not(a img, button img), input[type=\"image\"][alt]",
 					"attributes": [
 						"alt",
 						"title",
@@ -948,19 +948,19 @@
 		},
 		{
 			"helper": "outline",
-			"selector": "svg",
+			"selector": "svg:not(a svg, button svg)",
 			"showTag":true
 		},
 		{
 			"helper": "showAttributes",
-			"selector": "svg",
+			"selector": "svg:not(a svg, button svg)",
 			"attributes": [
 				"aria-label"
 			]
 		},
 		{
 			"helper": "showChildElements",
-			"selector": "svg",
+			"selector": "svg:not(a svg, button svg)",
 			"childrenSelector": "title, desc",
 			"attributes": [
 
@@ -974,19 +974,19 @@
 		},
 		{
 			"helper": "outline",
-			"selector": "svg:has(desc), svg[aria-label]",
+			"selector": "svg:not(a svg, button svg):has(desc), svg:not(a svg, button svg)[aria-label]",
 			"showTag":true
 		},
 		{
 			"helper": "showAttributes",
-			"selector": "svg[aria-label]",
+			"selector": "svg:not(a svg, button svg)[aria-label]",
 			"attributes": [
 				"aria-label"
 			]
 		},
 		{
 			"helper": "showChildElements",
-			"selector": "svg:has(title)",
+			"selector": "svg:not(a svg, button svg):has(title)",
 			"childrenSelector": "title",
 			"attributes": [
 
