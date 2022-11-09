@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+
 <head>
 	<title>test thématique 9</title>
 </head>
+
 <body>
 	<a href="#main">Acces rapide au contenu</a>
 	<h2>Si la page commence par un titre de niveau 2 ?</h2>
@@ -12,11 +14,40 @@
 	</header>
 	<nav role="navigation">
 		<ol>
-			<li>list item</li>
-			<li>list item</li>
-			<li>list item</li>
+			<li>
+				items list
+				<ul>
+					<li>item</li>
+					<li>item</li>
+					<li>
+						nested items list
+						<ul>
+							<li>item</li>
+							<li>item</li>
+							<li>item</li>
+							<li>
+								<ul>
+									<li>item</li>
+									<li>item</li>
+									<li>item</li>
+									<li>item</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>item</li>
+				</ul>
+			</li>
+			<li>item</li>
+			<li>item</li>
+			<li>item</li>
 		</ol>
 	</nav>
+	<div class="toto">
+		<div class="toto">
+			<div class="toto">List item Test</div>
+		</div>
+	</div>
 	<a id="ancre-out"></a>
 	<main role="main" id="main">
 		<a id="ancre-in"></a>
@@ -33,15 +64,17 @@
 				<dl>
 					<dt>Firefox</dt>
 					<dd>Un navigateur Web libre, open-source, multi-plateforme
-					dévelopé par la Mozilla Corporation et des centaines de
-					volontaires.</dd>
+						dévelopé par la Mozilla Corporation et des centaines de
+						volontaires.</dd>
 				</dl>
 
 				<h4>Sed augue ipsum egestas</h4>
 
 				<q lang="en">Build a future where people live in harmony with nature.</q>
 				We hope they succeed.</p>
-				<h5>Sed augue ipsum egestas <a href="#" title="avec un lien contenant un abréviation : réduction du temps de travail ">avec un lien</a></h5>
+				<h5>Sed augue ipsum egestas <a href="#"
+						title="avec un lien contenant un abréviation : réduction du temps de travail ">avec un lien</a>
+				</h5>
 				<blockquote cite="http://www.la-grange.net/w3c/html4.01/struct/text.html#h-9.2.2">
 					<p>
 						L'élément BLOCKQUOTE indique une citation longue
@@ -72,6 +105,12 @@
 		<div role="list">
 			<div role="listitem">list item</div>
 			<div role="listitem">list item</div>
+			<div role="listitem">
+				<div role="list">
+					<div role="listitem">other list item</div>
+					<div role="listitem">other list item</div>
+				</div>
+			</div>
 			<div role="listitem">list item</div>
 		</div>
 	</footer>
@@ -103,15 +142,17 @@
 				<dl>
 					<dt>Firefox</dt>
 					<dd>Un navigateur Web libre, open-source, multi-plateforme
-					dévelopé par la Mozilla Corporation et des centaines de
-					volontaires.</dd>
+						dévelopé par la Mozilla Corporation et des centaines de
+						volontaires.</dd>
 				</dl>
 
 				<h4>Sed augue ipsum egestas</h4>
 
 				<q lang="en">Build a future where people live in harmony with nature.</q>
 				We hope they succeed.</p>
-				<h5>Sed augue ipsum egestas <a href="#" title="avec un lien contenant un abréviation : réduction du temps de travail ">avec un lien</a></h5>
+				<h5>Sed augue ipsum egestas <a href="#"
+						title="avec un lien contenant un abréviation : réduction du temps de travail ">avec un lien</a>
+				</h5>
 				<blockquote cite="http://www.la-grange.net/w3c/html4.01/struct/text.html#h-9.2.2">
 					<p>
 						L'élément BLOCKQUOTE indique une citation longue
@@ -149,4 +190,5 @@
 		</ul>
 	</footer>
 </body>
+
 </html>
