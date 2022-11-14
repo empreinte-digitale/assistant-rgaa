@@ -26,11 +26,12 @@ export const validateLocalPage = (url) => {
 				if (status !== 'complete' || tabId !== tab.id) {
 					return;
 				}
-				const tabWindow = getWindowObject(tab.url, {
+				const tabUrl = tab?.pendingUrl || tab?.url;
+				const tabWindow = getWindowObject(tabUrl, {
 					type: 'tab',
 					windowId: tab.windowId
 				});
-				if (!tabWindow || !tabWindow.validateSource) {
+				if (!tabWindow || typeof tabWindow?.validateSource !== 'function') {
 					return;
 				}
 				tabWindow.validateSource(source);
