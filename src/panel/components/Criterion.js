@@ -1,12 +1,15 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions, jsx-a11y/click-events-have-key-events */
 import React, {PropTypes} from 'react';
-import {map} from 'lodash';
+import {map, isNull, isEmpty} from 'lodash';
 import {injectIntl, intlShape, FormattedMessage} from 'react-intl';
 import renderIf from 'render-if';
 import classNames from 'classnames';
+import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
 import {TestShape} from '../../common/types/test';
 import TestContainer from './TestContainer';
 import Icon from './Icon';
+import ExternalReferences from './ExternalReferences';
+import ParticularCasesTechnicalNotes from './ParticularCasesTechnicalNotes';
 
 /**
  *
@@ -22,7 +25,10 @@ function Criterion({
 	importResults,
 	onToggle,
 	onDone,
-	intl
+	intl,
+	refLinks,
+	particularCases,
+	notes
 }) {
 	const className = classNames('Criterion Theme-criterion', {
 		'is-open': isOpen,
@@ -32,6 +38,7 @@ function Criterion({
 		'Title Title--sub': isOpen
 	});
 	const handleDoneChange = (event) => onDone(event.target.checked);
+
 	return (
 		<li id={`Criterion-${id}`} className={className} data-id={id}>
 			<header className={headerClassName}>
@@ -135,7 +142,7 @@ function Criterion({
 			</header>
 
 			<div className="Criterion-content" id={`Criterion-${id}-content`}>
-				{renderIf(isOpen)(() => (
+				{renderIf(isOpen)(() => [
 					<ul className="Criterion-tests">
 						{tests.map(({id: testId, title: testTitle}) => (
 							<li
@@ -145,8 +152,51 @@ function Criterion({
 								<TestContainer id={testId} title={testTitle} />
 							</li>
 						))}
-					</ul>
-				))}
+					</ul>,
+					<Tabs>
+						<TabList>
+							{renderIf(!isEmpty(refLinks))(() => (
+								<Tab>
+									{intl.formatMessage({id: 'reference.tab.title'})}
+								</Tab>
+							))}
+							{renderIf(!isNull(particularCases))(() => (
+								<Tab>
+									{intl.formatMessage({
+										id: 'particular.note.tab.title'
+									})}
+								</Tab>
+							))}
+							{renderIf(!isNull(notes))(() => (
+								<Tab>
+									{intl.formatMessage({
+										id: 'technical.note.tabs.title'
+									})}
+								</Tab>
+							))}
+						</TabList>
+						{renderIf(!isEmpty(refLinks))(() => (
+							<div className="Notes-references">
+								<TabPanel>
+									<ExternalReferences refLinks={refLinks} intl />
+								</TabPanel>
+
+								{renderIf(!isNull(particularCases))(() => (
+									<TabPanel>
+										<ParticularCasesTechnicalNotes
+											data={particularCases}
+										/>
+									</TabPanel>
+								))}
+								{renderIf(!isNull(notes))(() => (
+									<TabPanel>
+										<ParticularCasesTechnicalNotes data={notes} />
+									</TabPanel>
+								))}
+							</div>
+						))}
+					</Tabs>
+				])}
 			</div>
 		</li>
 	);
@@ -163,14 +213,20 @@ Criterion.propTypes = {
 	onToggle: PropTypes.func.isRequired,
 	isDone: PropTypes.bool,
 	onDone: PropTypes.func.isRequired,
-	intl: intlShape.isRequired
+	intl: intlShape.isRequired,
+	refLinks: PropTypes.oneOfType([PropTypes.array, PropTypes.object])
+		.isRequired,
+	particularCases: PropTypes.oneOfType([PropTypes.string, PropTypes.array]),
+	notes: PropTypes.arrayOf(PropTypes.string)
 };
 
 Criterion.defaultProps = {
 	level: undefined,
 	activeTest: undefined,
 	importResults: {},
-	isDone: false
+	isDone: false,
+	particularCases: null,
+	notes: null
 };
 
 export default injectIntl(Criterion);

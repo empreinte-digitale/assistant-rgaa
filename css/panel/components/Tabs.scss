@@ -1,0 +1,27 @@
+.react-tabs {
+	background-color: $color-white;
+
+	&__tab-list {
+		display: flex;
+		width: 100%;
+		text-decoration: none;
+	}
+
+	&__tab {
+		width: 33.33%;
+		flex: 1 1 auto;
+		text-align: center;
+		background-color: $color-white;
+		padding: 0.5em 0;
+		cursor: pointer;
+		font-family: $font-title;
+		border-top: 0.3em solid transparent;
+
+		&--selected {
+			background-color: $color-orange;
+			color: $color-black;
+			z-index: 100;
+			border-top-color: $color-blue;
+		}
+	}
+}

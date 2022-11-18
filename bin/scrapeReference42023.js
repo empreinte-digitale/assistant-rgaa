@@ -1,24 +1,16 @@
 #!/usr/bin/env node
 const {marked} = require('marked');
+const {isEmpty} = require('lodash');
 
 /**
  * marked js Renderer
  */
 const renderer = new marked.Renderer();
 
-/**
- *
- * @param {string} href
- * @param {string | null} title
- * @param {string} text
- * @returns {string}
- */
-renderer.link = function (href, title, text) {
-	return `<a  href="https://accessibilite.numerique.gouv.fr/methode/glossaire/${href}" target="_blank" title="${
-		title ?? text
-	}">${text}</a>`;
-};
-
+const accessGouvUrl =
+	'https://accessibilite.numerique.gouv.fr/methode/glossaire/';
+const w3cTechniquesUrl = 'https://www.w3.org/WAI/WCAG21/Techniques/';
+const w3cWcag21FrUrl = 'https://www.w3.org/Translations/WCAG21-fr/';
 /**
  *	Transforms data from version 4.1 of the RGAA reference into JSON.
  *
@@ -58,16 +50,42 @@ function buildThemes(rgaaJsonCriteria) {
  * @returns  {object} Object
  */
 function parseCriteria(criterias, topicNumber) {
-	return criterias.map((criteria) => ({
-		id: `${topicNumber}.${criteria.criterium.number}`,
-		title: marked(criteria.criterium.title, {renderer}),
-		level: getWcagLevel(criteria.criterium.references[0]?.wcag[0]),
-		tests: getTests(
-			criteria.criterium.tests,
-			criteria.criterium.number,
-			topicNumber
-		)
-	}));
+	return criterias.map((criteria) => {
+		return {
+			'id': `${topicNumber}.${criteria.criterium.number}`,
+			'title': marked(criteria.criterium.title, {
+				renderer: markedLinkBuilder(accessGouvUrl)
+			}),
+			'level': `${getWcagLevel(criteria.criterium.references[0]?.wcag[0])}`,
+			'tests': getTests(
+				criteria.criterium.tests,
+				criteria.criterium.number,
+				topicNumber
+			),
+			'particularCases': formatParticularCasesToMarkdown(
+				criteria.criterium?.particularCases
+			),
+			'technicalNotes': formatTechnicalNotesToMarkdown(criteria.criterium?.technicalNote),
+			'references': [
+				{
+					'wcag': marked(
+						getWcagMatches(criteria.criterium.references[0]?.wcag),
+						{
+							renderer: markedLinkBuilder(w3cWcag21FrUrl)
+						}
+					)
+				},
+				{
+					'techniques': marked(
+						getWcagTechnics(criteria.criterium.references[1]?.techniques),
+						{
+							renderer: markedLinkBuilder(w3cTechniquesUrl)
+						}
+					)
+				}
+			]
+		};
+	});
 }
 
 /**
@@ -88,7 +106,9 @@ function getWcagLevel(wcag) {
 function getTests(tests, criteriumId, topicNumber) {
 	return Object.entries(tests).map(([key, test]) => ({
 		id: `${topicNumber}.${criteriumId}.${key}`,
-		title: marked(formatTest(test), {renderer})
+		title: marked(formatTest(test), {
+			renderer: markedLinkBuilder(accessGouvUrl)
+		})
 	}));
 }
 
@@ -100,4 +120,115 @@ function formatTest(lines) {
 	const paragraph = lines.shift();
 	const list = lines.map((line) => `* ${line}`);
 	return [paragraph, ...list].join('\n');
+}
+
+/**
+ * @param {array} wcag
+ */
+function getWcagMatches(wcag) {
+	return wcag
+		.map((v) => {
+			let hashUrl = v.match(/([A-Z])\w+/g);
+			if (hashUrl !== null) {
+				hashUrl.unshift('#');
+				hashUrl = hashUrl.join('-').toLowerCase();
+			} else {
+				hashUrl = '#';
+			}
+			return ` * [${v.match(/\d+/g).join('.')} (${getWcagLevel(
+				v
+			)})](${hashUrl})`;
+		})
+		.join('\n');
+}
+
+const wcagCategories = {
+	'H': 'html',
+	'G': 'general',
+	'C': 'css',
+	'F': 'failures',
+	'A': 'aria',
+	'S': 'client-side-script'
+};
+/**
+ * @param {object} technics
+ * @returns {string} String
+ */
+function getWcagTechnics(technics) {
+	if (isEmpty(technics)) {
+		return '';
+	}
+	const buildMdLink = (uri, ref) =>
+		`[${ref.join('')}](${uri}/${ref.join('')})`;
+	return Object.values(technics)
+		.map((v) => {
+			const ref = v.split('');
+			return ` * ${buildMdLink(wcagCategories[ref[0]], ref)}`;
+		})
+		.join(' \n');
+}
+
+const isLink = new RegExp(/(https?:\/\/[^\s]+)/, 'g');
+/**
+ * @param {string} link
+ * @param {string|null} className
+ * @param {string|null} target
+ * @returns
+ */
+function markedLinkBuilder(link, className = null, target = '_blank') {
+	renderer.link = function (href, title, text) {
+		const alreadyLink = href.match(isLink);
+
+		return `<a  href="${alreadyLink ? alreadyLink[0] : link + href}" ${
+			className ? `class="${className}"` : ''
+		} target="${target}" title="${
+			title ?? text + ' - nouvelle fenêtre'
+		}">${text}</a>`;
+	};
+	return renderer;
+}
+
+/**
+ *
+ * @param {Array<object|string>|undefined} particularCases
+ */
+function formatParticularCasesToMarkdown(particularCases) {
+	if (!particularCases) {
+		return null;
+	}
+
+	return particularCases.map((pCase) => {
+		if (typeof pCase === 'string') {
+			return marked(pCase, {
+				renderer: markedLinkBuilder(accessGouvUrl)
+			});
+		}
+
+		return {
+			case: marked(pCase.ul.join('\n'), {
+				renderer: markedLinkBuilder(accessGouvUrl)
+			})
+		};
+	});
+}
+
+/**
+ *
+ * @param {Array<string>} technicalNotes
+ */
+function formatTechnicalNotesToMarkdown(technicalNotes) {
+	if (!technicalNotes) {
+		return null;
+	}
+
+	return technicalNotes.map((note) => {
+		if (typeof note === 'string') {
+			return marked(note, {
+				renderer: markedLinkBuilder(accessGouvUrl)
+			});
+		}
+		return marked(note.ul.join('\n').replace(',', '\n'), {
+			renderer: markedLinkBuilder(accessGouvUrl)
+		});
+	});
 }

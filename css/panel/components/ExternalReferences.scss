@@ -1,0 +1,49 @@
+.Notes-references {
+	display: inline-block;
+	color: $color-black;
+	line-height: 1.6;
+	width: 100%;
+	margin-bottom: 1em;
+	@include typi($typi-large);
+	padding: 0.4em 0.8em;
+	background-color: $color-white;
+}
+
+.References-container {
+	ul {
+		display: flex;
+		justify-content: start;
+		flex-wrap: wrap;
+		margin-bottom: 0.5em;
+		color: $color-white;
+		gap: 0.3em;
+
+		a {
+			width: 100%;
+			text-decoration: none;
+			padding: 0.3em 0.9em;
+			color: inherit;
+			border-radius: 40px;
+			background-color: $color-blue-dark;
+			@include typi($typi-regular);
+
+			&:hover,
+			&:focus {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.Wcag-success {
+		&--header {
+			font-weight: bold;
+			font-family: $font-title;
+			@include typi($typi-large);
+		}
+
+		p {
+			@include typi($typi-regular);
+			margin-bottom: 5px;
+		}
+	}
+}
