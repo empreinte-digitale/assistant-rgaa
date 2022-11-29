@@ -2498,22 +2498,24 @@
 		},
 		{
 			"helper": "outline",
-			"selector": "svg a"
+			"selector": "svg:has(a)"
 		},
 		{
 			"helper": "showElement",
-			"selector": "svg a",
+			"selector": "svg:has(a)",
 			"showContent": true
 		},
 		{
-			"helper": "showAttributes",
-			"selector": "svg a",
+			"helper": "showChildElements",
+			"selector": "svg:has(a)",
+			"childrenSelector": "a",
 			"attributes": [
 				"aria-label",
 				"aria-labelledby",
 				"xlink:href",
 				"x-link:title"
-			]
+			],
+			"showContent": true
 		}
 	],
 	"6.2.1": [
