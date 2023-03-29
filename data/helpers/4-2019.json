@@ -1,9 +1,6 @@
 {
 	"1.1.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "img, [role='img']",
 			"showTag":true
@@ -24,9 +21,6 @@
 	],
 	"1.1.2": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "map",
 			"showTag":true
@@ -43,9 +37,6 @@
 		}
 	],
 	"1.1.3": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "input[type=\"image\"]",
@@ -73,9 +64,6 @@
 	],
 	"1.1.4": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "img[ismap]"
 		},
@@ -90,9 +78,6 @@
 		}
 	],
 	"1.1.5": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "svg"
@@ -118,9 +103,6 @@
 	],
 	"1.1.6": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "object[type^=\"image\"]"
 		},
@@ -143,9 +125,6 @@
 		}
 	],
 	"1.1.7": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "embed[type^=\"image\"]"
@@ -170,9 +149,6 @@
 	],
 	"1.1.8": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "canvas"
 		},
@@ -196,9 +172,6 @@
 	],
 	"1.2.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "img:not(a img, button img)"
 		},
@@ -218,9 +191,6 @@
 	],
 	"1.2.2": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "area:not([href])",
 			"showTag":true
@@ -238,9 +208,6 @@
 		}
 	],
 	"1.2.3": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "object[type^=\"image\"]",
@@ -277,9 +244,6 @@
 						}
 					],
 	"1.2.4": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "svg",
@@ -318,9 +282,6 @@
 	],
 	"1.2.5": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "canvas",
 			"showTag":true
@@ -357,9 +318,6 @@
 	],
 	"1.2.6": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "embed",
 			"showTag":true
@@ -395,9 +353,6 @@
 	],
 	"1.3.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "img:not(a img, button img), [role='img']:not(a [role='img'], button [role='img'])"
 		},
@@ -413,9 +368,6 @@
 		}
 	],
 	"1.3.2": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "map"
@@ -435,9 +387,6 @@
 	],
 	"1.3.3": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "input[type=\"image\"][alt]"
 			},
@@ -454,9 +403,6 @@
 			],
 	"1.3.4": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "object[type^=\"image\"][title], object[type^=\"image\"][aria-label], object[type^=\"image\"][aria-labelledby]"
 			},
@@ -472,9 +418,6 @@
 			],
 	"1.3.5": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "embed[type^=\"image\"][title], embed[type^=\"image\"][aria-label], embed[type^=\"image\"][aria-labelledby]"
 			},
@@ -489,9 +432,6 @@
 				}
 			],
 	"1.3.6": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "svg",
@@ -510,9 +450,6 @@
 	],
 	"1.3.7": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "canvas"
 		},
@@ -529,9 +466,6 @@
 	],
 	"1.3.8": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "canvas[title], canvas[aria-label], canvas[aria-labelledby]"
 		},
@@ -546,9 +480,6 @@
 		}
 	],
 	"1.3.9": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "a, img, map, svg, input[type=\"image\"][alt], object[type^=\"image\"], object[type^=\"image\"][aria-label], object[type^=\"image\"][aria-labelledby], embed[type^=\"image\"], embed[type^=\"image\"][title], embed[type^=\"image\"][aria-label], embed[type^=\"image\"][aria-labelledby]",
@@ -618,9 +549,6 @@
 					],
 	"1.4.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "img[alt]"
 		},
@@ -636,9 +564,6 @@
 		}
 	],
 	"1.4.2": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "map",
@@ -659,9 +584,6 @@
 	],
 	"1.4.3": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "input[type=\"image\"][alt]"
 			},
@@ -678,17 +600,11 @@
 			],
 	"1.4.4": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "object[type^=\"image\"]"
 			}
 		],
 	"1.4.5": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "object[type^=\"image\"][title], object[type^=\"image\"][aria-label], object[type^=\"image\"][aria-labelledby]"
@@ -705,17 +621,11 @@
 			],
 	"1.4.6": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "embed[type^=\"image\"]"
 			}
 		],
 	"1.4.7": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "embed[type^=\"image\"][title], embed[type^=\"image\"][aria-label], embed[type^=\"image\"][aria-labelledby]"
@@ -731,9 +641,6 @@
 				}
 			],
 	"1.4.8": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "svg",
@@ -760,9 +667,6 @@
 	],
 	"1.4.9": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "svg",
 			"showTag":true
@@ -779,9 +683,6 @@
 	],
 	"1.4.10": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "canvas"
 		},
@@ -795,9 +696,6 @@
 		}
 	],
 	"1.4.11": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "canvas[title], canvas[aria-label], canvas[aria-labelledby]"
@@ -814,9 +712,6 @@
 	],
 	"1.4.12": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "canvas"
 		},
@@ -831,9 +726,6 @@
 	],
 	"1.5.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "img, area, object, embed, svg, canvas",
 			"showTag":true
@@ -841,18 +733,12 @@
 	],
 	"1.5.2": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "input[type=\"image\"]",
 				"showTag":true
 			}
 		],
 	"1.6.1": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "img",
@@ -870,9 +756,6 @@
 	],
 	"1.6.2": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "object[type^=\"image\"]",
 				"showTag":true
@@ -880,18 +763,12 @@
 		],
 	"1.6.3": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "embed[type^=\"image\"]",
 				"showTag":true
 			}
 		],
 	"1.6.4": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "input[type=\"image\"]",
@@ -909,9 +786,6 @@
 			],
 	"1.6.5": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "input[type=\"image\"][aria-describedby]",
 				"showTag":true
@@ -926,9 +800,6 @@
 				}
 			],
 	"1.6.6": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "svg",
@@ -953,9 +824,6 @@
 	],
 	"1.6.7": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "svg:has(desc), svg[aria-label]",
 			"showTag":true
@@ -979,9 +847,6 @@
 	],
 	"1.6.8": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "canvas",
 			"showTag":true
@@ -996,9 +861,6 @@
 		}
 	],
 	"1.6.9": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "canvas",
@@ -1015,9 +877,6 @@
 	],
 	"1.6.10": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "img[alt][aria-describedby], area[alt][aria-describedby], object[type^=\"image\"][aria-describedby], embed[type^=\"image\"][aria-describedby], svg[aria-describedby], canvas[aria-describedby]",
 				"showTag":true
@@ -1031,9 +890,6 @@
 				}
 			],
 	"1.7.1": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "img",
@@ -1050,9 +906,6 @@
 	],
 	"1.7.2": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "input[type=\"image\"]",
 				"showTag":true
@@ -1068,9 +921,6 @@
 			],
 	"1.7.3": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "object[type^=\"image\"]",
 				"showTag":true
@@ -1078,18 +928,12 @@
 		],
 	"1.7.4": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "embed[type^=\"image\"]",
 				"showTag":true
 			}
 		],
 	"1.7.5": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "showElement",
 			"selector": "svg",
@@ -1109,9 +953,6 @@
 	],
 	"1.7.6": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "svg:has(desc)",
 			"showTag":true
@@ -1128,9 +969,6 @@
 	],
 	"1.7.7": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "canvas",
 			"showTag":true
@@ -1145,9 +983,6 @@
 		}
 	],
 	"1.7.8": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "canvas",
@@ -1164,18 +999,12 @@
 	],
 	"1.8.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "img",
 			"showTag":true
 		}
 	],
 	"1.8.2": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "input[type=\"image\"]",
@@ -1184,18 +1013,12 @@
 		],
 	"1.8.3": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "object[type^=\"image\"]",
 				"showTag":true
 			}
 		],
 	"1.8.4": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "embed[type^=\"image\"]",
@@ -1204,9 +1027,6 @@
 		],
 	"1.8.5": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "canvas",
 			"showTag":true
@@ -1214,9 +1034,6 @@
 	],
 
 	"1.9.1": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "showElement",
 			"selector": "img, input[type=\"image\"]",
@@ -1246,9 +1063,6 @@
 					],
 	"1.9.2": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "showElement",
 			"selector": "object[type^=\"image\"]",
 				"attributes": [
@@ -1275,9 +1089,6 @@
 						}
 					],
 	"1.9.3": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "showElement",
 			"selector": "embed",
@@ -1307,9 +1118,6 @@
 		}
 	],
 	"1.9.4": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "showElement",
 			"selector": "svg",
@@ -1348,9 +1156,6 @@
 	],
 	"1.9.5": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "showElement",
 			"selector": "canvas",
 			"attributes": [
@@ -1380,9 +1185,6 @@
 	],
 	"2.1.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "iframe, frame"
 		},
@@ -1395,9 +1197,6 @@
 		}
 	],
 	"2.2.1": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "iframe, frame",
@@ -1415,9 +1214,6 @@
 	"3.1.2": [],
 	"3.1.3": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "img, svg, canvas, embed, object[type=\"image\"], input[type=\"image\"]",
 				"showTag":true
@@ -1426,18 +1222,12 @@
 	"3.1.4": [],
 	"3.1.5": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "object, video, embed, svg, canvas, iframe",
 			"showTag":true
 		}
 	],
 	"3.1.6": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "object, embed, svg, canvas, iframe",
@@ -1635,18 +1425,12 @@
 	],
 	"4.1.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "object, audio, video, embed, iframe",
 			"showTag":true
 		}
 	],
 	"4.1.2": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "object, video, embed, iframe",
@@ -1655,18 +1439,12 @@
 	],
 	"4.1.3": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "object, video, embed, iframe",
 			"showTag":true
 		}
 	],
 	"4.2.1": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "object, audio, video, embed, iframe",
@@ -1675,18 +1453,12 @@
 	],
 	"4.2.2": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "object, video, embed, iframe",
 			"showTag":true
 		}
 	],
 	"4.2.3": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "object, video, embed, iframe",
@@ -1695,18 +1467,12 @@
 	],
 	"4.3.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "object, video, embed, iframe",
 			"showTag":true
 		}
 	],
 	"4.3.2": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "video, embed, iframe",
@@ -1724,18 +1490,12 @@
 	],
 	"4.4.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "object, video, embed, iframe",
 			"showTag":true
 		}
 	],
 	"4.5.1": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "object, audio, video, embed, iframe",
@@ -1744,18 +1504,12 @@
 	],
 	"4.5.2": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "object, video, embed, iframe",
 			"showTag":true
 		}
 	],
 	"4.6.1": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "object, video, embed, iframe",
@@ -1764,18 +1518,12 @@
 	],
 	"4.6.2": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "object, video, embed, iframe",
 			"showTag":true
 		}
 	],
 	"4.7.1": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "object, video, embed, iframe",
@@ -1784,18 +1532,12 @@
 	],
 	"4.7.2": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "object, video, embed, iframe",
 			"showTag":true
 		}
 	],
 	"4.8.1": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "object, video, audio, embed, iframe",
@@ -1804,18 +1546,12 @@
 	],
 	"4.8.2": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "object, video, audio, embed, iframe",
 			"showTag":true
 		}
 	],
 	"4.9.1": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "object, svg, canvas, embed, iframe",
@@ -1824,18 +1560,12 @@
 	],
 	"4.9.2": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "object, svg, canvas, embed, iframe",
 			"showTag":true
 		}
 	],
 	"4.10.1": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "audio, video, object, embed, bgsound, iframe",
@@ -1844,18 +1574,12 @@
 	],
 	"4.11.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "audio, video, object, embed, iframe",
 			"showTag":true
 		}
 	],
 	"4.11.2": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "audio, video, object, embed, iframe",
@@ -1864,18 +1588,12 @@
 	],
 	"4.11.3": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "audio, video, object, embed, iframe",
 			"showTag":true
 		}
 	],
 	"4.12.1": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "object, svg, canvas, embed, iframe",
@@ -1893,9 +1611,6 @@
 	],
 	"4.12.2": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "object, svg, canvas, embed, iframe",
 			"showTag":true
@@ -1912,9 +1627,6 @@
 	],
 	"4.13.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "object, svg, canvas, embed, iframe, video, audio, bgsound",
 			"showTag":true
@@ -1922,18 +1634,12 @@
 	],
 	"4.13.2": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "object, svg, canvas, embed, iframe, video, audio, bgsound",
 			"showTag":true
 		}
 	],
 	"5.1.1": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "table",
@@ -1978,9 +1684,6 @@
 	],
 	"5.2.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "table",
 			"showTag":true
@@ -2024,9 +1727,6 @@
 	],
 	"5.3.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "style",
 			"description": "Linéarise les tableaux",
 			"style": "table, tr, th, td { display: block; }"
@@ -2045,9 +1745,6 @@
 		}
 	],
 	"5.4.1": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "table, [role='table']",
@@ -2090,9 +1787,6 @@
 	],
 	"5.5.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "table, [role='table']",
 			"showTag":true
@@ -2134,9 +1828,6 @@
 	],
 	"5.6.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "table, [role='table']"
 		},
@@ -2159,9 +1850,6 @@
 	],
 	"5.6.2": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "table, [role='table']"
 		},
@@ -2183,9 +1871,6 @@
 		}
 	],
 	"5.7.1": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "table th"
@@ -2217,9 +1902,6 @@
 	],
 	"5.7.2": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "table th[scope]"
 		},
@@ -2239,9 +1921,6 @@
 		}
 	],
 	"5.7.3": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "table th"
@@ -2265,9 +1944,6 @@
 		}
 	],
 	"5.7.4": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "table th",
@@ -2297,9 +1973,6 @@
 	],
 	"5.7.5": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "showAttributes",
 			"selector": "[role='columnheader'], [role='rowheader']",
 			"attributes": [
@@ -2308,9 +1981,6 @@
 		}
 	],
 	"5.8.1": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "table",
@@ -2388,9 +2058,6 @@
 	],
 	"6.1.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "a:not([role]), [role='link']",
 			"showTag": true
@@ -2406,9 +2073,6 @@
 		}
 	],
 	"6.1.2": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "a:not([role]), [role='link'], img[usemap], a:not([role]) canvas, [role='link'] canvas, a:not([role]) object, [role='link'] object, a:not([role]) embed, [role='link'] embed, a:not([role]) svg, [role='link'] svg"
@@ -2460,9 +2124,6 @@
 		}
 	],
 	"6.1.3": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "a:not([role]), [role='link'], img[usemap], a:not([role]) canvas, [role='link'] canvas, a:not([role]) object, [role='link'] object, a:not([role]) embed, [role='link'] embed, a:not([role]) svg, [role='link'] svg"
@@ -2518,9 +2179,6 @@
 	],
 	"6.1.4": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "svg:has(a)"
 		},
@@ -2543,9 +2201,6 @@
 		}
 	],
 	"6.2.1": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "a:not([role]), [role='link']"
@@ -2651,9 +2306,6 @@
 	],
 	"8.3.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "showElement",
 			"selector": "[lang], [xml\\:lang]",
 			"attributes": [
@@ -2663,9 +2315,6 @@
 		}
 	],
 	"8.4.1": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "showElement",
 			"selector": "[lang], [xml\\:lang]",
@@ -2694,9 +2343,6 @@
 	],
 	"8.7.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "showElement",
 			"selector": "[lang], [xml\\:lang]",
 			"attributes": [
@@ -2707,9 +2353,6 @@
 	],
 	"8.8.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "showElement",
 			"selector": "[lang], [xml\\:lang]",
 			"attributes": [
@@ -2719,9 +2362,6 @@
 		}
 	],
 	"8.9.1": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "h1, h2, h3, h4, h5, h6, p, p:empty, li, blockquote",
@@ -2737,9 +2377,6 @@
 	],
 	"8.10.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "showAttributes",
 			"selector": "[dir]",
 			"attributes": [
@@ -2749,9 +2386,6 @@
 	],
 	"8.10.2": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "showAttributes",
 			"selector": "[dir]",
 			"attributes": [
@@ -2760,9 +2394,6 @@
 		}
 	],
 	"9.1.1": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "h1,h2,h3,h4,h5,h6, [role='heading']",
@@ -2783,9 +2414,6 @@
 	],
 	"9.1.2": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "h1,h2,h3,h4,h5,h6, [role='heading']",
 			"showTag":true
@@ -2800,9 +2428,6 @@
 		}
 	],
 	"9.1.3": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "h1,h2,h3,h4,h5,h6, [role='heading']",
@@ -2819,18 +2444,12 @@
 	],
 	"9.2.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "header, nav, main, footer",
 			"showTag":true
 		}
 	],
 	"9.3.1": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "ul, ul li",
@@ -2850,9 +2469,6 @@
 	],
 	"9.3.2": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "ol, ol li",
 			"showTag":true
@@ -2871,18 +2487,12 @@
 	],
 	"9.3.3": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "dl,dt,dd",
 			"showTag":true
 		}
 	],
 	"9.4.1": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "q",
@@ -2891,9 +2501,6 @@
 	],
 	"9.4.2": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "blockquote",
 			"showTag":true
@@ -2901,18 +2508,12 @@
 	],
 	"10.1.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "basefont, blink, center, font, marquee, s, strike, tt, u",
 			"showTag":true
 		}
 	],
 	"10.1.2": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "showElement",
 			"selector": "[align], [alink], [background], [bgcolor], [border], [cellpadding], [cellspacing], [char], [charoff], [clear], [compact], [color], [frameborder], [hspace], [link], [marginheight], [marginwidth], [text], [valign], [vlink], [vspace], [size], [height]:not(svg):not(canvas):not(embed):not(object):not(img), [width]:not(svg):not(canvas):not(embed):not(object):not(img)",
@@ -2944,21 +2545,9 @@
 			]
 		}
 	],
-	"10.1.3": [
-		{
-			"helper": "disableAllStyles"
-		}
-	],
-	"10.2.1": [
-		{
-			"helper": "disableAllStyles"
-		}
-	],
-	"10.3.1": [
-		{
-			"helper": "disableAllStyles"
-		}
-	],
+	"10.1.3": [],
+	"10.2.1": [],
+	"10.3.1": [],
 	"10.4.1": [],
 	"10.4.2": [],
 	"10.4.3": [],
@@ -2995,9 +2584,6 @@
 	"10.7.1": [],
 	"10.8.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "[hidden], [aria-hidden='true']"
 		},
@@ -3013,9 +2599,6 @@
 	"10.9.1": [],
 	"10.9.2": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "img, object, video, embed, svg, canvas, iframe, input[type=\"image\"]",
 				"showTag":true
@@ -3023,18 +2606,12 @@
 		],
 	"10.9.3": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "img, object, video, embed, svg, canvas, iframe, input[type=\"image\"]",
 				"showTag":true
 			}
 		],
 	"10.9.4": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "img, object, video, embed, svg, canvas, iframe, input[type=\"image\"]",
@@ -3044,9 +2621,6 @@
 	"10.10.1": [],
 	"10.10.2": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "img, object, video, embed, svg, canvas, iframe, input[type=\"image\"]",
 				"showTag":true
@@ -3054,18 +2628,12 @@
 		],
 	"10.10.3": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "img, object, video, embed, svg, canvas, iframe, input[type=\"image\"]",
 				"showTag":true
 			}
 		],
 	"10.10.4": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "img, object, video, embed, svg, canvas, iframe, input[type=\"image\"]",
@@ -3082,9 +2650,6 @@
 		}
 	],
 	"11.1.1": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "label, input:not([type='hidden']):not([type='submit']):not([type='reset']):not([type='image']):not([type='button']), select, textarea, output, progress, meter, [role='checkbox'], [role='switch'], [role='radio']"
@@ -3116,9 +2681,6 @@
 	],
 	"11.1.2": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "label, input:not([type='hidden']):not([type='submit']):not([type='reset']):not([type='image']):not([type='button']), select, textarea, output, progress, meter, [role='checkbox'], [role='switch'], [role='radio']"
 		},
@@ -3139,9 +2701,6 @@
 		}
 	],
 	"11.1.3": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "input[aria-label]:not([type='hidden']):not([type='submit']):not([type='reset']):not([type='image']):not([type='button']), select[aria-label], textarea[aria-label], output[aria-label], progress[aria-label], meter[aria-label], input[aria-labelledby]:not([type='hidden']):not([type='submit']):not([type='reset']):not([type='image']):not([type='button']), select[aria-labelledby], textarea[aria-labelledby], output[aria-labelledby], progress[aria-labelledby], meter[aria-labelledby], [role='checkbox'][aria-label], [role='switch'][aria-label], [role='radio'][aria-label], [role='checkbox'][aria-labelledby], [role='switch'][aria-labelledby], [role='radio'][aria-labelledby]"
@@ -3165,9 +2724,6 @@
 	],
 	"11.2.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "label, input:not([type='hidden']):not([type='submit']):not([type='reset']):not([type='image']):not([type='button']), select, textarea, output, progress, meter, [role='checkbox'], [role='switch'], [role='radio']"
 		},
@@ -3189,9 +2745,6 @@
 	],
 	"11.2.2": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "input[title]:not([type='hidden']):not([type='submit']):not([type='reset']):not([type='image']):not([type='button']), select[title], textarea[title], output[title], progress[title], meter[title], [role='checkbox'][title], [role='switch'][title], [role='radio'][title]"
 		},
@@ -3204,9 +2757,6 @@
 		}
 	],
 	"11.2.3": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "input[aria-label]:not([type='hidden']):not([type='submit']):not([type='reset']):not([type='image']):not([type='button']), select[aria-label], textarea[aria-label], output[aria-label], progress[aria-label], meter[aria-label], [role='checkbox'][aria-label], [role='switch'][aria-label], [role='radio'][aria-label]"
@@ -3221,9 +2771,6 @@
 	],
 	"11.2.4": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "input[aria-labelledby]:not([type='hidden']):not([type='submit']):not([type='reset']):not([type='image']):not([type='button']), select[aria-labelledby], textarea[aria-labelledby], output[aria-labelledby], progress[aria-labelledby], meter[aria-labelledby], [role='checkbox'][aria-labelledby], [role='switch'][aria-labelledby], [role='radio'][aria-labelledby]"
 		},
@@ -3236,9 +2783,6 @@
 		}
 	],
 	"11.2.5": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "input[aria-labelledby]:not([type='hidden']):not([type='submit']):not([type='reset']):not([type='image']):not([type='button']), select[aria-labelledby], textarea[aria-labelledby], output[aria-labelledby], progress[aria-labelledby], meter[aria-labelledby], [role='checkbox'][aria-labelledby], [role='switch'][aria-labelledby], [role='radio'][aria-labelledby]"
@@ -3265,9 +2809,6 @@
 	"11.2.6": [],
 	"11.3.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "label",
 			"showTag":true
@@ -3287,9 +2828,6 @@
 		}
 	],
 	"11.3.2": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "label",
@@ -3324,9 +2862,6 @@
 	],
 	"11.5.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "fieldset",
 			"showTag":true
@@ -3355,9 +2890,6 @@
 		}
 	],
 	"11.6.1": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "fieldset, legend",
@@ -3390,9 +2922,6 @@
 	],
 	"11.7.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "fieldset, legend",
 			"showTag":true
@@ -3424,9 +2953,6 @@
 	],
 	"11.8.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "select"
 		},
@@ -3449,9 +2975,6 @@
 		}
 	],
 	"11.8.2": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "select:has(optgroup)"
@@ -3476,9 +2999,6 @@
 	],
 	"11.8.3": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "select:has(optgroup)"
 		},
@@ -3500,9 +3020,6 @@
 		}
 	],
 	"11.9.1": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "button, [type='submit'], [type='reset'], [type='image'], [type='button']"
@@ -3529,9 +3046,6 @@
 	],
 	"11.9.2": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "button, [type='submit'], [type='reset'], [type='image'], [type='button']"
 		},
@@ -3557,9 +3071,6 @@
 	],
 	"11.10.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "label",
 			"showTag":true
@@ -3583,9 +3094,6 @@
 		}
 	],
 	"11.10.2": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "label",
@@ -3611,9 +3119,6 @@
 	],
 	"11.10.3": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "showElement",
 			"selector": "[aria-invalid='true']",
 			"attributes": [
@@ -3622,9 +3127,6 @@
 		}
 	],
 	"11.10.4": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "label",
@@ -3653,9 +3155,6 @@
 		}
 	],
 	"11.10.5": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "label",
@@ -3695,9 +3194,6 @@
 	],
 	"11.10.6": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "showElement",
 			"selector": "[aria-invalid='true']",
 			"attributes": [
@@ -3706,9 +3202,6 @@
 		}
 	],
 	"11.10.7": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "label",
@@ -3750,16 +3243,8 @@
 			]
 		}
 	],
-	"12.1.1": [
-		{
-			"helper": "disableAllStyles"
-		}
-	],
-	"12.2.1": [
-		{
-			"helper": "disableAllStyles"
-		}
-	],
+	"12.1.1": [],
+	"12.2.1": [],
 	"12.3.2": [
 		{
 			"helper": "externalTool",
@@ -3767,26 +3252,10 @@
 			"url": "https://validator.w3.org/checklink?uri=:url"
 		}
 	],
-	"12.4.1": [
-		{
-			"helper": "disableAllStyles"
-		}
-	],
-	"12.4.3": [
-		{
-			"helper": "disableAllStyles"
-		}
-	],
-	"12.5.1": [
-		{
-			"helper": "disableAllStyles"
-		}
-	],
-	"12.5.3": [
-		{
-			"helper": "disableAllStyles"
-		}
-	],
+	"12.4.1": [],
+	"12.4.3": [],
+	"12.5.1": [],
+	"12.5.3": [],
 	"12.6.1": [
 		{
 			"helper": "outline",
@@ -3804,9 +3273,6 @@
 	],
 	"12.7.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "outline",
 			"selector": "a[href^='#']"
 		},
@@ -3820,9 +3286,6 @@
 		}
 	],
 	"12.7.2": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "a[href^='#']"
@@ -3886,9 +3349,6 @@
 	],
 	"13.5.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "showAttributes",
 			"selector": "*",
 			"attributes": [
@@ -3898,9 +3358,6 @@
 	],
 	"13.6.1": [
 		{
-			"helper": "disableAllStyles"
-		},
-		{
 			"helper": "showAttributes",
 			"selector": "*",
 			"attributes": [
@@ -3909,9 +3366,6 @@
 		}
 	],
 	"13.7.1": [
-		{
-			"helper": "disableAllStyles"
-		},
 		{
 			"helper": "outline",
 			"selector": "img, svg, canvas, embed, object",

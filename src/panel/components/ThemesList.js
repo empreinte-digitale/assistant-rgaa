@@ -5,7 +5,6 @@ import {map} from 'lodash';
 import {FormattedMessage} from 'react-intl';
 import {Wrapper, Button, Menu} from 'react-aria-menubutton';
 import {ThemeShape} from '../../common/types/theme';
-import DevToolsContainer from './DevToolsContainer';
 import ThemesListItem from './ThemesListItem';
 import Icon from './Icon';
 
@@ -38,10 +37,10 @@ function ThemesList({themes, isOpen, setOpen}) {
 			onMenuToggle={(menu) => setOpen(menu.isOpen)}
 			id="ThemesList-wrapper"
 		>
-			<h2 className="ThemesList-title Title Title--accent">
-				<Button className="ThemesList-toggle" id="themesMenu">
+			<h2 className="ThemesList-title">
+				<Button className="ThemesList-toggle ActionButton" id="themesMenu">
 					{renderIf(isOpen)(() => (
-						<span aria-hidden className="ThemesList-toggleIcon">
+						<span aria-hidden="true" className="ThemesList-toggleIcon">
 							▼
 						</span>
 					))}
@@ -51,10 +50,6 @@ function ThemesList({themes, isOpen, setOpen}) {
 					<FormattedMessage id="ThemesList.title" />
 				</Button>
 			</h2>
-
-			{renderIf(process.env.NODE_ENV !== 'production')(() => (
-				<DevToolsContainer />
-			))}
 
 			<Menu tag="ul" className="ThemesList-list">
 				{map(themes, (theme) => (
