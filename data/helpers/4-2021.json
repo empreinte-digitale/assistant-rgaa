@@ -2889,7 +2889,7 @@
 		},
 		{
 			"helper": "outline",
-			"selector": "basefont, blink, center, font, marquee, s, strike, tt, u",
+			"selector": "basefont, blink, center, font, marquee, s, strike, tt, u, big",
 			"showTag":true
 		}
 	],
