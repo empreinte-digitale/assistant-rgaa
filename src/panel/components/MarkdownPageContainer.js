@@ -1,6 +1,6 @@
 import {lifecycle} from 'recompose';
 import frontmatter from 'frontmatter';
-import marked from 'marked';
+import {marked} from 'marked';
 import {replaceLocalUrls} from '../../common/api/markdown';
 import MarkdownPage from './MarkdownPage';
 

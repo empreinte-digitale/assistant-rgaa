@@ -2,8 +2,6 @@ const _ = require('lodash');
 const fs = require('fs');
 const request = require('request');
 
-
-
 /**
  *
  */
@@ -33,17 +31,14 @@ const readJson = (path) => {
 /**
  *
  */
-const jsonify = (data) =>
-	JSON.stringify(data, null, '\t');
+const jsonify = (data) => JSON.stringify(data, null, '\t');
 
 /**
  *
  */
 const writeJsonTo = (path, merge) => (data) => {
 	const oldData = readJson(path);
-	const newData = merge
-		? _.merge({}, oldData, data)
-		: data;
+	const newData = merge ? _.merge({}, oldData, data) : data;
 
 	fs.writeFileSync(path, jsonify(newData));
 };
@@ -51,10 +46,7 @@ const writeJsonTo = (path, merge) => (data) => {
 /**
  *
  */
-const logError = (error) =>
-	console.error(error);
-
-
+const logError = (error) => console.error(error);
 
 /**
  *

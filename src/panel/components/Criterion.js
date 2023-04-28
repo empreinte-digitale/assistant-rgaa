@@ -53,7 +53,6 @@ function Criterion({
 								/>
 							</span>
 						</button>
-
 						<h3 className="Criterion-id">
 							{intl.formatMessage({id: 'Criterion.title'}, {id})}
 
@@ -66,7 +65,6 @@ function Criterion({
 								</span>
 							))}
 						</h3>
-
 						{renderIf(level)(() => (
 							<span className="Criterion-level">
 								{intl.formatMessage(
@@ -75,8 +73,7 @@ function Criterion({
 								)}
 							</span>
 						))}
-
-						<p
+						<div
 							className="Criterion-description"
 							// eslint-disable-next-line react/no-danger
 							dangerouslySetInnerHTML={{__html: title}}
