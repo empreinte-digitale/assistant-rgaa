@@ -11,7 +11,7 @@ export const getReferencesList = () => [
 	{name: 'RGAA 3-2017', version: '3-2017'},
 	{name: 'RGAA 4.0 (2019)', version: '4-2019'},
 	{name: 'RGAA 4.1 (2021)', version: '4-2021'},
-	{name: 'RGAA 4.1 (2023)', version: '4.1-2023'}
+	{name: 'RGAA 4.1.2 (2023)', version: '4.1-2023'}
 ];
 
 /**
