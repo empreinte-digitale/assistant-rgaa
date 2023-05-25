@@ -77,7 +77,7 @@ function parseCriteria(criterias, topicNumber) {
 				},
 				{
 					'techniques': marked(
-						getWcagTechnics(criteria.criterium.references[1]?.techniques),
+						getWcagTechniques(criteria.criterium.references[1]?.techniques),
 						{
 							renderer: markedLinkBuilder(w3cTechniquesUrl)
 						}
@@ -151,16 +151,16 @@ const wcagCategories = {
 	'S': 'client-side-script'
 };
 /**
- * @param {object} technics
+ * @param {object} techniques
  * @returns {string} String
  */
-function getWcagTechnics(technics) {
-	if (isEmpty(technics)) {
+function getWcagTechniques(techniques) {
+	if (isEmpty(techniques)) {
 		return '';
 	}
 	const buildMdLink = (uri, ref) =>
 		`[${ref.join('')}](${uri}/${ref.join('')})`;
-	return Object.values(technics)
+	return Object.values(techniques)
 		.map((v) => {
 			const ref = v.split('');
 			return ` * ${buildMdLink(wcagCategories[ref[0]], ref)}`;

@@ -51,7 +51,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-non-content\"  target=\"_blank\" title=\"1.1.1 (A) - nouvelle fenêtre\">1.1.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H36\"  target=\"_blank\" title=\"H36 - nouvelle fenêtre\">H36</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H37\"  target=\"_blank\" title=\"H37 - nouvelle fenêtre\">H37</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H53\"  target=\"_blank\" title=\"H53 - nouvelle fenêtre\">H53</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F65\"  target=\"_blank\" title=\"F65 - nouvelle fenêtre\">F65</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H24\"  target=\"_blank\" title=\"H24 - nouvelle fenêtre\">H24</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H36\"  target=\"_blank\" title=\"H36 - nouvelle fenêtre\">H36</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H37\"  target=\"_blank\" title=\"H37 - nouvelle fenêtre\">H37</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H53\"  target=\"_blank\" title=\"H53 - nouvelle fenêtre\">H53</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F65\"  target=\"_blank\" title=\"F65 - nouvelle fenêtre\">F65</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H24\"  target=\"_blank\" title=\"H24 - nouvelle fenêtre\">H24</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -96,7 +96,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-non-content\"  target=\"_blank\" title=\"1.1.1 (A) - nouvelle fenêtre\">1.1.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-name-role-value\"  target=\"_blank\" title=\"4.1.2 (A) - nouvelle fenêtre\">4.1.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H67\"  target=\"_blank\" title=\"H67 - nouvelle fenêtre\">H67</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G196\"  target=\"_blank\" title=\"G196 - nouvelle fenêtre\">G196</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C9\"  target=\"_blank\" title=\"C9 - nouvelle fenêtre\">C9</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F39\"  target=\"_blank\" title=\"F39 - nouvelle fenêtre\">F39</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F38\"  target=\"_blank\" title=\"F38 - nouvelle fenêtre\">F38</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA4\"  target=\"_blank\" title=\"ARIA4 - nouvelle fenêtre\">ARIA4</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA10\"  target=\"_blank\" title=\"ARIA10 - nouvelle fenêtre\">ARIA10</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H67\"  target=\"_blank\" title=\"H67 - nouvelle fenêtre\">H67</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G196\"  target=\"_blank\" title=\"G196 - nouvelle fenêtre\">G196</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C9\"  target=\"_blank\" title=\"C9 - nouvelle fenêtre\">C9</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F39\"  target=\"_blank\" title=\"F39 - nouvelle fenêtre\">F39</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F38\"  target=\"_blank\" title=\"F38 - nouvelle fenêtre\">F38</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA4\"  target=\"_blank\" title=\"ARIA4 - nouvelle fenêtre\">ARIA4</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA10\"  target=\"_blank\" title=\"ARIA10 - nouvelle fenêtre\">ARIA10</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -152,7 +152,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-non-content\"  target=\"_blank\" title=\"1.1.1 (A) - nouvelle fenêtre\">1.1.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-name-role-value\"  target=\"_blank\" title=\"4.1.2 (A) - nouvelle fenêtre\">4.1.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G94\"  target=\"_blank\" title=\"G94 - nouvelle fenêtre\">G94</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G95\"  target=\"_blank\" title=\"G95 - nouvelle fenêtre\">G95</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F30\"  target=\"_blank\" title=\"F30 - nouvelle fenêtre\">F30</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F71\"  target=\"_blank\" title=\"F71 - nouvelle fenêtre\">F71</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G196\"  target=\"_blank\" title=\"G196 - nouvelle fenêtre\">G196</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA6\"  target=\"_blank\" title=\"ARIA6 - nouvelle fenêtre\">ARIA6</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA9\"  target=\"_blank\" title=\"ARIA9 - nouvelle fenêtre\">ARIA9</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA10\"  target=\"_blank\" title=\"ARIA10 - nouvelle fenêtre\">ARIA10</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G94\"  target=\"_blank\" title=\"G94 - nouvelle fenêtre\">G94</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G95\"  target=\"_blank\" title=\"G95 - nouvelle fenêtre\">G95</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F30\"  target=\"_blank\" title=\"F30 - nouvelle fenêtre\">F30</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F71\"  target=\"_blank\" title=\"F71 - nouvelle fenêtre\">F71</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G196\"  target=\"_blank\" title=\"G196 - nouvelle fenêtre\">G196</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA6\"  target=\"_blank\" title=\"ARIA6 - nouvelle fenêtre\">ARIA6</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA9\"  target=\"_blank\" title=\"ARIA9 - nouvelle fenêtre\">ARIA9</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA10\"  target=\"_blank\" title=\"ARIA10 - nouvelle fenêtre\">ARIA10</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -197,7 +197,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-non-content\"  target=\"_blank\" title=\"1.1.1 (A) - nouvelle fenêtre\">1.1.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G100\"  target=\"_blank\" title=\"G100 - nouvelle fenêtre\">G100</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G143\"  target=\"_blank\" title=\"G143 - nouvelle fenêtre\">G143</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G100\"  target=\"_blank\" title=\"G100 - nouvelle fenêtre\">G100</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G143\"  target=\"_blank\" title=\"G143 - nouvelle fenêtre\">G143</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -222,7 +222,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-non-content\"  target=\"_blank\" title=\"1.1.1 (A) - nouvelle fenêtre\">1.1.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G144\"  target=\"_blank\" title=\"G144 - nouvelle fenêtre\">G144</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G144\"  target=\"_blank\" title=\"G144 - nouvelle fenêtre\">G144</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -284,7 +284,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-non-content\"  target=\"_blank\" title=\"1.1.1 (A) - nouvelle fenêtre\">1.1.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G92\"  target=\"_blank\" title=\"G92 - nouvelle fenêtre\">G92</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G74\"  target=\"_blank\" title=\"G74 - nouvelle fenêtre\">G74</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G73\"  target=\"_blank\" title=\"G73 - nouvelle fenêtre\">G73</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H45\"  target=\"_blank\" title=\"H45 - nouvelle fenêtre\">H45</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA6\"  target=\"_blank\" title=\"ARIA6 - nouvelle fenêtre\">ARIA6</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G92\"  target=\"_blank\" title=\"G92 - nouvelle fenêtre\">G92</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G74\"  target=\"_blank\" title=\"G74 - nouvelle fenêtre\">G74</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G73\"  target=\"_blank\" title=\"G73 - nouvelle fenêtre\">G73</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H45\"  target=\"_blank\" title=\"H45 - nouvelle fenêtre\">H45</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA6\"  target=\"_blank\" title=\"ARIA6 - nouvelle fenêtre\">ARIA6</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -325,7 +325,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-non-content\"  target=\"_blank\" title=\"1.1.1 (A) - nouvelle fenêtre\">1.1.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G92\"  target=\"_blank\" title=\"G92 - nouvelle fenêtre\">G92</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F67\"  target=\"_blank\" title=\"F67 - nouvelle fenêtre\">F67</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G92\"  target=\"_blank\" title=\"G92 - nouvelle fenêtre\">G92</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F67\"  target=\"_blank\" title=\"F67 - nouvelle fenêtre\">F67</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -370,7 +370,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-images-text-aa\"  target=\"_blank\" title=\"1.4.5 (AA) - nouvelle fenêtre\">1.4.5 (AA)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G136\"  target=\"_blank\" title=\"G136 - nouvelle fenêtre\">G136</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G140\"  target=\"_blank\" title=\"G140 - nouvelle fenêtre\">G140</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C22\"  target=\"_blank\" title=\"C22 - nouvelle fenêtre\">C22</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C30\"  target=\"_blank\" title=\"C30 - nouvelle fenêtre\">C30</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G136\"  target=\"_blank\" title=\"G136 - nouvelle fenêtre\">G136</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G140\"  target=\"_blank\" title=\"G140 - nouvelle fenêtre\">G140</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C22\"  target=\"_blank\" title=\"C22 - nouvelle fenêtre\">C22</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C30\"  target=\"_blank\" title=\"C30 - nouvelle fenêtre\">C30</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -412,7 +412,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-non-content\"  target=\"_blank\" title=\"1.1.1 (A) - nouvelle fenêtre\">1.1.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-name-role-value\"  target=\"_blank\" title=\"4.1.2 (A) - nouvelle fenêtre\">4.1.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G140\"  target=\"_blank\" title=\"G140 - nouvelle fenêtre\">G140</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA4\"  target=\"_blank\" title=\"ARIA4 - nouvelle fenêtre\">ARIA4</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA6\"  target=\"_blank\" title=\"ARIA6 - nouvelle fenêtre\">ARIA6</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G140\"  target=\"_blank\" title=\"G140 - nouvelle fenêtre\">G140</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA4\"  target=\"_blank\" title=\"ARIA4 - nouvelle fenêtre\">ARIA4</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA6\"  target=\"_blank\" title=\"ARIA6 - nouvelle fenêtre\">ARIA6</a></li>\n</ul>\n"
 						}
 					]
 				}
@@ -439,7 +439,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-name-role-value\"  target=\"_blank\" title=\"4.1.2 (A) - nouvelle fenêtre\">4.1.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H64\"  target=\"_blank\" title=\"H64 - nouvelle fenêtre\">H64</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H64\"  target=\"_blank\" title=\"H64 - nouvelle fenêtre\">H64</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -460,7 +460,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-name-role-value\"  target=\"_blank\" title=\"4.1.2 (A) - nouvelle fenêtre\">4.1.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H64\"  target=\"_blank\" title=\"H64 - nouvelle fenêtre\">H64</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H64\"  target=\"_blank\" title=\"H64 - nouvelle fenêtre\">H64</a></li>\n</ul>\n"
 						}
 					]
 				}
@@ -507,7 +507,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-info-relationships\"  target=\"_blank\" title=\"1.3.1 (A) - nouvelle fenêtre\">1.3.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-use\"  target=\"_blank\" title=\"1.4.1 (A) - nouvelle fenêtre\">1.4.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G14\"  target=\"_blank\" title=\"G14 - nouvelle fenêtre\">G14</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G182\"  target=\"_blank\" title=\"G182 - nouvelle fenêtre\">G182</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G111\"  target=\"_blank\" title=\"G111 - nouvelle fenêtre\">G111</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G117\"  target=\"_blank\" title=\"G117 - nouvelle fenêtre\">G117</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G138\"  target=\"_blank\" title=\"G138 - nouvelle fenêtre\">G138</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G205\"  target=\"_blank\" title=\"G205 - nouvelle fenêtre\">G205</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G14\"  target=\"_blank\" title=\"G14 - nouvelle fenêtre\">G14</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G182\"  target=\"_blank\" title=\"G182 - nouvelle fenêtre\">G182</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G111\"  target=\"_blank\" title=\"G111 - nouvelle fenêtre\">G111</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G117\"  target=\"_blank\" title=\"G117 - nouvelle fenêtre\">G117</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G138\"  target=\"_blank\" title=\"G138 - nouvelle fenêtre\">G138</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G205\"  target=\"_blank\" title=\"G205 - nouvelle fenêtre\">G205</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -549,7 +549,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-contrast-minimum-aa\"  target=\"_blank\" title=\"1.4.3 (AA) - nouvelle fenêtre\">1.4.3 (AA)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G18\"  target=\"_blank\" title=\"G18 - nouvelle fenêtre\">G18</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G136\"  target=\"_blank\" title=\"G136 - nouvelle fenêtre\">G136</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G148\"  target=\"_blank\" title=\"G148 - nouvelle fenêtre\">G148</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G174\"  target=\"_blank\" title=\"G174 - nouvelle fenêtre\">G174</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G145\"  target=\"_blank\" title=\"G145 - nouvelle fenêtre\">G145</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C29\"  target=\"_blank\" title=\"C29 - nouvelle fenêtre\">C29</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G18\"  target=\"_blank\" title=\"G18 - nouvelle fenêtre\">G18</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G136\"  target=\"_blank\" title=\"G136 - nouvelle fenêtre\">G136</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G148\"  target=\"_blank\" title=\"G148 - nouvelle fenêtre\">G148</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G174\"  target=\"_blank\" title=\"G174 - nouvelle fenêtre\">G174</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G145\"  target=\"_blank\" title=\"G145 - nouvelle fenêtre\">G145</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C29\"  target=\"_blank\" title=\"C29 - nouvelle fenêtre\">C29</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -587,7 +587,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-non-contrast-aa\"  target=\"_blank\" title=\"1.4.11 (AA) - nouvelle fenêtre\">1.4.11 (AA)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G18\"  target=\"_blank\" title=\"G18 - nouvelle fenêtre\">G18</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G195\"  target=\"_blank\" title=\"G195 - nouvelle fenêtre\">G195</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G207\"  target=\"_blank\" title=\"G207 - nouvelle fenêtre\">G207</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G174\"  target=\"_blank\" title=\"G174 - nouvelle fenêtre\">G174</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G145\"  target=\"_blank\" title=\"G145 - nouvelle fenêtre\">G145</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G183\"  target=\"_blank\" title=\"G183 - nouvelle fenêtre\">G183</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F78\"  target=\"_blank\" title=\"F78 - nouvelle fenêtre\">F78</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G18\"  target=\"_blank\" title=\"G18 - nouvelle fenêtre\">G18</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G195\"  target=\"_blank\" title=\"G195 - nouvelle fenêtre\">G195</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G207\"  target=\"_blank\" title=\"G207 - nouvelle fenêtre\">G207</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G174\"  target=\"_blank\" title=\"G174 - nouvelle fenêtre\">G174</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G145\"  target=\"_blank\" title=\"G145 - nouvelle fenêtre\">G145</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G183\"  target=\"_blank\" title=\"G183 - nouvelle fenêtre\">G183</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F78\"  target=\"_blank\" title=\"F78 - nouvelle fenêtre\">F78</a></li>\n</ul>\n"
 						}
 					]
 				}
@@ -629,7 +629,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-audio-video-prerecorded\"  target=\"_blank\" title=\"1.2.1 (A) - nouvelle fenêtre\">1.2.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-audio-description-media-alternative-prerecorded\"  target=\"_blank\" title=\"1.2.3 (A) - nouvelle fenêtre\">1.2.3 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G58\"  target=\"_blank\" title=\"G58 - nouvelle fenêtre\">G58</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G69\"  target=\"_blank\" title=\"G69 - nouvelle fenêtre\">G69</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G78\"  target=\"_blank\" title=\"G78 - nouvelle fenêtre\">G78</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G158\"  target=\"_blank\" title=\"G158 - nouvelle fenêtre\">G158</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G159\"  target=\"_blank\" title=\"G159 - nouvelle fenêtre\">G159</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G173\"  target=\"_blank\" title=\"G173 - nouvelle fenêtre\">G173</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G8\"  target=\"_blank\" title=\"G8 - nouvelle fenêtre\">G8</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G166\"  target=\"_blank\" title=\"G166 - nouvelle fenêtre\">G166</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H96\"  target=\"_blank\" title=\"H96 - nouvelle fenêtre\">H96</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM6\"  target=\"_blank\" title=\"SM6 - nouvelle fenêtre\">SM6</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM7\"  target=\"_blank\" title=\"SM7 - nouvelle fenêtre\">SM7</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G58\"  target=\"_blank\" title=\"G58 - nouvelle fenêtre\">G58</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G69\"  target=\"_blank\" title=\"G69 - nouvelle fenêtre\">G69</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G78\"  target=\"_blank\" title=\"G78 - nouvelle fenêtre\">G78</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G158\"  target=\"_blank\" title=\"G158 - nouvelle fenêtre\">G158</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G159\"  target=\"_blank\" title=\"G159 - nouvelle fenêtre\">G159</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G173\"  target=\"_blank\" title=\"G173 - nouvelle fenêtre\">G173</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G8\"  target=\"_blank\" title=\"G8 - nouvelle fenêtre\">G8</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G166\"  target=\"_blank\" title=\"G166 - nouvelle fenêtre\">G166</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H96\"  target=\"_blank\" title=\"H96 - nouvelle fenêtre\">H96</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM6\"  target=\"_blank\" title=\"SM6 - nouvelle fenêtre\">SM6</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM7\"  target=\"_blank\" title=\"SM7 - nouvelle fenêtre\">SM7</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -660,7 +660,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-audio-video-prerecorded\"  target=\"_blank\" title=\"1.2.1 (A) - nouvelle fenêtre\">1.2.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-audio-description-media-alternative-prerecorded\"  target=\"_blank\" title=\"1.2.3 (A) - nouvelle fenêtre\">1.2.3 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F30\"  target=\"_blank\" title=\"F30 - nouvelle fenêtre\">F30</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F67\"  target=\"_blank\" title=\"F67 - nouvelle fenêtre\">F67</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM6\"  target=\"_blank\" title=\"SM6 - nouvelle fenêtre\">SM6</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM7\"  target=\"_blank\" title=\"SM7 - nouvelle fenêtre\">SM7</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F30\"  target=\"_blank\" title=\"F30 - nouvelle fenêtre\">F30</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F67\"  target=\"_blank\" title=\"F67 - nouvelle fenêtre\">F67</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM6\"  target=\"_blank\" title=\"SM6 - nouvelle fenêtre\">SM6</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM7\"  target=\"_blank\" title=\"SM7 - nouvelle fenêtre\">SM7</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -687,7 +687,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-captions-prerecorded\"  target=\"_blank\" title=\"1.2.2 (A) - nouvelle fenêtre\">1.2.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G58\"  target=\"_blank\" title=\"G58 - nouvelle fenêtre\">G58</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G93\"  target=\"_blank\" title=\"G93 - nouvelle fenêtre\">G93</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G87\"  target=\"_blank\" title=\"G87 - nouvelle fenêtre\">G87</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H95\"  target=\"_blank\" title=\"H95 - nouvelle fenêtre\">H95</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM11\"  target=\"_blank\" title=\"SM11 - nouvelle fenêtre\">SM11</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM12\"  target=\"_blank\" title=\"SM12 - nouvelle fenêtre\">SM12</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F74\"  target=\"_blank\" title=\"F74 - nouvelle fenêtre\">F74</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F75\"  target=\"_blank\" title=\"F75 - nouvelle fenêtre\">F75</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G58\"  target=\"_blank\" title=\"G58 - nouvelle fenêtre\">G58</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G93\"  target=\"_blank\" title=\"G93 - nouvelle fenêtre\">G93</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G87\"  target=\"_blank\" title=\"G87 - nouvelle fenêtre\">G87</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H95\"  target=\"_blank\" title=\"H95 - nouvelle fenêtre\">H95</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM11\"  target=\"_blank\" title=\"SM11 - nouvelle fenêtre\">SM11</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM12\"  target=\"_blank\" title=\"SM12 - nouvelle fenêtre\">SM12</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F74\"  target=\"_blank\" title=\"F74 - nouvelle fenêtre\">F74</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F75\"  target=\"_blank\" title=\"F75 - nouvelle fenêtre\">F75</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -708,7 +708,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-captions-prerecorded\"  target=\"_blank\" title=\"1.2.2 (A) - nouvelle fenêtre\">1.2.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G93\"  target=\"_blank\" title=\"G93 - nouvelle fenêtre\">G93</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G87\"  target=\"_blank\" title=\"G87 - nouvelle fenêtre\">G87</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM11\"  target=\"_blank\" title=\"SM11 - nouvelle fenêtre\">SM11</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM12\"  target=\"_blank\" title=\"SM12 - nouvelle fenêtre\">SM12</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F8\"  target=\"_blank\" title=\"F8 - nouvelle fenêtre\">F8</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F74\"  target=\"_blank\" title=\"F74 - nouvelle fenêtre\">F74</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F75\"  target=\"_blank\" title=\"F75 - nouvelle fenêtre\">F75</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G93\"  target=\"_blank\" title=\"G93 - nouvelle fenêtre\">G93</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G87\"  target=\"_blank\" title=\"G87 - nouvelle fenêtre\">G87</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM11\"  target=\"_blank\" title=\"SM11 - nouvelle fenêtre\">SM11</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM12\"  target=\"_blank\" title=\"SM12 - nouvelle fenêtre\">SM12</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F8\"  target=\"_blank\" title=\"F8 - nouvelle fenêtre\">F8</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F74\"  target=\"_blank\" title=\"F74 - nouvelle fenêtre\">F74</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F75\"  target=\"_blank\" title=\"F75 - nouvelle fenêtre\">F75</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -735,7 +735,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-audio-description-prerecorded-aa\"  target=\"_blank\" title=\"1.2.5 (AA) - nouvelle fenêtre\">1.2.5 (AA)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G8\"  target=\"_blank\" title=\"G8 - nouvelle fenêtre\">G8</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G58\"  target=\"_blank\" title=\"G58 - nouvelle fenêtre\">G58</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G78\"  target=\"_blank\" title=\"G78 - nouvelle fenêtre\">G78</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G173\"  target=\"_blank\" title=\"G173 - nouvelle fenêtre\">G173</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H96\"  target=\"_blank\" title=\"H96 - nouvelle fenêtre\">H96</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM1\"  target=\"_blank\" title=\"SM1 - nouvelle fenêtre\">SM1</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM2\"  target=\"_blank\" title=\"SM2 - nouvelle fenêtre\">SM2</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM6\"  target=\"_blank\" title=\"SM6 - nouvelle fenêtre\">SM6</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM7\"  target=\"_blank\" title=\"SM7 - nouvelle fenêtre\">SM7</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G8\"  target=\"_blank\" title=\"G8 - nouvelle fenêtre\">G8</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G58\"  target=\"_blank\" title=\"G58 - nouvelle fenêtre\">G58</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G78\"  target=\"_blank\" title=\"G78 - nouvelle fenêtre\">G78</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G173\"  target=\"_blank\" title=\"G173 - nouvelle fenêtre\">G173</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H96\"  target=\"_blank\" title=\"H96 - nouvelle fenêtre\">H96</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM1\"  target=\"_blank\" title=\"SM1 - nouvelle fenêtre\">SM1</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM2\"  target=\"_blank\" title=\"SM2 - nouvelle fenêtre\">SM2</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM6\"  target=\"_blank\" title=\"SM6 - nouvelle fenêtre\">SM6</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM7\"  target=\"_blank\" title=\"SM7 - nouvelle fenêtre\">SM7</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -760,7 +760,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-audio-description-prerecorded-aa\"  target=\"_blank\" title=\"1.2.5 (AA) - nouvelle fenêtre\">1.2.5 (AA)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM1\"  target=\"_blank\" title=\"SM1 - nouvelle fenêtre\">SM1</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM2\"  target=\"_blank\" title=\"SM2 - nouvelle fenêtre\">SM2</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM6\"  target=\"_blank\" title=\"SM6 - nouvelle fenêtre\">SM6</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM7\"  target=\"_blank\" title=\"SM7 - nouvelle fenêtre\">SM7</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM1\"  target=\"_blank\" title=\"SM1 - nouvelle fenêtre\">SM1</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM2\"  target=\"_blank\" title=\"SM2 - nouvelle fenêtre\">SM2</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM6\"  target=\"_blank\" title=\"SM6 - nouvelle fenêtre\">SM6</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM7\"  target=\"_blank\" title=\"SM7 - nouvelle fenêtre\">SM7</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -783,7 +783,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-non-content\"  target=\"_blank\" title=\"1.1.1 (A) - nouvelle fenêtre\">1.1.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G68\"  target=\"_blank\" title=\"G68 - nouvelle fenêtre\">G68</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G100\"  target=\"_blank\" title=\"G100 - nouvelle fenêtre\">G100</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G68\"  target=\"_blank\" title=\"G68 - nouvelle fenêtre\">G68</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G100\"  target=\"_blank\" title=\"G100 - nouvelle fenêtre\">G100</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -814,7 +814,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-non-content\"  target=\"_blank\" title=\"1.1.1 (A) - nouvelle fenêtre\">1.1.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H35\"  target=\"_blank\" title=\"H35 - nouvelle fenêtre\">H35</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H46\"  target=\"_blank\" title=\"H46 - nouvelle fenêtre\">H46</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H35\"  target=\"_blank\" title=\"H35 - nouvelle fenêtre\">H35</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H46\"  target=\"_blank\" title=\"H46 - nouvelle fenêtre\">H46</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -835,7 +835,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-non-content\"  target=\"_blank\" title=\"1.1.1 (A) - nouvelle fenêtre\">1.1.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H46\"  target=\"_blank\" title=\"H46 - nouvelle fenêtre\">H46</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F30\"  target=\"_blank\" title=\"F30 - nouvelle fenêtre\">F30</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H46\"  target=\"_blank\" title=\"H46 - nouvelle fenêtre\">H46</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F30\"  target=\"_blank\" title=\"F30 - nouvelle fenêtre\">F30</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -856,7 +856,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-audio-control\"  target=\"_blank\" title=\"1.4.2 (A) - nouvelle fenêtre\">1.4.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G60\"  target=\"_blank\" title=\"G60 - nouvelle fenêtre\">G60</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G170\"  target=\"_blank\" title=\"G170 - nouvelle fenêtre\">G170</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G171\"  target=\"_blank\" title=\"G171 - nouvelle fenêtre\">G171</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F23\"  target=\"_blank\" title=\"F23 - nouvelle fenêtre\">F23</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F93\"  target=\"_blank\" title=\"F93 - nouvelle fenêtre\">F93</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G60\"  target=\"_blank\" title=\"G60 - nouvelle fenêtre\">G60</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G170\"  target=\"_blank\" title=\"G170 - nouvelle fenêtre\">G170</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G171\"  target=\"_blank\" title=\"G171 - nouvelle fenêtre\">G171</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F23\"  target=\"_blank\" title=\"F23 - nouvelle fenêtre\">F23</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F93\"  target=\"_blank\" title=\"F93 - nouvelle fenêtre\">F93</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -885,7 +885,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-keyboard\"  target=\"_blank\" title=\"2.1.1 (A) - nouvelle fenêtre\">2.1.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-no-keyboard-trap\"  target=\"_blank\" title=\"2.1.2 (A) - nouvelle fenêtre\">2.1.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G4\"  target=\"_blank\" title=\"G4 - nouvelle fenêtre\">G4</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G90\"  target=\"_blank\" title=\"G90 - nouvelle fenêtre\">G90</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G202\"  target=\"_blank\" title=\"G202 - nouvelle fenêtre\">G202</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G4\"  target=\"_blank\" title=\"G4 - nouvelle fenêtre\">G4</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G90\"  target=\"_blank\" title=\"G90 - nouvelle fenêtre\">G90</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G202\"  target=\"_blank\" title=\"G202 - nouvelle fenêtre\">G202</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -910,7 +910,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-keyboard\"  target=\"_blank\" title=\"2.1.1 (A) - nouvelle fenêtre\">2.1.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-no-keyboard-trap\"  target=\"_blank\" title=\"2.1.2 (A) - nouvelle fenêtre\">2.1.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G4\"  target=\"_blank\" title=\"G4 - nouvelle fenêtre\">G4</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G90\"  target=\"_blank\" title=\"G90 - nouvelle fenêtre\">G90</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G4\"  target=\"_blank\" title=\"G4 - nouvelle fenêtre\">G4</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G90\"  target=\"_blank\" title=\"G90 - nouvelle fenêtre\">G90</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -938,7 +938,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-name-value\"  target=\"_blank\" title=\"4.1.2 (A) - nouvelle fenêtre\">4.1.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G10\"  target=\"_blank\" title=\"G10 - nouvelle fenêtre\">G10</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G135\"  target=\"_blank\" title=\"G135 - nouvelle fenêtre\">G135</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F15\"  target=\"_blank\" title=\"F15 - nouvelle fenêtre\">F15</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F54\"  target=\"_blank\" title=\"F54 - nouvelle fenêtre\">F54</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G10\"  target=\"_blank\" title=\"G10 - nouvelle fenêtre\">G10</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G135\"  target=\"_blank\" title=\"G135 - nouvelle fenêtre\">G135</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F15\"  target=\"_blank\" title=\"F15 - nouvelle fenêtre\">F15</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F54\"  target=\"_blank\" title=\"F54 - nouvelle fenêtre\">F54</a></li>\n</ul>\n"
 						}
 					]
 				}
@@ -967,7 +967,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-info-relationships\"  target=\"_blank\" title=\"1.3.1 (A) - nouvelle fenêtre\">1.3.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H73\"  target=\"_blank\" title=\"H73 - nouvelle fenêtre\">H73</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H73\"  target=\"_blank\" title=\"H73 - nouvelle fenêtre\">H73</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -988,7 +988,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-info-relationships\"  target=\"_blank\" title=\"1.3.1 (A) - nouvelle fenêtre\">1.3.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H73\"  target=\"_blank\" title=\"H73 - nouvelle fenêtre\">H73</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H73\"  target=\"_blank\" title=\"H73 - nouvelle fenêtre\">H73</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1009,7 +1009,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-meaningful-sequence\"  target=\"_blank\" title=\"1.3.2 (A) - nouvelle fenêtre\">1.3.2 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-name-role-value\"  target=\"_blank\" title=\"4.1.2 (A) - nouvelle fenêtre\">4.1.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F49\"  target=\"_blank\" title=\"F49 - nouvelle fenêtre\">F49</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA4\"  target=\"_blank\" title=\"ARIA4 - nouvelle fenêtre\">ARIA4</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F49\"  target=\"_blank\" title=\"F49 - nouvelle fenêtre\">F49</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA4\"  target=\"_blank\" title=\"ARIA4 - nouvelle fenêtre\">ARIA4</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1030,7 +1030,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-info-relationships\"  target=\"_blank\" title=\"1.3.1 (A) - nouvelle fenêtre\">1.3.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H39\"  target=\"_blank\" title=\"H39 - nouvelle fenêtre\">H39</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H39\"  target=\"_blank\" title=\"H39 - nouvelle fenêtre\">H39</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1051,7 +1051,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-info-relationships\"  target=\"_blank\" title=\"1.3.1 (A) - nouvelle fenêtre\">1.3.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H39\"  target=\"_blank\" title=\"H39 - nouvelle fenêtre\">H39</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H39\"  target=\"_blank\" title=\"H39 - nouvelle fenêtre\">H39</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1084,7 +1084,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-info-relationships\"  target=\"_blank\" title=\"1.3.1 (A) - nouvelle fenêtre\">1.3.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H51\"  target=\"_blank\" title=\"H51 - nouvelle fenêtre\">H51</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F91\"  target=\"_blank\" title=\"F91 - nouvelle fenêtre\">F91</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H51\"  target=\"_blank\" title=\"H51 - nouvelle fenêtre\">H51</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F91\"  target=\"_blank\" title=\"F91 - nouvelle fenêtre\">F91</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1125,7 +1125,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-info-relationships\"  target=\"_blank\" title=\"1.3.1 (A) - nouvelle fenêtre\">1.3.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H43\"  target=\"_blank\" title=\"H43 - nouvelle fenêtre\">H43</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H63\"  target=\"_blank\" title=\"H63 - nouvelle fenêtre\">H63</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F90\"  target=\"_blank\" title=\"F90 - nouvelle fenêtre\">F90</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H43\"  target=\"_blank\" title=\"H43 - nouvelle fenêtre\">H43</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H63\"  target=\"_blank\" title=\"H63 - nouvelle fenêtre\">H63</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F90\"  target=\"_blank\" title=\"F90 - nouvelle fenêtre\">F90</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1146,7 +1146,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-info-relationships\"  target=\"_blank\" title=\"1.3.1 (A) - nouvelle fenêtre\">1.3.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F46\"  target=\"_blank\" title=\"F46 - nouvelle fenêtre\">F46</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F46\"  target=\"_blank\" title=\"F46 - nouvelle fenêtre\">F46</a></li>\n</ul>\n"
 						}
 					]
 				}
@@ -1201,7 +1201,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-non-content\"  target=\"_blank\" title=\"1.1.1 (A) - nouvelle fenêtre\">1.1.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-link-purpose-in-context\"  target=\"_blank\" title=\"2.4.4 (A) - nouvelle fenêtre\">2.4.4 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-label-name\"  target=\"_blank\" title=\"2.5.3 (A) - nouvelle fenêtre\">2.5.3 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H30\"  target=\"_blank\" title=\"H30 - nouvelle fenêtre\">H30</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H78\"  target=\"_blank\" title=\"H78 - nouvelle fenêtre\">H78</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H79\"  target=\"_blank\" title=\"H79 - nouvelle fenêtre\">H79</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H80\"  target=\"_blank\" title=\"H80 - nouvelle fenêtre\">H80</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H81\"  target=\"_blank\" title=\"H81 - nouvelle fenêtre\">H81</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G53\"  target=\"_blank\" title=\"G53 - nouvelle fenêtre\">G53</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G91\"  target=\"_blank\" title=\"G91 - nouvelle fenêtre\">G91</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F63\"  target=\"_blank\" title=\"F63 - nouvelle fenêtre\">F63</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F89\"  target=\"_blank\" title=\"F89 - nouvelle fenêtre\">F89</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA7\"  target=\"_blank\" title=\"ARIA7 - nouvelle fenêtre\">ARIA7</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8\"  target=\"_blank\" title=\"ARIA8 - nouvelle fenêtre\">ARIA8</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H30\"  target=\"_blank\" title=\"H30 - nouvelle fenêtre\">H30</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H78\"  target=\"_blank\" title=\"H78 - nouvelle fenêtre\">H78</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H79\"  target=\"_blank\" title=\"H79 - nouvelle fenêtre\">H79</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H80\"  target=\"_blank\" title=\"H80 - nouvelle fenêtre\">H80</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H81\"  target=\"_blank\" title=\"H81 - nouvelle fenêtre\">H81</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G53\"  target=\"_blank\" title=\"G53 - nouvelle fenêtre\">G53</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G91\"  target=\"_blank\" title=\"G91 - nouvelle fenêtre\">G91</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F63\"  target=\"_blank\" title=\"F63 - nouvelle fenêtre\">F63</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F89\"  target=\"_blank\" title=\"F89 - nouvelle fenêtre\">F89</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA7\"  target=\"_blank\" title=\"ARIA7 - nouvelle fenêtre\">ARIA7</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA8\"  target=\"_blank\" title=\"ARIA8 - nouvelle fenêtre\">ARIA8</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1224,7 +1224,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-non-content\"  target=\"_blank\" title=\"1.1.1 (A) - nouvelle fenêtre\">1.1.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-link-purpose-in-context\"  target=\"_blank\" title=\"2.4.4 (A) - nouvelle fenêtre\">2.4.4 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H30\"  target=\"_blank\" title=\"H30 - nouvelle fenêtre\">H30</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G91\"  target=\"_blank\" title=\"G91 - nouvelle fenêtre\">G91</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F89\"  target=\"_blank\" title=\"F89 - nouvelle fenêtre\">F89</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H30\"  target=\"_blank\" title=\"H30 - nouvelle fenêtre\">H30</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G91\"  target=\"_blank\" title=\"G91 - nouvelle fenêtre\">G91</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F89\"  target=\"_blank\" title=\"F89 - nouvelle fenêtre\">F89</a></li>\n</ul>\n"
 						}
 					]
 				}
@@ -1268,7 +1268,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-label-name\"  target=\"_blank\" title=\"2.5.3 (A) - nouvelle fenêtre\">2.5.3 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-name-role-value\"  target=\"_blank\" title=\"4.1.2 (A) - nouvelle fenêtre\">4.1.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G10\"  target=\"_blank\" title=\"G10 - nouvelle fenêtre\">G10</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G135\"  target=\"_blank\" title=\"G135 - nouvelle fenêtre\">G135</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G136\"  target=\"_blank\" title=\"G136 - nouvelle fenêtre\">G136</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F15\"  target=\"_blank\" title=\"F15 - nouvelle fenêtre\">F15</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F19\"  target=\"_blank\" title=\"F19 - nouvelle fenêtre\">F19</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F20\"  target=\"_blank\" title=\"F20 - nouvelle fenêtre\">F20</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F42\"  target=\"_blank\" title=\"F42 - nouvelle fenêtre\">F42</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F59\"  target=\"_blank\" title=\"F59 - nouvelle fenêtre\">F59</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F79\"  target=\"_blank\" title=\"F79 - nouvelle fenêtre\">F79</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA4\"  target=\"_blank\" title=\"ARIA4 - nouvelle fenêtre\">ARIA4</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA5\"  target=\"_blank\" title=\"ARIA5 - nouvelle fenêtre\">ARIA5</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA18\"  target=\"_blank\" title=\"ARIA18 - nouvelle fenêtre\">ARIA18</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA19\"  target=\"_blank\" title=\"ARIA19 - nouvelle fenêtre\">ARIA19</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR21\"  target=\"_blank\" title=\"SCR21 - nouvelle fenêtre\">SCR21</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G10\"  target=\"_blank\" title=\"G10 - nouvelle fenêtre\">G10</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G135\"  target=\"_blank\" title=\"G135 - nouvelle fenêtre\">G135</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G136\"  target=\"_blank\" title=\"G136 - nouvelle fenêtre\">G136</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F15\"  target=\"_blank\" title=\"F15 - nouvelle fenêtre\">F15</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F19\"  target=\"_blank\" title=\"F19 - nouvelle fenêtre\">F19</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F20\"  target=\"_blank\" title=\"F20 - nouvelle fenêtre\">F20</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F42\"  target=\"_blank\" title=\"F42 - nouvelle fenêtre\">F42</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F59\"  target=\"_blank\" title=\"F59 - nouvelle fenêtre\">F59</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F79\"  target=\"_blank\" title=\"F79 - nouvelle fenêtre\">F79</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA4\"  target=\"_blank\" title=\"ARIA4 - nouvelle fenêtre\">ARIA4</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA5\"  target=\"_blank\" title=\"ARIA5 - nouvelle fenêtre\">ARIA5</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA18\"  target=\"_blank\" title=\"ARIA18 - nouvelle fenêtre\">ARIA18</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA19\"  target=\"_blank\" title=\"ARIA19 - nouvelle fenêtre\">ARIA19</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR21\"  target=\"_blank\" title=\"SCR21 - nouvelle fenêtre\">SCR21</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1293,7 +1293,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-non-content\"  target=\"_blank\" title=\"1.1.1 (A) - nouvelle fenêtre\">1.1.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-name-role-value\"  target=\"_blank\" title=\"4.1.2 (A) - nouvelle fenêtre\">4.1.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G136\"  target=\"_blank\" title=\"G136 - nouvelle fenêtre\">G136</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F19\"  target=\"_blank\" title=\"F19 - nouvelle fenêtre\">F19</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F20\"  target=\"_blank\" title=\"F20 - nouvelle fenêtre\">F20</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G136\"  target=\"_blank\" title=\"G136 - nouvelle fenêtre\">G136</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F19\"  target=\"_blank\" title=\"F19 - nouvelle fenêtre\">F19</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F20\"  target=\"_blank\" title=\"F20 - nouvelle fenêtre\">F20</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1320,7 +1320,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-info-relationships\"  target=\"_blank\" title=\"1.3.1 (A) - nouvelle fenêtre\">1.3.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-keyboard\"  target=\"_blank\" title=\"2.1.1 (A) - nouvelle fenêtre\">2.1.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-focus-visible-aa\"  target=\"_blank\" title=\"2.4.7 (AA) - nouvelle fenêtre\">2.4.7 (AA)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G90\"  target=\"_blank\" title=\"G90 - nouvelle fenêtre\">G90</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G202\"  target=\"_blank\" title=\"G202 - nouvelle fenêtre\">G202</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F42\"  target=\"_blank\" title=\"F42 - nouvelle fenêtre\">F42</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F54\"  target=\"_blank\" title=\"F54 - nouvelle fenêtre\">F54</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F55\"  target=\"_blank\" title=\"F55 - nouvelle fenêtre\">F55</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR2\"  target=\"_blank\" title=\"SCR2 - nouvelle fenêtre\">SCR2</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR20\"  target=\"_blank\" title=\"SCR20 - nouvelle fenêtre\">SCR20</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR29\"  target=\"_blank\" title=\"SCR29 - nouvelle fenêtre\">SCR29</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR35\"  target=\"_blank\" title=\"SCR35 - nouvelle fenêtre\">SCR35</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G90\"  target=\"_blank\" title=\"G90 - nouvelle fenêtre\">G90</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G202\"  target=\"_blank\" title=\"G202 - nouvelle fenêtre\">G202</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F42\"  target=\"_blank\" title=\"F42 - nouvelle fenêtre\">F42</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F54\"  target=\"_blank\" title=\"F54 - nouvelle fenêtre\">F54</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F55\"  target=\"_blank\" title=\"F55 - nouvelle fenêtre\">F55</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR2\"  target=\"_blank\" title=\"SCR2 - nouvelle fenêtre\">SCR2</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR20\"  target=\"_blank\" title=\"SCR20 - nouvelle fenêtre\">SCR20</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR29\"  target=\"_blank\" title=\"SCR29 - nouvelle fenêtre\">SCR29</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR35\"  target=\"_blank\" title=\"SCR35 - nouvelle fenêtre\">SCR35</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1341,7 +1341,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-on-focus\"  target=\"_blank\" title=\"3.2.1 (A) - nouvelle fenêtre\">3.2.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-on-input\"  target=\"_blank\" title=\"3.2.2 (A) - nouvelle fenêtre\">3.2.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G13\"  target=\"_blank\" title=\"G13 - nouvelle fenêtre\">G13</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G76\"  target=\"_blank\" title=\"G76 - nouvelle fenêtre\">G76</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G80\"  target=\"_blank\" title=\"G80 - nouvelle fenêtre\">G80</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G107\"  target=\"_blank\" title=\"G107 - nouvelle fenêtre\">G107</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H32\"  target=\"_blank\" title=\"H32 - nouvelle fenêtre\">H32</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H84\"  target=\"_blank\" title=\"H84 - nouvelle fenêtre\">H84</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F9\"  target=\"_blank\" title=\"F9 - nouvelle fenêtre\">F9</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F22\"  target=\"_blank\" title=\"F22 - nouvelle fenêtre\">F22</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F36\"  target=\"_blank\" title=\"F36 - nouvelle fenêtre\">F36</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F37\"  target=\"_blank\" title=\"F37 - nouvelle fenêtre\">F37</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F41\"  target=\"_blank\" title=\"F41 - nouvelle fenêtre\">F41</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR19\"  target=\"_blank\" title=\"SCR19 - nouvelle fenêtre\">SCR19</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G13\"  target=\"_blank\" title=\"G13 - nouvelle fenêtre\">G13</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G76\"  target=\"_blank\" title=\"G76 - nouvelle fenêtre\">G76</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G80\"  target=\"_blank\" title=\"G80 - nouvelle fenêtre\">G80</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G107\"  target=\"_blank\" title=\"G107 - nouvelle fenêtre\">G107</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H32\"  target=\"_blank\" title=\"H32 - nouvelle fenêtre\">H32</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H84\"  target=\"_blank\" title=\"H84 - nouvelle fenêtre\">H84</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F9\"  target=\"_blank\" title=\"F9 - nouvelle fenêtre\">F9</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F22\"  target=\"_blank\" title=\"F22 - nouvelle fenêtre\">F22</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F36\"  target=\"_blank\" title=\"F36 - nouvelle fenêtre\">F36</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F37\"  target=\"_blank\" title=\"F37 - nouvelle fenêtre\">F37</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F41\"  target=\"_blank\" title=\"F41 - nouvelle fenêtre\">F41</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR19\"  target=\"_blank\" title=\"SCR19 - nouvelle fenêtre\">SCR19</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1374,7 +1374,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-status-messages-aa\"  target=\"_blank\" title=\"4.1.3 (AA) - nouvelle fenêtre\">4.1.3 (AA)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA19\"  target=\"_blank\" title=\"ARIA19 - nouvelle fenêtre\">ARIA19</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA22\"  target=\"_blank\" title=\"ARIA22 - nouvelle fenêtre\">ARIA22</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA23\"  target=\"_blank\" title=\"ARIA23 - nouvelle fenêtre\">ARIA23</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA19\"  target=\"_blank\" title=\"ARIA19 - nouvelle fenêtre\">ARIA19</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA22\"  target=\"_blank\" title=\"ARIA22 - nouvelle fenêtre\">ARIA22</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA23\"  target=\"_blank\" title=\"ARIA23 - nouvelle fenêtre\">ARIA23</a></li>\n</ul>\n"
 						}
 					]
 				}
@@ -1409,7 +1409,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-parsing\"  target=\"_blank\" title=\"4.1.1 (A) - nouvelle fenêtre\">4.1.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G134\"  target=\"_blank\" title=\"G134 - nouvelle fenêtre\">G134</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G192\"  target=\"_blank\" title=\"G192 - nouvelle fenêtre\">G192</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G134\"  target=\"_blank\" title=\"G134 - nouvelle fenêtre\">G134</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G192\"  target=\"_blank\" title=\"G192 - nouvelle fenêtre\">G192</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1430,7 +1430,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-parsing\"  target=\"_blank\" title=\"4.1.1 (A) - nouvelle fenêtre\">4.1.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-name-role-value\"  target=\"_blank\" title=\"4.1.2 (A) - nouvelle fenêtre\">4.1.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H74\"  target=\"_blank\" title=\"H74 - nouvelle fenêtre\">H74</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H93\"  target=\"_blank\" title=\"H93 - nouvelle fenêtre\">H93</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H94\"  target=\"_blank\" title=\"H94 - nouvelle fenêtre\">H94</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F70\"  target=\"_blank\" title=\"F70 - nouvelle fenêtre\">F70</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F77\"  target=\"_blank\" title=\"F77 - nouvelle fenêtre\">F77</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H74\"  target=\"_blank\" title=\"H74 - nouvelle fenêtre\">H74</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H93\"  target=\"_blank\" title=\"H93 - nouvelle fenêtre\">H93</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H94\"  target=\"_blank\" title=\"H94 - nouvelle fenêtre\">H94</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F70\"  target=\"_blank\" title=\"F70 - nouvelle fenêtre\">F70</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F77\"  target=\"_blank\" title=\"F77 - nouvelle fenêtre\">F77</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1451,7 +1451,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-language-page\"  target=\"_blank\" title=\"3.1.1 (A) - nouvelle fenêtre\">3.1.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H57\"  target=\"_blank\" title=\"H57 - nouvelle fenêtre\">H57</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H57\"  target=\"_blank\" title=\"H57 - nouvelle fenêtre\">H57</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1472,7 +1472,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-language-page\"  target=\"_blank\" title=\"3.1.1 (A) - nouvelle fenêtre\">3.1.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H57\"  target=\"_blank\" title=\"H57 - nouvelle fenêtre\">H57</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H57\"  target=\"_blank\" title=\"H57 - nouvelle fenêtre\">H57</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1493,7 +1493,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-page-titled\"  target=\"_blank\" title=\"2.4.2 (A) - nouvelle fenêtre\">2.4.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G88\"  target=\"_blank\" title=\"G88 - nouvelle fenêtre\">G88</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G127\"  target=\"_blank\" title=\"G127 - nouvelle fenêtre\">G127</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H25\"  target=\"_blank\" title=\"H25 - nouvelle fenêtre\">H25</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G88\"  target=\"_blank\" title=\"G88 - nouvelle fenêtre\">G88</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G127\"  target=\"_blank\" title=\"G127 - nouvelle fenêtre\">G127</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H25\"  target=\"_blank\" title=\"H25 - nouvelle fenêtre\">H25</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1514,7 +1514,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-page-titled\"  target=\"_blank\" title=\"2.4.2 (A) - nouvelle fenêtre\">2.4.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G88\"  target=\"_blank\" title=\"G88 - nouvelle fenêtre\">G88</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G127\"  target=\"_blank\" title=\"G127 - nouvelle fenêtre\">G127</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H25\"  target=\"_blank\" title=\"H25 - nouvelle fenêtre\">H25</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G88\"  target=\"_blank\" title=\"G88 - nouvelle fenêtre\">G88</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G127\"  target=\"_blank\" title=\"G127 - nouvelle fenêtre\">G127</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H25\"  target=\"_blank\" title=\"H25 - nouvelle fenêtre\">H25</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1542,7 +1542,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-language-parts-aa\"  target=\"_blank\" title=\"3.1.2 (AA) - nouvelle fenêtre\">3.1.2 (AA)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H58\"  target=\"_blank\" title=\"H58 - nouvelle fenêtre\">H58</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H58\"  target=\"_blank\" title=\"H58 - nouvelle fenêtre\">H58</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1563,7 +1563,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-language-parts-aa\"  target=\"_blank\" title=\"3.1.2 (AA) - nouvelle fenêtre\">3.1.2 (AA)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H58\"  target=\"_blank\" title=\"H58 - nouvelle fenêtre\">H58</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H58\"  target=\"_blank\" title=\"H58 - nouvelle fenêtre\">H58</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1584,7 +1584,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-info-relationships\"  target=\"_blank\" title=\"1.3.1 (A) - nouvelle fenêtre\">1.3.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G115\"  target=\"_blank\" title=\"G115 - nouvelle fenêtre\">G115</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H88\"  target=\"_blank\" title=\"H88 - nouvelle fenêtre\">H88</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F43\"  target=\"_blank\" title=\"F43 - nouvelle fenêtre\">F43</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F92\"  target=\"_blank\" title=\"F92 - nouvelle fenêtre\">F92</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G115\"  target=\"_blank\" title=\"G115 - nouvelle fenêtre\">G115</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H88\"  target=\"_blank\" title=\"H88 - nouvelle fenêtre\">H88</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F43\"  target=\"_blank\" title=\"F43 - nouvelle fenêtre\">F43</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F92\"  target=\"_blank\" title=\"F92 - nouvelle fenêtre\">F92</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1609,7 +1609,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-meaningful-sequence\"  target=\"_blank\" title=\"1.3.2 (A) - nouvelle fenêtre\">1.3.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H56\"  target=\"_blank\" title=\"H56 - nouvelle fenêtre\">H56</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H56\"  target=\"_blank\" title=\"H56 - nouvelle fenêtre\">H56</a></li>\n</ul>\n"
 						}
 					]
 				}
@@ -1646,7 +1646,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-info-relationships\"  target=\"_blank\" title=\"1.3.1 (A) - nouvelle fenêtre\">1.3.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-bypass-blocks\"  target=\"_blank\" title=\"2.4.1 (A) - nouvelle fenêtre\">2.4.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-headings-labels-aa\"  target=\"_blank\" title=\"2.4.6 (AA) - nouvelle fenêtre\">2.4.6 (AA)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-name-role-value\"  target=\"_blank\" title=\"4.1.2 (A) - nouvelle fenêtre\">4.1.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G115\"  target=\"_blank\" title=\"G115 - nouvelle fenêtre\">G115</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G130\"  target=\"_blank\" title=\"G130 - nouvelle fenêtre\">G130</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H42\"  target=\"_blank\" title=\"H42 - nouvelle fenêtre\">H42</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G141\"  target=\"_blank\" title=\"G141 - nouvelle fenêtre\">G141</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA4\"  target=\"_blank\" title=\"ARIA4 - nouvelle fenêtre\">ARIA4</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA12\"  target=\"_blank\" title=\"ARIA12 - nouvelle fenêtre\">ARIA12</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G115\"  target=\"_blank\" title=\"G115 - nouvelle fenêtre\">G115</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G130\"  target=\"_blank\" title=\"G130 - nouvelle fenêtre\">G130</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H42\"  target=\"_blank\" title=\"H42 - nouvelle fenêtre\">H42</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G141\"  target=\"_blank\" title=\"G141 - nouvelle fenêtre\">G141</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA4\"  target=\"_blank\" title=\"ARIA4 - nouvelle fenêtre\">ARIA4</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA12\"  target=\"_blank\" title=\"ARIA12 - nouvelle fenêtre\">ARIA12</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1671,7 +1671,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-info-relationships\"  target=\"_blank\" title=\"1.3.1 (A) - nouvelle fenêtre\">1.3.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G115\"  target=\"_blank\" title=\"G115 - nouvelle fenêtre\">G115</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA11\"  target=\"_blank\" title=\"ARIA11 - nouvelle fenêtre\">ARIA11</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G115\"  target=\"_blank\" title=\"G115 - nouvelle fenêtre\">G115</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA11\"  target=\"_blank\" title=\"ARIA11 - nouvelle fenêtre\">ARIA11</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1703,7 +1703,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-info-relationships\"  target=\"_blank\" title=\"1.3.1 (A) - nouvelle fenêtre\">1.3.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G115\"  target=\"_blank\" title=\"G115 - nouvelle fenêtre\">G115</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G153\"  target=\"_blank\" title=\"G153 - nouvelle fenêtre\">G153</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H40\"  target=\"_blank\" title=\"H40 - nouvelle fenêtre\">H40</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H48\"  target=\"_blank\" title=\"H48 - nouvelle fenêtre\">H48</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F2\"  target=\"_blank\" title=\"F2 - nouvelle fenêtre\">F2</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G115\"  target=\"_blank\" title=\"G115 - nouvelle fenêtre\">G115</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G153\"  target=\"_blank\" title=\"G153 - nouvelle fenêtre\">G153</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H40\"  target=\"_blank\" title=\"H40 - nouvelle fenêtre\">H40</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H48\"  target=\"_blank\" title=\"H48 - nouvelle fenêtre\">H48</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F2\"  target=\"_blank\" title=\"F2 - nouvelle fenêtre\">F2</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1728,7 +1728,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-info-relationships\"  target=\"_blank\" title=\"1.3.1 (A) - nouvelle fenêtre\">1.3.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G115\"  target=\"_blank\" title=\"G115 - nouvelle fenêtre\">G115</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H49\"  target=\"_blank\" title=\"H49 - nouvelle fenêtre\">H49</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F2\"  target=\"_blank\" title=\"F2 - nouvelle fenêtre\">F2</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G115\"  target=\"_blank\" title=\"G115 - nouvelle fenêtre\">G115</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H49\"  target=\"_blank\" title=\"H49 - nouvelle fenêtre\">H49</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F2\"  target=\"_blank\" title=\"F2 - nouvelle fenêtre\">F2</a></li>\n</ul>\n"
 						}
 					]
 				}
@@ -1763,7 +1763,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-info-relationships\"  target=\"_blank\" title=\"1.3.1 (A) - nouvelle fenêtre\">1.3.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-meaningful-sequence\"  target=\"_blank\" title=\"1.3.2 (A) - nouvelle fenêtre\">1.3.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G140\"  target=\"_blank\" title=\"G140 - nouvelle fenêtre\">G140</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F32\"  target=\"_blank\" title=\"F32 - nouvelle fenêtre\">F32</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F33\"  target=\"_blank\" title=\"F33 - nouvelle fenêtre\">F33</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F34\"  target=\"_blank\" title=\"F34 - nouvelle fenêtre\">F34</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F48\"  target=\"_blank\" title=\"F48 - nouvelle fenêtre\">F48</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C6\"  target=\"_blank\" title=\"C6 - nouvelle fenêtre\">C6</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C8\"  target=\"_blank\" title=\"C8 - nouvelle fenêtre\">C8</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C18\"  target=\"_blank\" title=\"C18 - nouvelle fenêtre\">C18</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C22\"  target=\"_blank\" title=\"C22 - nouvelle fenêtre\">C22</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G140\"  target=\"_blank\" title=\"G140 - nouvelle fenêtre\">G140</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F32\"  target=\"_blank\" title=\"F32 - nouvelle fenêtre\">F32</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F33\"  target=\"_blank\" title=\"F33 - nouvelle fenêtre\">F33</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F34\"  target=\"_blank\" title=\"F34 - nouvelle fenêtre\">F34</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F48\"  target=\"_blank\" title=\"F48 - nouvelle fenêtre\">F48</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C6\"  target=\"_blank\" title=\"C6 - nouvelle fenêtre\">C6</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C8\"  target=\"_blank\" title=\"C8 - nouvelle fenêtre\">C8</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C18\"  target=\"_blank\" title=\"C18 - nouvelle fenêtre\">C18</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C22\"  target=\"_blank\" title=\"C22 - nouvelle fenêtre\">C22</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1784,7 +1784,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-non-content\"  target=\"_blank\" title=\"1.1.1 (A) - nouvelle fenêtre\">1.1.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-info-relationships\"  target=\"_blank\" title=\"1.3.1 (A) - nouvelle fenêtre\">1.3.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G140\"  target=\"_blank\" title=\"G140 - nouvelle fenêtre\">G140</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F3\"  target=\"_blank\" title=\"F3 - nouvelle fenêtre\">F3</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F87\"  target=\"_blank\" title=\"F87 - nouvelle fenêtre\">F87</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G140\"  target=\"_blank\" title=\"G140 - nouvelle fenêtre\">G140</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F3\"  target=\"_blank\" title=\"F3 - nouvelle fenêtre\">F3</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F87\"  target=\"_blank\" title=\"F87 - nouvelle fenêtre\">F87</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1805,7 +1805,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-meaningful-sequence\"  target=\"_blank\" title=\"1.3.2 (A) - nouvelle fenêtre\">1.3.2 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-focus-order\"  target=\"_blank\" title=\"2.4.3 (A) - nouvelle fenêtre\">2.4.3 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G59\"  target=\"_blank\" title=\"G59 - nouvelle fenêtre\">G59</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G140\"  target=\"_blank\" title=\"G140 - nouvelle fenêtre\">G140</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F1\"  target=\"_blank\" title=\"F1 - nouvelle fenêtre\">F1</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G59\"  target=\"_blank\" title=\"G59 - nouvelle fenêtre\">G59</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G140\"  target=\"_blank\" title=\"G140 - nouvelle fenêtre\">G140</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F1\"  target=\"_blank\" title=\"F1 - nouvelle fenêtre\">F1</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1830,7 +1830,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-resize-text-aa\"  target=\"_blank\" title=\"1.4.4 (AA) - nouvelle fenêtre\">1.4.4 (AA)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G146\"  target=\"_blank\" title=\"G146 - nouvelle fenêtre\">G146</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G179\"  target=\"_blank\" title=\"G179 - nouvelle fenêtre\">G179</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F69\"  target=\"_blank\" title=\"F69 - nouvelle fenêtre\">F69</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F80\"  target=\"_blank\" title=\"F80 - nouvelle fenêtre\">F80</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR34\"  target=\"_blank\" title=\"SCR34 - nouvelle fenêtre\">SCR34</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C12\"  target=\"_blank\" title=\"C12 - nouvelle fenêtre\">C12</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C13\"  target=\"_blank\" title=\"C13 - nouvelle fenêtre\">C13</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C14\"  target=\"_blank\" title=\"C14 - nouvelle fenêtre\">C14</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C17\"  target=\"_blank\" title=\"C17 - nouvelle fenêtre\">C17</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C28\"  target=\"_blank\" title=\"C28 - nouvelle fenêtre\">C28</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G146\"  target=\"_blank\" title=\"G146 - nouvelle fenêtre\">G146</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G179\"  target=\"_blank\" title=\"G179 - nouvelle fenêtre\">G179</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F69\"  target=\"_blank\" title=\"F69 - nouvelle fenêtre\">F69</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F80\"  target=\"_blank\" title=\"F80 - nouvelle fenêtre\">F80</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR34\"  target=\"_blank\" title=\"SCR34 - nouvelle fenêtre\">SCR34</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C12\"  target=\"_blank\" title=\"C12 - nouvelle fenêtre\">C12</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C13\"  target=\"_blank\" title=\"C13 - nouvelle fenêtre\">C13</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C14\"  target=\"_blank\" title=\"C14 - nouvelle fenêtre\">C14</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C17\"  target=\"_blank\" title=\"C17 - nouvelle fenêtre\">C17</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C28\"  target=\"_blank\" title=\"C28 - nouvelle fenêtre\">C28</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1859,7 +1859,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-contrast-minimum-aa\"  target=\"_blank\" title=\"1.4.3 (AA) - nouvelle fenêtre\">1.4.3 (AA)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F24\"  target=\"_blank\" title=\"F24 - nouvelle fenêtre\">F24</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F24\"  target=\"_blank\" title=\"F24 - nouvelle fenêtre\">F24</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1880,7 +1880,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-use-color\"  target=\"_blank\" title=\"1.4.1 (A) - nouvelle fenêtre\">1.4.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G183\"  target=\"_blank\" title=\"G183 - nouvelle fenêtre\">G183</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F73\"  target=\"_blank\" title=\"F73 - nouvelle fenêtre\">F73</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G183\"  target=\"_blank\" title=\"G183 - nouvelle fenêtre\">G183</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F73\"  target=\"_blank\" title=\"F73 - nouvelle fenêtre\">F73</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1901,7 +1901,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-use-color\"  target=\"_blank\" title=\"1.4.1 (A) - nouvelle fenêtre\">1.4.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-focus-visible-aa\"  target=\"_blank\" title=\"2.4.7 (AA) - nouvelle fenêtre\">2.4.7 (AA)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G149\"  target=\"_blank\" title=\"G149 - nouvelle fenêtre\">G149</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G165\"  target=\"_blank\" title=\"G165 - nouvelle fenêtre\">G165</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G183\"  target=\"_blank\" title=\"G183 - nouvelle fenêtre\">G183</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G195\"  target=\"_blank\" title=\"G195 - nouvelle fenêtre\">G195</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F73\"  target=\"_blank\" title=\"F73 - nouvelle fenêtre\">F73</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F78\"  target=\"_blank\" title=\"F78 - nouvelle fenêtre\">F78</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR31\"  target=\"_blank\" title=\"SCR31 - nouvelle fenêtre\">SCR31</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C15\"  target=\"_blank\" title=\"C15 - nouvelle fenêtre\">C15</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G149\"  target=\"_blank\" title=\"G149 - nouvelle fenêtre\">G149</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G165\"  target=\"_blank\" title=\"G165 - nouvelle fenêtre\">G165</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G183\"  target=\"_blank\" title=\"G183 - nouvelle fenêtre\">G183</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G195\"  target=\"_blank\" title=\"G195 - nouvelle fenêtre\">G195</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F73\"  target=\"_blank\" title=\"F73 - nouvelle fenêtre\">F73</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F78\"  target=\"_blank\" title=\"F78 - nouvelle fenêtre\">F78</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR31\"  target=\"_blank\" title=\"SCR31 - nouvelle fenêtre\">SCR31</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C15\"  target=\"_blank\" title=\"C15 - nouvelle fenêtre\">C15</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1927,7 +1927,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-meaningful-sequence\"  target=\"_blank\" title=\"1.3.2 (A) - nouvelle fenêtre\">1.3.2 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-name-role-value\"  target=\"_blank\" title=\"4.1.2 (A) - nouvelle fenêtre\">4.1.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G57\"  target=\"_blank\" title=\"G57 - nouvelle fenêtre\">G57</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G57\"  target=\"_blank\" title=\"G57 - nouvelle fenêtre\">G57</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1960,7 +1960,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-sensory-characteristics\"  target=\"_blank\" title=\"1.3.3 (A) - nouvelle fenêtre\">1.3.3 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-use-color\"  target=\"_blank\" title=\"1.4.1 (A) - nouvelle fenêtre\">1.4.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G96\"  target=\"_blank\" title=\"G96 - nouvelle fenêtre\">G96</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G140\"  target=\"_blank\" title=\"G140 - nouvelle fenêtre\">G140</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F14\"  target=\"_blank\" title=\"F14 - nouvelle fenêtre\">F14</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F26\"  target=\"_blank\" title=\"F26 - nouvelle fenêtre\">F26</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G96\"  target=\"_blank\" title=\"G96 - nouvelle fenêtre\">G96</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G140\"  target=\"_blank\" title=\"G140 - nouvelle fenêtre\">G140</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F14\"  target=\"_blank\" title=\"F14 - nouvelle fenêtre\">F14</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F26\"  target=\"_blank\" title=\"F26 - nouvelle fenêtre\">F26</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -1993,7 +1993,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-sensory-characteristics\"  target=\"_blank\" title=\"1.3.3 (A) - nouvelle fenêtre\">1.3.3 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-use-color\"  target=\"_blank\" title=\"1.4.1 (A) - nouvelle fenêtre\">1.4.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G96\"  target=\"_blank\" title=\"G96 - nouvelle fenêtre\">G96</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G140\"  target=\"_blank\" title=\"G140 - nouvelle fenêtre\">G140</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F14\"  target=\"_blank\" title=\"F14 - nouvelle fenêtre\">F14</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F26\"  target=\"_blank\" title=\"F26 - nouvelle fenêtre\">F26</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G96\"  target=\"_blank\" title=\"G96 - nouvelle fenêtre\">G96</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G140\"  target=\"_blank\" title=\"G140 - nouvelle fenêtre\">G140</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F14\"  target=\"_blank\" title=\"F14 - nouvelle fenêtre\">F14</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F26\"  target=\"_blank\" title=\"F26 - nouvelle fenêtre\">F26</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2027,7 +2027,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-reflow-aa\"  target=\"_blank\" title=\"1.4.10 (AA) - nouvelle fenêtre\">1.4.10 (AA)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C34\"  target=\"_blank\" title=\"C34 - nouvelle fenêtre\">C34</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C37\"  target=\"_blank\" title=\"C37 - nouvelle fenêtre\">C37</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C34\"  target=\"_blank\" title=\"C34 - nouvelle fenêtre\">C34</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C37\"  target=\"_blank\" title=\"C37 - nouvelle fenêtre\">C37</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2053,7 +2053,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-text-spacing-aa\"  target=\"_blank\" title=\"1.4.12 (AA) - nouvelle fenêtre\">1.4.12 (AA)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C8\"  target=\"_blank\" title=\"C8 - nouvelle fenêtre\">C8</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C21\"  target=\"_blank\" title=\"C21 - nouvelle fenêtre\">C21</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C35\"  target=\"_blank\" title=\"C35 - nouvelle fenêtre\">C35</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C36\"  target=\"_blank\" title=\"C36 - nouvelle fenêtre\">C36</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C8\"  target=\"_blank\" title=\"C8 - nouvelle fenêtre\">C8</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C21\"  target=\"_blank\" title=\"C21 - nouvelle fenêtre\">C21</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C35\"  target=\"_blank\" title=\"C35 - nouvelle fenêtre\">C35</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C36\"  target=\"_blank\" title=\"C36 - nouvelle fenêtre\">C36</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2085,7 +2085,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-content-hover-focus-aa\"  target=\"_blank\" title=\"1.4.13 (AA) - nouvelle fenêtre\">1.4.13 (AA)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F95\"  target=\"_blank\" title=\"F95 - nouvelle fenêtre\">F95</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F95\"  target=\"_blank\" title=\"F95 - nouvelle fenêtre\">F95</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2110,7 +2110,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-keyboard\"  target=\"_blank\" title=\"2.1.1 (A) - nouvelle fenêtre\">2.1.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G202\"  target=\"_blank\" title=\"G202 - nouvelle fenêtre\">G202</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G202\"  target=\"_blank\" title=\"G202 - nouvelle fenêtre\">G202</a></li>\n</ul>\n"
 						}
 					]
 				}
@@ -2145,7 +2145,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-info-relationships\"  target=\"_blank\" title=\"1.3.1 (A) - nouvelle fenêtre\">1.3.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-headings-labels-aa\"  target=\"_blank\" title=\"2.4.6 (AA) - nouvelle fenêtre\">2.4.6 (AA)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-labels-instructions\"  target=\"_blank\" title=\"3.3.2 (A) - nouvelle fenêtre\">3.3.2 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-name-role-value\"  target=\"_blank\" title=\"4.1.2 (A) - nouvelle fenêtre\">4.1.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G82\"  target=\"_blank\" title=\"G82 - nouvelle fenêtre\">G82</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G131\"  target=\"_blank\" title=\"G131 - nouvelle fenêtre\">G131</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H44\"  target=\"_blank\" title=\"H44 - nouvelle fenêtre\">H44</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H65\"  target=\"_blank\" title=\"H65 - nouvelle fenêtre\">H65</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F68\"  target=\"_blank\" title=\"F68 - nouvelle fenêtre\">F68</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F82\"  target=\"_blank\" title=\"F82 - nouvelle fenêtre\">F82</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F86\"  target=\"_blank\" title=\"F86 - nouvelle fenêtre\">F86</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA6\"  target=\"_blank\" title=\"ARIA6 - nouvelle fenêtre\">ARIA6</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA9\"  target=\"_blank\" title=\"ARIA9 - nouvelle fenêtre\">ARIA9</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA14\"  target=\"_blank\" title=\"ARIA14 - nouvelle fenêtre\">ARIA14</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA16\"  target=\"_blank\" title=\"ARIA16 - nouvelle fenêtre\">ARIA16</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G82\"  target=\"_blank\" title=\"G82 - nouvelle fenêtre\">G82</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G131\"  target=\"_blank\" title=\"G131 - nouvelle fenêtre\">G131</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H44\"  target=\"_blank\" title=\"H44 - nouvelle fenêtre\">H44</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H65\"  target=\"_blank\" title=\"H65 - nouvelle fenêtre\">H65</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F68\"  target=\"_blank\" title=\"F68 - nouvelle fenêtre\">F68</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F82\"  target=\"_blank\" title=\"F82 - nouvelle fenêtre\">F82</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F86\"  target=\"_blank\" title=\"F86 - nouvelle fenêtre\">F86</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA6\"  target=\"_blank\" title=\"ARIA6 - nouvelle fenêtre\">ARIA6</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA9\"  target=\"_blank\" title=\"ARIA9 - nouvelle fenêtre\">ARIA9</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA14\"  target=\"_blank\" title=\"ARIA14 - nouvelle fenêtre\">ARIA14</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA16\"  target=\"_blank\" title=\"ARIA16 - nouvelle fenêtre\">ARIA16</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2193,7 +2193,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-headings-labels-aa\"  target=\"_blank\" title=\"2.4.6 (AA) - nouvelle fenêtre\">2.4.6 (AA)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-label-name\"  target=\"_blank\" title=\"2.5.3 (A) - nouvelle fenêtre\">2.5.3 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-labels-instructions\"  target=\"_blank\" title=\"3.3.2 (A) - nouvelle fenêtre\">3.3.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G82\"  target=\"_blank\" title=\"G82 - nouvelle fenêtre\">G82</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G131\"  target=\"_blank\" title=\"G131 - nouvelle fenêtre\">G131</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H44\"  target=\"_blank\" title=\"H44 - nouvelle fenêtre\">H44</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H65\"  target=\"_blank\" title=\"H65 - nouvelle fenêtre\">H65</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA6\"  target=\"_blank\" title=\"ARIA6 - nouvelle fenêtre\">ARIA6</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA9\"  target=\"_blank\" title=\"ARIA9 - nouvelle fenêtre\">ARIA9</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA14\"  target=\"_blank\" title=\"ARIA14 - nouvelle fenêtre\">ARIA14</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA16\"  target=\"_blank\" title=\"ARIA16 - nouvelle fenêtre\">ARIA16</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G82\"  target=\"_blank\" title=\"G82 - nouvelle fenêtre\">G82</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G131\"  target=\"_blank\" title=\"G131 - nouvelle fenêtre\">G131</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H44\"  target=\"_blank\" title=\"H44 - nouvelle fenêtre\">H44</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H65\"  target=\"_blank\" title=\"H65 - nouvelle fenêtre\">H65</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA6\"  target=\"_blank\" title=\"ARIA6 - nouvelle fenêtre\">ARIA6</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA9\"  target=\"_blank\" title=\"ARIA9 - nouvelle fenêtre\">ARIA9</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA14\"  target=\"_blank\" title=\"ARIA14 - nouvelle fenêtre\">ARIA14</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA16\"  target=\"_blank\" title=\"ARIA16 - nouvelle fenêtre\">ARIA16</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2218,7 +2218,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-consistent-identification-aa\"  target=\"_blank\" title=\"3.2.4 (AA) - nouvelle fenêtre\">3.2.4 (AA)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F31\"  target=\"_blank\" title=\"F31 - nouvelle fenêtre\">F31</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F31\"  target=\"_blank\" title=\"F31 - nouvelle fenêtre\">F31</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2252,7 +2252,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-labels-instructions\"  target=\"_blank\" title=\"3.3.2 (A) - nouvelle fenêtre\">3.3.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G162\"  target=\"_blank\" title=\"G162 - nouvelle fenêtre\">G162</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G162\"  target=\"_blank\" title=\"G162 - nouvelle fenêtre\">G162</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2273,7 +2273,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-info-relationships\"  target=\"_blank\" title=\"1.3.1 (A) - nouvelle fenêtre\">1.3.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-labels-instructions\"  target=\"_blank\" title=\"3.3.2 (A) - nouvelle fenêtre\">3.3.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H71\"  target=\"_blank\" title=\"H71 - nouvelle fenêtre\">H71</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA17\"  target=\"_blank\" title=\"ARIA17 - nouvelle fenêtre\">ARIA17</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H71\"  target=\"_blank\" title=\"H71 - nouvelle fenêtre\">H71</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA17\"  target=\"_blank\" title=\"ARIA17 - nouvelle fenêtre\">ARIA17</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2294,7 +2294,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-info-relationships\"  target=\"_blank\" title=\"1.3.1 (A) - nouvelle fenêtre\">1.3.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-labels-instructions\"  target=\"_blank\" title=\"3.3.2 (A) - nouvelle fenêtre\">3.3.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H71\"  target=\"_blank\" title=\"H71 - nouvelle fenêtre\">H71</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA17\"  target=\"_blank\" title=\"ARIA17 - nouvelle fenêtre\">ARIA17</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H71\"  target=\"_blank\" title=\"H71 - nouvelle fenêtre\">H71</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA17\"  target=\"_blank\" title=\"ARIA17 - nouvelle fenêtre\">ARIA17</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2315,7 +2315,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-info-relationships\"  target=\"_blank\" title=\"1.3.1 (A) - nouvelle fenêtre\">1.3.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-labels-instructions\"  target=\"_blank\" title=\"3.3.2 (A) - nouvelle fenêtre\">3.3.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H71\"  target=\"_blank\" title=\"H71 - nouvelle fenêtre\">H71</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA17\"  target=\"_blank\" title=\"ARIA17 - nouvelle fenêtre\">ARIA17</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H71\"  target=\"_blank\" title=\"H71 - nouvelle fenêtre\">H71</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA17\"  target=\"_blank\" title=\"ARIA17 - nouvelle fenêtre\">ARIA17</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2346,7 +2346,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-info-relationships\"  target=\"_blank\" title=\"1.3.1 (A) - nouvelle fenêtre\">1.3.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H85\"  target=\"_blank\" title=\"H85 - nouvelle fenêtre\">H85</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H85\"  target=\"_blank\" title=\"H85 - nouvelle fenêtre\">H85</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2373,7 +2373,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-label-name\"  target=\"_blank\" title=\"2.5.3 (A) - nouvelle fenêtre\">2.5.3 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-name-role-value\"  target=\"_blank\" title=\"4.1.2 (A) - nouvelle fenêtre\">4.1.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H36\"  target=\"_blank\" title=\"H36 - nouvelle fenêtre\">H36</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H91\"  target=\"_blank\" title=\"H91 - nouvelle fenêtre\">H91</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA6\"  target=\"_blank\" title=\"ARIA6 - nouvelle fenêtre\">ARIA6</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA9\"  target=\"_blank\" title=\"ARIA9 - nouvelle fenêtre\">ARIA9</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA14\"  target=\"_blank\" title=\"ARIA14 - nouvelle fenêtre\">ARIA14</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA16\"  target=\"_blank\" title=\"ARIA16 - nouvelle fenêtre\">ARIA16</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H36\"  target=\"_blank\" title=\"H36 - nouvelle fenêtre\">H36</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H91\"  target=\"_blank\" title=\"H91 - nouvelle fenêtre\">H91</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA6\"  target=\"_blank\" title=\"ARIA6 - nouvelle fenêtre\">ARIA6</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA9\"  target=\"_blank\" title=\"ARIA9 - nouvelle fenêtre\">ARIA9</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA14\"  target=\"_blank\" title=\"ARIA14 - nouvelle fenêtre\">ARIA14</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA16\"  target=\"_blank\" title=\"ARIA16 - nouvelle fenêtre\">ARIA16</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2427,7 +2427,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-error-identification\"  target=\"_blank\" title=\"3.3.1 (A) - nouvelle fenêtre\">3.3.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-labels-instructions\"  target=\"_blank\" title=\"3.3.2 (A) - nouvelle fenêtre\">3.3.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G83\"  target=\"_blank\" title=\"G83 - nouvelle fenêtre\">G83</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G84\"  target=\"_blank\" title=\"G84 - nouvelle fenêtre\">G84</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G85\"  target=\"_blank\" title=\"G85 - nouvelle fenêtre\">G85</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G89\"  target=\"_blank\" title=\"G89 - nouvelle fenêtre\">G89</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G184\"  target=\"_blank\" title=\"G184 - nouvelle fenêtre\">G184</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H44\"  target=\"_blank\" title=\"H44 - nouvelle fenêtre\">H44</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H81\"  target=\"_blank\" title=\"H81 - nouvelle fenêtre\">H81</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H89\"  target=\"_blank\" title=\"H89 - nouvelle fenêtre\">H89</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H90\"  target=\"_blank\" title=\"H90 - nouvelle fenêtre\">H90</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F81\"  target=\"_blank\" title=\"F81 - nouvelle fenêtre\">F81</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR18\"  target=\"_blank\" title=\"SCR18 - nouvelle fenêtre\">SCR18</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR32\"  target=\"_blank\" title=\"SCR32 - nouvelle fenêtre\">SCR32</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA1\"  target=\"_blank\" title=\"ARIA1 - nouvelle fenêtre\">ARIA1</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA2\"  target=\"_blank\" title=\"ARIA2 - nouvelle fenêtre\">ARIA2</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA6\"  target=\"_blank\" title=\"ARIA6 - nouvelle fenêtre\">ARIA6</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA9\"  target=\"_blank\" title=\"ARIA9 - nouvelle fenêtre\">ARIA9</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA16\"  target=\"_blank\" title=\"ARIA16 - nouvelle fenêtre\">ARIA16</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA21\"  target=\"_blank\" title=\"ARIA21 - nouvelle fenêtre\">ARIA21</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G83\"  target=\"_blank\" title=\"G83 - nouvelle fenêtre\">G83</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G84\"  target=\"_blank\" title=\"G84 - nouvelle fenêtre\">G84</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G85\"  target=\"_blank\" title=\"G85 - nouvelle fenêtre\">G85</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G89\"  target=\"_blank\" title=\"G89 - nouvelle fenêtre\">G89</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G184\"  target=\"_blank\" title=\"G184 - nouvelle fenêtre\">G184</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H44\"  target=\"_blank\" title=\"H44 - nouvelle fenêtre\">H44</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H81\"  target=\"_blank\" title=\"H81 - nouvelle fenêtre\">H81</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H89\"  target=\"_blank\" title=\"H89 - nouvelle fenêtre\">H89</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H90\"  target=\"_blank\" title=\"H90 - nouvelle fenêtre\">H90</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F81\"  target=\"_blank\" title=\"F81 - nouvelle fenêtre\">F81</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR18\"  target=\"_blank\" title=\"SCR18 - nouvelle fenêtre\">SCR18</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR32\"  target=\"_blank\" title=\"SCR32 - nouvelle fenêtre\">SCR32</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA1\"  target=\"_blank\" title=\"ARIA1 - nouvelle fenêtre\">ARIA1</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA2\"  target=\"_blank\" title=\"ARIA2 - nouvelle fenêtre\">ARIA2</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA6\"  target=\"_blank\" title=\"ARIA6 - nouvelle fenêtre\">ARIA6</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA9\"  target=\"_blank\" title=\"ARIA9 - nouvelle fenêtre\">ARIA9</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA16\"  target=\"_blank\" title=\"ARIA16 - nouvelle fenêtre\">ARIA16</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA21\"  target=\"_blank\" title=\"ARIA21 - nouvelle fenêtre\">ARIA21</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2454,7 +2454,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-error-suggestion-aa\"  target=\"_blank\" title=\"3.3.3 (AA) - nouvelle fenêtre\">3.3.3 (AA)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G84\"  target=\"_blank\" title=\"G84 - nouvelle fenêtre\">G84</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G85\"  target=\"_blank\" title=\"G85 - nouvelle fenêtre\">G85</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G89\"  target=\"_blank\" title=\"G89 - nouvelle fenêtre\">G89</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G177\"  target=\"_blank\" title=\"G177 - nouvelle fenêtre\">G177</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H89\"  target=\"_blank\" title=\"H89 - nouvelle fenêtre\">H89</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G84\"  target=\"_blank\" title=\"G84 - nouvelle fenêtre\">G84</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G85\"  target=\"_blank\" title=\"G85 - nouvelle fenêtre\">G85</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G89\"  target=\"_blank\" title=\"G89 - nouvelle fenêtre\">G89</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G177\"  target=\"_blank\" title=\"G177 - nouvelle fenêtre\">G177</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H89\"  target=\"_blank\" title=\"H89 - nouvelle fenêtre\">H89</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2479,7 +2479,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-error-prevention-legal-financial-data-aa\"  target=\"_blank\" title=\"3.3.4 (AA) - nouvelle fenêtre\">3.3.4 (AA)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G98\"  target=\"_blank\" title=\"G98 - nouvelle fenêtre\">G98</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G99\"  target=\"_blank\" title=\"G99 - nouvelle fenêtre\">G99</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G155\"  target=\"_blank\" title=\"G155 - nouvelle fenêtre\">G155</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G164\"  target=\"_blank\" title=\"G164 - nouvelle fenêtre\">G164</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G168\"  target=\"_blank\" title=\"G168 - nouvelle fenêtre\">G168</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G98\"  target=\"_blank\" title=\"G98 - nouvelle fenêtre\">G98</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G99\"  target=\"_blank\" title=\"G99 - nouvelle fenêtre\">G99</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G155\"  target=\"_blank\" title=\"G155 - nouvelle fenêtre\">G155</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G164\"  target=\"_blank\" title=\"G164 - nouvelle fenêtre\">G164</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G168\"  target=\"_blank\" title=\"G168 - nouvelle fenêtre\">G168</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2503,7 +2503,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-identify-input-purpose-aa\"  target=\"_blank\" title=\"1.3.5 (AA) - nouvelle fenêtre\">1.3.5 (AA)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H98\"  target=\"_blank\" title=\"H98 - nouvelle fenêtre\">H98</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H98\"  target=\"_blank\" title=\"H98 - nouvelle fenêtre\">H98</a></li>\n</ul>\n"
 						}
 					]
 				}
@@ -2534,7 +2534,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-multiple-ways-aa\"  target=\"_blank\" title=\"2.4.5 (AA) - nouvelle fenêtre\">2.4.5 (AA)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G63\"  target=\"_blank\" title=\"G63 - nouvelle fenêtre\">G63</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G64\"  target=\"_blank\" title=\"G64 - nouvelle fenêtre\">G64</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G161\"  target=\"_blank\" title=\"G161 - nouvelle fenêtre\">G161</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G63\"  target=\"_blank\" title=\"G63 - nouvelle fenêtre\">G63</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G64\"  target=\"_blank\" title=\"G64 - nouvelle fenêtre\">G64</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G161\"  target=\"_blank\" title=\"G161 - nouvelle fenêtre\">G161</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2561,7 +2561,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-consistent-navigation-aa\"  target=\"_blank\" title=\"3.2.3 (AA) - nouvelle fenêtre\">3.2.3 (AA)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G61\"  target=\"_blank\" title=\"G61 - nouvelle fenêtre\">G61</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F66\"  target=\"_blank\" title=\"F66 - nouvelle fenêtre\">F66</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G61\"  target=\"_blank\" title=\"G61 - nouvelle fenêtre\">G61</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F66\"  target=\"_blank\" title=\"F66 - nouvelle fenêtre\">F66</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2590,7 +2590,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-multiple-ways-aa\"  target=\"_blank\" title=\"2.4.5 (AA) - nouvelle fenêtre\">2.4.5 (AA)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G63\"  target=\"_blank\" title=\"G63 - nouvelle fenêtre\">G63</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G63\"  target=\"_blank\" title=\"G63 - nouvelle fenêtre\">G63</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2619,7 +2619,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-multiple-ways-aa\"  target=\"_blank\" title=\"2.4.5 (AA) - nouvelle fenêtre\">2.4.5 (AA)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-consistent-navigation-aa\"  target=\"_blank\" title=\"3.2.3 (AA) - nouvelle fenêtre\">3.2.3 (AA)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G61\"  target=\"_blank\" title=\"G61 - nouvelle fenêtre\">G61</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G63\"  target=\"_blank\" title=\"G63 - nouvelle fenêtre\">G63</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G61\"  target=\"_blank\" title=\"G61 - nouvelle fenêtre\">G61</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G63\"  target=\"_blank\" title=\"G63 - nouvelle fenêtre\">G63</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2648,7 +2648,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-consistent-navigation-aa\"  target=\"_blank\" title=\"3.2.3 (AA) - nouvelle fenêtre\">3.2.3 (AA)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G61\"  target=\"_blank\" title=\"G61 - nouvelle fenêtre\">G61</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F66\"  target=\"_blank\" title=\"F66 - nouvelle fenêtre\">F66</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G61\"  target=\"_blank\" title=\"G61 - nouvelle fenêtre\">G61</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F66\"  target=\"_blank\" title=\"F66 - nouvelle fenêtre\">F66</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2669,7 +2669,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-info-relationships\"  target=\"_blank\" title=\"1.3.1 (A) - nouvelle fenêtre\">1.3.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-bypass-blocks\"  target=\"_blank\" title=\"2.4.1 (A) - nouvelle fenêtre\">2.4.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-name-role-value\"  target=\"_blank\" title=\"4.1.2 (A) - nouvelle fenêtre\">4.1.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H69\"  target=\"_blank\" title=\"H69 - nouvelle fenêtre\">H69</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G115\"  target=\"_blank\" title=\"G115 - nouvelle fenêtre\">G115</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA4\"  target=\"_blank\" title=\"ARIA4 - nouvelle fenêtre\">ARIA4</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA11\"  target=\"_blank\" title=\"ARIA11 - nouvelle fenêtre\">ARIA11</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H69\"  target=\"_blank\" title=\"H69 - nouvelle fenêtre\">H69</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G115\"  target=\"_blank\" title=\"G115 - nouvelle fenêtre\">G115</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA4\"  target=\"_blank\" title=\"ARIA4 - nouvelle fenêtre\">ARIA4</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA11\"  target=\"_blank\" title=\"ARIA11 - nouvelle fenêtre\">ARIA11</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2697,7 +2697,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-bypass-blocks\"  target=\"_blank\" title=\"2.4.1 (A) - nouvelle fenêtre\">2.4.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-focus-order\"  target=\"_blank\" title=\"2.4.3 (A) - nouvelle fenêtre\">2.4.3 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-consistent-navigation-aa\"  target=\"_blank\" title=\"3.2.3 (AA) - nouvelle fenêtre\">3.2.3 (AA)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G1\"  target=\"_blank\" title=\"G1 - nouvelle fenêtre\">G1</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G59\"  target=\"_blank\" title=\"G59 - nouvelle fenêtre\">G59</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G123\"  target=\"_blank\" title=\"G123 - nouvelle fenêtre\">G123</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G124\"  target=\"_blank\" title=\"G124 - nouvelle fenêtre\">G124</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR28\"  target=\"_blank\" title=\"SCR28 - nouvelle fenêtre\">SCR28</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F66\"  target=\"_blank\" title=\"F66 - nouvelle fenêtre\">F66</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G1\"  target=\"_blank\" title=\"G1 - nouvelle fenêtre\">G1</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G59\"  target=\"_blank\" title=\"G59 - nouvelle fenêtre\">G59</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G123\"  target=\"_blank\" title=\"G123 - nouvelle fenêtre\">G123</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G124\"  target=\"_blank\" title=\"G124 - nouvelle fenêtre\">G124</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR28\"  target=\"_blank\" title=\"SCR28 - nouvelle fenêtre\">SCR28</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F66\"  target=\"_blank\" title=\"F66 - nouvelle fenêtre\">F66</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2722,7 +2722,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-focus-order\"  target=\"_blank\" title=\"2.4.3 (A) - nouvelle fenêtre\">2.4.3 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G59\"  target=\"_blank\" title=\"G59 - nouvelle fenêtre\">G59</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H4\"  target=\"_blank\" title=\"H4 - nouvelle fenêtre\">H4</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F44\"  target=\"_blank\" title=\"F44 - nouvelle fenêtre\">F44</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F85\"  target=\"_blank\" title=\"F85 - nouvelle fenêtre\">F85</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR26\"  target=\"_blank\" title=\"SCR26 - nouvelle fenêtre\">SCR26</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR27\"  target=\"_blank\" title=\"SCR27 - nouvelle fenêtre\">SCR27</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR37\"  target=\"_blank\" title=\"SCR37 - nouvelle fenêtre\">SCR37</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C27\"  target=\"_blank\" title=\"C27 - nouvelle fenêtre\">C27</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G59\"  target=\"_blank\" title=\"G59 - nouvelle fenêtre\">G59</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H4\"  target=\"_blank\" title=\"H4 - nouvelle fenêtre\">H4</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F44\"  target=\"_blank\" title=\"F44 - nouvelle fenêtre\">F44</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F85\"  target=\"_blank\" title=\"F85 - nouvelle fenêtre\">F85</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR26\"  target=\"_blank\" title=\"SCR26 - nouvelle fenêtre\">SCR26</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR27\"  target=\"_blank\" title=\"SCR27 - nouvelle fenêtre\">SCR27</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR37\"  target=\"_blank\" title=\"SCR37 - nouvelle fenêtre\">SCR37</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/css/C27\"  target=\"_blank\" title=\"C27 - nouvelle fenêtre\">C27</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2743,7 +2743,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-keyboard\"  target=\"_blank\" title=\"2.1.1 (A) - nouvelle fenêtre\">2.1.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-no-keyboard-trap\"  target=\"_blank\" title=\"2.1.2 (A) - nouvelle fenêtre\">2.1.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G21\"  target=\"_blank\" title=\"G21 - nouvelle fenêtre\">G21</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H91\"  target=\"_blank\" title=\"H91 - nouvelle fenêtre\">H91</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F10\"  target=\"_blank\" title=\"F10 - nouvelle fenêtre\">F10</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G21\"  target=\"_blank\" title=\"G21 - nouvelle fenêtre\">G21</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H91\"  target=\"_blank\" title=\"H91 - nouvelle fenêtre\">H91</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F10\"  target=\"_blank\" title=\"F10 - nouvelle fenêtre\">F10</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2764,7 +2764,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-character-key-shortcuts\"  target=\"_blank\" title=\"2.1.4 (A) - nouvelle fenêtre\">2.1.4 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F99\"  target=\"_blank\" title=\"F99 - nouvelle fenêtre\">F99</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G217\"  target=\"_blank\" title=\"G217 - nouvelle fenêtre\">G217</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F99\"  target=\"_blank\" title=\"F99 - nouvelle fenêtre\">F99</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G217\"  target=\"_blank\" title=\"G217 - nouvelle fenêtre\">G217</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2787,7 +2787,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-keyboard\"  target=\"_blank\" title=\"2.1.1 (A) - nouvelle fenêtre\">2.1.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": ""
+							"techniques": ""
 						}
 					]
 				}
@@ -2829,7 +2829,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-timing-adjustable\"  target=\"_blank\" title=\"2.2.1 (A) - nouvelle fenêtre\">2.2.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-pause-stop-hide\"  target=\"_blank\" title=\"2.2.2 (A) - nouvelle fenêtre\">2.2.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F40\"  target=\"_blank\" title=\"F40 - nouvelle fenêtre\">F40</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F41\"  target=\"_blank\" title=\"F41 - nouvelle fenêtre\">F41</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F58\"  target=\"_blank\" title=\"F58 - nouvelle fenêtre\">F58</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F61\"  target=\"_blank\" title=\"F61 - nouvelle fenêtre\">F61</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G75\"  target=\"_blank\" title=\"G75 - nouvelle fenêtre\">G75</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G76\"  target=\"_blank\" title=\"G76 - nouvelle fenêtre\">G76</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G110\"  target=\"_blank\" title=\"G110 - nouvelle fenêtre\">G110</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G133\"  target=\"_blank\" title=\"G133 - nouvelle fenêtre\">G133</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G180\"  target=\"_blank\" title=\"G180 - nouvelle fenêtre\">G180</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G186\"  target=\"_blank\" title=\"G186 - nouvelle fenêtre\">G186</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G198\"  target=\"_blank\" title=\"G198 - nouvelle fenêtre\">G198</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H76\"  target=\"_blank\" title=\"H76 - nouvelle fenêtre\">H76</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR1\"  target=\"_blank\" title=\"SCR1 - nouvelle fenêtre\">SCR1</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR16\"  target=\"_blank\" title=\"SCR16 - nouvelle fenêtre\">SCR16</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR36\"  target=\"_blank\" title=\"SCR36 - nouvelle fenêtre\">SCR36</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SVR1\"  target=\"_blank\" title=\"SVR1 - nouvelle fenêtre\">SVR1</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F40\"  target=\"_blank\" title=\"F40 - nouvelle fenêtre\">F40</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F41\"  target=\"_blank\" title=\"F41 - nouvelle fenêtre\">F41</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F58\"  target=\"_blank\" title=\"F58 - nouvelle fenêtre\">F58</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F61\"  target=\"_blank\" title=\"F61 - nouvelle fenêtre\">F61</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G75\"  target=\"_blank\" title=\"G75 - nouvelle fenêtre\">G75</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G76\"  target=\"_blank\" title=\"G76 - nouvelle fenêtre\">G76</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G110\"  target=\"_blank\" title=\"G110 - nouvelle fenêtre\">G110</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G133\"  target=\"_blank\" title=\"G133 - nouvelle fenêtre\">G133</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G180\"  target=\"_blank\" title=\"G180 - nouvelle fenêtre\">G180</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G186\"  target=\"_blank\" title=\"G186 - nouvelle fenêtre\">G186</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G198\"  target=\"_blank\" title=\"G198 - nouvelle fenêtre\">G198</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H76\"  target=\"_blank\" title=\"H76 - nouvelle fenêtre\">H76</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR1\"  target=\"_blank\" title=\"SCR1 - nouvelle fenêtre\">SCR1</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR16\"  target=\"_blank\" title=\"SCR16 - nouvelle fenêtre\">SCR16</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR36\"  target=\"_blank\" title=\"SCR36 - nouvelle fenêtre\">SCR36</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SVR1\"  target=\"_blank\" title=\"SVR1 - nouvelle fenêtre\">SVR1</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2850,7 +2850,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-on\"  target=\"_blank\" title=\"3.2.1 (A) - nouvelle fenêtre\">3.2.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F55\"  target=\"_blank\" title=\"F55 - nouvelle fenêtre\">F55</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G107\"  target=\"_blank\" title=\"G107 - nouvelle fenêtre\">G107</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F55\"  target=\"_blank\" title=\"F55 - nouvelle fenêtre\">F55</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G107\"  target=\"_blank\" title=\"G107 - nouvelle fenêtre\">G107</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2877,7 +2877,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-non-content\"  target=\"_blank\" title=\"1.1.1 (A) - nouvelle fenêtre\">1.1.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-info-relationships\"  target=\"_blank\" title=\"1.3.1 (A) - nouvelle fenêtre\">1.3.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-meaningful-sequence\"  target=\"_blank\" title=\"1.3.2 (A) - nouvelle fenêtre\">1.3.2 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-bypass-blocks\"  target=\"_blank\" title=\"2.4.1 (A) - nouvelle fenêtre\">2.4.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-focus-order\"  target=\"_blank\" title=\"2.4.3 (A) - nouvelle fenêtre\">2.4.3 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-language-page\"  target=\"_blank\" title=\"3.1.1 (A) - nouvelle fenêtre\">3.1.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-name-role-value\"  target=\"_blank\" title=\"4.1.2 (A) - nouvelle fenêtre\">4.1.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F15\"  target=\"_blank\" title=\"F15 - nouvelle fenêtre\">F15</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G10\"  target=\"_blank\" title=\"G10 - nouvelle fenêtre\">G10</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G135\"  target=\"_blank\" title=\"G135 - nouvelle fenêtre\">G135</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F15\"  target=\"_blank\" title=\"F15 - nouvelle fenêtre\">F15</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G10\"  target=\"_blank\" title=\"G10 - nouvelle fenêtre\">G10</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G135\"  target=\"_blank\" title=\"G135 - nouvelle fenêtre\">G135</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2898,7 +2898,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-non-content\"  target=\"_blank\" title=\"1.1.1 (A) - nouvelle fenêtre\">1.1.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-info-relationships\"  target=\"_blank\" title=\"1.3.1 (A) - nouvelle fenêtre\">1.3.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-meaningful-sequence\"  target=\"_blank\" title=\"1.3.2 (A) - nouvelle fenêtre\">1.3.2 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-bypass-blocks\"  target=\"_blank\" title=\"2.4.1 (A) - nouvelle fenêtre\">2.4.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-focus-order\"  target=\"_blank\" title=\"2.4.3 (A) - nouvelle fenêtre\">2.4.3 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-language-page\"  target=\"_blank\" title=\"3.1.1 (A) - nouvelle fenêtre\">3.1.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-name-role-value\"  target=\"_blank\" title=\"4.1.2 (A) - nouvelle fenêtre\">4.1.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F15\"  target=\"_blank\" title=\"F15 - nouvelle fenêtre\">F15</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G10\"  target=\"_blank\" title=\"G10 - nouvelle fenêtre\">G10</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G135\"  target=\"_blank\" title=\"G135 - nouvelle fenêtre\">G135</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F15\"  target=\"_blank\" title=\"F15 - nouvelle fenêtre\">F15</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G10\"  target=\"_blank\" title=\"G10 - nouvelle fenêtre\">G10</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G135\"  target=\"_blank\" title=\"G135 - nouvelle fenêtre\">G135</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2919,7 +2919,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-non-content\"  target=\"_blank\" title=\"1.1.1 (A) - nouvelle fenêtre\">1.1.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F71\"  target=\"_blank\" title=\"F71 - nouvelle fenêtre\">F71</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F70\"  target=\"_blank\" title=\"F70 - nouvelle fenêtre\">F70</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G135\"  target=\"_blank\" title=\"G135 - nouvelle fenêtre\">G135</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H86\"  target=\"_blank\" title=\"H86 - nouvelle fenêtre\">H86</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F71\"  target=\"_blank\" title=\"F71 - nouvelle fenêtre\">F71</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F70\"  target=\"_blank\" title=\"F70 - nouvelle fenêtre\">F70</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G135\"  target=\"_blank\" title=\"G135 - nouvelle fenêtre\">G135</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H86\"  target=\"_blank\" title=\"H86 - nouvelle fenêtre\">H86</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2940,7 +2940,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-non-content\"  target=\"_blank\" title=\"1.1.1 (A) - nouvelle fenêtre\">1.1.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F71\"  target=\"_blank\" title=\"F71 - nouvelle fenêtre\">F71</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F72\"  target=\"_blank\" title=\"F72 - nouvelle fenêtre\">F72</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H86\"  target=\"_blank\" title=\"H86 - nouvelle fenêtre\">H86</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F71\"  target=\"_blank\" title=\"F71 - nouvelle fenêtre\">F71</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F72\"  target=\"_blank\" title=\"F72 - nouvelle fenêtre\">F72</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/html/H86\"  target=\"_blank\" title=\"H86 - nouvelle fenêtre\">H86</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2969,7 +2969,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-three-flashes-below-threshold\"  target=\"_blank\" title=\"2.3.1 (A) - nouvelle fenêtre\">2.3.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G15\"  target=\"_blank\" title=\"G15 - nouvelle fenêtre\">G15</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G19\"  target=\"_blank\" title=\"G19 - nouvelle fenêtre\">G19</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G176\"  target=\"_blank\" title=\"G176 - nouvelle fenêtre\">G176</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G15\"  target=\"_blank\" title=\"G15 - nouvelle fenêtre\">G15</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G19\"  target=\"_blank\" title=\"G19 - nouvelle fenêtre\">G19</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G176\"  target=\"_blank\" title=\"G176 - nouvelle fenêtre\">G176</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -2994,7 +2994,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-timing-adjustable\"  target=\"_blank\" title=\"2.2.1 (A) - nouvelle fenêtre\">2.2.1 (A)</a></li>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-pause-stop-hide\"  target=\"_blank\" title=\"2.2.2 (A) - nouvelle fenêtre\">2.2.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F4\"  target=\"_blank\" title=\"F4 - nouvelle fenêtre\">F4</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F7\"  target=\"_blank\" title=\"F7 - nouvelle fenêtre\">F7</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F16\"  target=\"_blank\" title=\"F16 - nouvelle fenêtre\">F16</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F47\"  target=\"_blank\" title=\"F47 - nouvelle fenêtre\">F47</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F50\"  target=\"_blank\" title=\"F50 - nouvelle fenêtre\">F50</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G4\"  target=\"_blank\" title=\"G4 - nouvelle fenêtre\">G4</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G11\"  target=\"_blank\" title=\"G11 - nouvelle fenêtre\">G11</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G152\"  target=\"_blank\" title=\"G152 - nouvelle fenêtre\">G152</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G186\"  target=\"_blank\" title=\"G186 - nouvelle fenêtre\">G186</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G187\"  target=\"_blank\" title=\"G187 - nouvelle fenêtre\">G187</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G191\"  target=\"_blank\" title=\"G191 - nouvelle fenêtre\">G191</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR22\"  target=\"_blank\" title=\"SCR22 - nouvelle fenêtre\">SCR22</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR33\"  target=\"_blank\" title=\"SCR33 - nouvelle fenêtre\">SCR33</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR36\"  target=\"_blank\" title=\"SCR36 - nouvelle fenêtre\">SCR36</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM11\"  target=\"_blank\" title=\"SM11 - nouvelle fenêtre\">SM11</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM12\"  target=\"_blank\" title=\"SM12 - nouvelle fenêtre\">SM12</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F4\"  target=\"_blank\" title=\"F4 - nouvelle fenêtre\">F4</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F7\"  target=\"_blank\" title=\"F7 - nouvelle fenêtre\">F7</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F16\"  target=\"_blank\" title=\"F16 - nouvelle fenêtre\">F16</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F47\"  target=\"_blank\" title=\"F47 - nouvelle fenêtre\">F47</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F50\"  target=\"_blank\" title=\"F50 - nouvelle fenêtre\">F50</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G4\"  target=\"_blank\" title=\"G4 - nouvelle fenêtre\">G4</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G11\"  target=\"_blank\" title=\"G11 - nouvelle fenêtre\">G11</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G152\"  target=\"_blank\" title=\"G152 - nouvelle fenêtre\">G152</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G186\"  target=\"_blank\" title=\"G186 - nouvelle fenêtre\">G186</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G187\"  target=\"_blank\" title=\"G187 - nouvelle fenêtre\">G187</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G191\"  target=\"_blank\" title=\"G191 - nouvelle fenêtre\">G191</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR22\"  target=\"_blank\" title=\"SCR22 - nouvelle fenêtre\">SCR22</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR33\"  target=\"_blank\" title=\"SCR33 - nouvelle fenêtre\">SCR33</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR36\"  target=\"_blank\" title=\"SCR36 - nouvelle fenêtre\">SCR36</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM11\"  target=\"_blank\" title=\"SM11 - nouvelle fenêtre\">SM11</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SM12\"  target=\"_blank\" title=\"SM12 - nouvelle fenêtre\">SM12</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -3019,7 +3019,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-orientation-aa\"  target=\"_blank\" title=\"1.3.4 (AA) - nouvelle fenêtre\">1.3.4 (AA)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": ""
+							"techniques": ""
 						}
 					]
 				},
@@ -3049,7 +3049,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-pointer-gestures\"  target=\"_blank\" title=\"2.5.1 (A) - nouvelle fenêtre\">2.5.1 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G215\"  target=\"_blank\" title=\"G215 - nouvelle fenêtre\">G215</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G216\"  target=\"_blank\" title=\"G216 - nouvelle fenêtre\">G216</a></li>\n</ul>\n"
+							"techniques": "<ul>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G215\"  target=\"_blank\" title=\"G215 - nouvelle fenêtre\">G215</a> </li>\n<li><a  href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G216\"  target=\"_blank\" title=\"G216 - nouvelle fenêtre\">G216</a></li>\n</ul>\n"
 						}
 					]
 				},
@@ -3075,7 +3075,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-pointer-cancellation\"  target=\"_blank\" title=\"2.5.2 (A) - nouvelle fenêtre\">2.5.2 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": ""
+							"techniques": ""
 						}
 					]
 				},
@@ -3109,7 +3109,7 @@
 							"wcag": "<ul>\n<li><a  href=\"https://www.w3.org/Translations/WCAG21-fr/#-motion-actuation\"  target=\"_blank\" title=\"2.5.4 (A) - nouvelle fenêtre\">2.5.4 (A)</a></li>\n</ul>\n"
 						},
 						{
-							"technics": ""
+							"techniques": ""
 						}
 					]
 				}
