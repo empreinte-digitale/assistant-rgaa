@@ -2,7 +2,6 @@
 const {marked} = require('marked');
 const {isEmpty} = require('lodash');
 
-
 const accessGouvUrl =
 	'https://accessibilite.numerique.gouv.fr/methode/glossaire/';
 const w3cTechniquesUrl = 'https://www.w3.org/WAI/WCAG21/Techniques/';
@@ -61,42 +60,42 @@ function buildThemes(rgaaJsonCriteria) {
  * @returns  {object} Object
  */
 function parseCriteria(criterias, topicNumber) {
-	return criterias.map((criteria) => {
-		return {
-			'id': `${topicNumber}.${criteria.criterium.number}`,
-			'title': marked(criteria.criterium.title, {
-				renderer: externalLinksRenderer(accessGouvUrl)
-			}),
-			'level': `${getWcagLevel(criteria.criterium.references[0]?.wcag[0])}`,
-			'tests': getTests(
-				criteria.criterium.tests,
-				criteria.criterium.number,
-				topicNumber
-			),
-			'specialCases': formatSpecialCasesToMarkdown(
-				criteria.criterium?.particularCases
-			),
-			'technicalNotes': formatTechnicalNotesToMarkdown(criteria.criterium?.technicalNote),
-			'references': [
-				{
-					'wcag': marked(
-						getWcagMatches(criteria.criterium.references[0]?.wcag),
-						{
-							renderer: externalLinksRenderer(w3cWcag21FrUrl)
-						}
-					)
-				},
-				{
-					'techniques': marked(
-						getWcagTechniques(criteria.criterium.references[1]?.techniques),
-						{
-							renderer: externalLinksRenderer(w3cTechniquesUrl)
-						}
-					)
-				}
-			]
-		};
-	});
+	return criterias.map((criteria) => ({
+		id: `${topicNumber}.${criteria.criterium.number}`,
+		title: marked(criteria.criterium.title, {
+			renderer: externalLinksRenderer(accessGouvUrl)
+		}),
+		level: `${getWcagLevel(criteria.criterium.references[0]?.wcag[0])}`,
+		tests: getTests(
+			criteria.criterium.tests,
+			criteria.criterium.number,
+			topicNumber
+		),
+		specialCases: formatSpecialCasesToMarkdown(
+			criteria.criterium?.particularCases
+		),
+		technicalNotes: formatTechnicalNotesToMarkdown(
+			criteria.criterium?.technicalNote
+		),
+		references: [
+			{
+				wcag: marked(
+					getWcagMatches(criteria.criterium.references[0]?.wcag),
+					{
+						renderer: externalLinksRenderer(w3cWcag21FrUrl)
+					}
+				)
+			},
+			{
+				techniques: marked(
+					getWcagTechniques(criteria.criterium.references[1]?.techniques),
+					{
+						renderer: externalLinksRenderer(w3cTechniquesUrl)
+					}
+				)
+			}
+		]
+	}));
 }
 
 /**
@@ -154,12 +153,12 @@ function getWcagMatches(wcag) {
 }
 
 const wcagCategories = {
-	'H': 'html',
-	'G': 'general',
-	'C': 'css',
-	'F': 'failures',
-	'A': 'aria',
-	'S': 'client-side-script'
+	H: 'html',
+	G: 'general',
+	C: 'css',
+	F: 'failures',
+	A: 'aria',
+	S: 'client-side-script'
 };
 /**
  * @param {object} techniques
