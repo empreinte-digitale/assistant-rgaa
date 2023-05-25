@@ -30,7 +30,7 @@ function externalLinksRenderer(link) {
  *		- {boolean} merge - Whether or not to merge the output
  *		- file with the existing one, if any.
  */
-module.exports = (options) => (json) => {
+module.exports = (json) => {
 	if (!json || typeof json !== 'string') {
 		throw new Error('RGAA Criteria  Json file missing');
 	}
