@@ -2,15 +2,26 @@
 const {marked} = require('marked');
 const {isEmpty} = require('lodash');
 
-/**
- * marked js Renderer
- */
-const renderer = new marked.Renderer();
 
 const accessGouvUrl =
 	'https://accessibilite.numerique.gouv.fr/methode/glossaire/';
 const w3cTechniquesUrl = 'https://www.w3.org/WAI/WCAG21/Techniques/';
 const w3cWcag21FrUrl = 'https://www.w3.org/Translations/WCAG21-fr/';
+
+function externalLinksRenderer(link) {
+	const renderer = new marked.Renderer();
+
+	renderer.link = (href, title, text) => {
+		const matches = href.match(/(https?:\/\/[^\s]+)/g);
+		const newHref = matches ? matches[0] : link + href;
+		const newTitle = `${title ?? text} - nouvelle fenêtre`;
+
+		return `<a href="${newHref}" title="${newTitle}" target="_blank">${text}</a>`;
+	};
+
+	return renderer;
+}
+
 /**
  *	Transforms data from version 4.1 of the RGAA reference into JSON.
  *
@@ -54,7 +65,7 @@ function parseCriteria(criterias, topicNumber) {
 		return {
 			'id': `${topicNumber}.${criteria.criterium.number}`,
 			'title': marked(criteria.criterium.title, {
-				renderer: markedLinkBuilder(accessGouvUrl)
+				renderer: externalLinksRenderer(accessGouvUrl)
 			}),
 			'level': `${getWcagLevel(criteria.criterium.references[0]?.wcag[0])}`,
 			'tests': getTests(
@@ -71,7 +82,7 @@ function parseCriteria(criterias, topicNumber) {
 					'wcag': marked(
 						getWcagMatches(criteria.criterium.references[0]?.wcag),
 						{
-							renderer: markedLinkBuilder(w3cWcag21FrUrl)
+							renderer: externalLinksRenderer(w3cWcag21FrUrl)
 						}
 					)
 				},
@@ -79,7 +90,7 @@ function parseCriteria(criterias, topicNumber) {
 					'techniques': marked(
 						getWcagTechniques(criteria.criterium.references[1]?.techniques),
 						{
-							renderer: markedLinkBuilder(w3cTechniquesUrl)
+							renderer: externalLinksRenderer(w3cTechniquesUrl)
 						}
 					)
 				}
@@ -107,7 +118,7 @@ function getTests(tests, criteriumId, topicNumber) {
 	return Object.entries(tests).map(([key, test]) => ({
 		id: `${topicNumber}.${criteriumId}.${key}`,
 		title: marked(formatTest(test), {
-			renderer: markedLinkBuilder(accessGouvUrl)
+			renderer: externalLinksRenderer(accessGouvUrl)
 		})
 	}));
 }
@@ -168,26 +179,6 @@ function getWcagTechniques(techniques) {
 		.join(' \n');
 }
 
-const isLink = new RegExp(/(https?:\/\/[^\s]+)/, 'g');
-/**
- * @param {string} link
- * @param {string|null} className
- * @param {string|null} target
- * @returns
- */
-function markedLinkBuilder(link, className = null, target = '_blank') {
-	renderer.link = function (href, title, text) {
-		const alreadyLink = href.match(isLink);
-
-		return `<a  href="${alreadyLink ? alreadyLink[0] : link + href}" ${
-			className ? `class="${className}"` : ''
-		} target="${target}" title="${
-			title ?? text + ' - nouvelle fenêtre'
-		}">${text}</a>`;
-	};
-	return renderer;
-}
-
 /**
  *
  * @param {Array<object|string>|undefined} specialCases
@@ -200,13 +191,13 @@ function formatSpecialCasesToMarkdown(specialCases) {
 	return specialCases.map((specialCase) => {
 		if (typeof specialCase === 'string') {
 			return marked(specialCase, {
-				renderer: markedLinkBuilder(accessGouvUrl)
+				renderer: externalLinksRenderer(accessGouvUrl)
 			});
 		}
 
 		return {
 			case: marked(specialCase.ul.join('\n'), {
-				renderer: markedLinkBuilder(accessGouvUrl)
+				renderer: externalLinksRenderer(accessGouvUrl)
 			})
 		};
 	});
@@ -224,11 +215,11 @@ function formatTechnicalNotesToMarkdown(technicalNotes) {
 	return technicalNotes.map((note) => {
 		if (typeof note === 'string') {
 			return marked(note, {
-				renderer: markedLinkBuilder(accessGouvUrl)
+				renderer: externalLinksRenderer(accessGouvUrl)
 			});
 		}
 		return marked(note.ul.join('\n').replace(',', '\n'), {
-			renderer: markedLinkBuilder(accessGouvUrl)
+			renderer: externalLinksRenderer(accessGouvUrl)
 		});
 	});
 }
