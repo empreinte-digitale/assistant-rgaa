@@ -56,8 +56,8 @@ export const getRefLinksById = (state, criterionId) =>
 /**
  *
  */
-export const getParticularCasesById = (state, criterionId) =>
-	state.reference.criteria[criterionId]?.particularCases ?? null;
+export const getSpecialCasesById = (state, criterionId) =>
+	state.reference.criteria[criterionId]?.specialCases ?? null;
 
 /**
  *

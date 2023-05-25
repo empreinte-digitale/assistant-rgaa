@@ -5,7 +5,7 @@ import {isOpen} from '../../common/selectors/criteria';
 import {
 	getAllTestsByCriterion,
 	getRefLinksById,
-	getParticularCasesById,
+	getSpecialCasesById,
 	getTechnicalNotesById
 } from '../../common/selectors/reference';
 import {getOneCriterionResults} from '../../common/selectors/imports';
@@ -19,7 +19,7 @@ import {setTestDone} from '../../common/actions/checklist';
 const mapStateToProps = (state, {id}) => {
 	const tests = getAllTestsByCriterion(state, id);
 	const refLinks = getRefLinksById(state, id);
-	const particularCases = getParticularCasesById(state, id);
+	const specialCases = getSpecialCasesById(state, id);
 	const notes = getTechnicalNotesById(state, id);
 	const open = isOpen(state, id);
 	// get enabled test only when the criterion is closed
@@ -33,7 +33,7 @@ const mapStateToProps = (state, {id}) => {
 		isDone: areAllTestsDone(state, tests),
 		importResults: getOneCriterionResults(state, id),
 		refLinks,
-		particularCases,
+		specialCases,
 		notes
 	};
 };

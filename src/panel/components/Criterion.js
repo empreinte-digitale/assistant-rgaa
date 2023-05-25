@@ -9,7 +9,7 @@ import {TestShape} from '../../common/types/test';
 import TestContainer from './TestContainer';
 import Icon from './Icon';
 import ExternalReferences from './ExternalReferences';
-import ParticularCasesTechnicalNotes from './ParticularCasesTechnicalNotes';
+import SpecialCasesTechnicalNotes from './SpecialCasesTechnicalNotes';
 
 /**
  *
@@ -27,7 +27,7 @@ function Criterion({
 	onDone,
 	intl,
 	refLinks,
-	particularCases,
+	specialCases,
 	notes
 }) {
 	const className = classNames('Criterion Theme-criterion', {
@@ -160,10 +160,10 @@ function Criterion({
 									{intl.formatMessage({id: 'reference.tab.title'})}
 								</Tab>
 							))}
-							{renderIf(!isNull(particularCases))(() => (
+							{renderIf(!isNull(specialCases))(() => (
 								<Tab>
 									{intl.formatMessage({
-										id: 'particular.note.tab.title'
+										id: 'specialCases.note.tab.title'
 									})}
 								</Tab>
 							))}
@@ -181,16 +181,14 @@ function Criterion({
 									<ExternalReferences refLinks={refLinks} intl />
 								</TabPanel>
 
-								{renderIf(!isNull(particularCases))(() => (
+								{renderIf(!isNull(specialCases))(() => (
 									<TabPanel>
-										<ParticularCasesTechnicalNotes
-											data={particularCases}
-										/>
+										<SpecialCasesTechnicalNotes data={specialCases} />
 									</TabPanel>
 								))}
 								{renderIf(!isNull(notes))(() => (
 									<TabPanel>
-										<ParticularCasesTechnicalNotes data={notes} />
+										<SpecialCasesTechnicalNotes data={notes} />
 									</TabPanel>
 								))}
 							</div>
@@ -216,7 +214,7 @@ Criterion.propTypes = {
 	intl: intlShape.isRequired,
 	refLinks: PropTypes.oneOfType([PropTypes.array, PropTypes.object])
 		.isRequired,
-	particularCases: PropTypes.oneOfType([PropTypes.string, PropTypes.array]),
+	specialCases: PropTypes.oneOfType([PropTypes.string, PropTypes.array]),
 	notes: PropTypes.arrayOf(PropTypes.string)
 };
 
@@ -225,7 +223,7 @@ Criterion.defaultProps = {
 	activeTest: undefined,
 	importResults: {},
 	isDone: false,
-	particularCases: null,
+	specialCases: null,
 	notes: null
 };
 

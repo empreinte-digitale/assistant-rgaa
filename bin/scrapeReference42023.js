@@ -62,7 +62,7 @@ function parseCriteria(criterias, topicNumber) {
 				criteria.criterium.number,
 				topicNumber
 			),
-			'particularCases': formatParticularCasesToMarkdown(
+			'specialCases': formatSpecialCasesToMarkdown(
 				criteria.criterium?.particularCases
 			),
 			'technicalNotes': formatTechnicalNotesToMarkdown(criteria.criterium?.technicalNote),
@@ -190,22 +190,22 @@ function markedLinkBuilder(link, className = null, target = '_blank') {
 
 /**
  *
- * @param {Array<object|string>|undefined} particularCases
+ * @param {Array<object|string>|undefined} specialCases
  */
-function formatParticularCasesToMarkdown(particularCases) {
-	if (!particularCases) {
+function formatSpecialCasesToMarkdown(specialCases) {
+	if (!specialCases) {
 		return null;
 	}
 
-	return particularCases.map((pCase) => {
-		if (typeof pCase === 'string') {
-			return marked(pCase, {
+	return specialCases.map((specialCase) => {
+		if (typeof specialCase === 'string') {
+			return marked(specialCase, {
 				renderer: markedLinkBuilder(accessGouvUrl)
 			});
 		}
 
 		return {
-			case: marked(pCase.ul.join('\n'), {
+			case: marked(specialCase.ul.join('\n'), {
 				renderer: markedLinkBuilder(accessGouvUrl)
 			})
 		};

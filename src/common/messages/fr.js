@@ -30,7 +30,7 @@ const messages = {
 	'Wcag.techniques.sucess':
 		'Technique(s) suffisante(s) et/ou échec(s) (en anglais):',
 	'reference.tab.title': 'Réferences',
-	'particular.note.tab.title': 'Notes particulières',
+	'specialCases.note.tab.title': 'Cas particuliers',
 	'technical.note.tabs.title': 'Notes techniques',
 	'Test.title': 'Test {id}',
 	'Test.apply.check.title': 'Activer le test {id}',
