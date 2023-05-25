@@ -3,25 +3,31 @@
 
 	&__tab-list {
 		display: flex;
+		justify-content: stretch;
 		width: 100%;
 		text-decoration: none;
 	}
 
 	&__tab {
-		width: 33.33%;
-		flex: 1 1 auto;
+		flex-grow: 1;
 		text-align: center;
-		background-color: $color-white;
-		padding: 0.5em 0;
+		background-color: $color-gray-light;
+		color: $color-gray-dark;
+		padding: vr(0.25);
 		cursor: pointer;
-		font-family: $font-title;
-		border-top: 0.3em solid transparent;
+		border-top: vr(0.125) solid transparent;
+
+		&:hover,
+		&:focus {
+			border-top-color: $color-gray;
+		}
 
 		&--selected {
-			background-color: $color-orange;
+			background-color: $color-white;
 			color: $color-black;
 			z-index: 100;
-			border-top-color: $color-blue;
+			border-top-color: $color-blue !important;
+			font-weight: bold;
 		}
 	}
 }

@@ -1,31 +1,11 @@
 .SpecialCases {
 	p,
 	ul {
-		@include typi($typi-regular);
-		margin-bottom: 5px;
+		margin-bottom: vr(0.5);
 	}
 
 	ul {
-		margin-bottom: 0.5em;
-		list-style-position: inside;
-
-		li {
-			list-style-type: disc;
-			padding: 0;
-			margin: 0;
-		}
-
-	}
-
-	a {
-		color: blue;
-		padding: 0.4em;
-
-		&:after {
-			display: inline-block;
-			opacity: 0.8;
-			content: '  \21F1';
-			transform: scale(-1, 1);
-		}
+		list-style-type: disc;
+		padding-left: vr(1);
 	}
 }

@@ -176,7 +176,7 @@ function Criterion({
 							))}
 						</TabList>
 						{renderIf(!isEmpty(refLinks))(() => (
-							<div className="Notes-references">
+							<div className="Criterion-tabPanel">
 								<TabPanel>
 									<ExternalReferences refLinks={refLinks} intl />
 								</TabPanel>
