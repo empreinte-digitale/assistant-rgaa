@@ -37,7 +37,7 @@ module.exports = (json) => {
 	const rgaaJson = JSON.parse(json);
 	return {
 		name: 'RGAA 4.1.2 (2023)',
-		version: '4.1.2-2023',
+		version: '4.1.2',
 		themes: buildThemes(rgaaJson)
 	};
 };
