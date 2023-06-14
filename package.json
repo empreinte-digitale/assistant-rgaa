@@ -11,8 +11,8 @@
     "serve": "webpack-dev-server",
     "icons": "touch ./dist/icons.svg && spritesh --input ./icons --output ./dist/icons.svg",
     "build": "npm run clean && npm run icons && NODE_ENV=production webpack",
-    "build-extension": "npm run build && web-ext build --artifacts-dir artifacts/ --ignore-files ./bin ./css ./doc ./fixtures ./src ./test ./karma.conf.js ./package.json ./webpack.config.*",
-    "sign-extension": "npm run build && web-ext sign --artifacts-dir artifacts/ --ignore-files ./bin ./css ./doc ./fixtures ./src ./test ./karma.conf.js ./package.json ./webpack.config.*",
+    "build-extension": "npm run build && web-ext build --artifacts-dir artifacts/ --ignore-files ./bin ./css ./doc ./fixtures ./src ./test ./site ./karma.conf.js ./package.json ./webpack.config.*",
+    "sign-extension": "npm run build && web-ext sign --artifacts-dir artifacts/ --ignore-files ./bin ./css ./doc ./fixtures ./src ./test ./site ./karma.conf.js ./package.json ./webpack.config.*",
     "clean": "rm -f ./dist/*",
     "test": "karma start"
   },
