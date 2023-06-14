@@ -258,13 +258,13 @@ ResizeHandle.propTypes = {
 	onToggleFoldRequest: PropTypes.func,
 	styles: PropTypes.shape({
 		container: PropTypes.objectOf(
-			PropTypes.oneOf(PropTypes.string, PropTypes.number)
+			PropTypes.oneOf([PropTypes.string, PropTypes.number])
 		),
 		handle: PropTypes.objectOf(
-			PropTypes.oneOf(PropTypes.string, PropTypes.number)
+			PropTypes.oneOf([PropTypes.string, PropTypes.number])
 		),
 		overlay: PropTypes.objectOf(
-			PropTypes.oneOf(PropTypes.string, PropTypes.number)
+			PropTypes.oneOf([PropTypes.string, PropTypes.number])
 		)
 	}),
 	classes: PropTypes.shape({
