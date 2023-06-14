@@ -46,7 +46,7 @@ module.exports = (options) => (json) => {
  */
 function buildThemes(rgaaJsonCriteria) {
 	return rgaaJsonCriteria.topics.map((topic) => ({
-		id: topic.number,
+		id: `${topic.number}`,
 		title: `${topic.number}. ${topic.topic}`,
 		criteria: parseCriteria(topic.criteria, topic.number)
 	}));

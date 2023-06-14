@@ -8,55 +8,49 @@ const scrapeInstructions42023 = require('./scrapeInstructions42023');
 /**
  * command to scrape references
  */
-try {
-	program
-		.command('reference-4.1-2023')
-		.alias('r-4.1-2023')
-		.description('Scrapes version 4.1-2023 of the reference.')
-		.option(
-			'-s, --source <source>',
-			'Source URL.',
-			'https://raw.githubusercontent.com/DISIC/accessibilite.numerique.gouv.fr/v4.1.2/RGAA/criteres.json'
-		)
-		.option(
-			'-d, --dest <dest>',
-			'Destination file.',
-			path.resolve(__dirname, '../data/references/4.1-2023.json')
-		)
-		.option(
-			'-m, --merge',
-			'Merges the generated file with the existing one, if any.'
-		)
-		.action(scrapeWith(scrapeReference42023));
-	/**
-	 * command to scrape instructions
-	 */
-	program
-		.command('instructions-4.1-2023')
-		.alias('i-4.1-2023')
-		.description(
-			"Scrapes version 4-2021 of the instructions. Does *not* get assistant's instructions."
-		)
-		.option(
-			'-s, --source <source>',
-			'Source URL.',
-			'https://raw.githubusercontent.com/DISIC/accessibilite.numerique.gouv.fr/v4.1.2/RGAA/methodologies.json'
-		)
-		.option(
-			'-d, --dest <dest>',
-			'Destination file.',
-			path.resolve(__dirname, '../data/instructions/4.1-2023.json')
-		)
-		.option(
-			'-m, --merge',
-			'Merges the generated file with the existing one, if any.'
-		)
-		.action(scrapeWith(scrapeInstructions42023));
-	console.log(`✅ File successfully generated.`);
-} catch (error) {
-	console.error(
-		`❌ An error occured while generating insctructions list: ${error.message}`
-	);
-}
+program
+	.command('reference-4.1-2023')
+	.alias('r-4.1-2023')
+	.description('Scrapes version 4.1-2023 of the reference.')
+	.option(
+		'-s, --source <source>',
+		'Source URL.',
+		'https://raw.githubusercontent.com/DISIC/accessibilite.numerique.gouv.fr/v4.1.2/RGAA/criteres.json'
+	)
+	.option(
+		'-d, --dest <dest>',
+		'Destination file.',
+		path.resolve(__dirname, '../data/references/4.1-2023.json')
+	)
+	.option(
+		'-m, --merge',
+		'Merges the generated file with the existing one, if any.'
+	)
+	.action(scrapeWith(scrapeReference42023));
+
+/**
+ * command to scrape instructions
+ */
+program
+	.command('instructions-4.1-2023')
+	.alias('i-4.1-2023')
+	.description(
+		"Scrapes version 4-2021 of the instructions. Does *not* get assistant's instructions."
+	)
+	.option(
+		'-s, --source <source>',
+		'Source URL.',
+		'https://raw.githubusercontent.com/DISIC/accessibilite.numerique.gouv.fr/v4.1.2/RGAA/methodologies.json'
+	)
+	.option(
+		'-d, --dest <dest>',
+		'Destination file.',
+		path.resolve(__dirname, '../data/instructions/4.1-2023.json')
+	)
+	.option(
+		'-m, --merge',
+		'Merges the generated file with the existing one, if any.'
+	)
+	.action(scrapeWith(scrapeInstructions42023));
 
 program.parse(process.argv);
