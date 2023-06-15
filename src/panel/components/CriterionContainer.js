@@ -2,7 +2,12 @@ import {connect} from 'react-redux';
 import Criterion from './Criterion';
 import {toggleCriterion} from '../../common/actions/criteria';
 import {isOpen} from '../../common/selectors/criteria';
-import {getAllTestsByCriterion} from '../../common/selectors/reference';
+import {
+	getAllTestsByCriterion,
+	getRefLinksById,
+	getSpecialCasesById,
+	getTechnicalNotesById
+} from '../../common/selectors/reference';
 import {getOneCriterionResults} from '../../common/selectors/imports';
 import {getEnabledForCriterion} from '../../common/selectors/tests';
 import {areAllTestsDone} from '../../common/selectors/checklist';
@@ -13,6 +18,9 @@ import {setTestDone} from '../../common/actions/checklist';
  */
 const mapStateToProps = (state, {id}) => {
 	const tests = getAllTestsByCriterion(state, id);
+	const refLinks = getRefLinksById(state, id);
+	const specialCases = getSpecialCasesById(state, id);
+	const notes = getTechnicalNotesById(state, id);
 	const open = isOpen(state, id);
 	// get enabled test only when the criterion is closed
 	const enabledTests = !open ? getEnabledForCriterion(state, id) : null;
@@ -23,7 +31,10 @@ const mapStateToProps = (state, {id}) => {
 		activeTest: enabledTest,
 		isOpen: open,
 		isDone: areAllTestsDone(state, tests),
-		importResults: getOneCriterionResults(state, id)
+		importResults: getOneCriterionResults(state, id),
+		refLinks,
+		specialCases,
+		notes
 	};
 };
 

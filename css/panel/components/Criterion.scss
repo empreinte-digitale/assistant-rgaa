@@ -177,3 +177,8 @@
 .Criterion.is-open .Criterion-action--done {
 	padding-top: vr(1/4);
 }
+
+.Criterion-tabPanel {
+	width: 100%;
+	padding: vr(0.5) $app-gutter;
+}

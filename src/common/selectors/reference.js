@@ -46,3 +46,21 @@ export const getTestIds = (state) => map(getAllTests(state), 'id');
  */
 export const getAllTestsByCriterion = (state, criterionId) =>
 	filter(getAllTests(state), ['criterionId', criterionId]);
+
+/**
+ *
+ */
+export const getRefLinksById = (state, criterionId) =>
+	state.reference.criteria[criterionId]?.references ?? [];
+
+/**
+ *
+ */
+export const getSpecialCasesById = (state, criterionId) =>
+	state.reference.criteria[criterionId]?.specialCases ?? null;
+
+/**
+ *
+ */
+export const getTechnicalNotesById = (state, criterionId) =>
+	state.reference.criteria[criterionId]?.technicalNotes ?? null;
