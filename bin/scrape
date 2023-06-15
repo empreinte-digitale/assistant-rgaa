@@ -9,9 +9,9 @@ const scrapeInstructions42023 = require('./scrapeInstructions42023');
  * command to scrape references
  */
 program
-	.command('reference-4.1-2023')
-	.alias('r-4.1-2023')
-	.description('Scrapes version 4.1-2023 of the reference.')
+	.command('reference-4-2023')
+	.alias('r-4-2023')
+	.description('Scrapes version 4.1.2 of the reference.')
 	.option(
 		'-s, --source <source>',
 		'Source URL.',
@@ -20,7 +20,7 @@ program
 	.option(
 		'-d, --dest <dest>',
 		'Destination file.',
-		path.resolve(__dirname, '../data/references/4.1-2023.json')
+		path.resolve(__dirname, '../data/references/4-2023.json')
 	)
 	.option(
 		'-m, --merge',
@@ -32,10 +32,10 @@ program
  * command to scrape instructions
  */
 program
-	.command('instructions-4.1-2023')
-	.alias('i-4.1-2023')
+	.command('instructions-4-2023')
+	.alias('i-4-2023')
 	.description(
-		"Scrapes version 4-2021 of the instructions. Does *not* get assistant's instructions."
+		"Scrapes version 4.1.2 of the instructions. Does *not* get assistant's instructions."
 	)
 	.option(
 		'-s, --source <source>',
@@ -45,7 +45,7 @@ program
 	.option(
 		'-d, --dest <dest>',
 		'Destination file.',
-		path.resolve(__dirname, '../data/instructions/4.1-2023.json')
+		path.resolve(__dirname, '../data/instructions/4-2023.json')
 	)
 	.option(
 		'-m, --merge',
