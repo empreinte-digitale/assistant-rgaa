@@ -76,7 +76,7 @@ $color-orange-text: #222;
 $color-orange-text-dark: #000;
 $color-red: firebrick;
 $color-green: green;
-$color-highlight: rgba(yellow, 0.1);
+$color-highlight: rgba(yellow, 0.3);
 $color-highlight-no-opacity: #ffffe4;
 
 $color-theme: $color-blue;
@@ -88,6 +88,7 @@ $color-theme-dark-text: $color-blue-dark-text;
 
 $color-accent: orange;
 $color-accent-text: $color-black;
+$color-accent-darker: darken(orange, 7%);
 
 $toggle-size: 36px;
 

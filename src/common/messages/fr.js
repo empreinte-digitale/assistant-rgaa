@@ -218,7 +218,11 @@ const messages = {
 	`,
 	'Helper.validateLocalPage':
 		'Ouvre l\'outil externe "Validateur W3C pour HTML local"',
-	'Helper.viewSource': 'Ouvre l\'outil "Voir les sources".'
+	'Helper.viewSource': 'Ouvre l\'outil "Voir les sources".',
+	'ReferencePage.styles.toggle.label': 'CSS',
+	'ReferencePage.styles.toggle.disabled.true':
+		'Afficher les styles de la page',
+	'ReferencePage.styles.toggle.disabled.false': 'Masquer les styles de la page'
 };
 
 export default messages;
