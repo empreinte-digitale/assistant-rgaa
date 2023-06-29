@@ -5,6 +5,7 @@ import {OPEN_POPUP, CLOSE_POPUP} from '../actions/runtime';
 import {applyAllHelpers, revertAllHelpers} from '../actions/helpers';
 import {SET_POSITION, OPEN, CLOSE} from '../actions/panel';
 import {Position} from '../api/panel';
+import {applyStyles, revertStyles} from '../actions/styles';
 
 /**
  *	Opens or closes a popup window depending on the dock position.
@@ -21,6 +22,7 @@ export function* setPositionWorker({payload: position}) {
  */
 export function* openWorker() {
 	yield put(applyAllHelpers());
+	yield put(applyStyles());
 }
 
 /**
@@ -28,6 +30,7 @@ export function* openWorker() {
  */
 export function* closeWorker() {
 	yield put(revertAllHelpers());
+	yield put(revertStyles());
 }
 
 /**
