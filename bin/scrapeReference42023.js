@@ -65,7 +65,7 @@ function parseCriteria(criterias, topicNumber) {
 		title: marked(criteria.criterium.title, {
 			renderer: externalLinksRenderer(accessGouvUrl)
 		}),
-		level: `${getWcagLevel(criteria.criterium.references[0]?.wcag[0])}`,
+		level: `${parseWcagCriteria(criteria.criterium.references[0]?.wcag[0]).level}`,
 		tests: getTests(
 			criteria.criterium.tests,
 			criteria.criterium.number,
@@ -80,7 +80,7 @@ function parseCriteria(criterias, topicNumber) {
 		references: [
 			{
 				wcag: marked(
-					getWcagMatches(criteria.criterium.references[0]?.wcag),
+					getWcagCriteria(criteria.criterium.references[0]?.wcag),
 					{
 						renderer: externalLinksRenderer(w3cWcag21FrUrl)
 					}
@@ -102,9 +102,13 @@ function parseCriteria(criterias, topicNumber) {
  * @param {string} wcag
  * @returns {string} String
  */
-function getWcagLevel(wcag) {
-	const matches = wcag.match(/\((A+)\)$/);
-	return matches ? matches[1] : '';
+function parseWcagCriteria(title) {
+	const matches = title.match(/^(\d+\.\d+\.\d+) (.+) \((A+)\)/i);
+	return {
+		id: matches ? matches[1] : '',
+		title: matches ? matches[2] : '',
+		level: matches ? matches[3] : ''
+	};
 }
 
 /**
@@ -132,22 +136,25 @@ function formatTest(lines) {
 	return [paragraph, ...list].join('\n');
 }
 
+function wcagTitleSlug(title) {
+	return title
+		.toLowerCase()
+		.replace(/\s/g, '-')
+		.replace(/[^\w-]/g, '');
+}
+
 /**
  * @param {array} wcag
  */
-function getWcagMatches(wcag) {
-	return wcag
-		.map((v) => {
-			let hashUrl = v.match(/([A-Z])\w+/g);
-			if (hashUrl !== null) {
-				hashUrl.unshift('#');
-				hashUrl = hashUrl.join('-').toLowerCase();
-			} else {
-				hashUrl = '#';
-			}
-			return ` * [${v.match(/\d+/g).join('.')} (${getWcagLevel(
-				v
-			)})](${hashUrl})`;
+function getWcagCriteria(titles) {
+	return titles
+		.map(parseWcagCriteria)
+		.map(({id, title, level}) => {
+			const anchor = title
+				? `#${wcagTitleSlug(title)}`
+				: '';
+
+			return ` * [${id} (${level})](${anchor})`;
 		})
 		.join('\n');
 }
