@@ -8,6 +8,7 @@ import tests from './tests';
 import instructions from './instructions';
 import checklist from './checklist';
 import imports from './imports';
+import styles from './styles';
 
 /**
  *	Reducers shared by each instance in the background.
@@ -27,7 +28,8 @@ export const appReducers = {
 	criteria,
 	tests,
 	checklist,
-	imports
+	imports,
+	styles
 };
 
 export const reducers = {
