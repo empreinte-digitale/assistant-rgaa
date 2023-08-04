@@ -32,7 +32,7 @@ export const getReferenceOption = () =>
  * retrieve the reference full json object from a given reference version property
  */
 export const getReference = (version) =>
-	fetch(chrome.extension.getURL(`data/references/${version}.json`)).then(
+	fetch(chrome.runtime.getURL(`data/references/${version}.json`)).then(
 		(response) => response.json()
 	);
 
