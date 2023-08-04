@@ -2,6 +2,7 @@
  *
  */
 const messages = {
+	'Panel.loading': 'Chargement…',
 	'Panel.toggle': 'Afficher le panneau Assistant RGAA',
 	'PanelIframe.title': 'Panneau Assistant RGAA',
 	'Header.title': 'Assistant RGAA',

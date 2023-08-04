@@ -1,62 +1,77 @@
 import React from 'react';
-import {render} from 'react-dom';
-import {Provider} from 'react-redux';
 import {IntlProvider, addLocaleData} from 'react-intl';
 import fr from 'react-intl/locale-data/fr';
-import {noop} from 'lodash';
+import {Provider} from 'react-redux';
+import renderNothingUntil from '~src/common/renderNothingUntil';
+import {isOpen} from '~src/common/selectors/panel';
 import messages from '../common/messages/fr';
-import {OPEN_PANEL, CLOSE_PANEL} from '../common/actions/runtime';
-import getStore from './getStore';
-import {CONTAINER_ID} from './api/container';
 import AppContainer from './components/AppContainer';
-
+import getStore from './getStore';
 /**
  *
  */
 addLocaleData(fr);
 
-/**
- *	A DOM node containing the application.
- */
-let container = null;
+const microstore = (v) => {
+	let value = v;
+	const subscribers = new Set();
 
-/**
- *	Renders the panel.
- */
-const start = () => {
-	if (container) {
-		container.style.display = '';
-		return true;
-	}
+	const subscribe = (subscriber) => {
+		subscribers.add(subscriber);
+		return () => {
+			subscribers.delete(subscriber);
+		};
+	};
 
-	return getStore().then((store) => {
-		container = document.createElement('div');
-		container.className = CONTAINER_ID;
-		document.body.appendChild(container);
+	const getSnapshot = () => open;
 
-		render(
+	const notify = (v) => {
+		subscribers.forEach((s) => {
+			s(v);
+		});
+	};
+
+	const update = (v) => {
+		value = v;
+		notify(v);
+	};
+
+	return {
+		subscribe,
+		getSnapshot,
+		update
+	};
+};
+
+const open = microstore(false);
+
+const App2 = renderNothingUntil(isOpen)(AppContainer);
+
+const App = React.lazy(() =>
+	getStore().then((store) => ({
+		default: () => (
 			<Provider store={store}>
 				<IntlProvider locale="fr" messages={messages}>
-					<AppContainer />
+					<App2 />
 				</IntlProvider>
-			</Provider>,
-			container
-		);
-	}, noop);
-};
+			</Provider>
+		)
+	}))
+);
 
-/**
- *	Removes the panel from the page.
- */
-const hide = () => {
-	if (container) {
-		container.style.display = 'none';
-	}
-};
+export default () => <Suspense>{o ? <App /> : null}</Suspense>;
 
-/**
- *
- */
+/*
+export default () => {
+	const o = useSyncExternalStore(open.subscribe, open.getSnapshot);
+
+	return (
+	<Suspense>
+			{o? <App /> : null}
+		</Suspense>
+)}
+
+
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 	Promise.resolve(message)
 		// eslint-disable-next-line consistent-return
@@ -64,10 +79,12 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 			// eslint-disable-next-line default-case
 			switch (type) {
 				case OPEN_PANEL:
-					return start();
+					open.update(true);
+					break;
 
 				case CLOSE_PANEL:
-					return hide();
+					open.update(false);
+					break;
 			}
 		})
 		.then(() => sendResponse({message: 'ok'}));
@@ -75,3 +92,4 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 	// Returning true states that sendResponse is asynchronous
 	return true;
 });
+*/
