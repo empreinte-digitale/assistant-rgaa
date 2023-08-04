@@ -1,63 +1,44 @@
-import {endsWith} from 'lodash';
 import {
-	OPEN_PANEL,
-	CLOSE_PANEL,
-	OPEN_POPUP,
-	CLOSE_POPUP,
-	VALIDATE_PAGE,
-	VIEW_PAGE_SOURCE,
-	REQUEST_INITIAL_STATE,
-	GET_PIXEL,
-	GET_CURRENT_TAB,
-	CREATE_TAB,
-	INVALID_RESPONSE
-} from '../common/actions/runtime';
-import {IFRAME_FILE} from '../container/api/container';
-import {openWindow, getWindowTabId} from './api/windows';
-import {OPTIONS_FILE} from './api/options';
-import {
-	CONTENT_STYLES,
-	CONTENT_SCRIPTS,
-	executeScript,
-	insertCSS,
-	fetchCurrentTab,
-	captureVisibleTab,
-	closeTab,
-	createTab
-} from './api/tabs';
-import {createMessageHandler} from '../common/api/runtime';
-import {getPixelAt} from '../common/api/image';
-import {validateLocalPage} from '../common/api/validateLocalPage';
-import {viewSource} from '../common/api/viewSource';
-import {DEFAULT_VERSION, getReferenceOption} from '../common/api/reference';
-import {Position} from '../common/api/panel';
+	close as closePanelAction,
+	open as openPanelAction,
+	setPageInfo,
+	setPosition
+} from '../common/actions/panel';
 import {setReferenceVersion} from '../common/actions/reference';
 import {
-	setPosition,
-	setPageInfo,
-	open as openPanelAction,
-	close as closePanelAction
-} from '../common/actions/panel';
+	CLOSE_PANEL,
+	CLOSE_POPUP,
+	CREATE_TAB,
+	GET_CURRENT_TAB,
+	GET_PIXEL,
+	INVALID_RESPONSE,
+	OPEN_PANEL,
+	OPEN_POPUP,
+	REQUEST_INITIAL_STATE,
+	VALIDATE_PAGE,
+	VIEW_PAGE_SOURCE
+} from '../common/actions/runtime';
+import {getPixelAt} from '../common/api/image';
+import {Position} from '../common/api/panel';
+import {DEFAULT_VERSION, getReferenceOption} from '../common/api/reference';
+import {createMessageHandler} from '../common/api/runtime';
+import {validateLocalPage} from '../common/api/validateLocalPage';
+import {viewSource} from '../common/api/viewSource';
+import {IFRAME_FILE} from '../container/api/container';
+import {OPTIONS_FILE} from './api/options';
+import {
+	captureVisibleTab,
+	closeTab,
+	createTab,
+	fetchCurrentTab
+} from './api/tabs';
+import {getWindowTabId, openWindow} from './api/windows';
 import createInstancePool from './createInstancePool';
 
 /**
  *	A map of open instances, indexed by tab id.
  */
 const instances = createInstancePool();
-
-/**
- *	Injects content styles and javascripts one after the other.
- */
-const injectContentScripts = (tabId) =>
-	[...CONTENT_STYLES, ...CONTENT_SCRIPTS].reduce(
-		(promise, file) =>
-			promise.then(() =>
-				endsWith(file, '.css')
-					? insertCSS(tabId, {file})
-					: executeScript(tabId, {file})
-			),
-		Promise.resolve()
-	);
 
 /**
  *
@@ -70,10 +51,6 @@ const openPanel = ({id}) => {
 	// it is not necessary for this use case: open panel > enable a test > reload the page
 	// this 2nd case is handled in the helpers/index.js file
 	instance.dispatch(openPanelAction());
-	// this is sent so that the container content script acts accordingly
-	return instance.sendMessage({
-		type: OPEN_PANEL
-	});
 };
 
 /**
@@ -83,10 +60,6 @@ const closePanel = ({id}) => {
 	const instance = instances.getInstance(id);
 	// this is done to trigger close panel sagas to remove helpers
 	instance.dispatch(closePanelAction());
-	// this is sent so that the container content script acts accordingly
-	return instance.sendMessage({
-		type: CLOSE_PANEL
-	});
 };
 
 /**
@@ -197,7 +170,7 @@ const handleKnownInstanceMessage = (message, tabId, instance) => {
  *	Asks the content script to toggle the extension's container
  *	when one clicks the extension icon in the browser UI.
  */
-chrome.browserAction.onClicked.addListener(() =>
+chrome.action.onClicked.addListener(() =>
 	fetchCurrentTab().then((tab) => {
 		if (instances.hasInstance(tab.id)) {
 			togglePanel(tab);
@@ -210,14 +183,7 @@ chrome.browserAction.onClicked.addListener(() =>
 			// and we don't need to load them again
 			// if there is no response, we'll trigger an error, it means there is no
 			// content script and we need to load them
-			instance
-				.sendMessage('')
-				.then(() => createPanel(tab))
-				.catch(() => {
-					injectContentScripts(tab.id).then(() => {
-						createPanel(tab);
-					});
-				});
+			instance.sendMessage('').then(() => createPanel(tab));
 		}
 	})
 );
@@ -228,6 +194,7 @@ chrome.browserAction.onClicked.addListener(() =>
  */
 chrome.runtime.onMessage.addListener(
 	createMessageHandler((message, sender) => {
+		// @TODO FIX
 		const isOptionsPage = sender.url && sender.url.endsWith(OPTIONS_FILE);
 		const tabId = sender.tab && sender.tab.id;
 		const instance = !isOptionsPage
@@ -260,9 +227,7 @@ chrome.tabs.onRemoved.addListener((id) => {
  * reinject content scripts on page reload
  */
 const onPageReload = (tabId, instance) =>
-	injectContentScripts(tabId).then(() =>
-		instance.isOpen() ? openPanel({id: tabId}) : closePanel({id: tabId})
-	);
+	instance.isOpen() ? openPanel({id: tabId}) : closePanel({id: tabId});
 
 chrome.tabs.onUpdated.addListener((tabId, changeInfo) => {
 	if (changeInfo.status === 'complete' && instances.hasInstance(tabId)) {
