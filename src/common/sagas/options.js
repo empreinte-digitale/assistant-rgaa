@@ -1,5 +1,4 @@
-import {takeEvery} from 'redux-saga';
-import {call} from 'redux-saga/effects';
+import {call, takeEvery} from 'redux-saga/effects';
 import {open} from '../../background/api/options';
 import {OPEN} from '../actions/options';
 
@@ -14,5 +13,5 @@ function* openWorker() {
  *
  */
 export function* watchOpen() {
-	yield* takeEvery(OPEN, openWorker);
+	yield takeEvery(OPEN, openWorker);
 }
