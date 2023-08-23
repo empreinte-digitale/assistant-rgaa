@@ -1,6 +1,5 @@
 import {reject, map} from 'lodash';
-import {takeEvery} from 'redux-saga';
-import {put, select} from 'redux-saga/effects';
+import {put, select, takeEvery} from 'redux-saga/effects';
 import {ENABLE, DISABLE, disable} from '../actions/tests';
 import {applyHelpers, revertHelpers} from '../actions/helpers';
 import {getEnabled} from '../selectors/tests';
@@ -32,12 +31,12 @@ function* disableSaga({payload: id}) {
  *
  */
 export function* watchEnable() {
-	yield* takeEvery(ENABLE, enableSaga);
+	yield takeEvery(ENABLE, enableSaga);
 }
 
 /**
  *
  */
 export function* watchDisable() {
-	yield* takeEvery(DISABLE, disableSaga);
+	yield takeEvery(DISABLE, disableSaga);
 }
