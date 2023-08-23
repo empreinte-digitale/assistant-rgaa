@@ -1,3 +1,4 @@
+import React from 'react';
 import $ from 'jquery';
 import join from '../../common/api/join';
 import serializeElement from '../api/serializeElement';
@@ -54,7 +55,10 @@ export const describe = (
 			showEmpty,
 			showName,
 			showMissingAttributes,
-			showContent
+			showContent,
+			ul: (chunks) => <ul>{chunks}</ul>,
+			li: (chunks) => <li>{chunks}</li>,
+			code: (chunks) => <code>{chunks}</code>
 		}
 	);
 
