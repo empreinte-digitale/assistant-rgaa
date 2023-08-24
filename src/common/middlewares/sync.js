@@ -1,5 +1,8 @@
 import {REDUX_ACTION} from '../actions/runtime';
 
+console.log(chrome.runtime);
+console.log(chrome);
+
 const DefaultRegister = chrome.runtime.onMessage.addListener.bind(
 	chrome.runtime.onMessage
 );

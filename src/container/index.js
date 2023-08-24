@@ -1,66 +1,89 @@
-import React from 'react';
-import {createRoot} from 'react-dom/client';
-import {Provider} from 'react-redux';
+import React, {Suspense, useSyncExternalStore} from 'react';
 import {IntlProvider} from 'react-intl';
-import {noop} from 'lodash';
+import {Provider, useSelector} from 'react-redux';
+import {isOpen} from '~src/common/selectors/panel';
 import messages from '../common/messages/fr';
-import {OPEN_PANEL, CLOSE_PANEL} from '../common/actions/runtime';
-import getStore from './getStore';
-import {CONTAINER_ID} from './api/container';
 import App from './components/App';
+import getStore from './getStore';
 
-/**
- *	A DOM node containing the application.
- */
-let container = null;
+const microstore = (v) => {
+	let value = v;
+	const subscribers = new Set();
 
-/**
- *	Renders the panel.
- */
-const start = () => {
-	if (container) {
-		container.style.display = '';
-		return true;
-	}
+	const subscribe = (subscriber) => {
+		subscribers.add(subscriber);
+		return () => {
+			subscribers.delete(subscriber);
+		};
+	};
 
-	return getStore().then((store) => {
-		container = document.createElement('div');
-		container.className = CONTAINER_ID;
-		document.body.appendChild(container);
+	const getSnapshot = () => open;
 
-		createRoot(container).render(
+	const notify = (v) => {
+		subscribers.forEach((s) => {
+			s(v);
+		});
+	};
+
+	const update = (v) => {
+		value = v;
+		notify(v);
+	};
+
+	return {
+		subscribe,
+		getSnapshot,
+		update
+	};
+};
+
+const open = microstore(false);
+
+const App2 = () => {
+	const open = useSelector(isOpen);
+	return open ? <App /> : null
+}
+
+const App3 = React.lazy(() =>
+	getStore().then((store) => ({
+		default: () => (
 			<Provider store={store}>
 				<IntlProvider locale="fr" messages={messages}>
-					<App />
+					<p>test</p>
+					<App2 />
 				</IntlProvider>
 			</Provider>
-		);
-	}, noop);
-};
+		)
+	}))
+);
 
-/**
- *	Removes the panel from the page.
- */
-const hide = () => {
-	if (container) {
-		container.style.display = 'none';
-	}
-};
+//export default () => <Suspense>{o ? <App3 /> : null}</Suspense>;
 
-/**
- *
- */
+
+export default () => {
+	const o = useSyncExternalStore(open.subscribe, open.getSnapshot);
+
+	return (
+	<Suspense>
+			{o? <App3 /> : null}
+		</Suspense>
+)}
+
+console.log('before register container')
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+	console.log('register container')
 	Promise.resolve(message)
 		// eslint-disable-next-line consistent-return
 		.then(({type}) => {
 			// eslint-disable-next-line default-case
 			switch (type) {
 				case OPEN_PANEL:
-					return start();
+					open.update(true);
+					break;
 
 				case CLOSE_PANEL:
-					return hide();
+					open.update(false);
+					break;
 			}
 		})
 		.then(() => sendResponse({message: 'ok'}));
