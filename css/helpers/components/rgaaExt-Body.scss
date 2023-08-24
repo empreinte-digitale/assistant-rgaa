@@ -1,6 +1,5 @@
 /* stylelint-disable declaration-no-important */
-
-
+@use 'sass:math';
 
 .rgaaExt-Body--withHelpers :target {
 	outline: 1px $color-green solid !important;
@@ -26,11 +25,10 @@
 	}
 
 	.rgaaExt-Helper {
-		margin-bottom: $base-line-height / 2 !important;
+		margin-bottom: math.div($base-line-height, 2) !important;
 	}
 
 	[hidden] {
 		display: inline-block !important;
 	}
 }
-

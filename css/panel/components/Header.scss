@@ -30,7 +30,7 @@
 .Header-closePopup,
 .Header-help,
 .Header-dock .Dropdown-toggle {
-	padding: 0 vr(1/8);
+	padding: 0 vr(0.125);
 
 	.Icon {
 		color: lighten($color-black, 30%);

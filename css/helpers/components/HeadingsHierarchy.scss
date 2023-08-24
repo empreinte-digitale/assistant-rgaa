@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 .HeadingsHierarchy {
 	max-height: vr(20);
 	overflow: auto;
@@ -5,12 +7,12 @@
 
 .HeadingsHierarchy-title {
 	font-weight: bold;
-	margin-bottom: ($app-gutter / 2);
+	margin-bottom: math.div($app-gutter, 2);
 }
 
 .HeadingsHierarchy-item {
 	margin-left: vr(2);
-	margin-bottom: vr(1/16);
+	margin-bottom: vr(0.0625);
 }
 
 .HeadingsHierarchy-item--level-1 {

@@ -1,6 +1,6 @@
 .Button {
 	display: inline-block;
-	padding: vr(1/4) vr(1/2);
+	padding: vr(0.25) vr(0.5);
 	background: $color-theme;
 	color: $color-theme-text;
 	border-radius: 3px;
@@ -17,7 +17,7 @@
 	&:not([disabled]):active,
 	&[aria-pressed='true'] {
 		background: $color-theme-dark;
-		box-shadow: inset vr(1/8) vr(1/8) vr(1/4) $color-black;
+		box-shadow: inset vr(0.125) vr(0.125) vr(0.25) $color-black;
 	}
 
 }

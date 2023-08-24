@@ -8,7 +8,7 @@
 }
 
 .TestSection-title {
-	padding: vr(1/4) $app-gutter;
+	padding: vr(0.25) $app-gutter;
 	font-weight: bold;
 	color: $color-gray-dark;
 
@@ -18,7 +18,7 @@
 }
 
 .TestSection-body:not(:empty) {
-	padding: 0 $app-gutter vr(1/2) $app-gutter;
+	padding: 0 $app-gutter vr(0.5) $app-gutter;
 }
 
 .TestSection a {

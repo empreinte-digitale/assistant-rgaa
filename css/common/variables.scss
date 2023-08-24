@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 /**
  *
  */
@@ -9,19 +11,19 @@ $typi: (
 	null: ($base-font-size, $line-height)
 );
 $typi-xxlarge: (
-	null: (1.313em, $line-height / 1.313)
+	null: (1.313em, math.div($line-height, 1.313))
 );
 $typi-xlarge: (
-	null: (1.0625em, $line-height / 1.0625)
+	null: (1.0625em, math.div($line-height, 1.0625))
 );
 $typi-large: (
-	null: (0.9375em, $line-height / 0.9375)
+	null: (0.9375em, math.div($line-height, 0.9375))
 );
 $typi-regular: (
-	null: (0.8125em, $line-height / 0.8125)
+	null: (0.8125em, math.div($line-height, 0.8125))
 );
 $typi-small: (
-	null: (0.688em, $line-height / 0.688)
+	null: (0.688em, math.div($line-height, 0.688))
 );
 
 $base-line-height: $base-font-size * $line-height;

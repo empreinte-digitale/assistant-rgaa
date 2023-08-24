@@ -125,7 +125,7 @@
 .Criterion-action {
 	display: inline-block;
 	vertical-align: middle;
-	padding: vr(1/8);
+	padding: vr(0.125);
 	border-left: 1px solid lighten($color-black, 60%);
 	height: 100%;
 }
@@ -175,7 +175,7 @@
 }
 
 .Criterion.is-open .Criterion-action--done {
-	padding-top: vr(1/4);
+	padding-top: vr(0.25);
 }
 
 .Criterion-tabPanel {

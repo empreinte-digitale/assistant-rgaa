@@ -1,13 +1,12 @@
 /* stylelint-disable declaration-no-important */
-
-
+@use 'sass:math';
 
 .rgaaExt-Helper {
 	all: initial;
 	position: relative;
 	display: inline-block !important;
-	margin: 0 ($base-line-height / 4) 0 0 !important;
-	padding: 0 $base-line-height / 4 !important;
+	margin: 0 math.div($base-line-height, 4) 0 0 !important;
+	padding: 0 math.div($base-line-height, 4) !important;
 	color: $color-white !important;
 	line-height: $base-line-height !important;
 	font-family: $font-mono !important;

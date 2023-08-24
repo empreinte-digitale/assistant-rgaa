@@ -147,7 +147,14 @@ module.exports = {
 							}
 						}
 					},
-					'sass-loader',
+					{
+						loader: 'sass-loader',
+						options: {
+							sassOptions: {
+								quietDeps: true
+							}
+						}
+					}
 				]
 			},
 			{
