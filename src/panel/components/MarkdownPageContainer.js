@@ -10,7 +10,7 @@ import MarkdownPage from './MarkdownPage';
 const enhance = lifecycle({
 	componentDidMount() {
 		const basePath = `data/pages/${this.props.name}`;
-		const url = chrome.extension.getURL(`${basePath}/index.md`);
+		const url = chrome.runtime.getURL(`${basePath}/index.md`);
 
 		fetch(url)
 			.then((response) => response.text())

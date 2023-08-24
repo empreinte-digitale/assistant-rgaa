@@ -53,8 +53,8 @@ const injectContentScripts = (tabId) =>
 		(promise, file) =>
 			promise.then(() =>
 				endsWith(file, '.css')
-					? insertCSS(tabId, {file})
-					: executeScript(tabId, {file})
+					? insertCSS({target: {tabId}, files: [file]})
+					: executeScript({target: {tabId}, files: [file]})
 			),
 		Promise.resolve()
 	);
@@ -197,7 +197,7 @@ const handleKnownInstanceMessage = (message, tabId, instance) => {
  *	Asks the content script to toggle the extension's container
  *	when one clicks the extension icon in the browser UI.
  */
-chrome.browserAction.onClicked.addListener(() =>
+chrome.action.onClicked.addListener(() =>
 	fetchCurrentTab().then((tab) => {
 		if (instances.hasInstance(tab.id)) {
 			togglePanel(tab);
