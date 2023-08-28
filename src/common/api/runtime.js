@@ -1,17 +1,11 @@
 import {isEmpty} from 'lodash';
-import {api} from './extension';
 import {INVALID_RESPONSE} from '../actions/runtime';
 
 /**
  *
  */
-const sendMessageApi = api('runtime.sendMessage');
-
-/**
- *
- */
 export const sendMessage = async (message, options = {}) => {
-	const response = sendMessageApi(message, options);
+	const response = browser.runtime.sendMessage(message, options);
 
 	if (response === INVALID_RESPONSE) {
 		throw new Error(response);

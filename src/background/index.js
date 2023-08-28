@@ -13,17 +13,14 @@ import {
 	INVALID_RESPONSE
 } from '../common/actions/runtime';
 import {IFRAME_FILE} from '../container/api/container';
-import {openWindow, getWindowTabId} from './api/windows';
+import {getWindowTabId} from './api/windows';
 import {OPTIONS_FILE} from './api/options';
 import {
 	CONTENT_STYLES,
 	CONTENT_SCRIPTS,
-	executeScript,
-	insertCSS,
 	fetchCurrentTab,
 	captureVisibleTab,
-	closeTab,
-	createTab
+	closeTab
 } from './api/tabs';
 import {createMessageHandler} from '../common/api/runtime';
 import {getPixelAt} from '../common/api/image';
@@ -53,8 +50,8 @@ const injectContentScripts = (tabId) =>
 		(promise, file) =>
 			promise.then(() =>
 				endsWith(file, '.css')
-					? insertCSS(tabId, {file})
-					: executeScript(tabId, {file})
+					? browser.tabs.insertCSS(tabId, {file})
+					: browser.tabs.executeScript(tabId, {file})
 			),
 		Promise.resolve()
 	);
@@ -139,8 +136,8 @@ const handleKnownInstanceMessage = (message, tabId, instance) => {
 		// indexes the instance on the new tab id,
 		case OPEN_POPUP:
 			if (!instance.isPopup()) {
-				openWindow({
-					url: chrome.runtime.getURL(IFRAME_FILE),
+				browser.windows.create({
+					url: browser.runtime.getURL(IFRAME_FILE),
 					type: 'popup'
 				})
 					.then((popup) => getWindowTabId(popup))
@@ -178,7 +175,7 @@ const handleKnownInstanceMessage = (message, tabId, instance) => {
 		// create a tab with the given url, next to the current tab
 		case CREATE_TAB:
 			return fetchCurrentTab().then((currentTab) =>
-				createTab({
+				browser.tabs.create({
 					url: message.url,
 					index: currentTab.index + 1
 				})
@@ -197,7 +194,7 @@ const handleKnownInstanceMessage = (message, tabId, instance) => {
  *	Asks the content script to toggle the extension's container
  *	when one clicks the extension icon in the browser UI.
  */
-chrome.browserAction.onClicked.addListener(() =>
+browser.browserAction.onClicked.addListener(() =>
 	fetchCurrentTab().then((tab) => {
 		if (instances.hasInstance(tab.id)) {
 			togglePanel(tab);
@@ -226,7 +223,7 @@ chrome.browserAction.onClicked.addListener(() =>
  *	Dispatches every message to the content scripts, allowing
  *	content scripts to talk to each other.
  */
-chrome.runtime.onMessage.addListener(
+browser.runtime.onMessage.addListener(
 	createMessageHandler((message, sender) => {
 		const isOptionsPage = sender.url && sender.url.endsWith(OPTIONS_FILE);
 		const tabId = sender.tab && sender.tab.id;
@@ -243,7 +240,7 @@ chrome.runtime.onMessage.addListener(
 /**
  *	Removes associated data when a tab is closed.
  */
-chrome.tabs.onRemoved.addListener((id) => {
+browser.tabs.onRemoved.addListener((id) => {
 	const instance = instances.getInstance(id);
 	// let our instances pool know that we just closed a popup
 	if (instance && instance.isPopup()) {
@@ -264,7 +261,7 @@ const onPageReload = (tabId, instance) =>
 		instance.isOpen() ? openPanel({id: tabId}) : closePanel({id: tabId})
 	);
 
-chrome.tabs.onUpdated.addListener((tabId, changeInfo) => {
+browser.tabs.onUpdated.addListener((tabId, changeInfo) => {
 	if (changeInfo.status === 'complete' && instances.hasInstance(tabId)) {
 		// send an empty message, just to check if we have a response
 		// if we have a response, it means there already is a content script loaded
@@ -273,7 +270,7 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo) => {
 		// content script and we need to load them
 		//
 		// this check can seem unnecessary, but it is required because
-		// chrome.tabs.onUpdated triggers more than on actual page reloads, especially on Chrome
+		// browser.tabs.onUpdated triggers more than on actual page reloads, especially on Chrome
 		const instance = instances.getInstance(tabId);
 		instance
 			.sendMessage('')
