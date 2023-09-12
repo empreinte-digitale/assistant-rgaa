@@ -1,4 +1,3 @@
-import {sendMessageToTab} from './api/tabs';
 import createStore from './createStore';
 import {isOpen as isPanelOpen} from '../common/selectors/panel';
 
@@ -25,10 +24,10 @@ export default function createAppInstance(tabId, sharedStore) {
 
 	// Sends a message to the instance's tabs.
 	const sendMessage = (message) => {
-		const responses = [sendMessageToTab(tabId, message)];
+		const responses = [browser.tabs.sendMessage(tabId, message)];
 
 		if (popupId) {
-			responses.push(sendMessageToTab(popupId, message));
+			responses.push(browser.tabs.sendMessage(popupId, message));
 		}
 
 		return Promise.all(responses);

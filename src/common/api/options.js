@@ -1,20 +1,20 @@
-import chromeStorage from './storage';
-
 /**
  *
  */
 export const getOption = (key) =>
-	chromeStorage
-		.getItem('options')
-		.then((options) => (key ? options[key] : options));
+	browser.storage.local
+		.get('options')
+		.then(({options = {}}) => (key in options ? options[key] : options));
 
 /**
  *
  */
 export const setOption = (key, value) =>
-	chromeStorage.getItem('options').then((options) =>
-		chromeStorage.setItem('options', {
-			...options,
-			[key]: value
+	browser.storage.local.get('options').then(({options}) =>
+		browser.storage.local.set({
+			options: {
+				...options,
+				[key]: value
+			}
 		})
 	);

@@ -1,22 +1,10 @@
 import {get, find} from 'lodash';
-import {api} from '../../common/api/extension';
-
-/**
- *
- */
-export const openWindow = api('windows.create');
-export const closeWindow = api('windows.remove');
-
-/**
- *
- */
-const getWindowApi = api('windows.get');
 
 /**
  *
  */
 export const getWindow = (id, options = {populate: true}) =>
-	getWindowApi(id, options);
+	browser.windows.get(id, options);
 
 /**
  * get the window first tab's id by making a new getWindow request if necessary
@@ -39,6 +27,6 @@ export const getWindowTabId = async (windowObject) => {
  *
  */
 export const getWindowObject = (url, options) => {
-	const views = chrome.extension.getViews(options);
+	const views = browser.extension.getViews(options);
 	return find(views, (windowObject) => windowObject.location.href === url);
 };

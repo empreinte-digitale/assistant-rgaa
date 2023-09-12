@@ -5,12 +5,16 @@ const autoprefixer = require('autoprefixer');
 const ESLintPlugin = require('eslint-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const StyleLintPlugin = require('stylelint-webpack-plugin');
+const {ProvidePlugin} = require('webpack');
 
 const fullPath = path.resolve.bind(null, __dirname);
 const devMode = process.env.NODE_ENV !== 'production';
 const plugins = [
 	new MiniCssExtractPlugin({
 		filename: '[name].css'
+	}),
+	new ProvidePlugin({
+		browser: 'webextension-polyfill'
 	})
 ];
 
