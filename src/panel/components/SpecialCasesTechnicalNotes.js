@@ -1,5 +1,5 @@
-import React, {PropTypes} from 'react';
-import {injectIntl} from 'react-intl';
+import React from 'react';
+import PropTypes from 'prop-types';
 import renderIf from 'render-if';
 
 function SpecialCasesTechnicalNotes({data}) {
@@ -39,4 +39,4 @@ SpecialCasesTechnicalNotes.defaultProps = {
 	data: null
 };
 
-export default injectIntl(SpecialCasesTechnicalNotes);
+export default SpecialCasesTechnicalNotes;

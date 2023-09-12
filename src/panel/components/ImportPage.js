@@ -1,8 +1,9 @@
-import React, {PropTypes} from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import {FormattedMessage} from 'react-intl';
 import renderIf from 'render-if';
 import Page from './Page';
-import ImportFormContainer from './ImportFormContainer';
+import ImportForm from './ImportForm';
 
 /**
  *
@@ -11,7 +12,7 @@ function ImportPage({isImportActive, onReset}) {
 	return (
 		<Page title={<FormattedMessage id="Import.title" />}>
 			{renderIf(!isImportActive)(() => (
-				<ImportFormContainer />
+				<ImportForm />
 			))}
 			{renderIf(isImportActive)(() => (
 				<button

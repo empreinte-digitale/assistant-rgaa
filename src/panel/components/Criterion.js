@@ -1,12 +1,13 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions, jsx-a11y/click-events-have-key-events */
-import React, {PropTypes} from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import {map, isNull, isEmpty} from 'lodash';
-import {injectIntl, intlShape, FormattedMessage} from 'react-intl';
+import {FormattedMessage, useIntl} from 'react-intl';
 import renderIf from 'render-if';
 import classNames from 'classnames';
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
 import {TestShape} from '../../common/types/test';
-import TestContainer from './TestContainer';
+import Test from './Test';
 import Icon from './Icon';
 import ExternalReferences from './ExternalReferences';
 import SpecialCasesTechnicalNotes from './SpecialCasesTechnicalNotes';
@@ -25,11 +26,11 @@ function Criterion({
 	importResults,
 	onToggle,
 	onDone,
-	intl,
 	refLinks,
 	specialCases,
 	notes
 }) {
+	const intl = useIntl();
 	const className = classNames('Criterion Theme-criterion', {
 		'is-open': isOpen,
 		'Criterion--hasActiveTest': !!activeTest
@@ -149,7 +150,7 @@ function Criterion({
 								className="Criterion-test"
 								key={`criterion-${id}-test-${testId}`}
 							>
-								<TestContainer id={testId} title={testTitle} />
+								<Test id={testId} title={testTitle} />
 							</li>
 						))}
 					</ul>,
@@ -211,7 +212,6 @@ Criterion.propTypes = {
 	onToggle: PropTypes.func.isRequired,
 	isDone: PropTypes.bool,
 	onDone: PropTypes.func.isRequired,
-	intl: intlShape.isRequired,
 	refLinks: PropTypes.oneOfType([PropTypes.array, PropTypes.object])
 		.isRequired,
 	specialCases: PropTypes.oneOfType([PropTypes.string, PropTypes.array]),
@@ -227,4 +227,4 @@ Criterion.defaultProps = {
 	notes: null
 };
 
-export default injectIntl(Criterion);
+export default Criterion;

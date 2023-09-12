@@ -1,13 +1,10 @@
 import React from 'react';
-import {render} from 'react-dom';
+import {createRoot} from 'react-dom/client';
 import {Provider} from 'react-redux';
-import {IntlProvider, addLocaleData} from 'react-intl';
-import fr from 'react-intl/locale-data/fr';
+import {IntlProvider} from 'react-intl';
 import messages from '../common/messages/fr';
 import getStore from './getStore';
 import App from './components/App';
-
-addLocaleData(fr);
 
 getStore()
 	.then((store) => (
@@ -17,5 +14,5 @@ getStore()
 			</IntlProvider>
 		</Provider>
 	))
-	.then((app) => render(app, document.getElementById('options')))
+	.then((app) => createRoot(document.getElementById('options')).render(app))
 	.catch(() => {});

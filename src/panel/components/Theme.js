@@ -1,14 +1,22 @@
-import React, {PropTypes} from 'react';
+import React from 'react';
 import {FormattedMessage} from 'react-intl';
-import {map} from 'lodash';
+import {useSelector} from 'react-redux';
+import {getAllCriteriaByTheme} from '../../common/selectors/reference';
 import {ThemeShape} from '../../common/types/theme';
-import {CriterionShape} from '../../common/types/criterion';
 import CriterionContainer from './CriterionContainer';
 
 /**
  *
  */
-function Theme({theme, criteria}) {
+function Theme({theme}) {
+	const criteria = useSelector((state) =>
+		getAllCriteriaByTheme(state, theme.id)
+	);
+
+	if (!criteria.length) {
+		return null;
+	}
+
 	return (
 		<div id={`theme-${theme.id}`} className="Theme">
 			<div className="Theme-header">
@@ -19,7 +27,7 @@ function Theme({theme, criteria}) {
 			</div>
 
 			<ul className="Theme-criteria">
-				{map(criteria, (criterion) => (
+				{criteria.map((criterion) => (
 					<CriterionContainer key={criterion.id} {...criterion} />
 				))}
 			</ul>
@@ -28,8 +36,7 @@ function Theme({theme, criteria}) {
 }
 
 Theme.propTypes = {
-	theme: ThemeShape.isRequired,
-	criteria: PropTypes.arrayOf(CriterionShape).isRequired
+	theme: ThemeShape.isRequired
 };
 
 export default Theme;
