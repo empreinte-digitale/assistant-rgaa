@@ -137,12 +137,12 @@ export const describe = (intl) =>
  *
  */
 export const apply = () => {
-	chrome.runtime.onMessage.addListener(handleMessage);
+	browser.runtime.onMessage.addListener(handleMessage);
 };
 
 /**
  *
  */
 export const revert = () => {
-	chrome.runtime.onMessage.removeListener(handleMessage);
+	browser.runtime.onMessage.removeListener(handleMessage);
 };

@@ -1,9 +1,9 @@
 import {REDUX_ACTION} from '../actions/runtime';
 
-const DefaultRegister = chrome.runtime.onMessage.addListener.bind(
-	chrome.runtime.onMessage
+const DefaultRegister = browser.runtime.onMessage.addListener.bind(
+	browser.runtime.onMessage
 );
-const DefaultSend = chrome.runtime.sendMessage.bind(chrome.runtime);
+const DefaultSend = browser.runtime.sendMessage.bind(browser.runtime);
 
 /**
  *	Gathers actions from other stores and passes it down to

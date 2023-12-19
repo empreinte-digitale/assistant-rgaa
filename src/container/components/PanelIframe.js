@@ -6,7 +6,7 @@ import {IFRAME_FILE, CONTAINER_ID} from '../api/container';
  *
  */
 function PanelIframe({intl}) {
-	const IFRAME_SRC = chrome.runtime.getURL(IFRAME_FILE);
+	const IFRAME_SRC = browser.runtime.getURL(IFRAME_FILE);
 
 	return (
 		<iframe

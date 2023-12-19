@@ -1,5 +1,5 @@
 import {getSource} from './source';
-import {createTab, onUpdate, fetchCurrentTab} from '../../background/api/tabs';
+import {onUpdate, fetchCurrentTab} from '../../background/api/tabs';
 import {getWindowObject} from '../../background/api/windows';
 
 /**
@@ -13,8 +13,8 @@ export const validateLocalPage = (url) => {
 		})
 		.then(() => fetchCurrentTab())
 		.then((currentTab) =>
-			createTab({
-				url: chrome.runtime.getURL('pages/validateLocalPage.html'),
+			browser.tabs.create({
+				url: browser.runtime.getURL('pages/validateLocalPage.html'),
 				index: currentTab.index + 1
 			})
 		)

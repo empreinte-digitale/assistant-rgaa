@@ -56,11 +56,11 @@ class ColorContrastContainer extends Component {
 	}
 
 	componentDidMount() {
-		chrome.runtime.onMessage.addListener(this.handleMessage);
+		browser.runtime.onMessage.addListener(this.handleMessage);
 	}
 
 	componentWillUnmount() {
-		chrome.runtime.onMessage.removeListener(this.handleMessage);
+		browser.runtime.onMessage.removeListener(this.handleMessage);
 	}
 
 	handleMessage({type, payload}) {

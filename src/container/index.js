@@ -57,7 +57,7 @@ const hide = () => {
 /**
  *
  */
-chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+browser.runtime.onMessage.addListener((message, sender, sendResponse) => {
 	Promise.resolve(message)
 		// eslint-disable-next-line consistent-return
 		.then(({type}) => {
