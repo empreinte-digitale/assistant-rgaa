@@ -1,11 +1,6 @@
-import {connect} from 'react-redux';
 import {truncate} from 'lodash';
-import {open} from '../../common/actions/options';
-import {toggleFold, setPosition} from '../../common/actions/panel';
-import {Position} from '../../common/api/panel';
-import {getPosition, getPageTitle} from '../../common/selectors/panel';
-import {CLOSE_PANEL} from '../../common/actions/runtime';
-import {sendMessage} from '../../common/api/runtime';
+import {connect} from 'react-redux';
+import {getPageTitle} from '../../common/selectors/panel';
 import {getVersion} from '../../common/selectors/reference';
 import Header from './Header';
 
@@ -14,31 +9,8 @@ import Header from './Header';
  */
 const mapStateToProps = (state) => ({
 	referenceVersion: getVersion(state),
-	inPopup: getPosition(state) === 'popup',
+	inPopup: false, // @TODO
 	title: truncate(getPageTitle(state), {omission: '…'})
 });
 
-/**
- *
- */
-const mapDispatchToProps = (dispatch) => ({
-	onOptionsClick() {
-		dispatch(open());
-	},
-
-	onCloseClick() {
-		sendMessage({
-			type: CLOSE_PANEL
-		});
-	},
-
-	onClosePopupClick() {
-		dispatch(setPosition(Position.right));
-	},
-
-	onMinimizeClick() {
-		dispatch(toggleFold(true));
-	}
-});
-
-export default connect(mapStateToProps, mapDispatchToProps)(Header);
+export default connect(mapStateToProps)(Header);

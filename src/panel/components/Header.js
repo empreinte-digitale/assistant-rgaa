@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import {FormattedMessage, useIntl} from 'react-intl';
 import {Link} from 'react-router-dom';
 import renderIf from 'render-if';
-import DockMenuContainer from './DockMenuContainer';
 import Icon from './Icon';
 
 /**
@@ -14,9 +13,7 @@ const Header = ({
 	inPopup,
 	title,
 	onOptionsClick,
-	onCloseClick,
-	onClosePopupClick,
-	onMinimizeClick
+	onClosePopupClick
 }) => {
 	const intl = useIntl();
 
@@ -36,9 +33,7 @@ const Header = ({
 					<FormattedMessage id="Header.help" />
 				</Link>
 
-				<div className="Header-dock">
-					<DockMenuContainer />
-				</div>
+				<div className="Header-dock" />
 
 				<button
 					type="button"
@@ -51,34 +46,6 @@ const Header = ({
 						title={intl.formatMessage({id: 'Header.options'})}
 					/>
 				</button>
-
-				{renderIf(!inPopup)(() => (
-					<button
-						type="button"
-						onClick={onMinimizeClick}
-						className="Header-minimize InvisibleButton"
-						title={intl.formatMessage({id: 'Header.minimize'})}
-					>
-						<Icon
-							name="window-minimize"
-							title={intl.formatMessage({id: 'Header.minimize'})}
-						/>
-					</button>
-				))}
-
-				{renderIf(!inPopup)(() => (
-					<button
-						type="button"
-						onClick={onCloseClick}
-						className="Header-close InvisibleButton"
-						title={intl.formatMessage({id: 'Header.close'})}
-					>
-						<Icon
-							name="close"
-							title={intl.formatMessage({id: 'Header.close'})}
-						/>
-					</button>
-				))}
 
 				{renderIf(inPopup)(() => (
 					<button
@@ -103,9 +70,7 @@ Header.propTypes = {
 	title: PropTypes.string.isRequired,
 	inPopup: PropTypes.bool.isRequired,
 	onOptionsClick: PropTypes.func.isRequired,
-	onCloseClick: PropTypes.func.isRequired,
-	onClosePopupClick: PropTypes.func.isRequired,
-	onMinimizeClick: PropTypes.func.isRequired
+	onClosePopupClick: PropTypes.func.isRequired
 };
 
 export default Header;

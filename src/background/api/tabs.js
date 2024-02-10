@@ -1,16 +1,6 @@
 /**
  *
  */
-export const CONTENT_SCRIPTS = ['dist/container.js', 'dist/helpers.js'];
-
-/**
- *
- */
-export const CONTENT_STYLES = ['dist/container.css', 'dist/helpers.css'];
-
-/**
- *
- */
 export const fetchCurrentTab = async () => {
 	const query = {
 		active: true,

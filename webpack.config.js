@@ -61,10 +61,6 @@ module.exports = {
 			'./src/panel/index',
 			'./css/panel/index.scss'
 		],
-		container: [
-			'./src/container/index',
-			'./css/container/index.scss'
-		],
 		helpers: [
 			'./src/helpers/index',
 			'./css/helpers/index.scss'
