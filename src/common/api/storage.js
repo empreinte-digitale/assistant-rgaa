@@ -7,3 +7,5 @@ export const setData = (key, data) =>
 	browser.storage.session.set({
 		[key]: data
 	});
+
+export const clearData = (key) => browser.storage.session.remove([key]);

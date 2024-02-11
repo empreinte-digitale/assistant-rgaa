@@ -24,9 +24,6 @@
 		"default_panel": "pages/panel.html",
 		"open_at_install":true
 	 },
-	 "side_panel": {
-		"default_path": "pages/panel.html"
-	 },
 	"permissions": [
 		"tabs",
 		"storage",

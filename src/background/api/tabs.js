@@ -1,20 +1,4 @@
-/**
- *
- */
-export const fetchCurrentTab = async () => {
-	const query = {
-		active: true,
-		currentWindow: true
-	};
-
-	const tabs = await browser.tabs.query(query);
-
-	if (!tabs.length) {
-		throw new Error('No tab found');
-	}
-
-	return tabs[0];
-};
+export const PanelPage = 'pages/panel.html';
 
 /**
  *
@@ -30,11 +14,6 @@ export const captureVisibleTab = async (
 
 	return image;
 };
-
-/**
- *
- */
-export const closeTab = (id) => browser.tabs.remove(id);
 
 /**
  *

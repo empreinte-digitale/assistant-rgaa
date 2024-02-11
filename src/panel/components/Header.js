@@ -13,7 +13,7 @@ const Header = ({
 	inPopup,
 	title,
 	onOptionsClick,
-	onClosePopupClick
+	onTogglePopup
 }) => {
 	const intl = useIntl();
 
@@ -47,10 +47,24 @@ const Header = ({
 					/>
 				</button>
 
+				{renderIf(!inPopup)(() => (
+					<button
+						type="button"
+						onClick={onTogglePopup}
+						className="Header-openPopup InvisibleButton"
+						title={intl.formatMessage({id: 'Header.openPopup'})}
+					>
+						<Icon
+							name="sidebar"
+							title={intl.formatMessage({id: 'Header.openPopup'})}
+						/>
+					</button>
+				))}
+
 				{renderIf(inPopup)(() => (
 					<button
 						type="button"
-						onClick={onClosePopupClick}
+						onClick={onTogglePopup}
 						className="Header-closePopup InvisibleButton"
 						title={intl.formatMessage({id: 'Header.closePopup'})}
 					>
@@ -70,7 +84,7 @@ Header.propTypes = {
 	title: PropTypes.string.isRequired,
 	inPopup: PropTypes.bool.isRequired,
 	onOptionsClick: PropTypes.func.isRequired,
-	onClosePopupClick: PropTypes.func.isRequired
+	onTogglePopup: PropTypes.func.isRequired
 };
 
 export default Header;

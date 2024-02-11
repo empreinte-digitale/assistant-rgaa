@@ -3,16 +3,18 @@ const HelpersStyles = ['dist/helpers.css'];
 
 export const injectHelpersScripts = async (tabId) =>
 	Promise.all([
-		...HelpersStyles.map((file) =>
-			browser.scripting.insertCSS({
-				target: {tabId},
-				files: [file]
-			})
-		),
-		...HelpersScripts.map((file) =>
-			browser.scripting.executeScript({
-				target: {tabId},
-				files: [file]
-			})
-		)
+		browser.scripting.insertCSS({
+			target: {tabId},
+			files: HelpersStyles
+		}),
+		browser.scripting.executeScript({
+			target: {tabId},
+			files: HelpersScripts
+		})
 	]);
+
+export const removeHelpersScripts = async (tabId) =>
+	browser.scripting.removeCSS({
+		target: {tabId},
+		files: HelpersStyles
+	});
