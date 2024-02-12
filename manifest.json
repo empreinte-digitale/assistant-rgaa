@@ -21,8 +21,8 @@
 	},
 	"sidebar_action": {
 		"default_title": "Assistant RGAA",
-		"default_panel": "pages/panel.html",
-		"open_at_install":true
+		"default_panel": "pages/default-panel.html",
+		"open_at_install": false
 	 },
 	"permissions": [
 		"tabs",
@@ -34,7 +34,8 @@
 		"<all_urls>"
 	],
 	"background": {
-		"service_worker": "dist/background.js"
+		"scripts": ["dist/background.js"],
+		"persistent": false
 	},
 	"options_ui": {
 		"page": "pages/options.html"
@@ -42,8 +43,6 @@
 	"web_accessible_resources": [
 		{
 			"resources": [
-				"pages/panel.html",
-				"pages/devtools.html",
 				"data/references/3-2016.json",
 				"data/references/3-2017.json",
 				"data/references/4-2019.json",

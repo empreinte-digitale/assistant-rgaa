@@ -13,28 +13,32 @@ import sagas from '../common/sagas';
 import routes from './routes';
 
 const init = async () => {
-	// Either gets the current tab or the one specified in the URL.
 	const query = new URLSearchParams(window.location.search);
-	const popupTabId = query.get('tabId');
-	const tab = popupTabId
-		? await browser.tabs.get(parseInt(popupTabId, 10))
-		: await fetchCurrentTab();
+	const targetTabId = query.has('tabId')
+		? parseInt(query.get('tabId'), 10)
+		: null;
+
+	const currentTab = await fetchCurrentTab();
+	const popupTabId = targetTabId ? currentTab.id : null;
+	const targetTab = targetTabId
+		? await browser.tabs.get(targetTabId)
+		: currentTab;
 
 	// Used to observe the panel's lifecycle.
 	// @see https://stackoverflow.com/a/77106777/2391359
 	browser.runtime.connect({
-		name: `${tab.id}`
+		name: `${targetTab.id}`
 	});
 
-	const state = await getTabState(tab.id);
+	const state = await getTabState(targetTab.id);
 	const store = createStore(reducer, sagas, state);
 
 	store.dispatch(setReferenceVersion(await getReferenceOption()));
 	store.dispatch(
 		setPageInfo({
-			tabId: tab.id,
-			url: tab.url,
-			title: tab.title,
+			tabId: targetTab.id,
+			url: targetTab.url,
+			title: targetTab.title,
 			popupTabId
 		})
 	);

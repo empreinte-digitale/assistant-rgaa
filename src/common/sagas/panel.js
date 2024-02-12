@@ -12,18 +12,13 @@ function* togglePopupWorker() {
 	const state = yield select();
 	const tabId = yield select(getPageTabId);
 	const popupTabId = yield select(getPopupTabId);
-	const message = popupTabId
-		? {
-				type: CLOSE_POPUP,
-				tabId: popupTabId
-		  }
-		: {
-				type: OPEN_POPUP,
-				tabId
-		  };
 
 	yield call(setTabState, tabId, state);
-	yield call(sendMessage, message);
+	yield call(sendMessage, {
+		type: popupTabId ? CLOSE_POPUP : OPEN_POPUP,
+		tabId,
+		popupTabId
+	});
 }
 
 /**

@@ -17,6 +17,12 @@ import {injectHelpersScripts, removeHelpersScripts} from '../helpers/api/tabs';
 import {openSidebar, closeSidebar} from './api/sidebar';
 import {PanelPage, captureVisibleTab} from './api/tabs';
 
+console.log('background');
+
+browser.sidebarAction.setPanel({
+	panel: null
+});
+
 // We're avoiding promises (and thus async/await) here,
 // because of a sneaky chrome bug.
 // The call to sidePanel.open() must be done under 1ms after
@@ -24,6 +30,7 @@ import {PanelPage, captureVisibleTab} from './api/tabs';
 // user.
 // @see https://issues.chromium.org/issues/40929586
 browser.action.onClicked.addListener((tab) => {
+	console.log('action', browser);
 	openSidebar(tab.id);
 });
 
@@ -32,7 +39,7 @@ browser.runtime.onConnect.addListener(async (port) => {
 	await injectHelpersScripts(tabId);
 
 	// We're using the disconnection callback to detect when
-	// the sidebar was closed.
+	// the sidebar is closed.
 	// @see https://stackoverflow.com/a/77106777/2391359
 	port.onDisconnect.addListener(async () => {
 		await removeHelpersScripts(tabId);
@@ -61,7 +68,7 @@ browser.runtime.onMessage.addListener(
 			// if the instance runs in a popup, desindexes it and
 			// closes it.
 			case CLOSE_POPUP:
-				await browser.tabs.remove(message.tabId);
+				await browser.tabs.remove(message.popupTabId);
 				await openSidebar(message.tabId);
 				return true;
 

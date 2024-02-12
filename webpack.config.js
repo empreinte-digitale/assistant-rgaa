@@ -71,9 +71,6 @@ module.exports = {
 		],
 		background: [
 			'./src/background/index'
-		],
-		devtools: [
-			'./src/devtools/index'
 		]
 	},
 	output: {

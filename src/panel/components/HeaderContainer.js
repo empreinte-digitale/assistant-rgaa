@@ -14,7 +14,7 @@ import {togglePopup} from '../../common/actions/panel';
  */
 const mapStateToProps = (state) => ({
 	referenceVersion: getVersion(state),
-	isPopup: !!getPopupTabId(state),
+	inPopup: !!getPopupTabId(state),
 	title: truncate(getPageTitle(state), {omission: '…'}),
 	tabId: getPageTabId(state)
 });
