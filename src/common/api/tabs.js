@@ -22,8 +22,12 @@ export const fetchCurrentTab = async () => {
 /**
  *
  */
-export const sendMessage = async (message, tabId, data) => {
-	const response = browser.tabs.sendMessage(message, tabId, data);
+export const sendMessage = async (port, tabId, data) => {
+	const response = await port.postMessage({
+		type: 'SEND_MESSAGE',
+		tabId,
+		data
+	});
 
 	if (response === INVALID_RESPONSE) {
 		throw new Error(response);

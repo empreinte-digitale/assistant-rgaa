@@ -1,37 +1,50 @@
+import {configureStore} from '@reduxjs/toolkit';
 import React from 'react';
 import {createRoot} from 'react-dom/client';
 import {IntlProvider} from 'react-intl';
 import {Provider} from 'react-redux';
+import createSagaMiddleware from 'redux-saga';
 import {setPageInfo} from '../common/actions/panel';
 import {setReferenceVersion} from '../common/actions/reference';
 import {getReferenceOption} from '../common/api/reference';
-import {fetchCurrentTab, getTabState} from '../common/api/tabs';
-import createStore from '../common/createStore';
+import {getTabState} from '../common/api/tabs';
 import messages from '../common/messages/fr';
 import reducer from '../common/reducers';
-import sagas from '../common/sagas';
+import saga from '../common/sagas';
 import routes from './routes';
 
+console.log('panel');
 const init = async () => {
-	const query = new URLSearchParams(window.location.search);
-	const targetTabId = query.has('tabId')
-		? parseInt(query.get('tabId'), 10)
-		: null;
-
-	const currentTab = await fetchCurrentTab();
-	const popupTabId = targetTabId ? currentTab.id : null;
-	const targetTab = targetTabId
-		? await browser.tabs.get(targetTabId)
-		: currentTab;
+	const targetTab = await browser.tabs.get(
+		browser.devtools.inspectedWindow.tabId
+	);
 
 	// Used to observe the panel's lifecycle.
 	// @see https://stackoverflow.com/a/77106777/2391359
-	browser.runtime.connect({
+	const port = browser.runtime.connect({
 		name: `${targetTab.id}`
 	});
 
-	const state = await getTabState(targetTab.id);
-	const store = createStore(reducer, sagas, state);
+	await port.postMessage({
+		type: 'SETUP_HELPERS',
+		tabId: browser.devtools.inspectedWindow.tabId
+	});
+
+	const sagaMiddleware = createSagaMiddleware({
+		context: {
+			port
+		}
+	});
+
+	const preloadedState = await getTabState(targetTab.id);
+	const store = configureStore({
+		reducer,
+		preloadedState,
+		middleware: (getDefaultMiddleware) =>
+			getDefaultMiddleware().concat(sagaMiddleware)
+	});
+
+	sagaMiddleware.run(saga);
 
 	store.dispatch(setReferenceVersion(await getReferenceOption()));
 	store.dispatch(
@@ -39,7 +52,7 @@ const init = async () => {
 			tabId: targetTab.id,
 			url: targetTab.url,
 			title: targetTab.title,
-			popupTabId
+			popupTabId: null
 		})
 	);
 

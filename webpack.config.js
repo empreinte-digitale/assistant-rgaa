@@ -61,6 +61,9 @@ module.exports = {
 			'./src/panel/index',
 			'./css/panel/index.scss'
 		],
+		devtools: [
+			'./src/devtools/index'
+		],
 		helpers: [
 			'./src/helpers/index',
 			'./css/helpers/index.scss'

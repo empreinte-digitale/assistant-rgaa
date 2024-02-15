@@ -19,21 +19,17 @@
 			"96": "img/icon-96.png"
 		}
 	},
-	"sidebar_action": {
-		"default_title": "Assistant RGAA",
-		"default_panel": "pages/default-panel.html",
-		"open_at_install": false
-	 },
+	"devtools_page": "pages/devtools.html",
 	"permissions": [
 		"tabs",
 		"storage",
-		"scripting",
-		"sidePanel"
+		"scripting"
 	],
 	"host_permissions": [
 		"<all_urls>"
 	],
 	"background": {
+		"service_worker": "dist/background.js",
 		"scripts": ["dist/background.js"],
 		"persistent": false
 	},

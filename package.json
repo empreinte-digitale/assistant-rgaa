@@ -77,6 +77,7 @@
     "webpack-cli": "^4.7.0"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.2.1",
     "babel-polyfill": "^6.8.0",
     "buffer": "^6.0.3",
     "classnames": "^2.2.5",

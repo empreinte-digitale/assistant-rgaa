@@ -46,34 +46,6 @@ const Header = ({
 						title={intl.formatMessage({id: 'Header.options'})}
 					/>
 				</button>
-
-				{renderIf(!inPopup)(() => (
-					<button
-						type="button"
-						onClick={onTogglePopup}
-						className="Header-openPopup InvisibleButton"
-						title={intl.formatMessage({id: 'Header.openPopup'})}
-					>
-						<Icon
-							name="sidebar"
-							title={intl.formatMessage({id: 'Header.openPopup'})}
-						/>
-					</button>
-				))}
-
-				{renderIf(inPopup)(() => (
-					<button
-						type="button"
-						onClick={onTogglePopup}
-						className="Header-closePopup InvisibleButton"
-						title={intl.formatMessage({id: 'Header.closePopup'})}
-					>
-						<Icon
-							name="sidebar"
-							title={intl.formatMessage({id: 'Header.closePopup'})}
-						/>
-					</button>
-				))}
 			</div>
 		</header>
 	);

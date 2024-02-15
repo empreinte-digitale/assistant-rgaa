@@ -19,13 +19,11 @@
 	color: $color-black;
 }
 
-.Header-dock,
-.Header-closePopup {
+.Header-dock {
 	margin-left: vr(1);
 }
 
 .Header-options,
-.Header-closePopup,
 .Header-help {
 	padding: 0 vr(0.125);
 

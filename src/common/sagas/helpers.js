@@ -1,4 +1,4 @@
-import {call, put, select, takeEvery} from 'redux-saga/effects';
+import {call, getContext, put, select, takeEvery} from 'redux-saga/effects';
 import {
 	APPLY,
 	APPLY_ALL,
@@ -16,16 +16,18 @@ import {sendMessage} from '../api/tabs';
  *
  */
 function* applySaga(action) {
+	const port = yield getContext('port');
 	const tabId = yield select(getPageTabId);
-	yield call(sendMessage, tabId, action);
+	yield call(sendMessage, port, tabId, action);
 }
 
 /**
  *
  */
 function* revertSaga(action) {
+	const port = yield getContext('port');
 	const tabId = yield select(getPageTabId);
-	yield call(sendMessage, tabId, action);
+	yield call(sendMessage, port, tabId, action);
 }
 
 /**
