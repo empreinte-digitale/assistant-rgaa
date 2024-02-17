@@ -1,5 +1,4 @@
 import {combineReducers} from 'redux';
-import panel from './panel';
 import helpers from './helpers';
 import reference from './reference';
 import themes from './themes';
@@ -14,7 +13,6 @@ export const reducers = {
 	reference,
 	instructions,
 	helpers,
-	panel,
 	themes,
 	criteria,
 	tests,

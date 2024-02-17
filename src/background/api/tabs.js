@@ -1,4 +1,4 @@
-export const PanelPage = 'pages/panel.html';
+export const PanelPage = '/pages/panel.html';
 
 /**
  *

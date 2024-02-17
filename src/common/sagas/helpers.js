@@ -7,18 +7,16 @@ import {
 	applyHelpers,
 	revertHelpers
 } from '../actions/helpers';
-import {getHelpersByTest} from '../selectors/helpers';
-import {getPageTabId} from '../selectors/panel';
-import {getEnabled} from '../selectors/tests';
 import {sendMessage} from '../api/tabs';
+import {getHelpersByTest} from '../selectors/helpers';
+import {getEnabled} from '../selectors/tests';
 
 /**
  *
  */
 function* applySaga(action) {
 	const port = yield getContext('port');
-	const tabId = yield select(getPageTabId);
-	yield call(sendMessage, port, tabId, action);
+	yield call(sendMessage, port, action);
 }
 
 /**
@@ -26,8 +24,7 @@ function* applySaga(action) {
  */
 function* revertSaga(action) {
 	const port = yield getContext('port');
-	const tabId = yield select(getPageTabId);
-	yield call(sendMessage, port, tabId, action);
+	yield call(sendMessage, port, action);
 }
 
 /**

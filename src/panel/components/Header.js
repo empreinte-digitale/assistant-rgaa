@@ -1,28 +1,18 @@
-import React from 'react';
 import PropTypes from 'prop-types';
+import React from 'react';
 import {FormattedMessage, useIntl} from 'react-intl';
 import {Link} from 'react-router-dom';
-import renderIf from 'render-if';
 import Icon from './Icon';
 
 /**
  *
  */
-const Header = ({
-	referenceVersion,
-	inPopup,
-	title,
-	onOptionsClick,
-	onTogglePopup
-}) => {
+const Header = ({referenceVersion, onOptionsClick}) => {
 	const intl = useIntl();
 
 	return (
 		<header className="Header">
-			<h1 className="Header-title">
-				{renderIf(inPopup)(() => `${title} | `)}
-				RGAA v{referenceVersion}
-			</h1>
+			<h1 className="Header-title">RGAA v{referenceVersion}</h1>
 
 			<div className="Header-actions">
 				<Link className="Header-themes Link" to="/">
@@ -53,10 +43,7 @@ const Header = ({
 
 Header.propTypes = {
 	referenceVersion: PropTypes.string.isRequired,
-	title: PropTypes.string.isRequired,
-	inPopup: PropTypes.bool.isRequired,
-	onOptionsClick: PropTypes.func.isRequired,
-	onTogglePopup: PropTypes.func.isRequired
+	onOptionsClick: PropTypes.func.isRequired
 };
 
 export default Header;

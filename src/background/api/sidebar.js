@@ -4,7 +4,6 @@ const isChromeApi = () =>
 	typeof chrome !== 'undefined' && 'sidePanel' in chrome;
 
 const openBrowserSidebar = (tabId) => {
-	console.log(browser);
 	browser.sidebarAction.setPanel({
 		tabId,
 		panel: browser.runtime.getURL(PanelPage)
@@ -29,7 +28,6 @@ export const openSidebar = (tabId) => {
 	if (isChromeApi()) {
 		openChromeSidebar(tabId);
 	} else {
-		console.log('open sidebar');
 		openBrowserSidebar(tabId);
 	}
 };
@@ -39,6 +37,8 @@ const closeBrowserSidebar = (tabId) => {
 		tabId,
 		panel: null
 	});
+
+	browser.sidebarAction.close();
 };
 
 const closeChromeSidebar = (tabId) => {
@@ -55,4 +55,18 @@ export const closeSidebar = (tabId) => {
 	} else {
 		closeBrowserSidebar(tabId);
 	}
+};
+
+export const moveToPopup = async (tabId) => {
+	await browser.windows.create({
+		url: `${browser.runtime.getURL(PanelPage)}?tabId=${tabId}`,
+		type: 'popup'
+	});
+
+	await closeSidebar(tabId);
+};
+
+export const moveToSidebar = async (tabId, popupTabId) => {
+	await browser.tabs.remove(popupTabId);
+	await openSidebar(tabId);
 };
